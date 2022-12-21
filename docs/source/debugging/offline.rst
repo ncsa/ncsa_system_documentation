@@ -1,14 +1,7 @@
-.. container::
-   :name: main-header
+DDT Offline debugging for batch jobs that crash or hang
+==========================================================         
 
-   .. container:: pagetitle with-breadcrumbs
-      :name: title-heading
-
-      .. rubric:: DDT Offline debugging for batch jobs that crash or
-         hang
-         :name: ddt-offline-debugging-for-batch-jobs-that-crash-or-hang
-
-      .. rubric:: Using DDT in offline node is fairly straightforward.
+.. rubric:: Using DDT in offline node is fairly straightforward.
          DDT will generate a backtrace and also show the local variables
          for the current routine. Follow these steps in your job script
          to get DDTs offline mode to work with a program that crashes
@@ -18,10 +11,10 @@
          :name: title-text
          :class: with-breadcrumbs
 
-      .. rubric:: Scenario 1: ddt -offline with a MPI cpu-only code
+.. rubric:: Scenario 1: ddt -offline with a MPI cpu-only code
          :name: scenario-1-ddt--offline-with-a-mpi-cpu-only-code
 
-      .. table:: steps to use ddt -offline
+.. table:: steps to use ddt -offline
 
          +-----------------------------------------------------------------------+
          | #!/bin/bash                                                           |
@@ -69,7 +62,7 @@
 .. image:: ddt-htmlview.jpg
   
   
-         .. table:: equivalent output with myfile.txt
+.. table:: equivalent output with myfile.txt
 
             +-----------------------------------------------------------------------+
             | arnoldg@nid00014 13:57 ~/c \___--Cray- $ cat myfile.txt               |
@@ -230,7 +223,7 @@
             | arnoldg@nid00014 13:57 ~/c \___--Cray- $                              |
             +-----------------------------------------------------------------------+
 
-         .. rubric:: Scenario 2: ddt -offline with MPI cpu+gpu code
+.. rubric:: Scenario 2: ddt -offline with MPI cpu+gpu code
             :name: scenario-2-ddt--offline-with-mpi-cpugpu-code
 
          With ddt version 4.2.2 or later, the -offline option supports
@@ -247,7 +240,7 @@
          +-----------------------------------------------------------------------+
 
 
-.. image:: ddt-offline-gpu.png
+.. image:: ./ddt-offline-gpu.png
 
          See also:
 
