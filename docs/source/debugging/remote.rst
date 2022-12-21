@@ -15,13 +15,7 @@ http://www.allinea.com/products/ddt/download
 downloads for older versions" further down that page in order to get a
 version that closely matches the versions we have on the system.*
 
-.. container:: page
-
-   .. container:: layoutArea
-
-      .. container:: column
-
-         .. table:: Installation notes
+.. table:: Installation notes
 
             +--------------------------------+------------------------------------+
             | MacOS 10.9.5                   | You will need to right-click and   |
@@ -38,7 +32,7 @@ version that closely matches the versions we have on the system.*
             | Linux Mint 17 (Ubuntu variant) | No issues with installation        |
             +--------------------------------+------------------------------------+
 
-         Change the Remote Launch: Configure... settings to use the
+Change the Remote Launch: Configure... settings to use the
          version of ddt that most closely matches the downloaded client
          version. You can check the available ddt versions on Blue
          Waters with the "module avail" command and see the Remote
@@ -49,7 +43,7 @@ version that closely matches the versions we have on the system.*
          environment settings you prefer). Here is an example
          remote-init :
 
-         .. container:: table-wrap
+.. container:: table-wrap
 
             +-----------------------------------------------------------------------+
             | $ cat ~/.allinea/remote-init                                          |
@@ -67,12 +61,12 @@ version that closely matches the versions we have on the system.*
             | .. container::                                                        |
             +-----------------------------------------------------------------------+
 
-         .. image:: /c/document_library/get_file?uuid=8a2182a8-57a4-4ebf-b15a-8dd6d6a7055c&groupId=10157
+.. image:: ddt-remote-launch-settings.png
 
-         Select the "Test Remote Launch" button, authenticate, and you
+Select the "Test Remote Launch" button, authenticate, and you
          should see a dialog similar to:
 
-         .. container:: table-wrap
+.. container:: table-wrap
 
             +-----------------------------------------------------------------------+
             | Remote Launch test completed successfully.                            |
@@ -84,13 +78,13 @@ version that closely matches the versions we have on the system.*
             | Version: 4.2.1-37994                                                  |
             +-----------------------------------------------------------------------+
 
-            If you see an error similar to the one below, go back to the
+If you see an error similar to the one below, go back to the
             downloads page and scroll down to the area where you can
             download previous versions of the remote client.
 
-            .. image:: /image/image_gallery?uuid=e8fba9cf-c252-4fa3-93db-c2c028e4ace5&groupId=10157&t=1423774954315
+.. image:: version_mismatch.jpg
 
-         After you have connected to the system, the lower-right portion
+After you have connected to the system, the lower-right portion
          of the window will display connection status. You may now use
          ddt normally as if you were running directly on the remote
          system. If you have previous Run configurations they will be
@@ -99,11 +93,11 @@ version that closely matches the versions we have on the system.*
          username@bw.ncsa.illinois.edu session from the "Remote Launch"
          options in the middle of the startup window.
 
-         .. image:: /c/document_library/get_file?uuid=f072034e-c28b-4479-a228-7c4f97e46c80&groupId=10157
+.. image:: ddt-remote-connected.PNG
 
          Example session connected with the remote client:
 
-         .. image:: /c/document_library/get_file?uuid=dc01bbb2-b6df-4cea-9a73-ff00e768c5cb&groupId=10157
+.. image:: ddt-remote-session.PNG
 
          For more information please see the Allinea documentation on
          installation (chapter 2) and remote client (chapter 3) in the
