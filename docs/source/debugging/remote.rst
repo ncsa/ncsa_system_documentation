@@ -93,11 +93,11 @@ After you have connected to the system, the lower-right portion
          username@bw.ncsa.illinois.edu session from the "Remote Launch"
          options in the middle of the startup window.
 
-.. image:: ddt-remote-connected.PNG
+.. image:: ddt-remote-connected.png
 
 Example session connected with the remote client:
 
-.. image:: ddt-remote-session.PNG
+.. image:: ddt-remote-session.png
 
 For more information please see the Allinea documentation on
          installation (chapter 2) and remote client (chapter 3) in the
