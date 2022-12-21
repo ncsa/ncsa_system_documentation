@@ -59,7 +59,7 @@ DDT Offline debugging for batch jobs that crash or hang
       equivalent text file report is also shown:
 
   
-.. image:: ddt-htmlview.jpg
+.. image:: ./ddt-htmlview.jpeg
   
   
 .. table:: equivalent output with myfile.txt
