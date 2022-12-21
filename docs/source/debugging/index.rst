@@ -240,3 +240,8 @@ will appear. Tabs **Application**, **MPI**, **OpenMP**, **CUDA** and
 .. image:: ddt-run-noqueue.png
 
 Click on Run button to start a debug session.
+
+.. toctree::
+
+   offline
+   remote
