@@ -82,7 +82,7 @@ If you see an error similar to the one below, go back to the
             downloads page and scroll down to the area where you can
             download previous versions of the remote client.
 
-.. image:: version_mismatch.jpg
+.. image:: version_mismatch.jpeg
 
 After you have connected to the system, the lower-right portion
          of the window will display connection status. You may now use
@@ -95,11 +95,11 @@ After you have connected to the system, the lower-right portion
 
 .. image:: ddt-remote-connected.PNG
 
-         Example session connected with the remote client:
+Example session connected with the remote client:
 
 .. image:: ddt-remote-session.PNG
 
-         For more information please see the Allinea documentation on
+For more information please see the Allinea documentation on
          installation (chapter 2) and remote client (chapter 3) in the
          `DDT User
          Guide <http://%20http://content.allinea.com/downloads/userguide.pdf>`__.
