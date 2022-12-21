@@ -225,8 +225,8 @@ DDT Offline debugging for batch jobs that crash or hang
             | arnoldg@nid00014 13:57 ~/c \___--Cray- $                              |
             +-----------------------------------------------------------------------+
 
-.. rubric:: Scenario 2: ddt -offline with MPI cpu+gpu code
-            :name: scenario-2-ddt--offline-with-mpi-cpugpu-code
+Scenario 2: ddt -offline with MPI cpu+gpu code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~            
 
          With ddt version 4.2.2 or later, the -offline option supports
          gpu debugging. The following launch command was used in the
