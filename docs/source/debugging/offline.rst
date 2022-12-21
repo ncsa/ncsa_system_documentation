@@ -241,13 +241,11 @@ Scenario 2: ddt -offline with MPI cpu+gpu code
          | ./simpleMPI                                                           |
          +-----------------------------------------------------------------------+
 
-results in:
-
 .. image:: ./ddt-offline-gpu.png
 
 
-         See also:
+See also:
 
-         http://www.allinea.com/user-guide/forge/OfflineDebugging.html#x20-21200016
+http://www.allinea.com/user-guide/forge/OfflineDebugging.html#x20-21200016
 
 .. |image1| image:: /image/image_gallery?uuid=24df3689-d5c4-4dd3-a0b2-dcb5fe11bc29&groupId=10157&t=1409164417544
