@@ -238,28 +238,5 @@ will appear. Tabs **Application**, **MPI**, **OpenMP**, **CUDA** and
 **Memory Debugging** are the same as described above.
 
 .. image:: ddt-run-noqueue.png
-|DDT Run No Queue|
 
 Click on Run button to start a debug session.
-
-.. |DDT - Welcome| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16928&igImageId=16927&igSmallImage=1&t=1352320586366
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=9b84c1e0-bb90-4d21-8069-7d6f69610931&groupId=10157&t=1352323436739
-.. |DDT - Run| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16920&igImageId=16919&igSmallImage=1&t=1352320586357
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=ad9c35e9-cb50-4881-bc64-a7239252f86a&groupId=10157&t=1352323436726
-.. |DDT - Job Submitted| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16924&igImageId=16923&igSmallImage=1&t=1352320586362
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=23813c6b-b1bf-418a-b275-31b40d460ae1&groupId=10157&t=1352323436733
-.. |DDT Debug Session| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16908&igImageId=16907&igSmallImage=1&t=1352320586344
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=ba277c54-1d69-47ef-b9cc-4626154fadb8&groupId=10157&t=1352323436706
-.. |image1| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16916&igImageId=16915&igSmallImage=1&t=1352320586353
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=1ebb7802-c094-44ae-90fc-5064e100e253&groupId=10157&t=1352323436720
-.. |DDT - Connecting| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16900&igImageId=16899&igSmallImage=1&t=1352320586330
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=aee59b8c-714f-4525-95cb-04adf591542c&groupId=10157&t=1352322163550
-.. |DDT - Connected| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16904&igImageId=16903&igSmallImage=1&t=1352320586339
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=c68388fe-4764-4948-b939-33c7e53b5324&groupId=10157&t=1352322163573
-.. |DDT - Attach - Found| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16939&igImageId=16938&igSmallImage=1&t=1352322163618
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=494f7779-3b60-41b5-890f-19784d68cb76&groupId=10157&t=1352322163618
-.. |DDT - Attach| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=16912&igImageId=16911&igSmallImage=1&t=1352320586348
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=6fec622c-3aed-4d60-ab7c-34b2e7a46e7a&groupId=10157&t=1352322163586
-.. |DDT Run No Queue| image:: https://bluewaters.ncsa.illinois.edu/image/image_gallery?img_id=19983&igImageId=19982&igSmallImage=1&t=1358887652345
-   :target: https://bluewaters.ncsa.illinois.edu/image/image_gallery?uuid=ebe57654-0682-4f38-a0f4-016405acc3df&groupId=10157&t=1358887652345
-MMini ~/work/RTD_from_bw_portal/extras/debugging $ 
