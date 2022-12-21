@@ -65,16 +65,10 @@
       local machine or view it on a login node with firefox. The
       equivalent text file report is also shown:
 
-      .. container::
-
-      .. container::
-
-         |image1|
-
-      .. container::
-
-      .. container::
-
+  
+.. image:: ddt-htmlview.jpg
+  
+  
          .. table:: equivalent output with myfile.txt
 
             +-----------------------------------------------------------------------+
@@ -252,7 +246,8 @@
          | ./simpleMPI                                                           |
          +-----------------------------------------------------------------------+
 
-         .. image:: /image/image_gallery?uuid=858ab7e0-ff5f-476f-b159-6d1dfd47e037&groupId=10157&t=1412879532476
+
+.. image:: ddt-offline-gpu.png
 
          See also:
 
