@@ -241,6 +241,7 @@ Scenario 2: ddt -offline with MPI cpu+gpu code
          | ./simpleMPI                                                           |
          +-----------------------------------------------------------------------+
 
+results in:
 
 .. image:: ./ddt-offline-gpu.png
 
