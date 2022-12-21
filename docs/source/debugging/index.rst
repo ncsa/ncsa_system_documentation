@@ -129,7 +129,7 @@ The first three ways begin by loading the ddt module and starting DDT:
    > export DDT_PROCESS_TIMEOUT=0
    > forge
 
-|DDT - Welcome|
+.. image:: ddt-welcome.png
 
 Submit a job through Forge/DDT
 ''''''''''''''''''''''''''''''
@@ -140,7 +140,7 @@ session.
 Click on Run and Debug a Program . A new window with expandable tabs
 will appear, click on Details... to expand a tab.
 
-|DDT - Run|
+.. image:: ddt-run.png
 
 **Application** tab is used to select a program binary, working
 directory, arguments and input file.
@@ -155,11 +155,11 @@ such as wall clock time, target queue, etc.
 Clicking on Submit button will submit a job to the scheduler, DDT will
 wait for the job to start.
 
-|DDT - Job Submitted|
+.. image:: ddt-submitted.png
 
 DDT will start a debug session automatically as soon as the job starts.
 
-|DDT Debug Session|
+.. image:: ddt_session.png
 
 Manually launch a program
 '''''''''''''''''''''''''
@@ -169,7 +169,7 @@ programs.
 
 To launch a program manually click on Manually Launch a Program button.
 
-|image1|
+.. image:: ddt-manual.png
 
 Select how many processes you want to debug and click on Listen . At
 this point start a program or programs using the following command:
@@ -182,9 +182,9 @@ Note, *ddt-client* command must be issues for each process selected at
 the previous window. The above command can also be used in a job
 submission script.
 
-|DDT - Connecting|
+.. image:: ddt_connecting1.png
 
-|DDT - Connected|
+.. image:: ddt_connecting2.png
 
 Forge/DDT will automatically start debugging session once all requested
 programs have been launched manually.
@@ -203,12 +203,12 @@ that you own, which will appear in the "Automatically-detected jobs"
 tab. Select the desired job, and click on the "Attach to [job name]"
 button.
 
-|DDT - Attach - Found|
+.. image:: ddt-attach2.png
 
 Alternatively, you can attach to a specific process that you own on the
 "List of all processes" tab.
 
-|DDT - Attach|
+.. image:: ddt-attach.png
 
 If you are unable to attach to running jobs or processes (e.g., if they
 aren't listed), clear out all previously saved Forge settings by
@@ -237,6 +237,7 @@ Click on Run and Debug a Program . A new window with expandable tabs
 will appear. Tabs **Application**, **MPI**, **OpenMP**, **CUDA** and
 **Memory Debugging** are the same as described above.
 
+.. image:: ddt-run-noqueue.png
 |DDT Run No Queue|
 
 Click on Run button to start a debug session.
