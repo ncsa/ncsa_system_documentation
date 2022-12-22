@@ -54,9 +54,10 @@ DDT Offline debugging for batch jobs that crash or hang
          | ./hello_world_bug                                                     |
          +-----------------------------------------------------------------------+
 
-      After the program runs, you can copy the html file back to your
-      local machine or view it on a login node with firefox. The
-      equivalent text file report is also shown:
+  
+After the program runs, you can copy the html file back to your
+local machine or view it on a login node with firefox. The
+equivalent text file report is also shown:
 
   
 .. image:: ./ddt-htmlview.jpeg
