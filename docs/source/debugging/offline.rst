@@ -62,33 +62,23 @@ DDT Offline debugging for batch jobs that crash or hang
 .. image:: ./ddt-htmlview.jpeg
   
 
-.. 
-         .. table:: equivalent output with myfile.txt
+:: 
 
-
-+-----------------------------------------------------------------------+
-| arnoldg@nid00014 13:57 ~/c \___--Cray- $ cat myfile.txt               |
-|                                                                       |
-| message (0-31): Launching program                                     |
-| /mnt/abc/u/staff/arnoldg/c/hello_world_bug                            |
-|                                                                       |
-| message (0-31): at Thu Aug 14 13:54:49 2014                           |
-|                                                                       |
-| message (0-31): Executable modified on Thu Aug 14 08:22:48 2014       |
-|                                                                       |
-| message (0-31): Startup complete.                                     |
-|                                                                       |
-| message (n/a): Select process group All                               |
-|                                                                       |
-| message: Current Stack                                                |
-|                                                                       |
-| message: #1 \__libc_start_main (main=0x401ac0 <main>, argc=1,         |
-| ubp_av=0x7fffffff0a78, init=0x5728e0 <__libc_csu_init>, fini=0x5728a0 |
-            | <__libc_csu_fini>, rtld_fini=0, stack_end=0x7fffffff0a68) at          |
-            | /usr/src/packages/BUILD/glibc-2.11.3/csu/libc-start.c:201 (at         |
-            | 0x0000000000572391)                                                   |
-            |                                                                       |
-            | message: #0 \__libc_csu_init (argc=1, argv=0x7fffffff0a78,            |
+   arnoldg@nid00014 13:57 ~/c \___--Cray- $ cat myfile.txt
+   message (0-31): Launching program 
+   /mnt/abc/u/staff/arnoldg/c/hello_world_bug 
+   message (0-31): at Thu Aug 14 13:54:49 2014
+   message (0-31): Executable modified on Thu Aug 14 08:22:48 2014 
+   message (0-31): Startup complete.
+   message (n/a): Select process group All
+   message: Current Stack
+   message: #1 \__libc_start_main (main=0x401ac0 <main>, argc=1,
+   ubp_av=0x7fffffff0a78, init=0x5728e0 <__libc_csu_init>, fini=0x5728a0 
+   <__libc_csu_fini>, rtld_fini=0, stack_end=0x7fffffff0a68) at          
+   /usr/src/packages/BUILD/glibc-2.11.3/csu/libc-start.c:201 (at
+   0x0000000000572391)                                                   
+ 
+ message: #0 \__libc_csu_init (argc=1, argv=0x7fffffff0a78,            |
             | envp=0x7fffffff0a88) at                                               |
             | /usr/src/packages/BUILD/glibc-2.11.3/csu/elf-init.c:123               |
             |                                                                       |
