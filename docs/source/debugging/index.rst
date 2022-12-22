@@ -46,55 +46,6 @@ or
 Compilation
 ^^^^^^^^^^^
 
-MMini ~/work/RTD_from_bw_portal/extras/debugging $ more bw_debugging.rst 
-Forge (formerly known as DDT: Distributed Debugging Tool
-========================================================
-
-Description
-~~~~~~~~~~~
-
-Forge from ARM (formerly Allinea Software) is a parallel debugger that
-can be used for scalar, multi-threaded and large-scale parallel
-applications. The `Allinea
-DDT <http://www.allinea.com/products/ddt-support>`__ web page and `users
-guide <http:content.allinea.com/downloads/userguide.pdf>`__ is a good
-resource for learning more about some of the advanced DDT features.
-Helpful `videos <http://www.allinea.com/videos>`__ and
-`blogs <http://www.allinea.com/blog>`__ are available from the Allinea
-website.
-
--  `DDT Interactive Use <https://bluewaters.ncsa.illinois.edu/ddt>`__
--  `DDT Offline
-   Use <https://bluewaters.ncsa.illinois.edu/ddt-offline>`__
--  `DDT Remote
-   Client <https://bluewaters.ncsa.illinois.edu/ddt-remote-client>`__
-
-How to use Forge/DDT
-~~~~~~~~~~~~~~~~~~~~
-
-Prerequisites
-^^^^^^^^^^^^^
-
-Since Forge/DDT is GUI-based and does not provide command line interface
-X11 forwarding must be enabled for your login session. This can be done
-by passing -Y flag to ssh:
-
-::
-
-   > ssh -Y bw-duo.ncsa.illinois.edu
-
-NOTE: for **memory debugging** load the memory debugging module for
-Forge/DDT BEFORE linking
-
-> module load forge # no memory debugging
-
-or
-
-> module load ddt-memdebug # with memory debugging
-
-Compilation
-^^^^^^^^^^^
-
 Add -g flag to enable the generation of debugging information used by
 DDT, then (re)compile your program:
 
