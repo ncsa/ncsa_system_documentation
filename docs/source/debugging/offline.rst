@@ -14,9 +14,9 @@ DDT Offline debugging for batch jobs that crash or hang
 .. rubric:: Scenario 1: ddt -offline with a MPI cpu-only code
          :name: scenario-1-ddt--offline-with-a-mpi-cpu-only-code
 
-.. table:: steps to use ddt -offline
 
-         +-----------------------------------------------------------------------+
+::
+
          | #!/bin/bash                                                           |
          |                                                                       |
          | #PBS -lnodes=2:ppn=32,walltime=00:10:00                               |
