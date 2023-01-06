@@ -16,11 +16,9 @@ Helpful `videos <http://www.allinea.com/videos>`__ and
 `blogs <http://www.allinea.com/blog>`__ are available from the Allinea
 website.
 
--  `DDT Interactive Use <https://bluewaters.ncsa.illinois.edu/ddt>`__
--  `DDT Offline
-   Use <https://bluewaters.ncsa.illinois.edu/ddt-offline>`__
--  `DDT Remote
-   Client <https://bluewaters.ncsa.illinois.edu/ddt-remote-client>`__
+-  DDT Interactive Use (:ref:`forge_interactive`)
+-  DDT Offline (:ref:`forge_offline`)
+-  DDT Remote (:ref:`forge_remote`)
 
 How to use Forge/DDT
 ~~~~~~~~~~~~~~~~~~~~
