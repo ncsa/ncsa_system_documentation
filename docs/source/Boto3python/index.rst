@@ -8,14 +8,12 @@ line interface).
 
 For those at the University of Illinois, here are a couple useful links:
 
-| Log in to Illinois AWS account:
-  `https://aws.illinois.edu <https://aws.illinois.edu/>`__
-| Illinois AWS resources (Tech Services page):
-  https://answers.uillinois.edu/illinois/search.php?q=AWS
+Log in to Illinois AWS account: `https://aws.illinois.edu <https://aws.illinois.edu/>`__
 
-**Important note: you will need access to the**\ `Hydro
-cluster <https://bluewaters.ncsa.illinois.edu/hydro>`__\ **to use Boto3.
-There are issues with installing it on Blue Waters.**
+Illinois AWS resources (Tech Services page): https://answers.uillinois.edu/illinois/search.php?q=AWS
+
+**Important note: you will need access to the** `Hydro cluster <https://bluewaters.ncsa.illinois.edu/hydro>`__ to use Boto3.
+There are issues with installing it on Blue Waters.
 
 Obtain AWS Account
 ==================
@@ -43,7 +41,7 @@ does at your institution and ask them to create a user with access keys
 for you.
 
 After logging in (use
-`https://aws.illinois.edu <https://aws.illinois.edu/>`__ if you're at U
+`https://aws.illinois.edu <https://aws.illinois.edu/>`_ if you're at U
 of I), go to the IAM Dashboard:
 
 .. image:: boto_step1.png
@@ -86,22 +84,17 @@ Store Access Keys on System
 To allow CLI access to AWS, the keys need to be stored in a credentials
 file:
 
-+-----------------------------------------------------------------------+
-| ::                                                                    |
-|                                                                       |
-|    mkdir -p ~/.aws                                                    |
-|    vim ~/.aws/credentials                                             |
-+-----------------------------------------------------------------------+
-
+::  
+  mkdir -p ~/.aws 
+  vim ~/.aws/credentials
+  
 The file should have these three lines:
 
-+-----------------------------------------------------------------------+
-| ::                                                                    |
-|                                                                       |
-|    [default]                                                          |
-|    aws_access_key_id = <YOUR_ACCESS_KEY>                              |
-|    aws_secret_access_key = <YOUR_SECRET_KEY>                          |
-+-----------------------------------------------------------------------+
+::         
+
+  [default]
+  aws_access_key_id = <YOUR_ACCESS_KEY>
+  aws_secret_access_key = <YOUR_SECRET_KEY>
 
 Install Boto3
 =============
@@ -112,17 +105,16 @@ https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
 The procedure for installing boto3 in a virtual environment on the Hydro
 cluster (https://bluewaters.ncsa.illinois.edu/hydro) is simple:
 
-+-----------------------------------------------------------------------+
-| ::                                                                    |
-|                                                                       |
-|    # with module Python/3.8.6-GCCcore-10.2.0 loaded                   |
-|    # cd to location where you want to create the virtual environment  |
-|    mkdir myvirtualenv                                                 |
-|    cd myvirtualenv                                                    |
-|    virtualenv --system-site-packages $PWD                             |
-|    source bin/activate                                                |
-|    pip install boto3                                                  |
-+-----------------------------------------------------------------------+
+::    
+
+  # with module Python/3.8.6-GCCcore-10.2.0 loaded       
+  # cd to location where you want to create the virtual environment 
+  mkdir myvirtualenv                                         
+  cd myvirtualenv                                        
+  virtualenv --system-site-packages $PWD                  
+  source bin/activate                                  
+  pip install boto3                               
+
 
 This should work without issue.
 
@@ -132,11 +124,10 @@ AWS S3 Bucket Interaction Examples
 If boto3 is installed in a virtual environment, you need to be in the
 virtual environment (i.e., it needs to be activated) to use it:
 
-+-----------------------------------------------------------------------+
-| ::                                                                    |
-|                                                                       |
-|    source myvirtualenv/bin/activate                                   |
-+-----------------------------------------------------------------------+
+
+::  
+
+  source myvirtualenv/bin/activate
 
 Here are some example python scripts for interacting with AWS:
 
