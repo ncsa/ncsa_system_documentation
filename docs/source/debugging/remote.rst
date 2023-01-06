@@ -1,4 +1,6 @@
-DDT Remote Client
+.. _forge_remote:
+
+Forge (DDT) Remote Client
 ~~~~~~~~~~~~~~~~~
 
 The Allinea Tools can connect to remote systems using SSH for you so you
