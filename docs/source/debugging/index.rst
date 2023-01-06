@@ -1,3 +1,5 @@
+.. _forge_interactive:
+
 Forge (formerly known as DDT: Distributed Debugging Tool
 ========================================================
 
