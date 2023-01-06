@@ -1,4 +1,6 @@
-DDT Offline debugging for batch jobs that crash or hang
+.. _forge_offline:
+
+Forge (DDT) Offline debugging for batch jobs that crash or hang
 ==========================================================         
 
 .. rubric:: Using DDT in offline node is fairly straightforward.
