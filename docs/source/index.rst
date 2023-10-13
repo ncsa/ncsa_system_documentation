@@ -2,8 +2,8 @@
 NCSA System Documentation Hub
 #################################
    
-NCSA Computing Resources User Documentation
-============================================
+Computing Resources User Documentation
+=========================================
 
 System-specific user documentation for NCSA computing resources.  The pages linked here, are the official user documentation for that system.  
 
