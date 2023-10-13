@@ -29,7 +29,6 @@ System-specific user documentation for NCSA computing resources.  The pages link
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Other Documentation
 
    system_generic/index
