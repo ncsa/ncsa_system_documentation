@@ -1,2 +1,4 @@
-Holding page
-==============
+.. _legacy:
+
+Legacy Applications
+=====================
