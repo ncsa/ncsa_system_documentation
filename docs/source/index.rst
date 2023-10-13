@@ -20,13 +20,6 @@ System-specific user documentation for NCSA computing resources.  The pages link
 - `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   training
-   help
-
-.. toctree::
    :caption: Resource Documentation
    :hidden:
 
@@ -47,3 +40,5 @@ System-specific user documentation for NCSA computing resources.  The pages link
    licensed_software/index
    community_code/index
    legacy_apps/index
+   training
+   help
