@@ -14,7 +14,7 @@ System-specific user documentation for NCSA computing resources.  The pages link
 - `Delta system <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
 - Hydro
 - `Illinois Computes Research Notebooks (ICRN) <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>`_
-- `Nightingale computational system <https://ncsa-nightingale.readthedocs-hosted.com>`_
+- `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
 - Radiant
 - Taiga
 - TGI Rails
