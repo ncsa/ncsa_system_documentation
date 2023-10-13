@@ -63,7 +63,7 @@ Documentation not specific to any system.
 This is software that NCSA systems are set-up to support, but the user needs to have a separate license to invoke.
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
    :hidden:
 
    licensed_software/index
