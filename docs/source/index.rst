@@ -55,3 +55,31 @@ Documentation not specific to any system.
    system_generic/acl
    system_generic/aws_boto3
    system_generic/forge
+
+Licensed Software Supported on NCSA Systems
+=============================================
+
+This is software that NCSA systems are set-up to support, but the user needs to have a separate license to invoke.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Licensed Software
+
+Open Source Community Code
+===========================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Open Source Community Code
+
+   community_code/index
+
+
+Legacy Applications
+=====================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Legacy Applications
+
+   legacy_apps/index
