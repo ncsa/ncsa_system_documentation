@@ -46,7 +46,7 @@ System-Generic Documentation
 
 Documentation not specific to any system.
 
-.. toctree:
+.. toctree::
    :maxdepth: 2
    :caption: System-Generic Documentation
 
