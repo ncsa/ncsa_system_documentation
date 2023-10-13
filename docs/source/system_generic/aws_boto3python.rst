@@ -1,4 +1,3 @@
-=====================================================================
 Using AWS (Amazon Web Services) S3 CLI with Boto3 Python Package
 =====================================================================
 
@@ -16,7 +15,7 @@ Illinois AWS resources (Tech Services page): https://answers.uillinois.edu/illin
 There are issues with installing it on Blue Waters.
 
 Obtain AWS Account
-==================
+--------------------
 
 First, of course, you need access to an AWS account. If you reside at
 the University of Illinois, instructions for requesting an Illinois AWS
@@ -25,7 +24,7 @@ Otherwise, consult the IT/network team (and/or your supervisor) at your
 institution for details on obtaining an account.
 
 Create Access Keys
-==================
+-------------------
 
 This is done by an account admin through the AWS IAM (Identity and
 Access Management) console.
@@ -44,25 +43,25 @@ After logging in (use
 `https://aws.illinois.edu <https://aws.illinois.edu/>`_ if you're at U
 of I), go to the IAM Dashboard:
 
-.. image:: boto_step1.png
+.. image:: images/aws_boto3/boto_step1.png
 
 Under "IAM resources," click Users:
 
-.. image:: boto_step2.png
+.. image:: images/aws_boto3/boto_step2.png
 
 Select "Add users":
 
-.. image:: boto_step3.png
+.. image:: images/aws_boto3/boto_step3.png
 
 Choose a user name and set access type to "Programmatic access"; click
 "Next: Permissions":
 
-.. image:: boto_step4.png
+.. image:: images/aws_boto3/boto_step4.png
 
 On the "Set permissions" screen, select "Attach existing policies
 directly" and choose "AmazonS3FullAccess"; click "Next: Tags":
 
-.. image:: boto_step5.png
+.. image:: images/aws_boto3/boto_step5.png
 
 On the next screen, there's no need to do anything with tags, so just
 click "Next: Review."
@@ -73,13 +72,13 @@ There's also nothing you need to do on the Review screen, so just click
 At the end of the user creation process, it gives you an "Access key ID"
 and "Secret access key"; save these:
 
-.. image:: boto_step6.png
+.. image:: images/aws_boto3/boto_step6.png
 
 If you have an admin account, you can also create user instances for
 other group members who need access.
 
 Store Access Keys on System
-===========================
+-----------------------------
 
 To allow CLI access to AWS, the keys need to be stored in a credentials
 file:
@@ -98,7 +97,7 @@ The file should have these three lines:
   aws_secret_access_key = <YOUR_SECRET_KEY>
 
 Install Boto3
-================
+--------------
 
 Instructions can be found here:
 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
@@ -120,7 +119,7 @@ cluster (https://bluewaters.ncsa.illinois.edu/hydro) is simple:
 This should work without issue.
 
 AWS S3 Bucket Interaction Examples
-==================================
+------------------------------------
 
 If boto3 is installed in a virtual environment, you need to be in the
 virtual environment (i.e., it needs to be activated) to use it:
@@ -133,7 +132,7 @@ virtual environment (i.e., it needs to be activated) to use it:
 Here are some example python scripts for interacting with AWS:
 
 **bucket_list.py - list all buckets**
--------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usage: ./bucket_list.py
 
@@ -154,7 +153,7 @@ Usage: ./bucket_list.py
 
 
 **upload_file.py - upload a file to a bucket**
-----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usage: ./upload_file file_name [bucket_name]
  Be sure to set default_bucket in the script to the name of the bucket
@@ -207,7 +206,7 @@ that you want to be your default.
   upload_file(sys.argv[1], bname)                                   
 
 **download_file.py - download a file from a bucket**
-----------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usage: ./download_file file_name [bucket_name]
 
@@ -265,7 +264,7 @@ Be sure to set default_bucket in the script to the name of the bucket
 
 
 Hydro <=> AWS Transfer Rates
-============================
+-----------------------------
 
 The measured time for uploading a tiny file (a few bytes) using "time
 -p" on the python script was 0.78 sec, and the same for downloading was
