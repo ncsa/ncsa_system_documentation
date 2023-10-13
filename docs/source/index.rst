@@ -62,7 +62,7 @@ Licensed Software Supported on NCSA Systems
 This is software that NCSA systems are set-up to support, but the user needs to have a separate license to invoke.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 0
    :caption: Licensed Software
 
    licensed_software/matlab
