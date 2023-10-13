@@ -65,6 +65,8 @@ This is software that NCSA systems are set-up to support, but the user needs to 
    :maxdepth: 2
    :caption: Licensed Software
 
+   licensed_software/matlab
+
 Open Source Community Code
 ===========================
 
