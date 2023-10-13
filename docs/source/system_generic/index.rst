@@ -13,3 +13,4 @@ This is information that is generic across NCSA resources.
    acl
    aws_boto3python
    forge
+   tmux
