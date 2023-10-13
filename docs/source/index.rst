@@ -35,5 +35,10 @@ System-specific user documentation for NCSA computing resources.  The pages link
    licensed_software/index
    community_code/index
    legacy_apps/index
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Training & Help
+
    training
    help
