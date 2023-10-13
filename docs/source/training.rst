@@ -1,0 +1,4 @@
+.. _training:
+
+HPC Training
+==============
