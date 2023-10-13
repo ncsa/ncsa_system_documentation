@@ -1,10 +1,6 @@
 #################################
 NCSA System Documentation Hub
 ################################
-
-.. warning::
-
-   This page is in development.  Anything linked from this page *is* official NCSA documentation for that system. Once page development is complete, this warning will be delted.
    
 NCSA Computing Resources User Documentation
 ============================================
