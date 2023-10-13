@@ -13,6 +13,13 @@ System-specific documentation for computer systems at NCSA.  If a page is linked
 - `Delta system <https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide>`_ funded by NSF ACCESS.  
 - `Nightingale computational system <https://ncsa-nightingale.readthedocs-hosted.com>`_ in the Health Enclave (ACHE).  
 
+.. toctree::
+   :caption: Resource Documentation
+   :hidden:
+
+   Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>
+
+
 NCSA System-Generic Documentation
 -------------------------------------
 
