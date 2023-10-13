@@ -41,13 +41,14 @@ System-specific user documentation for NCSA computing resources.  The pages link
    TGI Rails
 
 
-System-Generic Documentation
+:ref:`generic`
 ================================
 
 Documentation not specific to any system.
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: System-Generic Documentation
 
    system_generic/login_tools
