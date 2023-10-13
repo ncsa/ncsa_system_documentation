@@ -40,35 +40,6 @@ System-specific user documentation for NCSA computing resources.  The pages link
    Taiga
    TGI Rails
 
-
-:ref:`generic`
-================================
-
-Documentation not specific to any system.
-
-:ref:`licensed`
-=============================================
-
-This is software that NCSA systems are set-up to support, but the user needs to have a separate license to invoke.
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   licensed_software/index
-
-:ref:`community`
-===========================
-
-This is what this section has.
-
-
-:ref:`legacy`
-=====================
-
-These are lagacy applications.
-
-
 .. toctree::
    :maxdepth: 2
    :hidden:
