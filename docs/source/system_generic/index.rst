@@ -7,7 +7,6 @@ This is information that is generic across NCSA resources.
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
 
    login_tools
    slurm
