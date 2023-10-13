@@ -35,5 +35,5 @@ Install Recipes for Community Code Software
 -------------------------
 
 Legacy Applications
------------------------
+~~~~~~~~~~~~~~~~~~~~~~
 Here is a page with `Blue-Waters era legacy code building descriptions <https://ncsa-community-code-reference.readthedocs-hosted.com/en/latest/>`_.  This is posed as a historical reference, but may also be useful in case some of those codes needto be brought up to date.
