@@ -1,4 +1,4 @@
-.. _licensed
+.. _licensed:
 
 Licensed Software Supported on NCSA Systems
 ==============================================
