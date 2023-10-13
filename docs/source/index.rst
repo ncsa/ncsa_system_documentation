@@ -9,7 +9,7 @@ System-specific user documentation for NCSA computing resources.  The pages link
 
 - `Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>`_
 - `Delta system <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
-- Hydro
+- `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
 - `Illinois Computes Research Notebooks (ICRN) <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>`_
 - `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
 - `Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>`_
