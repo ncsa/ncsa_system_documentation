@@ -16,9 +16,8 @@ System-specific user documentation for NCSA computing resources.  The pages link
 - Hydro
 - `Illinois Computes Research Notebooks (ICRN) <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>`_
 - `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
-- Radiant
-- Taiga
-- TGI Rails
+- `Radiant <<https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>>`_
+- `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 
 .. toctree::
    :maxdepth: 2
@@ -33,12 +32,11 @@ System-specific user documentation for NCSA computing resources.  The pages link
 
    Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>
    Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>
-   Hydro
+   Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>
    ICRN <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>
    Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>
-   Radiant
-   Taiga
-   TGI Rails
+   Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
+   Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
 .. toctree::
    :maxdepth: 2
