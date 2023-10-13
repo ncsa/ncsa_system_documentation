@@ -46,17 +46,6 @@ System-specific user documentation for NCSA computing resources.  The pages link
 
 Documentation not specific to any system.
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: System-Generic Documentation
-
-   system_generic/login_tools
-   system_generic/slurm
-   system_generic/acl
-   system_generic/aws_boto3
-   system_generic/forge
-
 :ref:`licensed`
 =============================================
 
@@ -68,21 +57,24 @@ This is software that NCSA systems are set-up to support, but the user needs to 
 
    licensed_software/index
 
-Open Source Community Code
+:ref:`community`
 ===========================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Open Source Community Code
-
-   community_code/index
+This is what this section has.
 
 
-Legacy Applications
+:ref:`legacy`
 =====================
 
+These are lagacy applications.
+
+
 .. toctree::
    :maxdepth: 2
-   :caption: Legacy Applications
+   :hidden:
+   :caption: Other Documentation
 
+   system_generic/index
+   licensed_software/index
+   community_code/index
    legacy_apps/index
