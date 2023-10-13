@@ -42,6 +42,7 @@ System-specific user documentation for NCSA computing resources.  The pages link
    :maxdepth: 2
    :hidden:
    :caption: Other Documentation
+   :collapse: false
 
    system_generic/index
    licensed_software/index
