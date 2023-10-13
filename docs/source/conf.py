@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'NCSA System Documentation Hub'
-copyright = '2022, University of Illinois'
+project = 'User Documentation Hub'
+copyright = '2023, University of Illinois'
 author = 'University of Illinois'
 
 # -- General configuration
