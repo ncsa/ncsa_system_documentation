@@ -1,2 +1,4 @@
-Holding Page
-=============
+.. _community:
+
+Open Source Community Code
+==============================
