@@ -57,16 +57,16 @@ Documentation not specific to any system.
    system_generic/aws_boto3
    system_generic/forge
 
-Licensed Software Supported on NCSA Systems
+:ref:`licensed`
 =============================================
 
 This is software that NCSA systems are set-up to support, but the user needs to have a separate license to invoke.
 
 .. toctree::
    :maxdepth: 0
-   :caption: Licensed Software
+   :hidden:
 
-   licensed_software/matlab
+   licensed_software/index
 
 Open Source Community Code
 ===========================
