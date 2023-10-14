@@ -9,6 +9,7 @@ This is information that is generic across NCSA resources.
    :maxdepth: 2
 
    login_tools
+   keys
    slurm
    acl
    aws_boto3python
