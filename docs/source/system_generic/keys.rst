@@ -1,9 +1,25 @@
 Access Methods for NCSA Systems
 ==================================
 
-To log into any NCSA computer system, you need a **login** account, which consists of a username, a static password, and an attached two-factor authentication method (typically Duo).  Your login account is associated with you as a person, and you should only have one on any one system.  This is different than an **allocation** account, sometimes also called a **charge** account, or a **project** account.  Those accounts are associate with a project or an allocation and keep track of how much resources you are allowed to use.  
+Login Accounts
+------------------
 
-For security and legal reasons, you are required to use your 2-factor authentication every time you log into a system at NCSA.  This helps protect our systems and make sure only you are running processes and looking at your data, and helps prevent unauthorized use.  NCSA systems do not, under any circumstances, enable the use of ssh key pairs for logging in for individual user accounts.  
+To log into an NCSA computer system, you need a **login** account, for that system, which consists of:
 
-There are exceptions for non-human science gateway login accounts to have ssh keys set up for log, but this does not apply to ordinary user accounts.  If you have a science gateway account, you will have a specific kind of allocation and you'll know this.  To get that set up, submit a ticket to the user support team on the system you're using.  
+- Username 
+- Static password 
+- Attached two-factor authentication method (typically Duo)  
+
+Your login account is associated with you as a person, and you should only have one login account per system.  
+
+Your login account is different from an **allocation** account (sometimes also called a **charge** or **project** account). Allocation accounts are associated with a project or an allocation and keep track of the resource amounts you are allowed to use.  
+
+For the `ICRN <https://publish.illinois.edu/ncsa-jupyter/>`_ system, your login account information is your University of Illinois at Urbana-Champaign, NetID, NetID password, and associated University of Illinois Duo.
+
+SSH Keys
+----------
+
+NCSA systems don't allow the use of SSH key pairs for logging into individual user accounts. For security and legal reasons, you are required to use your two-factor authentication *every time* you log into an NCSA system. This helps protect our systems and prevent unauthorized use. 
+
+There are exceptions for non-human, science gateway login accounts, but this does not apply to ordinary user accounts. If you have a science gateway account, you will have a specific kind of allocation. To set up a science gateway login account, submit a support request (:ref:`help`) for the system you are using.
 
