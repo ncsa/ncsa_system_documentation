@@ -12,6 +12,7 @@ This is information that is generic across NCSA resources.
    keys
    slurm
    acl
+   transfer
    aws_boto3python
    forge
    tmux
