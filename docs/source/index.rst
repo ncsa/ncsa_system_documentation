@@ -2,12 +2,12 @@
 NCSA System Documentation Hub
 #################################
 
-The NCSA system documentation hub is a centralized resource for NCSA resource user documentation and other non-system specific user documentation.
+The NCSA system documentation hub is a centralized resource for NCSA computing resource user documentation and other non-system specific user documentation.
    
 Computing Resources User Documentation
 =========================================
 
-System-specific user documentation for NCSA computing resources.  The pages linked here, are the official user documentation for that system.  
+System-specific user documentation for NCSA computing resources. The pages linked here are the official user documentation for that system.  
 
 - `Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>`_
 - `Delta system <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
