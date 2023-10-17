@@ -1,6 +1,8 @@
 #################################
 NCSA System Documentation Hub
 #################################
+
+The NCSA system documentation hub is a centralized resource for NCSA resource user documentation and other non-system specific user documentation.
    
 Computing Resources User Documentation
 =========================================
@@ -28,7 +30,7 @@ System-specific user documentation for NCSA computing resources.  The pages link
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Other Documentation
 
    system_generic/index
