@@ -2,7 +2,7 @@ Software for Logging Into NCSA Systems
 ========================================
 
 .. note::
-   Access to `ICRN <https://publish.illinois.edu/ncsa-jupyter/>`_ is through your web browser, the instructions on this page don't apply to ICRN. See the ICRN user documentation `Acessing the System <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN.
+   The instructions on this page don't apply to `ICRN <https://publish.illinois.edu/ncsa-jupyter/>`_. See the ICRN user documentation `Acessing the System <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
 
 .. _access_vpn:
 
