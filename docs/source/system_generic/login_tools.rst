@@ -40,11 +40,11 @@ MobaXterm enables an SSH connection and provides other useful utilities you can 
 
 Follow the steps below to install MobaXterm and connect to a resource. 
 
-.. note::
-   Nightingale has extra security to protect the data stored on it, so configuring this connection is slightly more complicated than other HPC clusters. The difference involves adding the SSH connection to the secure bastion node; this is described in Steps 5 and 6.
-
 One-time setup
 $$$$$$$$$$$$$$$
+
+.. note::
+   Nightingale has extra security to protect the data stored on it, so configuring this connection is slightly more complicated than other HPC clusters. The difference involves adding the SSH connection to the secure bastion node; this is described in Steps 5 and 6.
 
 This section is the one-time setup on your Windows machine so that it can connect to a resource.  
 
