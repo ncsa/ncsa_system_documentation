@@ -22,38 +22,20 @@ More Documentation
 
 Additional non-system specific user documentation on topics related to NCSA's computing resources.
 
-:ref:`generic`
------------------
+- :ref:`generic`: System-generic documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`slurm`.
 
-System-generic documentation on topics that are applicable across multiple NCSA computing resources, such as :ref:`logging_in` and :ref:`slurm`.
+- :ref:`licensed`: Licenced software that is supported on NCSA computing resources. However to use/invoke this software on the resource, you must own a separate software license.
 
-:ref:`licensed`
--------------------
+- :ref:`community`: Open-source community code that has been developed by NCSA and the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
 
-Licenced software that is supported on NCSA computing resources. However to use/invoke this software on the resource, you must own a separate software license.
-
-:ref:`community`
-------------------
-
-Open-source community code that has been developed by NCSA and the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
-
-:ref:`legacy`
---------------
-
-Legacy applications is documentation on retired NCSA resources and applications. Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
+- :ref:`legacy`: Legacy applications is documentation on retired NCSA resources and applications. Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
 
 Training and Help
 ==================
 
-:ref:`training`
------------------
+- :ref:`training`: Information on self-paced and live training opportunities to learn more about high-performance computing (HPC) for all levels of HPC user.
 
-Information on self-paced and live training opportunities to learn more about high-performance computing (HPC) for all levels of HPC user.
-
-:ref:`help`
-------------
-
-Learn how to sumbit a support request if you run into an issue using any of NCSA's computing resources. 
+- :ref:`help`: Learn how to sumbit a support request if you run into an issue using any of NCSA's computing resources. 
 
 .. toctree::
    :caption: Resource Documentation
