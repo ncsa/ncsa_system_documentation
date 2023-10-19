@@ -2,7 +2,7 @@
 NCSA System Documentation Hub
 #################################
 
-The NCSA system documentation hub is a centralized resource for NCSA computing resource user documentation and other non-system specific user documentation.
+The NCSA system documentation hub is a centralized place for NCSA computing resource user documentation and additional non-system specific user documentation.
    
 Computing Resources User Documentation
 =========================================
@@ -17,6 +17,56 @@ User documentation for NCSA computing resources. The pages linked here are the o
 - `Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>`_
 - `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 
+More Documentation
+===================
+
+Additional non-system specific user documentation on topics related to NCSA's computing resources.
+
+System Generic Documentation
+-----------------------------
+
+:ref:`logging_in`
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- :ref:`vpn`
+- :ref:`ssh`
+- :ref:`windows`
+- :ref:`mac`
+- :ref:`linux`
+
+:ref:`access_methods`
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+- :ref:`login_acct`
+- :ref:`ssh_key`
+
+:ref:`Slurm`
+~~~~~~~~~~~~~
+
+:ref:`running`
+~~~~~~~~~~~~~~~
+
+- :ref:`access_nodes`
+- :ref:`sched`
+- :ref:`queue`
+
+:ref:`acl`
+~~~~~~~~~~~~
+
+:ref:`transfer`
+~~~~~~~~~~~~~~~~
+
+- :ref:`globus`
+
+:ref:`aws`
+~~~~~~~~~~~~
+
+- :ref:`aws_account`
+- :ref:`access_key`
+
+
+
+
 .. toctree::
    :caption: Resource Documentation
    :hidden:
@@ -30,8 +80,8 @@ User documentation for NCSA computing resources. The pages linked here are the o
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
 .. toctree::
-   :maxdepth: 3
    :caption: More Documentation
+   :hidden:
 
    system_generic/index
    licensed_software/index
@@ -39,8 +89,8 @@ User documentation for NCSA computing resources. The pages linked here are the o
    legacy_apps/index
    
 .. toctree::
-   :maxdepth: 2
    :caption: Training & Help
+   :hidden:
 
    training
    help
