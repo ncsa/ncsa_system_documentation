@@ -3,7 +3,7 @@
 System-Generic Documentation
 ==============================
 
-This is information that is generic across NCSA resources.
+System-generic documentation on topics that are applicable across multiple NCSA computing resources.
 
 .. toctree::
    :maxdepth: 2
