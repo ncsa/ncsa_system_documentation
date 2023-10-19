@@ -47,6 +47,18 @@ Open-source community code has been developed by the NCSA-user community. Browse
 
 Legacy applications are now-retired NCSA resource doucmentation. Use this for historical reference but consult the other documents for current information related to useing NCSA computing resources.
 
+Training and Help
+==================
+
+:ref:`training`
+-----------------
+
+Information on self-paced and live training opportunities to learn more about high-performance computing (HPC) for all levels of HPC user.
+
+:ref:`help`
+------------
+
+Learn how to sumbit a support request if you run into an issue using any of NCSA's computing resources. 
 
 .. toctree::
    :caption: Resource Documentation
