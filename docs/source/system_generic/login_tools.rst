@@ -234,12 +234,6 @@ Once the above, one-time, steps are complete, follow the below steps each time y
 
    You can load modules and run software and access your files from there.  
 
-text ssh 
-~~~~~~~~~~~
-
-XQuartz
-~~~~~~~~~~~
-
 .. _linux:
 
 Linux SSH Clients
