@@ -43,3 +43,8 @@ html_theme_options = {
      'logo_only': False,
      'display_version': False,
  }
+
+# Build PDF & ePub
+formats:
+  - epub
+  - pdf
