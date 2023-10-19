@@ -38,6 +38,12 @@ Training and Help
 - :ref:`help`: Learn how to sumbit a support request if you run into an issue using any of NCSA's computing resources. 
 
 .. toctree::
+   :hidden:
+
+   training
+   help
+
+.. toctree::
    :caption: Resource Documentation
    :hidden:
 
