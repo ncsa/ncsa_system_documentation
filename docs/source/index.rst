@@ -25,12 +25,7 @@ Additional non-system specific user documentation on topics related to NCSA's co
 :ref:`generic`
 -----------------
 
-System-generic documentation is on topics that are applicable across multiple NCSA computing resources, such as:
-
-- :ref:`logging_in`
-- :ref:`slurm`
-- :ref:`transfer`
-- `and more! <../source/system_generic/index.rst>`_
+System-generic documentation is on topics that are applicable across multiple NCSA computing resources, such as :ref:`logging_in` and :ref:`slurm`.
 
 :ref:`licensed`
 -------------------
