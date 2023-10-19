@@ -7,7 +7,7 @@ The NCSA system documentation hub is a centralized place for NCSA computing reso
 Computing Resources User Documentation
 =========================================
 
-User documentation for NCSA computing resources. The pages linked here are the official user documentation for these systems.  
+The pages linked here are the official user documentation for NCSA's computing resources.  
 
 - `Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>`_
 - `Delta system <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
@@ -25,22 +25,22 @@ Additional non-system specific user documentation on topics related to NCSA's co
 :ref:`generic`
 -----------------
 
-System-generic documentation is on topics that are applicable across multiple NCSA computing resources, such as :ref:`logging_in` and :ref:`slurm`.
+System-generic documentation on topics that are applicable across multiple NCSA computing resources, such as :ref:`logging_in` and :ref:`slurm`.
 
 :ref:`licensed`
 -------------------
 
-Licenced software documentation is on licensed software that is supported on NCSA systems. However to use/invoke the software in the system, you must own a separate software license.
+Licenced software that is supported on NCSA computing resources. However to use/invoke this software on the resource, you must own a separate software license.
 
 :ref:`community`
 ------------------
 
-Open-source community code has been developed by the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
+Open-source community code that has been developed by NCSA and the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
 
 :ref:`legacy`
 --------------
 
-Legacy applications are now-retired NCSA resource doucmentation. Use this for historical reference but consult the other documents for current information related to useing NCSA computing resources.
+Legacy applications is documentation on retired NCSA resources and applications. Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
 
 Training and Help
 ==================
