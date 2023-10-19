@@ -48,7 +48,7 @@ System Generic Documentation
 
 - :ref:`access_nodes`
 - :ref:`sched`
-- :ref:`queue`
+- :ref:`partitions`
 
 :ref:`acl`
 ~~~~~~~~~~~~
