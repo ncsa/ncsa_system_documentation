@@ -22,49 +22,30 @@ More Documentation
 
 Additional non-system specific user documentation on topics related to NCSA's computing resources.
 
-System Generic Documentation
------------------------------
+:ref:`generic`
+-----------------
 
-:ref:`logging_in`
-~~~~~~~~~~~~~~~~~~~~~~~~~
+System-generic documentation is on topics that are applicable across multiple NCSA computing resources, such as:
 
-- :ref:`vpn`
-- :ref:`ssh`
-- :ref:`windows`
-- :ref:`mac`
-- :ref:`linux`
+- :ref:`logging_in`
+- :ref:`slurm`
+- :ref:`transfer`
+- `and more! <../source/system_generic/index.rst>`_
 
-:ref:`access_methods`
-~~~~~~~~~~~~~~~~~~~~~~~~
+:ref:`licensed`
+-------------------
 
-- :ref:`login_acct`
-- :ref:`ssh_key`
+Licenced software documentation is on licensed software that is supported on NCSA systems. However to use/invoke the software in the system, you must own a separate software license.
 
-:ref:`Slurm`
-~~~~~~~~~~~~~
+:ref:`community`
+------------------
 
-:ref:`running`
-~~~~~~~~~~~~~~~
+Open-source community code has been developed by the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
 
-- :ref:`access_nodes`
-- :ref:`sched`
-- :ref:`partitions`
+:ref:`legacy`
+--------------
 
-:ref:`acl`
-~~~~~~~~~~~~
-
-:ref:`transfer`
-~~~~~~~~~~~~~~~~
-
-- :ref:`globus`
-
-:ref:`aws`
-~~~~~~~~~~~~
-
-- :ref:`aws_account`
-- :ref:`access_key`
-
-
+Legacy applications are now-retired NCSA resource doucmentation. Use this for historical reference but consult the other documents for current information related to useing NCSA computing resources.
 
 
 .. toctree::
