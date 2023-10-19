@@ -1,3 +1,5 @@
+.. _aws:
+
 Using AWS S3 CLI with Boto3 Python Package
 ===========================================
 
@@ -11,10 +13,14 @@ For those at the University of Illinois, here are a couple useful links:
 - Log in to Illinois AWS account: `https://aws.illinois.edu <https://aws.illinois.edu/>`__
 - Illinois AWS resources (Tech Services page): https://answers.uillinois.edu/illinois/search.php?q=AWS
 
+.. _aws_account:
+
 Obtain an AWS Account
 ----------------------
 
 If you are associated with the University of Illinois, instructions for requesting an Illinois AWS account are available through `Technology Services <https://answers.uillinois.edu/illinois/63359>`_. Otherwise, consult the IT/network team at your institution for details on obtaining an account.
+
+.. _access_key:
 
 Create Access Keys
 -------------------
