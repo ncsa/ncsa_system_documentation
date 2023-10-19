@@ -28,14 +28,7 @@ Additional non-system specific user documentation on topics related to NCSA's co
 
 - :ref:`community`: Open-source community code that has been developed by NCSA and the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
 
-- :ref:`legacy`: Legacy applications is documentation on retired NCSA resources and applications. Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
-
-Training and Help
-==================
-
-- :ref:`training`: Information on self-paced and live training opportunities to learn more about high-performance computing (HPC) for all levels of HPC user.
-
-- :ref:`help`: Learn how to sumbit a support request if you run into an issue using any of NCSA's computing resources. 
+- :ref:`legacy`: Legacy applications is documentation on retired NCSA resources and applications. Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources. 
 
 .. toctree::
    :hidden:
@@ -63,10 +56,5 @@ Training and Help
    licensed_software/index
    community_code/index
    legacy_apps/index
-   
-.. toctree::
-   :caption: Training & Help
-   :hidden:
 
-   training
-   help
+|
