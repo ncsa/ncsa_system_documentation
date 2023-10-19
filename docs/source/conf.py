@@ -44,7 +44,4 @@ html_theme_options = {
      'display_version': False,
  }
 
-# Build PDF & ePub
-formats:
-  - epub
-  - pdf
+
