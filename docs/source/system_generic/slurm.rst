@@ -1,10 +1,16 @@
+.. _slurm:
+
 Slurm Job Management Software
 =================================
 
 NCSA computer systems use the Slurm software stack for job control. 
 
+.. _running:
+
 Running Jobs
 ===============
+
+.. _access_nodes:
 
 Accessing the Compute Nodes
 -------------------------------
@@ -45,6 +51,8 @@ Then in a terminal session:
    $
 
 See also, :ref:`mon_node`.
+
+.. _sched:
 
 Scheduler
 -------------
