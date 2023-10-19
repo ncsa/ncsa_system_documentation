@@ -1,10 +1,12 @@
+.. _logging_in:
+
 Software for Logging Into NCSA Systems
 ========================================
 
 .. note::
    The instructions on this page don't apply to `ICRN <https://publish.illinois.edu/ncsa-jupyter/>`_. See the ICRN user documentation `Acessing the System <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
 
-.. _access_vpn:
+.. _vpn:
 
 VPN
 -----
@@ -19,12 +21,16 @@ NCSA VPN
 
 If you don't have a University of Illinois NetID, you will need to use the `NCSA VPN <https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service>`_.  
 
+.. _ssh:
+
 SSH Clients
 ------------
 
 SSH (Secure Shell) is a client-server architecture that provides a secure channel over an unsecured network. An SSH client is a program for logging securely into and executing commands on a remote machine. SSH encrypts the data sent over an open network, such as the internet, so that it can't be read by others.
 
 Several SSH-based clients are available for accessing NCSA computing resources. The client you use depends on your workstation’s operating system.
+
+.. _windows:
 
 Microsoft Windows SSH Clients
 -------------------------------
@@ -111,6 +117,8 @@ Once the above, one-time, steps are complete, follow the below steps each time y
 
 Termius
 ~~~~~~~~~
+
+.. _mac:
 
 Mac OS X SSH Clients
 ----------------------
@@ -231,6 +239,8 @@ text ssh
 
 XQuartz
 ~~~~~~~~~~~
+
+.. _linux:
 
 Linux SSH Clients
 -------------------
