@@ -31,7 +31,7 @@ User documentation for NCSA computing resources. The pages linked here are the o
 
 .. toctree::
    :maxdepth: 3
-   :caption: Other Documentation
+   :caption: More Documentation
 
    system_generic/index
    licensed_software/index
