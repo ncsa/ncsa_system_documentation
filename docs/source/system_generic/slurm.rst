@@ -5,17 +5,11 @@ Slurm Job Management Software
 
 NCSA computer systems use the Slurm software stack for job control. 
 
-.. _running:
-
-Running Jobs
-===============
-
 .. _access_nodes:
 
 Accessing the Compute Nodes
 -------------------------------
 
-Delta implements the Slurm batch environment to manage access to the compute nodes. 
 Use the Slurm commands to run batch jobs or for interactive access to compute nodes. 
 See: https://slurm.schedmd.com/quickstart.html for an introduction to Slurm. 
 There are multiple ways to access compute nodes on Delta.
