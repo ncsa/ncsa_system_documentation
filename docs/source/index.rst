@@ -28,7 +28,7 @@ Additional non-system specific user documentation on topics related to NCSA's co
 
 - :ref:`licensed`
 
-  Documentation on licenced software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
+  Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
 
 - :ref:`legacy`
 
