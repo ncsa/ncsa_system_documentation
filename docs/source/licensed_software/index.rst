@@ -9,3 +9,4 @@ Documentation on licensed software that is supported on NCSA computing resources
    :maxdepth: 2
 
    matlab
+   fluent
