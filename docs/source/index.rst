@@ -57,7 +57,7 @@ Additional non-system specific user documentation on topics related to NCSA's co
    :hidden:
 
    system_generic/index
-   licensed_software/index
+   Licensed Software <licensed_software/index>
    legacy_apps/index
 
 |
