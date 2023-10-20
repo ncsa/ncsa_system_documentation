@@ -8,5 +8,4 @@ Documentation on licensed software that is supported on NCSA computing resources
 .. toctree::
    :maxdepth: 2
 
-   matlab
    fluent
