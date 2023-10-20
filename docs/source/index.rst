@@ -24,15 +24,15 @@ Additional non-system specific user documentation on topics related to NCSA's co
 
 - :ref:`general`
   
-  General system documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
+  Documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
 
 - :ref:`licensed`
 
-  Licenced software that is supported on NCSA computing resources. However to use/invoke this software on the resource, you must own a separate software license.
+  Documentation on licenced software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
 
 - :ref:`legacy`
 
-  This is documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
+  Documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
 
 .. toctree::
    :hidden:
