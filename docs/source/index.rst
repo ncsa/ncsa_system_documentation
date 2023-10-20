@@ -2,7 +2,7 @@
 NCSA System Documentation Hub
 #################################
 
-The NCSA system documentation hub is a centralized place for NCSA computing resource user documentation and additional non-system specific user documentation.
+This hub is a centralized place for NCSA computing resource user documentation and additional non-system specific user documentation.
    
 Computing Resources User Documentation
 =========================================
