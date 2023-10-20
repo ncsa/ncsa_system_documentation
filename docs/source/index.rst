@@ -30,13 +30,9 @@ Additional non-system specific user documentation on topics related to NCSA's co
 
   Licenced software that is supported on NCSA computing resources. However to use/invoke this software on the resource, you must own a separate software license.
 
-- :ref:`community`
-
-  Open-source community code that has been developed by NCSA and the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
-
 - :ref:`legacy`
 
-  This is documentation on retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
+  This is documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
 
 .. toctree::
    :hidden:
