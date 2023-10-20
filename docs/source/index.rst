@@ -58,7 +58,6 @@ Additional non-system specific user documentation on topics related to NCSA's co
 
    system_generic/index
    licensed_software/index
-   community_code/index
    legacy_apps/index
 
 |
