@@ -22,9 +22,13 @@ More Documentation
 
 Additional non-system specific user documentation on topics related to NCSA's computing resources.
 
-- :ref:`generic`: System-generic documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
+- :ref:`generic`
+  
+  System-generic documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
 
-- :ref:`licensed`: Licenced software that is supported on NCSA computing resources. However to use/invoke this software on the resource, you must own a separate software license.
+- :ref:`licensed`
+
+  Licenced software that is supported on NCSA computing resources. However to use/invoke this software on the resource, you must own a separate software license.
 
 - :ref:`community`: Open-source community code that has been developed by NCSA and the NCSA-user community. Browse this code to see if there is something that will support/enhance your research.
 
