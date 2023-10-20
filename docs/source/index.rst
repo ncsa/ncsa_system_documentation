@@ -22,9 +22,9 @@ More Documentation
 
 Additional non-system specific user documentation on topics related to NCSA's computing resources.
 
-- :ref:`generic`
+- :ref:`general`
   
-  System-generic documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
+  General system documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
 
 - :ref:`licensed`
 
