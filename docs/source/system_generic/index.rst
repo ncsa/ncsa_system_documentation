@@ -1,9 +1,9 @@
-.. _generic:
+.. _general:
 
-System-Generic Documentation
+General System Documentation
 ==============================
 
-System-generic documentation on topics that are applicable across multiple NCSA computing resources.
+General system documentation on topics that are applicable across multiple NCSA computing resources.
 
 .. toctree::
    :maxdepth: 2
