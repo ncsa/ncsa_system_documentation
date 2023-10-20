@@ -3,7 +3,7 @@
 General System Documentation
 ==============================
 
-General system documentation on topics that are applicable across multiple NCSA computing resources.
+Documentation on topics that are applicable across multiple NCSA computing resources.
 
 .. toctree::
    :maxdepth: 2
