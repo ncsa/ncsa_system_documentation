@@ -242,3 +242,10 @@ Linux SSH Clients
 The Linux operating system has SSH built into it. You use the Linux terminal application to connect via SSH. 
 `PuTTY <http://www.chiark.greenend.org.uk/~sgtatham/putty/>`_ is also available for Linux.
 
+Open OnDemand
+---------------
+Open OnDemand is a graphical login client that creates an entire Linux virtual desktop in a browser tab.  It is implemented on most NCSA systems.  
+
+Thinlinc
+----------------
+Thinlinc is a graphical login client that creates an entire Linux virtual desktop in a browser tab.  It is available on select NCSA systmems.  
