@@ -1,112 +1,90 @@
-=====================================================================
-Using AWS (Amazon Web Services) S3 CLI with Boto3 Python Package
-=====================================================================
+.. _aws:
 
-This page steps one through the process of setting up an AWS account and
-using the Boto3 python package to access S3 buckets via the CLI (command
-line interface).
+Using AWS S3 CLI with Boto3 Python Package
+===========================================
+
+.. note::
+   You will need to access the `Hydro cluster <https://newfrontiers.illinois.edu/hydro/>`_ to use Boto3.
+
+This page steps through the process of setting up an Amazon Web Services (AWS) account and using the Boto3 Python package to access S3 buckets via the command line interface (CLI).
 
 For those at the University of Illinois, here are a couple useful links:
 
-Log in to Illinois AWS account: `https://aws.illinois.edu <https://aws.illinois.edu/>`__
+- Log in to Illinois AWS account: `https://aws.illinois.edu <https://aws.illinois.edu/>`__
+- Illinois AWS resources (Tech Services page): https://answers.uillinois.edu/illinois/search.php?q=AWS
 
-Illinois AWS resources (Tech Services page): https://answers.uillinois.edu/illinois/search.php?q=AWS
+.. _aws_account:
 
-**Important note: you will need access to the** `Hydro cluster <https://bluewaters.ncsa.illinois.edu/hydro>`__ to use Boto3.
-There are issues with installing it on Blue Waters.
+Obtain an AWS Account
+----------------------
 
-Obtain AWS Account
-==================
+If you are associated with the University of Illinois, instructions for requesting an Illinois AWS account are available through `Technology Services <https://answers.uillinois.edu/illinois/63359>`_. Otherwise, consult the IT/network team at your institution for details on obtaining an account.
 
-First, of course, you need access to an AWS account. If you reside at
-the University of Illinois, instructions for requesting an Illinois AWS
-account can be found here: https://answers.uillinois.edu/illinois/63359
-Otherwise, consult the IT/network team (and/or your supervisor) at your
-institution for details on obtaining an account.
+.. _access_key:
 
 Create Access Keys
-==================
+-------------------
 
-This is done by an account admin through the AWS IAM (Identity and
-Access Management) console.
+Access keys are created by an account admin through the AWS IAM (Identity and Access Management) console. Instructions can be found in the `AWS user guide <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey>`_.
 
-Instructions can be found here:
-https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey
+If you were given an admin account on AWS, follow the steps below to create a user with access keys. Only user instances can have keys, so even if you have an admin account, you still need to create a user instance for yourself. If you don't have an admin account, find out who does at your institution and ask them to create a user with access keys for you.
 
-If you were given an admin account on AWS, follow the steps below to
-create a user with access keys. Only user instances can have keys, so
-even if you have an admin account, you still need to create a user
-instance for yourself. If you don't have an admin account, find out who
-does at your institution and ask them to create a user with access keys
-for you.
+#. After logging in (use `https://aws.illinois.edu <https://aws.illinois.edu/>`_ if you're at the U of I), go to the IAM Dashboard:
 
-After logging in (use
-`https://aws.illinois.edu <https://aws.illinois.edu/>`_ if you're at U
-of I), go to the IAM Dashboard:
+   .. image:: images/aws_boto3/boto_step1.png
 
-.. image:: boto_step1.png
+#. Under **IAM resources** click **Users**:
 
-Under "IAM resources," click Users:
+   .. image:: images/aws_boto3/boto_step2.png
 
-.. image:: boto_step2.png
+#. Select **Add users**:
 
-Select "Add users":
+   .. image:: images/aws_boto3/boto_step3.png
 
-.. image:: boto_step3.png
+#. Choose a user name and set access type to **Programmatic access**; click **Next: Permissions**:
 
-Choose a user name and set access type to "Programmatic access"; click
-"Next: Permissions":
+   .. image:: images/aws_boto3/boto_step4.png
 
-.. image:: boto_step4.png
+#. On the **Set permissions** screen, select **Attach existing policies directly** and choose **AmazonS3FullAccess**; click **Next: Tags**:
 
-On the "Set permissions" screen, select "Attach existing policies
-directly" and choose "AmazonS3FullAccess"; click "Next: Tags":
+   .. image:: images/aws_boto3/boto_step5.png
 
-.. image:: boto_step5.png
+#. On the next screen, there's no need to do anything with tags, so just click **Next: Review**.
 
-On the next screen, there's no need to do anything with tags, so just
-click "Next: Review."
+#. There's also nothing you need to do on the **Review** screen, so just click **Create user**.
 
-There's also nothing you need to do on the Review screen, so just click
-"Create user."
+#. At the end of the user creation process, it gives you an **Access key ID** and **Secret access key**; save these:
 
-At the end of the user creation process, it gives you an "Access key ID"
-and "Secret access key"; save these:
+   .. image:: images/aws_boto3/boto_step6.png
 
-.. image:: boto_step6.png
-
-If you have an admin account, you can also create user instances for
-other group members who need access.
+If you have an admin account, you can also create user instances for other group members.
 
 Store Access Keys on System
-===========================
+-----------------------------
 
-To allow CLI access to AWS, the keys need to be stored in a credentials
-file:
+To allow CLI access to AWS, the keys need to be stored in a credentials file:
 
-::  
+.. code-block::  
 
   mkdir -p ~/.aws 
   vim ~/.aws/credentials
   
 The file should have these three lines:
 
-::         
+.. code-block::         
 
   [default]
   aws_access_key_id = <YOUR_ACCESS_KEY>
   aws_secret_access_key = <YOUR_SECRET_KEY>
 
 Install Boto3
-================
+--------------
 
-Instructions can be found here:
-https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
+Instructions can be found in the `Boto3 documentation <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html>`_.
 
-The procedure for installing boto3 in a virtual environment on the Hydro
-cluster (https://bluewaters.ncsa.illinois.edu/hydro) is simple:
+The procedure for installing Boto3 in a virtual environment on the Hydro cluster:
 
-::    
+.. code-block::    
 
   # with module Python/3.8.6-GCCcore-10.2.0 loaded       
   # cd to location where you want to create the virtual environment 
@@ -116,28 +94,24 @@ cluster (https://bluewaters.ncsa.illinois.edu/hydro) is simple:
   source bin/activate                                  
   pip install boto3                               
 
-
-This should work without issue.
-
 AWS S3 Bucket Interaction Examples
-==================================
+------------------------------------
 
-If boto3 is installed in a virtual environment, you need to be in the
-virtual environment (i.e., it needs to be activated) to use it:
+If Boto3 is installed in a virtual environment, you need to be in the virtual environment (it needs to be activated) to use it:
 
-
-::  
+.. code-block::  
 
   source myvirtualenv/bin/activate
 
-Here are some example python scripts for interacting with AWS:
+Example Python Scripts for Interacting with AWS
+-------------------------------------------------
 
-**bucket_list.py - list all buckets**
--------------------------------------
+bucket_list.py - list all buckets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Usage: ./bucket_list.py
+Usage: **./bucket_list.py**
 
-:: 
+.. code-block:: 
                                                                        
     #!/usr/bin/env python                                              
                                                                        
@@ -153,14 +127,12 @@ Usage: ./bucket_list.py
         print(bucket.name)                                             
 
 
-**upload_file.py - upload a file to a bucket**
-----------------------------------------------
+upload_file.py - upload a file to a bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Usage: ./upload_file file_name [bucket_name]
- Be sure to set default_bucket in the script to the name of the bucket
-that you want to be your default.
+Usage: **./upload_file file_name [bucket_name]**. Set **default_bucket** in the script to the name of the bucket that you want to be your default.
 
-::     
+.. code-block::     
 
   #!/usr/bin/env python                               
   # Usage: ./upload_file file_name [bucket_name]            
@@ -206,16 +178,12 @@ that you want to be your default.
                                                                        
   upload_file(sys.argv[1], bname)                                   
 
-**download_file.py - download a file from a bucket**
-----------------------------------------------------
+download_file.py - download a file from a bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Usage: ./download_file file_name [bucket_name]
+Usage: **./download_file file_name [bucket_name]**. Set **default_bucket** in the script to the name of the bucket that you want to be your default.
 
-Be sure to set default_bucket in the script to the name of the bucket
-  that you want to be your default.
-
-
- ::                                                                    
+.. code-block::                                                                    
                                                                        
     #!/usr/bin/env python                                              
                                                                        
@@ -265,21 +233,19 @@ Be sure to set default_bucket in the script to the name of the bucket
 
 
 Hydro <=> AWS Transfer Rates
-============================
+-----------------------------
 
-The measured time for uploading a tiny file (a few bytes) using "time
--p" on the python script was 0.78 sec, and the same for downloading was
-0.86 sec. Considering these to be "overhead" times, they were subtracted
-from the measured times for 1-MB and 10-GB transfers to get the times
-and transfer rates below. Note that the 1-MB file was 2^20 bytes, and
-the 10-GB file was 10*2^30 bytes. More tests were not performed due to
-cost concerns (Amazon charges based on the amount of data transferred).
+The measured time for uploading a tiny file (a few bytes) using **time -p** on the Python script was 0.78 sec, and the time for downloading was 0.86 sec. 
+Considering these to be *overhead* times, they were subtracted from the measured times for 1MB and 10GB transfers to get the times and transfer rates below. 
+Note that the 1MB file was 2^20 bytes, and the 10GB file was 10*2^30 bytes. 
+More tests were not performed due to cost concerns (Amazon charges based on the amount of data transferred).
 
 Upload from Hydro to AWS
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 ========= ========== =============
 File Size Time (sec) Transfer Rate
+========= ========== =============
 1 MB      0.17       5.9 MB/sec
 10 GB     51.89      197.3 MB/sec
 ========= ========== =============
@@ -289,6 +255,7 @@ Download from AWS to Hydro
 
 ========= ========== =============
 File Size Time (sec) Transfer Rate
+========= ========== =============
 1 MB      0.12       8.3 MB/sec
 10 GB     34.43      297.4 MB/sec
 ========= ========== =============

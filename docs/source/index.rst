@@ -1,39 +1,63 @@
-===================================
+#################################
 NCSA System Documentation Hub
-===================================
+#################################
 
-.. warning::
-
-   This page is just being built.  Anything linked from this page *is* indeed official NCSA documentation for that system, but this page (the index) is just being created as of August 22, 2022.  When this becomes more stable and points to all NCSA documentation, this notice will be deleted.
+This hub is a centralized place for NCSA computing resource user documentation and additional non-system specific user documentation.
    
-NCSA Computer Systems Documentation
--------------------------------------
-System-specific documentation for computer systems at NCSA.  If a page is linked from here, this is the official documentatoin for that system.  
+Computing Resources User Documentation
+=========================================
 
-- `Delta system <https://wiki.ncsa.illinois.edu/display/DSC/Delta+User+Guide>`_ funded by NSF ACCESS.  
-- `Nightingale computational system <https://ncsa-nightingale.readthedocs-hosted.com>`_ in the Health Enclave (ACHE).  
+The pages linked here are the official user documentation for NCSA's computing resources.  
 
-NCSA System-Generic Documentation
--------------------------------------
+- `Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>`_
+- `Delta system <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
+- `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
+- `Illinois Computes Research Notebooks (ICRN) <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>`_
+- `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
+- `Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>`_
+- `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 
-Documentation not specific to any system.  
+More Documentation
+===================
+
+Additional non-system specific user documentation on topics related to NCSA's computing resources.
+
+- :ref:`general`
+  
+  Documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
+
+- :ref:`licensed`
+
+  Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
+
+- :ref:`legacy`
+
+  Documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
 
 .. toctree::
+   :hidden:
 
-   login_tools/index
-   slurm/index
-   acl/index
-   Boto3python/index
-   debugging/index
-   libraries/index
+   training
+   help
 
-NCSA Licensed Software
--------------------------
-- Fluent
+.. toctree::
+   :caption: Resource Documentation
+   :hidden:
 
-Install Recipes for Community Code Software
--------------------------
+   Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>
+   Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>
+   Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>
+   ICRN <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>
+   Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>
+   Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
+   Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
-Legacy Applications
-~~~~~~~~~~~~~~~~~~~~~~
-Here is a page with `Blue-Waters era legacy code building descriptions <https://ncsa-community-code-reference.readthedocs-hosted.com/en/latest/>`_.  This is posed as a historical reference, but may also be useful in case some of those codes needto be brought up to date.
+.. toctree::
+   :caption: More Documentation
+   :hidden:
+
+   system_generic/index
+   Licensed Software <licensed_software/index>
+   legacy_apps/index
+
+|
