@@ -6,21 +6,6 @@ Logging Into NCSA Systems
 .. note::
    The instructions on this page don't apply to `ICRN <https://publish.illinois.edu/ncsa-jupyter/>`_. See the ICRN user documentation `Acessing the System <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
 
-.. _vpn:
-
-VPN
------
-
-University of Illinois VPN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you are a member of the University of Illinois, you can use the `University of Illinois VPN service <https://answers.uillinois.edu/illinois/98773>`_.  You will need to authenticate to the VPN service itself using your University NetID, password, and two-factor authentication (2FA).  
-
-NCSA VPN
-~~~~~~~~~
-
-If you don't have a University of Illinois NetID, you will need to use the `NCSA VPN <https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service>`_.  
-
 .. _ssh:
 
 SSH Clients
