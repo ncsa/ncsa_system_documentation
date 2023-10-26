@@ -10,7 +10,7 @@ Computing Resources User Documentation
 The pages linked here are the official user documentation for NCSA's computing resources.  
 
 - `Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>`_
-- `Delta system <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
+- `Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
 - `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
 - `Illinois Computes Research Notebooks (ICRN) <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>`_
 - `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
