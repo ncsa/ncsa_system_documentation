@@ -1,11 +1,15 @@
 .. _licensed:
 
-Licensed Software Supported on Systems
+Third-Party Software
 =========================================
 
-Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
+Documentation on third-party software that is supported on NCSA computing resources.
 
 .. toctree::
    :maxdepth: 2
 
+   abaqus
+   ansys
    fluent
+   gurobi
+   matlab
