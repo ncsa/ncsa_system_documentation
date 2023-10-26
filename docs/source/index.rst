@@ -48,9 +48,9 @@ More Documentation
    :caption: Resource Documentation
    :hidden:
 
-   Campus Cluster <https://campuscluster.illinois.edu/resources/docs/>
    Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>
    Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>
+   ICC <https://campuscluster.illinois.edu/resources/docs/>
    ICRN <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>
    Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>
    Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
