@@ -1,6 +1,6 @@
 .. _forge_interactive:
 
-Forge (formerly known as DDT: Distributed Debugging Tool
+Forge (formerly known as DDT: Distributed Debugging Tool)
 ========================================================
 
 Description
@@ -80,7 +80,7 @@ The first three ways begin by loading the ddt module and starting DDT:
    > export DDT_PROCESS_TIMEOUT=0
    > forge
 
-.. image:: images/forge/ddt-welcome.png
+.. image:: images/ddt-welcome.png
 
 Submit a job through Forge/DDT
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -90,7 +90,7 @@ Submitting a job through Forge/DDT, submits a job, waits until the job is schedu
 #. Click on **Run and Debug a Program**. A new window with expandable tabs will appear.
 #. Click on **Details...** to expand a tab.
 
-   .. image:: images/forge/ddt-run.png
+   .. image:: images/ddt-run.png
 
 The **Application** tab is used to select a program binary, working directory, arguments, and input file.
 
@@ -100,11 +100,11 @@ The **Queue Submission Parameters** tab is used to change job parameters such as
 
 Clicking on **Submit** button will submit a job to the scheduler, DDT will wait for the job to start.
 
-.. image:: images/forge/ddt-submitted.png
+.. image:: images/ddt-submitted.png
 
 DDT will start a debug session automatically as soon as the job starts.
 
-.. image:: images/forge/ddt_session.png
+.. image:: images/ddt_session.png
 
 Manually launch a program
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -115,7 +115,7 @@ To launch a program manually:
 
 #. Click on Manually Launch a Program button.
 
-   .. image:: images/forge/ddt-manual.png
+   .. image:: images/ddt-manual.png
 
 #. Select how many processes you want to debug and click on **Listen**. 
 
@@ -127,9 +127,9 @@ To launch a program manually:
 
    ``ddt-client`` command must be issued for each process selected at the previous window. The above command can also be used in a job submission script.
 
-   .. image:: images/forge/ddt_connecting1.png
+   .. image:: images/ddt_connecting1.png
 
-   .. image:: images/forge/ddt_connecting2.png
+   .. image:: images/ddt_connecting2.png
 
 #. Forge/DDT will automatically start debugging session once all requested programs have been launched manually.
 
@@ -150,11 +150,11 @@ To attach to a program that is already running:
 
 #. Select the desired job, and click on the **Attach to [job name]** button.
 
-   .. image:: images/forge/ddt-attach2.png
+   .. image:: images/ddt-attach2.png
 
    Alternatively, you can attach to a specific process that you own on the **List of all processes** tab.
 
-   .. image:: images/forge/ddt-attach.png
+   .. image:: images/ddt-attach.png
 
 #. If you are unable to attach to running jobs or processes (if they aren't listed), clear out all previously saved Forge settings by:
 
@@ -183,7 +183,7 @@ To start DDT from an interactive job:
 #. Click on **Run and Debug a Program**. A new window with expandable tabs will appear. Tabs **Application**, **MPI**, **OpenMP**, **CUDA** and
 **Memory Debugging** are the same as described above.
 
-   .. image:: images/forge/ddt-run-noqueue.png
+   .. image:: images/ddt-run-noqueue.png
 
 #. Click on Run button to start a debug session.
 

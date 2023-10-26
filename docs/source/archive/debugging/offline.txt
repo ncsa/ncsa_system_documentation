@@ -62,7 +62,7 @@ local machine or view it on a login node with firefox. The
 equivalent text file report is also shown:
 
   
-.. image:: ./ddt-htmlview.jpeg
+.. image:: images/ddt-htmlview.jpeg
   
 
 :: 
@@ -234,7 +234,7 @@ Scenario 2: ddt -offline with MPI cpu+gpu code
          | ./simpleMPI                                                           |
          +-----------------------------------------------------------------------+
 
-.. image:: ./ddt-offline-gpu.png
+.. image:: images/ddt-offline-gpu.png
 
 
 See also:

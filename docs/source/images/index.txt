@@ -1,0 +1,1 @@
+This image folder is for images on the main landing, help, or training pages. For images assoicated with the community_code, historical_docs, licensed_software, or research_code folder, please locate them inside images folders within these folders (e.g. .../source/community_code/images).
