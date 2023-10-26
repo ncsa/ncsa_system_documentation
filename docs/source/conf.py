@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'User Documentation Hub'
+project = 'NCSA System Documentation Hub'
 copyright = '2023, University of Illinois'
 author = 'University of Illinois'
 
