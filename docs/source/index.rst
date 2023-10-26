@@ -68,4 +68,4 @@ More Documentation
 
 ==============
 
-`NCSA <https://ncsa.illinois.edu>`_ is an Illinois Research Institute of the `University of Illinois at Urbana-Champaign <https://illinois.edu>`_.
+`NCSA <https://ncsa.illinois.edu>`_ is an Illinois Research Institute on the `University of Illinois at Urbana-Champaign <https://illinois.edu>`_ campus.
