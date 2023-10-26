@@ -7,7 +7,7 @@ This is the centralized page for NCSA computing resource user documentation and 
 Computing Resources User Documentation
 =========================================
 
-The pages linked here are the official user documentation for NCSA's computing resources.  
+The pages linked here are the official user documentation for each computing resource.  
 
 - `Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
 - `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
