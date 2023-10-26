@@ -16,8 +16,8 @@ Getting Help
   - Approximately when (date/time) the issue occurred.
   - What you were trying to do and how you tried to do it.
   - Why you think it isn’t working.
-  - Commands or scripts you ran, in enough detail to reproduce the problem (screenshots are ok).
-  - The output and/or error messages you got (screenshots are ok).
+  - Commands or scripts you ran, in enough detail to reproduce the problem (text files are preferred).
+  - The output and/or error messages you got (text files are preferred).
   - Did you install any packages, modules, or extensions? If so, which ones?
   - If your command or script worked in the past, when did it stop working?
   - Any other approaches you’ve tried.
