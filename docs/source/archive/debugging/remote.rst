@@ -66,7 +66,7 @@ remote-init :
             | .. container::                                                        |
             +-----------------------------------------------------------------------+
 
-.. image:: ddt-remote-launch-settings.png
+.. image:: images/ddt-remote-launch-settings.png
 
 Select the "Test Remote Launch" button, authenticate, and you
 should see a dialog similar to:
@@ -87,7 +87,7 @@ If you see an error similar to the one below, go back to the
 downloads page and scroll down to the area where you can
 download previous versions of the remote client.
 
-.. image:: version_mismatch.jpeg
+.. image:: images/version_mismatch.jpeg
 
 After you have connected to the system, the lower-right portion
 of the window will display connection status. You may now use
@@ -98,11 +98,11 @@ the DDT Remote Client just select your
 username@bw.ncsa.illinois.edu session from the "Remote Launch"
 options in the middle of the startup window.
 
-.. image:: ddt-remote-connected.png
+.. image:: images/ddt-remote-connected.png
 
 Example session connected with the remote client:
 
-.. image:: ddt-remote-session.png
+.. image:: images/ddt-remote-session.png
 
 For more information please see the Allinea documentation on
 installation (chapter 2) and remote client (chapter 3) in the
