@@ -2,7 +2,7 @@
 NCSA System Documentation Hub
 #################################
 
-This hub is a centralized place for NCSA computing resource user documentation and additional non-system specific user documentation.
+This is the centralized page for NCSA computing resource user documentation and additional non-system specific user documentation.
    
 Computing Resources User Documentation
 =========================================
@@ -20,19 +20,23 @@ The pages linked here are the official user documentation for NCSA's computing r
 More Documentation
 ===================
 
-Additional non-system specific user documentation on topics related to NCSA's computing resources.
+.. note::
+   This section is in development, pages will be added as they are created.
 
-- :ref:`general`
+..
+   Additional non-system specific user documentation on topics related to NCSA's computing resources.
+
+   - :ref:`general`
   
-  Documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
+     Documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
 
-- :ref:`licensed`
+   - :ref:`licensed`
 
-  Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
+     Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
 
-- :ref:`legacy`
+   - :ref:`legacy`
 
-  Documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
+     Documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
 
 .. toctree::
    :hidden:
@@ -52,12 +56,14 @@ Additional non-system specific user documentation on topics related to NCSA's co
    Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
-.. toctree::
-   :caption: More Documentation
-   :hidden:
 
-   system_generic/index
-   Licensed Software <licensed_software/index>
-   legacy_apps/index
+..
+   .. toctree::
+      :caption: More Documentation
+      :hidden:
+
+      system_generic/index
+      Licensed Software <licensed_software/index>
+      legacy_apps/index
 
 |
