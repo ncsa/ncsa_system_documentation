@@ -66,6 +66,8 @@ More Documentation
       Licensed Software <licensed_software/index>
       legacy_apps/index
 
+==============
+
 NCSA is an Illinois Research Institute of the `University of Illinois at Urbana-Champaign <https://illinois.edu>`_. To learn more about NCSA, please see the `NCSA website <https://ncsa.illinois.edu>`_.
 
 |
