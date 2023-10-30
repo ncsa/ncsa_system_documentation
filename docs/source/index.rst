@@ -7,7 +7,7 @@ This is the centralized page for NCSA computing resource user documentation and 
 Computing Resources User Documentation
 =========================================
 
-The pages linked here are the official user documentation for NCSA's computing resources.  
+The pages linked here are the official user documentation for the computing resource.  
 
 - `Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
 - `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
@@ -68,4 +68,4 @@ More Documentation
 
 ==============
 
-`NCSA <https://ncsa.illinois.edu>`_ is an Illinois Research Institute of the `University of Illinois at Urbana-Champaign <https://illinois.edu>`_.
+`NCSA <https://ncsa.illinois.edu>`_ is an Illinois Research Institute on the `University of Illinois Urbana-Champaign <https://illinois.edu>`_ campus.
