@@ -11,7 +11,9 @@ The pages linked here are the official user documentation for the computing reso
 
 - `Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
 - `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
-- `Illinois Campus Cluster (ICC) <https://campuscluster.illinois.edu/resources/docs/>`_
+- `Illinois Campus Cluster (ICC) </icc/>`_
+- `Illinois Campus Cluster (ICC) </icc/>`
+- :doc:`Illinois Campus Cluster (ICC) </icc/>`
 - `Illinois Computes Research Notebooks (ICRN) <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>`_
 - `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
 - `Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>`_
