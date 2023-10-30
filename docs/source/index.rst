@@ -50,7 +50,7 @@ More Documentation
 
    Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>
    Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>
-   :doc:`systems/icc`
+   icc/index
    ICRN <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>
    Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>
    Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
