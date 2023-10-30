@@ -9,10 +9,10 @@ Computing Resources User Documentation
 
 The pages linked here are the official user documentation for the computing resource.  
 
-- `Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>`_ 
+- `Delta </systems/delta>`_ 
 - `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
-- `Illinois Computes Research Notebooks (ICRN) <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>`_
+- `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
 - `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
 - `Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>`_
 - `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
@@ -48,10 +48,10 @@ More Documentation
    :caption: Resource Documentation
    :hidden:
 
-   Delta <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/>
+   Delta <https://docs.ncsa.illinois.edu/systems/delta>
    Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
-   ICRN <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest>
+   ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
    Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>
    Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
