@@ -11,7 +11,7 @@ Logging Into NCSA Systems
 SSH Clients
 ------------
 
-SSH (Secure Shell) is a client-server architecture that provides a secure channel over an unsecured network. An SSH client is a program for logging securely into and executing commands on a remote machine. SSH encrypts the data sent over an open network, such as the internet, so that it can't be read by others.
+Secure Shell (SSH) is a client-server architecture that provides a secure channel over an unsecured network. An SSH client is a program for logging securely into and executing commands on a remote machine. SSH encrypts the data sent over an open network, such as the internet, so that it can't be read by others.
 
 Several SSH-based clients are available for accessing NCSA computing resources. The client you use depends on your workstation’s operating system.
 
