@@ -44,4 +44,5 @@ html_theme_options = {
      'display_version': False,
  }
 
-
+# -- Change page title
+html_title = 'UIUC NCSA User Documentation'
