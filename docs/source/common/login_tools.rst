@@ -46,17 +46,17 @@ This section is the one-time setup on your Windows machine so that it can connec
 
 #. Launch the MobaXterm application and click the **Session** button in the upper left of the window to start an SSH session.
 
-   ..  image:: images/accessing/ng_mxt_session_button.gif
+   ..  image:: images/login_tools/ng_mxt_session_button.gif
        :alt: MobaXterm initial window with Session button circled.
 
 #. Select **SSH** from the session types displayed and click the **OK** button. 
 
-   ..  image:: images/accessing/XC_01_select_ssh.png
+   ..  image:: images/login_tools/XC_01_select_ssh.png
        :alt: MobaXterm Session window with SSH button circled.
 
    You will now see an area titled **Basic SSH Settings**. 
 
-   ..  image:: images/accessing/XC_specify_host_username.png
+   ..  image:: images/login_tools/XC_specify_host_username.png
        :alt: MobaXterm Session window with Basic SSH Settings area displayed.
 
 #. In the **Remote host** text box, enter the name of the login node you want to access (either a general access or interactive node). Then check the **Specify username** box and enter your NCSA Identity username as shown in the following example. 
@@ -66,19 +66,19 @@ This section is the one-time setup on your Windows machine so that it can connec
    - Hydro node hostnames
    - `Nightingale node hostnames <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/accessing.html#node-hostnames>`_
 
-   ..  image:: images/accessing/XC_specify_host_username2.png
+   ..  image:: images/login_tools/XC_specify_host_username2.png
        :alt: MobaXterm Session window with Basic SSH Settings filled in.
 
 #. [**Nightingale Only**] Click the **Network settings** tab and then click the **SSH gateway (jump host)** button.
 
-   ..  image:: images/accessing/XC_network_settings.png
+   ..  image:: images/login_tools/XC_network_settings.png
        :alt: MobaXterm Session window with showing Network settings tab clicked and SSH gateway jump host button displayed.
 
 #. [**Nightingale Only**] In the configuration window displayed, enter ``ngale-bastion-1.ncsa.illinois.edu`` in the **Gateway host** box and your NCSA username in the **Username** box. Then click the **OK** button. 
 
    You may see a warning message saying that your remote host identification has changed; click the **Yes** button to continue.
 
-   ..  image:: images/accessing/XC_jump_host_filled_in.png
+   ..  image:: images/login_tools/XC_jump_host_filled_in.png
        :alt: MobaXterm Session window with showing values for the SSH gateway jump host filled in.
 
 #. You should now be back in the **Session settings** window. Click the **OK** button to initiate your SSH connection. A terminal window will be displayed asking for your password; enter your NCSA (kerberos) password and hit **Enter**.
