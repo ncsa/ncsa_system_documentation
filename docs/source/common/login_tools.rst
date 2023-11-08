@@ -167,18 +167,17 @@ One-time SSH Configuration
 
 #. After pasting the above lines into the file, use the arrow keys to position your cursor and replace the below inputs:
 
+   - [If you are *not* logging into Nightingale]: Replace **ng-login01** with the name of the head node you are logging into.   
    - Replace **YOUR_USERNAME** with your NCSA identity username. 
-   - Replace **ngale-bastion-1.ncsa.illinois.edu** with the node hostname you want to log into:
+   - [If you are *not* logging into Nightingale]: Replace **ng-login01.ngale.internal.ncsa.edu** with the node hostname you are logging into:
 
      - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
      - `Delta node hostnames <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
      - Hydro node hostnames
-     - `Nightingale node hostnames <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/accessing.html#node-hostnames>`_
 
+   [**Nightingale only**] If you have an interactive node assigned to you on Nightingale, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
 
-If you have an interactive node assigned to you, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
-
-   For example, a user with username "hirop" with the assigned node "ng-gpu-x07" would have the below configuration file.  
+   For example, a user with username "hirop" with the assigned node "ng-gpu-x07" on Nightingale would have the below configuration file.  
 
    .. code-block::
 
@@ -205,12 +204,12 @@ If you have an interactive node assigned to you, you can add another copy of the
 
 #. Hit **control-X** to exit the editor, and you are back at the prompt.  
       
-Logging Into Nightingale
+Logging Into the System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
       
 Once the above, one-time, steps are complete, follow the below steps each time you want to log into a resource to work.
 
-#. Type the following at the prompt (if you are logging into an interactive node, replace "ng-login01" with the name of that interactive node):
+#. Type the following at the prompt, replacing "ng-login01" with the name of the node you are logging into:
 
    ``ssh -X ng-login01``
 
@@ -228,7 +227,7 @@ Once the above, one-time, steps are complete, follow the below steps each time y
 
 #. Again enter your NCSA password at the prompt. You again **won't see your characters** echoed to the screen; just type it blindly.  
 
-#. You should now be at a prompt that reflects that you are on a Nightingale node. You will know this because the prompt (the bottom line in your terminal or SSH window) will contain the name of the machine you are working on, and that should begin with "ng-" for "NightinGale". It will look something like this: 
+#. You should now be at a prompt that reflects that you are on a node for the system. You will know this because the prompt (the bottom line in your terminal or SSH window) will contain the name of the machine you are working on; that should begin with "ng-" for Nightingale, "??-" for Delta, "??-" for ICC, and "??-" for Hydro. It will look something like this: 
 
    .. code-block::
 
@@ -250,4 +249,4 @@ Open OnDemand is a graphical login client that creates an entire Linux virtual d
 
 Thinlinc
 ----------------
-Thinlinc is a graphical login client that creates an entire Linux virtual desktop in a browser tab.  It is available on select NCSA systmems.  
+Thinlinc is a graphical login client that creates an entire Linux virtual desktop in a browser tab.  It is available on select NCSA systems.  
