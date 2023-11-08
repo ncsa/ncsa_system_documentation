@@ -89,7 +89,7 @@ This section is the one-time setup on your Windows machine so that it can connec
 
 #. You should now be back in the **Session settings** window. Click the **OK** button to initiate your SSH connection. A terminal window will be displayed asking for your password; enter your NCSA (kerberos) password and hit **Enter**.
 
-Logging Into Nightingale
+Logging Into the System
 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 Once the above, one-time, steps are complete, follow the below steps each time you want to log into a resource to work.
@@ -120,7 +120,7 @@ Mac OS X comes with a built-in open-source version of SSH called OpenSSH. You ca
 One-time X Window Software Install
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to use an application from a resource and have its windows on your own computer, before logging in, install XQuartz on your Mac OS system. You can `download it here <https://www.xquartz.org/>`_.  
+If you want to use an application from a resource and have its windows on your own computer, before logging in, install XQuartz on your Mac OS system. You can `download XQuartz here <https://www.xquartz.org/>`_.  
 
 One-time SSH Configuration 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -165,7 +165,18 @@ One-time SSH Configuration
         ProxyJump ngb1
         User YOUR_USERNAME
 
-#. After pasting the above lines into the file, use the arrow keys to position your cursor and replace "YOUR_USERNAME" with your NCSA identity username. If you have an interactive node assigned to you, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
+#. After pasting the above lines into the file, use the arrow keys to position your cursor and replace the below inputs:
+
+   - Replace **YOUR_USERNAME** with your NCSA identity username. 
+   - Replace **ngale-bastion-1.ncsa.illinois.edu** with the node hostname you want to log into:
+
+     - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
+     - `Delta node hostnames <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
+     - Hydro node hostnames
+     - `Nightingale node hostnames <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+
+If you have an interactive node assigned to you, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
 
    For example, a user with username "hirop" with the assigned node "ng-gpu-x07" would have the below configuration file.  
 
