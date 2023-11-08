@@ -1,0 +1,15 @@
+https://docs.ncsa.illinois.edu/en/latest/
+https://docs.ncsa.illinois.edu/en/latest/training.html
+https://docs.ncsa.illinois.edu/en/latest/help.html
+
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/status_updates.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/quick_start.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/faq.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/help.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/architecture.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/accessing.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/prog_env.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/troubleshoot.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/external_resources.html
+https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/acknowledge.html
