@@ -76,7 +76,7 @@ Once your identity is linked (above), then do the following to transfer files us
 
    .. figure:: images/transfer/globus-file-manager-transfer-window.png
       :alt: Globus file manager tansfer window.
-      :width: 800
-      :figwidth: 900
+      :width: 1000
+      :figwidth: 1100
 
 |
