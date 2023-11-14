@@ -53,9 +53,10 @@ Scheduler
 
 For information, see the Slurm quick reference guide: https://slurm.schedmd.com/quickstart.html
 
-..  image:: images/running_jobs/slurm_summary.pdf
+..  figure:: images/slurm/slurm_summary.pdf
     :alt: Slurm quick reference guide
     :width: 500
+    :figwidth: 600
 
 .. _partitions:
 
@@ -113,9 +114,10 @@ Delta Production Partitions/Queues
 sview View of Slurm Partitions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-..  image:: images/running_jobs/sview_sinfo.png
+..  figure:: images/slurm/sview_sinfo.png
     :alt: sview view of Slurm partitions
     :width: 500
+    :figwidth: 600
 
 Node Policies
 ~~~~~~~~~~~~~
@@ -234,7 +236,7 @@ When finished, use the ``exit`` command to end the bash shell on the compute res
 .. _salloc:
 
 salloc
-~~~~~
+~~~~~~~
 
 While being interactive like ``srun``, ``salloc`` allocates compute resources for you, while leaving your shell on the login node.  Run commands on the login node as usual, use``exit`` to end an salloc session early, and use srun with no extra flags to launch processes on the compute resources.
 
@@ -338,27 +340,31 @@ You have SSH access to nodes in your running job(s). Some of the basic monitorin
 
 nvidia-smi:
 
-..  image:: images/running_jobs/01_nvidia-smi.png
+..  figure:: images/slurm/01_nvidia-smi.png
     :alt: nvidia smi
-    :width: 1000px
+    :width: 1000
+    :figwidth: 1100
 
 nvtop:
 
-..  image:: images/running_jobs/02_nvtop.png
+..  figure:: images/slurm/02_nvtop.png
     :alt: nvtop
-    :width: 1000px
+    :width: 1000
+    :figwidth: 1100
 
 nvitop:
 
-..  image:: images/running_jobs/03_nvitop.png
+..  figure:: images/slurm/03_nvitop.png
     :alt: nvitop
-    :width: 1000px
+    :width: 1000
+    :figwidth: 1100
 
 top -u $USER:
 
-..  image:: images/running_jobs/04_top.png
+..  figure:: images/slurm/04_top.png
     :alt: top
-    :width: 1000px
+    :width: 1000
+    :figwidth: 1100
 
 Monitoring Nodes Using Grafana
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -367,21 +373,24 @@ Monitoring Nodes Using Grafana
 
 #. Sign in (top-right).
 
-   .. image:: images/running_jobs/metrics_signin_icon.png
-      :alt: sign in icon
-      :width: 400
+   ..  figure:: images/slurm/metrics_signin_icon.png
+       :alt: sign in icon
+       :width: 400
+       :figwidth: 500
 
 #. Navigate to the Delta metrics of interest.
 
-   ..  image:: images/running_jobs/06_grafana_metrics_home.png
+   ..  figure:: images/slurm/06_grafana_metrics_home.png
        :alt: metrics home
-       :width: 1000px
+       :width: 1000
+       :figwidth: 1100
 
    You may choose a node from the list of nodes and get detailed information in real time.
 
-   ..  image:: images/running_jobs/07_grafana_metrics_details.png
+   ..  figure:: images/slurm/07_grafana_metrics_details.png
        :alt: get detailed info
-       :width: 1000px
+       :width: 1000
+       :figwidth: 1100
 
 Interactive Sessions
 -------------------------
