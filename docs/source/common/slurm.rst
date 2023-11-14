@@ -11,20 +11,18 @@ Accessing the Compute Nodes
 -------------------------------
 
 Use the Slurm commands to run batch jobs or for interactive access to compute nodes. 
-See: https://slurm.schedmd.com/quickstart.html for an introduction to Slurm. 
-There are multiple ways to access compute nodes on Delta.
+See the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
 
-Batch scripts (sbatch) or Interactive (srun , salloc), which is right for me?
+Batch scripts (sbatch) or Interactive (srun , salloc), which is right for you?
 
-- :ref:`sbatch` . Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
+- :ref:`sbatch`: Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
   Sample Slurm batch job scripts are provided in the :ref:`examples` section.
-  For mixed resource heterogeneous jobs see: https://slurm.schedmd.com/heterogeneous_jobs.html#submitting. 
-  Slurm also supports job arrays for easy management of a set of similar jobs, see:   https://slurm.schedmd.com/job_array.html.
+  For mixed resource heterogeneous jobs see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
+  Slurm also supports job arrays for easy management of a set of similar jobs, see the `Slurm job arrays documentation <https://slurm.schedmd.com/job_array.html>`_.
 
-- :ref:`srun` . For interactive use of a compute node, srun will run a single command through slurm on a compute node. srun blocks, it will wait until slurm has scheduled compute resources, and when it returns, the job is complete.
+- :ref:`srun`: For interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
 
-- :ref:`salloc` . Also interactive, use salloc when you want to reserve compute resources for a period of time and interact with them using multiple commands.  Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with srun.  Type ``exit`` when finished with an salloc allocation if you want to end it before the time expires.
-
+- :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Type **exit** when finished with an salloc allocation if you want to end it before the time expires.
 
 Direct SSH access to a compute node in a running job from a dt-loginNN node is enabled once the job has started:
 
@@ -63,53 +61,10 @@ For information, see the Slurm quick reference guide: https://slurm.schedmd.com/
 Partitions (Queues)
 -----------------------
 
-Delta Production Default Partition Values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-======================= ==================
-Property                Value
-======================= ==================
-Default Memory per core 1000 MB
-Default Wall-clock time 30 minutes
-======================= ==================
-
-Delta Production Partitions/Queues
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| Partition/Queue       | Node Type | Max Nodes         | Max Duration | Max Running in            | Charge Factor |
-|                       |           |                   |              |                           |               |
-|                       |           | per Job           |              | Queue/user*               |               |
-+=======================+===========+===================+==============+===========================+===============+
-| cpu                   | CPU       | TBD               | 48 hr        | TBD                       | 1.0           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| cpu-interactive       | CPU       | TBD               | 30 min       | TBD                       | 2.0           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuA100x4             | quad-A100 | TBD               | 48 hr        | TBD                       | 1.0           |
-|                       |           |                   |              |                           |               |
-| gpuA100x4*            |           |                   |              |                           |               |
-|                       |           |                   |              |                           |               |
-| (* indicates this     |           |                   |              |                           |               |
-| is the default        |           |                   |              |                           |               |
-|                       |           |                   |              |                           |               |
-| queue, but submit jobs|           |                   |              |                           |               |
-|                       |           |                   |              |                           |               |
-| to gpuA100x4)         |           |                   |              |                           |               |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuA100x4-interactive | quad-A100 | TBD               | 1 hr         | TBD                       | 2.0           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuA100x8             | octa-A100 | TBD               | 48 hr        | TBD                       | 1.5           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuA100x8-interactive | octa-A100 | TBD               | 1 hr         | TBD                       | 3.0           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuA40x4              | quad-A40  | TBD               | 48 hr        | TBD                       | 0.5           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuA40x4-interactive  | quad-A40  | TBD               | 1 hr         | TBD                       | 1.0           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuMI100x8            | octa-MI100| TBD               | 48 hr        | TBD                       | 0.25          |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
-| gpuMI100x8-interactive| octa-MI100| TBD               | 1 hr         | TBD                       | 0.5           |
-+-----------------------+-----------+-------------------+--------------+---------------------------+---------------+
+- `Delta Queues <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#partitions-queues>`_
+- `Hydro Queues <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/partitions_and_job_policies.html#partitions-queues>`_
+- `ICC Queues <https://docs.ncsa.illinois.edu/systems/icc/en/proposed_changes/user_guide/running_jobs.html#queues>`_
+- `Nightingale Queues <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/running_jobs.html#nightingale-queues>`_
 
 sview View of Slurm Partitions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
