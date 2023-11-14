@@ -5,18 +5,27 @@ Third-Party Software
 
 Documentation on third-party software that is supported on NCSA computing resources.
 
-.. toctree::
-   :maxdepth: 2
+Abaqus
+---------
 
-   abaqus
-   ansys
-   fluent
-   gurobi
-   matlab
+`Abaqus <https://www.3ds.com/products-services/simulia/products/abaqus/>`_ finite element analysis (FEA) software. License access provided by request.
 
+Ansys
+-------
 
-- gurobi - free academic site license available for Delta/Hydro and other *.ncsa.illinois.edu systems, and separately for ICC 
-- matlab - installed on Hydro, Delta and ICC but no license provided. can point to campus license
-- abaqus - license access by request
-- fluent - license access by request
-- ansys - license access by request
+`Ansys <https://www.ansys.com>`_ engineering simulation and 3D design software. License access provided by request.
+
+Ansys Fluent
+-------------
+
+`Ansys Fluent <https://www.ansys.com/products/fluids/ansys-fluent>`_ fluid simulation software. License access provided by request.
+
+Gurobi Optimizer
+------------------
+
+`Gurobi Optimizer <https://www.gurobi.com>`_ prescriptive analytics platform. Free academic license available for Delta, Hydro, and other .ncsa.illinois.edu systems; also available separately for ICC.
+
+MATLAB
+-------
+
+`MATLAB <https://www.mathworks.com/products/matlab.html>`_ numeri computing environment. Installed on Delta, Hydro, and ICC but **no license** provided. License are available to students, faculty, and staff through the `WebStore <https://webstore.illinois.edu/home/>`_.
