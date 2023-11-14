@@ -1,24 +1,24 @@
 .. _licensed:
 
 Third-Party Software
-=========================================
+=======================
 
-Documentation on third-party software that is supported on NCSA computing resources.
+Third-party software that is supported on NCSA computing resources.
 
 Abaqus
 ---------
 
-`Abaqus <https://www.3ds.com/products-services/simulia/products/abaqus/>`_ finite element analysis (FEA) software. License access provided by request.
+`Abaqus <https://www.3ds.com/products-services/simulia/products/abaqus/>`_ finite element analysis (FEA) software. License access provided by request (:ref:`help`).
 
 Ansys
 -------
 
-`Ansys <https://www.ansys.com>`_ engineering simulation and 3D design software. License access provided by request.
+`Ansys <https://www.ansys.com>`_ engineering simulation and 3D design software. License access provided by request (:ref:`help`).
 
 Ansys Fluent
 -------------
 
-`Ansys Fluent <https://www.ansys.com/products/fluids/ansys-fluent>`_ fluid simulation software. License access provided by request.
+`Ansys Fluent <https://www.ansys.com/products/fluids/ansys-fluent>`_ fluid simulation software. License access provided by request (:ref:`help`).
 
 Gurobi Optimizer
 ------------------
