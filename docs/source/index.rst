@@ -65,9 +65,9 @@ More Documentation
       :caption: More Documentation
       :hidden:
 
-      system_generic/index
-      Licensed Software <licensed_software/index>
-      legacy_apps/index
+      common/index
+      Third-Party Software <software/index>
+      historical/index
 
 ==============
 
