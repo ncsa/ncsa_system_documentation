@@ -28,4 +28,4 @@ Gurobi Optimizer
 MATLAB
 -------
 
-`MATLAB <https://www.mathworks.com/products/matlab.html>`_ numeri computing environment. Installed on Delta, Hydro, and ICC but **no license** provided. License are available to students, faculty, and staff through the `WebStore <https://webstore.illinois.edu/home/>`_.
+`MATLAB <https://www.mathworks.com/products/matlab.html>`_ numeric computing environment. Installed on Delta, Hydro, and ICC but **no license** provided. License are available to students, faculty, and staff through the `WebStore <https://webstore.illinois.edu/home/>`_.
