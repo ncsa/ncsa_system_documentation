@@ -1,6 +1,6 @@
-.. _general:
+.. _common:
 
-General System Documentation
+Common System Documentation
 ==============================
 
 Documentation on topics that are applicable across multiple NCSA computing resources.
