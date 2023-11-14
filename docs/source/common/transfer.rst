@@ -34,33 +34,49 @@ Once your identity is linked (above), then do the following to transfer files us
 
 #. If prompted click **Allow** when asked to authorized the Globus Web App.
 
-   .. image:: images/file_mgmt/Screen-Shot-2021-01-19-at-9.22.30-PM-768x506.png
+   .. figure:: images/transfer/globus-web-app-info-and-services.png
       :alt: Globus Web App authorization prompt.
+      :width: 500
+      :figwidth: 600
 
 #. Once logged in, you should be taken to the **File Manager** section. On one side, search for "ngale" and click on the **ncsa#ngale** endpoint from the resulting list.
 
-   .. image:: images/file_mgmt/ngale_globus_ngale_endpoint.png
+   .. figure:: images/transfer/globus-file-manager-collection-search.png
       :alt: Globus file manager "nagle" search results.
+      :width: 400
+      :figwidth: 500
 
 #. The system will prompt you to Authenticate to the endpoint, click **Continue**. 
 
-   .. image:: images/file_mgmt/Screen-Shot-2021-01-19-at-9.23.26-PM-768x299.png
+   .. figure:: images/transfer/globus-authentication-consent.png
       :alt: Globus authentication/consent required prompt.
+      :width: 500
+      :figwidth: 600
 
 #. If Globus prompts you to link your netid@illinois.edu identity, go ahead and do so. You will need to provide your NCSA Duo authority here.  
 
-   .. image:: images/file_mgmt/Screen-Shot-2021-01-19-at-9.51.47-PM-768x280.png
+   .. figure:: images/transfer/globus-identity-required.png
       :alt: Globus link your @illinois.edu identity prompt.
+      :width: 500
+      :figwidth: 600
 
-   .. image:: images/file_mgmt/Screen-Shot-2021-01-19-at-9.52.00-PM-768x657.png
+   .. figure:: images/transfer/globus-web-app-info-and-services-il-research-storage.png
       :alt: Globus Web App authorization prompt
+      :width: 500
+      :figwidth: 600
 
 #. You should then be returned to the **File Manger** view. You can navigate from there to your home directory, under **/u**, or to your project directory, under **/projects**.  
 
-   .. image:: images/file_mgmt/ng_globus_system_dir.png
+   .. figure:: images/transfer/globus-file-manager.png
       :alt: Globus file manager view showing home and project directories.
+      :width: 400
+      :figwidth: 500
 
 #. In a similar manner (in the right half of the **File Manger** view), search for and authenticate to the collection you are planning to transfer data to/from. Then use the GUI to transfer the data; you can choose transfer settings. You can click on the **Activity* button on the left to view your current transfer activity.
 
-   .. image:: images/file_mgmt/Screen-Shot-2021-01-19-at-9.39.22-PM-1024x141.png
+   .. figure:: images/transfer/globus-file-manager-transfer-window.png
       :alt: Globus file manager tansfer window.
+      :width: 700
+      :figwidth: 800
+
+|
