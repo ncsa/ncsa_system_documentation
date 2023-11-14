@@ -84,24 +84,6 @@ Node-exclusive mode can be obtained by specifying all the consumable resources f
 
    --exclusive --mem=0
 
-GPU NVIDIA MIG (GPU slicing) for the A100 will be supported at a future date.
-
-Pre-emptive jobs will be supported at a future date.
-
-Job Policies
-----------------
-
-The default job requeue or restart policy is set to not allow jobs to be automatically requeued or restarted (as of 12/19/2022).
-To enable automatic requeue and restart of a job by Slurm, please add the following Slurm directive:
-
-.. code-block::
-
-   --requeue 
-
-When a job is requeued due to an event like a node failure, the batch script is initiated from its beginning. 
-Job scripts need to be written to handle automatically restarting from checkpoints.
-
-
 .. _job_mgmt:
 
 Job Management
@@ -113,10 +95,68 @@ sbatch
 ~~~~~~
 
 Batch jobs are submitted through a *job script* (as in the :ref:`examples`) using the ``sbatch`` command. 
-Job scripts generally start with a series of Slurm *directives* that describe requirements of the job, such as number of nodes and wall time required, to the batch system/scheduler (Slurm directives can also be specified as options on the sbatch command line; command line options take precedence over those in the script). 
+Job scripts generally start with a series of Slurm *directives* that describe requirements of the job, such as number of nodes and wall time required, to the batch system/scheduler. Slurm directives can also be specified as options on the sbatch command line; command line options take precedence over those in the script. 
 The rest of the batch script consists of user commands.
 
-The syntax for sbatch is: ``sbatch [list of sbatch options] script_name``. Refer to the sbatch man page for detailed information on the options.
+The syntax for submitting a batch job with ``sbatch`` is:
+
+.. code-block::
+
+  sbatch [list of sbatch options] script_name
+
+The main ``sbatch`` options are listed below. 
+
++-------------------------+------------------------------------------------------------------+
+| Option                  | Description                                                      |
++=========================+==================================================================+
+| ``--time=time``         | time = maximum wall clock time (d-hh:mm:ss) [default: 30 minutes]|
++-------------------------+------------------------------------------------------------------+
+| ``--nodes=n``           | Total number of nodes for the batch job.                         |
+|                         |                                                                  |
+|                         | n = number of 64-core nodes [default: 1 node]                    |
++-------------------------+------------------------------------------------------------------+
+| ``--ntasks=p``          | Total number of cores for the batch job.                         |
+|                         |                                                                  |
+|                         | p = number of cores per job to use (1 - 64) [default: 1 core]    |
++-------------------------+------------------------------------------------------------------+
+| ``--ntasks-per-node=p`` | Number of cores per node.                                        |
+|                         |                                                                  |
+|                         | p = number of cores per node to use (1 - 64) [default: 1 core]   |
++-------------------------+------------------------------------------------------------------+
+
+**Example:**
+
+.. code-block::
+
+   --time=00:30:00 
+   --nodes=2 
+   --ntasks=32
+
+or 
+
+.. code-block::
+
+   --time=00:30:00 
+   --nodes=2 
+   --ntasks-per-node=16
+
+See the ``sbatch`` man page for additional information.
+
+squeue
+~~~~~~~
+
+The ``squeue`` command is used to pull up information about batch jobs submitted to the batch system. By default, the ``squeue`` command will print out the JobID,  partition, username, job status, number of nodes, and name of nodes for all batch jobs queued or running within batch system.
+
+============================ ============
+Slurm Command                Description
+============================ ============
+``squeue -a``                List the status of all batch jobs in the batch system.
+``squeue -u $USER``          List the status of all your batch jobs in the batch system.
+``squeue -j JobID``          List nodes allocated to a specific running batch job in addition to basic information.
+``scontrol show job JobID``  List detailed information on a particular batch job.
+============================ ============
+
+See the squeue man page for other available options.
 
 .. code-block::
 
@@ -126,74 +166,108 @@ The syntax for sbatch is: ``sbatch [list of sbatch options] script_name``. Refer
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
            2337924 cpu-inter    tfcpu  mylogin  R       0:46      1 cn006
 
-squeue/scontrol/sinfo
-~~~~~~~~~~~~~~~~~~~~~
+sinfo
+~~~~~~
 
-Commands that display batch job and partition information.
+The ``sinfo`` command is used to view partition and node information for a system running Slurm.
+
++------------------------+----------------------------------------------------------+
+| Slurm Command          | Description                                              |
++========================+==========================================================+
+| ``sinfo -a``           | List summary information on all the partitions (queues). |
++------------------------+----------------------------------------------------------+
+| ``sinfo -p PRTN_NAME`` | Print information only about the specified partition(s). |
+|                        |                                                          |
+|                        | Multiple partitions are separated by commas.             |
++------------------------+----------------------------------------------------------+
+
+See the sinfo man page for other available options (``man sinfo``).
+
+scontrol
+~~~~~~~~~
+
+The ``scontrol`` command can be used to view detailed information on a particular job.
 
 +-------------------------+-------------------------------------------+
 | Slurm Example Command   | Description                               |
 +=========================+===========================================+
-| squeue -a               | Lists the status of all jobs on the       |
-|                         | system.                                   |
-+-------------------------+-------------------------------------------+
-| squeue -u $USER         | Lists the status of all your jobs in the  |
-|                         | batch system.                             |
-+-------------------------+-------------------------------------------+
-| squeue -j JobID         | Lists nodes allocated to a running job in |
-|                         | addition to basic information..           |
-+-------------------------+-------------------------------------------+
 | scontrol show job JobID | Lists detailed information on a particular|
 |                         | job.                                      |
 +-------------------------+-------------------------------------------+
-| sinfo -a                | Lists summary information on all the      |
-|                         | partition.                                |
-+-------------------------+-------------------------------------------+
 
-See the man pages for other available options.
+See the scontrol man page for other available options. Note that most of the scontrol options can only be executed by user root or an administrator.
 
 .. _srun:
 
 srun
-~~~~~
+~~~~~~
 
-The **srun** command initiates an interactive job or process on compute nodes.
+.. _interactive:
 
-For example, the following command will run an interactive job in the gpuA100x4 or gpuA40x4 partition with a wall-clock time limit of 30 minutes, using one node and 16 cores per node and 1 GPU:
+Command Line
+$$$$$$$$$$$$$$$
+
+Instead of queuing up a batch job to run on the compute nodes, you can request that the job scheduler allocate you to a compute node **now** and log you onto it. These are called **interactive batch jobs**. Projects that have dedicated interactive nodes, do not need to go through the scheduler; members of these projects just log in directly to their nodes.
+
+To launch an interactive batch job using the job scheduler with the default values for the job resources (nodes, cores, memory, and so on), run the following command, replacing **ALL_ACCT**, with the name of your allocation account:
 
 .. code-block::
 
-   srun -A account_name --time=00:30:00 --nodes=1 --ntasks-per-node=16 \
+   srun -A ALL_ACCT --pty bash 
+
+.. warning::
+   End the interactive job **as soon as you're done**, by typing ``exit``. If you leave the job running, even if you are not running any processes, your allocation account is being charged for the time.
+
+To specify resources for your interactive batch job the ``srun`` command syntax should look similar to the following, replacing **ACCT_NAME** with the name of your charge account. This example will run an interactive batch job in the CPU partition (queue) with a wall clock limit of **30 minutes**, using **one node** and **16 cores per node**. You can also use other ``sbatch`` options:
+
+.. code-block::
+
+  srun --account=ACCT_NAME --partition=cpu --time=00:30:00 --nodes=1 --ntasks-per-node=16 --pty /bin/bash
+
+As another example, the following command will run an interactive job, on **Delta**, in the gpuA100x4 or gpuA40x4 partition with a wall-clock time limit of 30 minutes, using one node and 16 cores per node and 1 GPU:
+
+.. code-block::
+
+   srun -A ALL_ACCT --time=00:30:00 --nodes=1 --ntasks-per-node=16 \
    --partition=gpuA100x4,gpuA40x4 --gpus=1 --mem=16g --pty /bin/bash
 
-After entering the command, wait for Slurm to start the job. 
-As with any job, an interactive job is queued until the specified number of nodes is available. 
-Specifying a small number of nodes for smaller amounts of time should shorten the wait time because such jobs will backfill among larger jobs. 
-You will see something like this:
+After you enter the command, you will have to wait for Slurm to start the job. You will see output similar to:
 
 .. code-block::
 
-   $ srun --mem=16g --nodes=1 --ntasks-per-node=1 --cpus-per-task=4 \
-   --partition=gpuA100x4-interactive,gpuA40x4-interactive --account=bbka-delta-gpu \
-   --gpus-per-node=1 --time=00:30:00 --x11 --pty /bin/bash
-   [login_name@gpua022 bin]$  #<-- note the compute node name in the shell prompt
-   [login_name@gpua022 bin]$ echo $SLURM_JOB_ID
-   2337913
-   [login_name@gpua022 ~]$ c/a.out 500
-   count=500
-   sum= 0.516221
-   [login_name@gpua022 ~]$ exit
-   exit
-   $ 
+   srun: job 123456 queued and waiting for resources
 
-When finished, use the ``exit`` command to end the bash shell on the compute resource and hence the slurm srun job.
+Specifying a small number of nodes for smaller amounts of time should shorten the wait time because such jobs will backfill among larger jobs. Once the job starts, you will see something similar to the below and will be presented with an interactive shell prompt on the launch node. At this point, you can use the appropriate command(s) to start your program.
+
+.. code-block::
+
+   srun: job 123456 has been allocated resources
+
+When you are done with your interactive batch job session, use the ``exit`` command to end the job.
+
+Batch Script
+$$$$$$$$$$$$$$
+
+Inside a batch script if you want to run multiple copies of a program you can use the ``srun`` command followed by the name of the executable: 
+
+.. code-block::
+
+   srun ./a.out
+
+By default, the total number of copies run is equal to number of cores specified in the batch job resource specification.
+You can use the ``-n``  flag/option with the ``srun`` command to specify the number of copies of a program that you would like to run; the value for the ``-n`` flag/option must be less than or equal to the number of cores specified for the batch job.
+
+.. code-block::
+
+   srun -n 10 ./a.out
+
 
 .. _salloc:
 
 salloc
 ~~~~~~~
 
-While being interactive like ``srun``, ``salloc`` allocates compute resources for you, while leaving your shell on the login node.  Run commands on the login node as usual, use``exit`` to end an salloc session early, and use srun with no extra flags to launch processes on the compute resources.
+While interactive like ``srun``, ``salloc`` allocates compute resources for you, while leaving your shell on the login node. Run commands on the login node as usual, use ``exit`` to end a salloc session early, and use ``srun`` with no extra flags to launch processes on the compute resources.
 
 .. code-block::
 
@@ -224,20 +298,31 @@ While being interactive like ``srun``, ``salloc`` allocates compute resources fo
    $ exit
    salloc: Relinquishing job allocation 2323230
 
-
 scancel
 ~~~~~~~~
 
-The scancel command deletes a queued job or terminates a running job. The example below deletes/terminates the job with the associated JobID.
+The ``scancel`` command deletes a queued job or ends a running job.
 
-.. code-block::
++------------------------------+--------------------------------------------------------------------------+
+| Slurm Command                | Description                                                              |
++==============================+==========================================================================+
+| ``scancel JobID``            | To delete/end a specific batch job                                       |
++------------------------------+--------------------------------------------------------------------------+
+| ``scancel JobID01, JobID02`` | To delete/end multiple batch jobs, use a comma-separated list of JobIDs  |
++------------------------------+--------------------------------------------------------------------------+
+| ``scancel -u $USER``         | To delete/end all your batch jobs (removes all your batch jobs from      |
+|                              |                                                                          |
+|                              | the batch system regardless of the batch job’s state)                    |
++------------------------------+--------------------------------------------------------------------------+
+| ``scancel --name JobName``   | To delete/end multiple batch jobs based on the batch job’s name          |
++------------------------------+--------------------------------------------------------------------------+
 
-   scancel JobID 
+See the scancel man page for other available options.
 
 Job Status
 ~~~~~~~~~~~
 
-If the NODELIST(REASON) is MaxGRESPerAccount, that means that a user has exceeded the number of cores or GPUs allotted per user or project for a given partition.
+If the **NODELIST(REASON)** is **MaxGRESPerAccount**, that means that a user has exceeded the number of cores or GPUs allotted per user or project for a given partition.
 
 Useful Batch Job Environment Variables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -333,7 +418,7 @@ Monitoring Nodes Using Grafana
        :width: 400
        :figwidth: 500
 
-#. Navigate to the Delta metrics of interest.
+#. Navigate to the metrics of interest.
 
    ..  figure:: images/slurm/06_grafana_metrics_home.png
        :alt: metrics home
@@ -373,9 +458,9 @@ Interactive sessions can be implemented in several ways, depending on what is ne
 MPI Interactive Jobs: Use salloc Followed by srun
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Interactive jobs are already a child process of srun, therefore, one cannot srun (or mpirun) applications from within them. 
-Within standard batch jobs submitted via sbatch, use ``srun`` to launch MPI codes. 
-For true interactive MPI, use ``salloc`` in place of srun shown above, then "srun my_mpi.exe" after you get a prompt from salloc (exit to end the salloc interactive allocation).
+Interactive jobs are already a child process of ``srun``, therefore, one cannot srun (or mpirun) applications from within them. 
+Within standard batch jobs submitted via ``sbatch``, use ``srun`` to launch MPI codes. 
+For true interactive MPI, use ``salloc`` in place of srun shown above, then **srun my_mpi.exe** after you get a prompt from salloc (``exit`` to end the salloc interactive allocation).
 
 .. raw:: html
 
@@ -432,7 +517,7 @@ For true interactive MPI, use ``salloc`` in place of srun shown above, then "sru
 Interactive X11 Support
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-To run an X11 based application on a compute node in an interactive session, the use of the ``--x11`` switch with ``srun`` is needed. 
+To run an X11 based application on a compute node in an interactive session, the use of the **--x11** switch with ``srun`` is needed. 
 For example, to run a single core job that uses 1G of memory with X11 (in this case an xterm) do the following:
 
 .. code-block::
@@ -457,202 +542,6 @@ Jobs that do not specify a dependency on WORK (/projects) and SCRATCH (/scratch)
 Sample Scripts
 ----------------
 
-Serial Jobs on CPU Nodes
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-   <details open>
-   <summary><a><b>serial example script</b> <i>(click to expand/collapse)</i></a></summary>
-
-.. code-block::
-
-   $ cat job.slurm
-   #!/bin/bash
-   #SBATCH --mem=16g
-   #SBATCH --nodes=1
-   #SBATCH --ntasks-per-node=1
-   #SBATCH --cpus-per-task=4    # <- match to OMP_NUM_THREADS
-   #SBATCH --partition=cpu      # <- or one of: gpuA100x4 gpuA40x4 gpuA100x8 gpuMI100x8
-   #SBATCH --account=account_name
-   #SBATCH --job-name=myjobtest
-   #SBATCH --time=00:10:00      # hh:mm:ss for the job
-   #SBATCH --constraint="scratch"
-   ### GPU options ###
-   ##SBATCH --gpus-per-node=2
-   ##SBATCH --gpu-bind=none     # <- or closest
-   ##SBATCH --mail-user=you@yourinstitution.edu
-   ##SBATCH --mail-type="BEGIN,END" See sbatch or srun man pages for more email options
-
-
-   module reset # drop modules and explicitly load the ones needed
-                # (good job metadata and reproducibility)
-                # $WORK and $SCRATCH are now set
-   module load python  # ... or any appropriate modules
-   module list  # job documentation and metadata
-   echo "job is starting on `hostname`"
-   srun python3 myprog.py
-
-.. raw:: html
-
-   </details>
-|
-
-MPI on CPU Nodes
-~~~~~~~~~~~~~~~~
-
-.. raw:: html
-   
-   <details>
-   <summary><a><b>mpi example script</b> <i>(click to expand/collapse)</i></a></summary>
-
-.. code-block::
-
-   #!/bin/bash
-   #SBATCH --mem=16g
-   #SBATCH --nodes=2
-   #SBATCH --ntasks-per-node=32
-   #SBATCH --cpus-per-task=2    # <- match to OMP_NUM_THREADS
-   #SBATCH --partition=cpu      # <- or one of: gpuA100x4 gpuA40x4 gpuA100x8 gpuMI100x8
-   #SBATCH --account=account_name
-   #SBATCH --job-name=mympi
-   #SBATCH --time=00:10:00      # hh:mm:ss for the job
-   #SBATCH --constraint="scratch"
-   ### GPU options ###
-   ##SBATCH --gpus-per-node=2
-   ##SBATCH --gpu-bind=none     # <- or closest ##SBATCH --mail-user=you@yourinstitution.edu
-   ##SBATCH --mail-type="BEGIN,END" See sbatch or srun man pages for more email options
-
-   module reset # drop modules and explicitly load the ones needed
-                # (good job metadata and reproducibility)
-                # $WORK and $SCRATCH are now set
-   module load gcc/11.2.0 openmpi  # ... or any appropriate modules
-   module list  # job documentation and metadata
-   echo "job is starting on `hostname`"
-   srun osu_reduce
-
-.. raw:: html
-
-   </details>
-|
-
-OpenMP on CPU Nodes
-~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-   <details>
-   <summary><a><b>openmp example script</b> <i>(click to expand/collapse)</i></a></summary>
-
-.. code-block::
-
-   #!/bin/bash
-   #SBATCH --mem=16g
-   #SBATCH --nodes=1
-   #SBATCH --ntasks-per-node=1
-   #SBATCH --cpus-per-task=32   # <- match to OMP_NUM_THREADS
-   #SBATCH --partition=cpu      # <- or one of: gpuA100x4 gpuA40x4 gpuA100x8 gpuMI100x8
-   #SBATCH --account=account_name
-   #SBATCH --job-name=myopenmp
-   #SBATCH --time=00:10:00      # hh:mm:ss for the job
-   #SBATCH --constraint="scratch"
-   ### GPU options ###
-   ##SBATCH --gpus-per-node=2
-   ##SBATCH --gpu-bind=none     # <- or closest
-   ##SBATCH --mail-user=you@yourinstitution.edu
-   ##SBATCH --mail-type="BEGIN,END" See sbatch or srun man pages for more email options
-
-   module reset # drop modules and explicitly load the ones needed
-                # (good job metadata and reproducibility)
-                # $WORK and $SCRATCH are now set
-   module load gcc/11.2.0  # ... or any appropriate modules
-   module list  # job documentation and metadata
-   echo "job is starting on `hostname`"
-   export OMP_NUM_THREADS=32
-   srun stream_gcc 
-
-.. raw:: html
-
-   </details>
-|
-
-Hybrid (MPI + OpenMP or MPI+X) on CPU Nodes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-   <details>
-   <summary><a><b>mpi+x example script</b> <i>(click to expand/collapse)</i></a></summary>
-
-.. code-block::
-
-   #!/bin/bash
-   #SBATCH --mem=16g
-   #SBATCH --nodes=2
-   #SBATCH --ntasks-per-node=4
-   #SBATCH --cpus-per-task=4    # <- match to OMP_NUM_THREADS
-   #SBATCH --partition=cpu      # <- or one of: gpuA100x4 gpuA40x4 gpuA100x8 gpuMI100x8
-   #SBATCH --account=account_name
-   #SBATCH --job-name=mympi+x
-   #SBATCH --time=00:10:00      # hh:mm:ss for the job
-   #SBATCH --constraint="scratch"
-   ### GPU options ###
-   ##SBATCH --gpus-per-node=2
-   ##SBATCH --gpu-bind=none     # <- or closest
-   ##SBATCH --mail-user=you@yourinstitution.edu
-   ##SBATCH --mail-type="BEGIN,END" See sbatch or srun man pages for more email options
-
-   module reset # drop modules and explicitly load the ones needed
-                # (good job metadata and reproducibility)
-                # $WORK and $SCRATCH are now set
-   module load gcc/11.2.0 openmpi # ... or any appropriate modules
-   module list  # job documentation and metadata
-   echo "job is starting on `hostname`"
-   export OMP_NUM_THREADS=4
-   srun xthi 
-
-.. raw:: html
-
-   </details>
-|
-
-4 GPUs Together on a Compute Node
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-   <details>
-   <summary><a><b>4 gpus example script</b> <i>(click to expand/collapse)</i></a></summary>
-
-.. code-block::
-
-   #!/bin/bash
-   #SBATCH --job-name="a.out_symmetric"
-   #SBATCH --output="a.out.%j.%N.out"
-   #SBATCH --partition=gpuA100x4
-   #SBATCH --mem=208G
-   #SBATCH --nodes=1
-   #SBATCH --ntasks-per-node=4  # could be 1 for py-torch
-   #SBATCH --cpus-per-task=16   # spread out to use 1 core per numa, set to 64 if tasks is 1
-   #SBATCH --constraint="scratch"
-   #SBATCH --gpus-per-node=4
-   #SBATCH --gpu-bind=closest   # select a cpu close to gpu on pci bus topology
-   #SBATCH --account=bbjw-delta-gpu
-   #SBATCH --exclusive  # dedicated node for this job
-   #SBATCH --no-requeue
-   #SBATCH -t 04:00:00
-
-   export OMP_NUM_THREADS=1  # if code is not multithreaded, otherwise set to 8 or 16
-   srun -N 1 -n 4 ./a.out > myjob.out
-   # py-torch example, --ntasks-per-node=1 --cpus-per-task=64
-   # srun python3 multiple_gpu.py
-
-.. raw:: html
-
-   </details>
-|
-
-Parametric / Array / HTC Jobs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Not yet implemented.
+- `Delta sample scripts <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#sample-scripts>`_
+- `Hydro sample scripts <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/running.html#here-is-a-sample-batch-script>`_
+- `Nightingale sample scripts <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/running_jobs.html#sample-batch-scripts>`_
