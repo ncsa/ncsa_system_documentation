@@ -60,14 +60,14 @@ More Documentation
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
 
-..
-   .. toctree::
-      :caption: More Documentation
-      :hidden:
 
-      common/index
-      Third-Party Software <software/index>
-      historical/index
+.. toctree::
+   :caption: More Documentation
+   :hidden:
+
+   common/index
+   Third-Party Software <software/index>
+   historical/index
 
 ==============
 
