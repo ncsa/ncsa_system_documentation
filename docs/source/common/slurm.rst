@@ -140,7 +140,7 @@ or
    --nodes=2 
    --ntasks-per-node=16
 
-See the ``sbatch`` man page for additional information.
+See the sbatch `man page <https://en.wikipedia.org/wiki/Man_page>`_ for additional information.
 
 squeue
 ~~~~~~~
