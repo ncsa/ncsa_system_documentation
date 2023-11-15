@@ -11,8 +11,8 @@ Documentation on topics that are applicable across multiple NCSA computing resou
    login_tools
    keys
    slurm
-   acl
    transfer
+   acl
    aws_boto3python
    forge
    tmux
