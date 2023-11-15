@@ -54,21 +54,15 @@ See also, :ref:`mon_node`.
 Partitions (Queues)
 -----------------------
 
+Each resource has partitions (queues) with different specifications including maximum number of nodes, maximum wall time, and memory. Consult the documentation for your desired resource for more information on its queues.
+
 - `Delta Queues <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#partitions-queues>`_
 - `Hydro Queues <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/partitions_and_job_policies.html#partitions-queues>`_
 - `ICC Queues <https://docs.ncsa.illinois.edu/systems/icc/en/proposed_changes/user_guide/running_jobs.html#queues>`_
 - `Nightingale Queues <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/running_jobs.html#nightingale-queues>`_
 
-sview View of Slurm Partitions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-..  figure:: images/slurm/sview_sinfo.png
-    :alt: sview view of Slurm partitions
-    :width: 500
-    :figwidth: 600
-
 Node Sharing
-~~~~~~~~~~~~~
+--------------
 
 Node-sharing is the default for jobs. 
 Node-exclusive mode can be obtained by specifying all the consumable resources for that node type or adding the following Slurm options:
@@ -179,7 +173,7 @@ Specifying a small number of nodes for smaller amounts of time should shorten th
 When you are done with your interactive batch job session, use the ``exit`` command to end the job.
 
 srun Examples
-~~~~~~~~~~~~~
+$$$$$$$$$$$$$$$
 
 - Single core with 16GB of memory, with one task on a CPU node
 
@@ -323,6 +317,16 @@ For example, to run a single core job that uses 1G of memory with X11 (in this c
      --cpus-per-task=2 --mem=16g \
      --x11  xterm
 
+sview 
+---------
+
+`sview <https://slurm.schedmd.com/sview.html>`_ is a graphical user interface (GUI) that can be used to view job, node and partition (queue) states. Run the ``sview`` command to initiate the GUI.
+
+..  figure:: images/slurm/sview_sinfo.png
+    :alt: sview view of Slurm partitions
+    :width: 500
+    :figwidth: 600
+
 squeue
 --------
 
@@ -458,6 +462,8 @@ You have SSH access to nodes in your running job(s). Some of the basic monitorin
 nvidia-smi
 ~~~~~~~~~~~
 
+`NVIDIA System Management Interface (nvidia-smi) <https://developer.nvidia.com/nvidia-system-management-interface>`_ is a utility for **GPUs**.
+
 ..  figure:: images/slurm/01_nvidia-smi.png
     :alt: nvidia smi
     :width: 1000
@@ -466,6 +472,8 @@ nvidia-smi
 nvtop
 ~~~~~~
 
+`nvtop <https://manpages.ubuntu.com/manpages/focal/man1/nvtop.1.html>`_ is an interactive **GPU** process viewer.
+
 ..  figure:: images/slurm/02_nvtop.png
     :alt: nvtop
     :width: 1000
@@ -473,6 +481,8 @@ nvtop
 
 nvitop
 ~~~~~~
+
+`nvitop <https://nvitop.readthedocs.io/en/latest/>`_ is an interactive **GPU** process viewer.
 
 ..  figure:: images/slurm/03_nvitop.png
     :alt: nvitop
@@ -489,6 +499,8 @@ top -u $USER
 
 Grafana
 ~~~~~~~~~
+
+Monitor node metrics using `Grafana <https://grafana.com>`_.
 
 #. Navigate to: https://metrics.ncsa.illinois.edu
 
