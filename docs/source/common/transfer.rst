@@ -23,7 +23,6 @@ You will need to set up a separate account on `globus.org <globus.org>`_, that w
 
    .. figure:: images/transfer/globus-homepage.png
       :alt: Globus homepage with login button highlighted in upper-right corner.
-      :figwidth: 800
 
 #. Click on **Settings** in the left menu pane.
 
