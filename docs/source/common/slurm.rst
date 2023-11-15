@@ -1,9 +1,9 @@
 .. _slurm:
 
-Slurm Job Management Software
+Job Management with Slurm
 =================================
 
-NCSA computer systems use the Slurm software stack for job control. 
+NCSA computer systems use the Slurm software stack for job management. 
 
 .. _access_nodes:
 
@@ -44,13 +44,6 @@ Then in a terminal session:
 
 See also, :ref:`mon_node`.
 
-.. _sched:
-
-Scheduler
--------------
-
-For information, see the Slurm quick reference guide: https://slurm.schedmd.com/quickstart.html
-
 ..  figure:: images/slurm/slurm_summary.pdf
     :alt: Slurm quick reference guide
     :width: 500
@@ -74,7 +67,7 @@ sview View of Slurm Partitions
     :width: 500
     :figwidth: 600
 
-Node Policies
+Node Sharing
 ~~~~~~~~~~~~~
 
 Node-sharing is the default for jobs. 
@@ -84,15 +77,10 @@ Node-exclusive mode can be obtained by specifying all the consumable resources f
 
    --exclusive --mem=0
 
-.. _job_mgmt:
-
-Job Management
------------------
-
 .. _sbatch:
 
 sbatch
-~~~~~~
+--------
 
 Batch jobs are submitted through a *job script* (as in the :ref:`examples`) using the ``sbatch`` command. 
 Job scripts generally start with a series of Slurm *directives* that describe requirements of the job, such as number of nodes and wall time required, to the batch system/scheduler. Slurm directives can also be specified as options on the sbatch command line; command line options take precedence over those in the script. 
@@ -142,70 +130,15 @@ or
 
 See the sbatch `man page <https://en.wikipedia.org/wiki/Man_page>`_ for additional information.
 
-squeue
-~~~~~~~
-
-The ``squeue`` command is used to pull up information about batch jobs submitted to the batch system. By default, the ``squeue`` command will print out the JobID,  partition, username, job status, number of nodes, and name of nodes for all batch jobs queued or running within batch system.
-
-============================ ============
-Slurm Command                Description
-============================ ============
-``squeue -a``                List the status of all batch jobs in the batch system.
-``squeue -u $USER``          List the status of all your batch jobs in the batch system.
-``squeue -j JobID``          List nodes allocated to a specific running batch job in addition to basic information.
-``scontrol show job JobID``  List detailed information on a particular batch job.
-============================ ============
-
-See the squeue man page for other available options.
-
-.. code-block::
-
-   $ sbatch tensorflow_cpu.slurm
-   Submitted batch job 2337924
-   $ squeue -u $USER
-             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-           2337924 cpu-inter    tfcpu  mylogin  R       0:46      1 cn006
-
-sinfo
-~~~~~~
-
-The ``sinfo`` command is used to view partition and node information for a system running Slurm.
-
-+------------------------+----------------------------------------------------------+
-| Slurm Command          | Description                                              |
-+========================+==========================================================+
-| ``sinfo -a``           | List summary information on all the partitions (queues). |
-+------------------------+----------------------------------------------------------+
-| ``sinfo -p PRTN_NAME`` | Print information only about the specified partition(s). |
-|                        |                                                          |
-|                        | Multiple partitions are separated by commas.             |
-+------------------------+----------------------------------------------------------+
-
-See the sinfo man page for other available options (``man sinfo``).
-
-scontrol
-~~~~~~~~~
-
-The ``scontrol`` command can be used to view detailed information on a particular job.
-
-+-------------------------+-------------------------------------------+
-| Slurm Example Command   | Description                               |
-+=========================+===========================================+
-| scontrol show job JobID | Lists detailed information on a particular|
-|                         | job.                                      |
-+-------------------------+-------------------------------------------+
-
-See the scontrol man page for other available options. Note that most of the scontrol options can only be executed by user root or an administrator.
-
 .. _srun:
 
 srun
-~~~~~~
+------
 
 .. _interactive:
 
 Command Line
-$$$$$$$$$$$$$$$
+~~~~~~~~~~~~~~
 
 Instead of queuing up a batch job to run on the compute nodes, you can request that the job scheduler allocate you to a compute node **now** and log you onto it. These are called **interactive batch jobs**. Projects that have dedicated interactive nodes, do not need to go through the scheduler; members of these projects just log in directly to their nodes.
 
@@ -245,8 +178,29 @@ Specifying a small number of nodes for smaller amounts of time should shorten th
 
 When you are done with your interactive batch job session, use the ``exit`` command to end the job.
 
+srun Examples
+~~~~~~~~~~~~~
+
+- Single core with 16GB of memory, with one task on a CPU node
+
+  .. code-block::
+
+     srun --account=account_name --partition=cpu-interactive \
+       --nodes=1 --tasks=1 --tasks-per-node=1 \
+       --cpus-per-task=4 --mem=16g \
+       --pty bash
+
+- Single core with 20GB of memory, with one task on a *Delta* A40 GPU node
+
+  .. code-block::
+
+     srun --account=account_name --partition=gpuA40x4-interactive \
+       --nodes=1 --gpus-per-node=1 --tasks=1 \
+       --tasks-per-node=16 --cpus-per-task=1 --mem=20g \
+       --pty bash 
+
 Batch Script
-$$$$$$$$$$$$$$
+~~~~~~~~~~~~~~
 
 Inside a batch script if you want to run multiple copies of a program you can use the ``srun`` command followed by the name of the executable: 
 
@@ -261,11 +215,10 @@ You can use the ``-n``  flag/option with the ``srun`` command to specify the num
 
    srun -n 10 ./a.out
 
-
 .. _salloc:
 
 salloc
-~~~~~~~
+--------
 
 While interactive like ``srun``, ``salloc`` allocates compute resources for you, while leaving your shell on the login node. Run commands on the login node as usual, use ``exit`` to end a salloc session early, and use ``srun`` with no extra flags to launch processes on the compute resources.
 
@@ -298,165 +251,8 @@ While interactive like ``srun``, ``salloc`` allocates compute resources for you,
    $ exit
    salloc: Relinquishing job allocation 2323230
 
-scancel
-~~~~~~~~
-
-The ``scancel`` command deletes a queued job or ends a running job.
-
-+------------------------------+--------------------------------------------------------------------------+
-| Slurm Command                | Description                                                              |
-+==============================+==========================================================================+
-| ``scancel JobID``            | To delete/end a specific batch job                                       |
-+------------------------------+--------------------------------------------------------------------------+
-| ``scancel JobID01, JobID02`` | To delete/end multiple batch jobs, use a comma-separated list of JobIDs  |
-+------------------------------+--------------------------------------------------------------------------+
-| ``scancel -u $USER``         | To delete/end all your batch jobs (removes all your batch jobs from      |
-|                              |                                                                          |
-|                              | the batch system regardless of the batch job’s state)                    |
-+------------------------------+--------------------------------------------------------------------------+
-| ``scancel --name JobName``   | To delete/end multiple batch jobs based on the batch job’s name          |
-+------------------------------+--------------------------------------------------------------------------+
-
-See the scancel man page for other available options.
-
-Job Status
-~~~~~~~~~~~
-
-If the **NODELIST(REASON)** is **MaxGRESPerAccount**, that means that a user has exceeded the number of cores or GPUs allotted per user or project for a given partition.
-
-Useful Batch Job Environment Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| Description             | Slurm Environment Variable | Detail Description                                                      |
-+=========================+============================+=========================================================================+
-| Array JobID             | $SLURM_ARRAY_JOB_ID        | Each member of a job array is assigned a unique identifier.             |
-|                         |                            |                                                                         |
-|                         | $SLURM_ARRAY_TASK_ID       |                                                                         |
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| Job Submission Directory| $SLURM_SUBMIT_DIR          | By default, jobs start in the directory that the job was submitted      |
-|                         |                            |                                                                         |
-|                         |                            | from. So the "cd $SLURM_SUBMIT_DIR" command is not needed.              |
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| JobID                   | $SLURM_JOB_ID              | Job identifier assigned to the job.                                     |
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| Machine(node) list      | $SLURM_NODELIST            | Variable name that contains the list of nodes assigned to the batch job.|
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-
-See the sbatch man page for additional environment variables available.
-
-.. _mon_node:
-
-Monitoring a Node During a Job
----------------------------------
-
-You have SSH access to nodes in your running job(s). Some of the basic monitoring tools are demonstrated in the example transcript below. Screen shots are appended so that you can see the output from the tools. Most common Linux utilities are available from the compute nodes (free, strace, ps, and so on).
-
-.. code-block::
-
-   [arnoldg@dt-login03 python]$ squeue -u $USER
-                JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-              1214412 gpuA40x4- interact  arnoldg  R       8:14      1 gpub045
-   [arnoldg@dt-login03 python]$ ssh gpub045
-   gpub045.delta.internal.ncsa.edu (141.142.145.145)
-     OS: RedHat 8.4   HW: HPE   CPU: 64x    RAM: 252 GB
-   Last login: Wed Dec 14 09:45:26 2022 from 141.142.144.42
-   [arnoldg@gpub045 ~]$ nvidia-smi
-
-   [arnoldg@gpub045 ~]$ module load nvtop
-   ---------------------------------------------------------------------------------------------------------------------
-   The following dependent module(s) are not currently loaded: cuda/11.6.1 (required by: ucx/1.11.2, openmpi/4.1.2)
-   ---------------------------------------------------------------------------------------------------------------------
-
-   The following have been reloaded with a version change:
-   1) cuda/11.6.1 => cuda/11.7.0
-
-   [arnoldg@gpub045 ~]$ nvtop
-
-   [arnoldg@gpub045 ~]$ module load anaconda3_gpu
-   [arnoldg@gpub045 ~]$ nvitop
-
-   [arnoldg@gpub045 ~]$ top -u $USER
-
-nvidia-smi:
-
-..  figure:: images/slurm/01_nvidia-smi.png
-    :alt: nvidia smi
-    :width: 1000
-    :figwidth: 1100
-
-nvtop:
-
-..  figure:: images/slurm/02_nvtop.png
-    :alt: nvtop
-    :width: 1000
-    :figwidth: 1100
-
-nvitop:
-
-..  figure:: images/slurm/03_nvitop.png
-    :alt: nvitop
-    :width: 1000
-    :figwidth: 1100
-
-top -u $USER:
-
-..  figure:: images/slurm/04_top.png
-    :alt: top
-    :width: 1000
-    :figwidth: 1100
-
-Monitoring Nodes Using Grafana
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-#. Navigate to: https://metrics.ncsa.illinois.edu
-
-#. Sign in (top-right).
-
-   ..  figure:: images/slurm/metrics_signin_icon.png
-       :alt: sign in icon
-       :width: 400
-       :figwidth: 500
-
-#. Navigate to the metrics of interest.
-
-   ..  figure:: images/slurm/06_grafana_metrics_home.png
-       :alt: metrics home
-       :width: 1000
-       :figwidth: 1100
-
-   You may choose a node from the list of nodes and get detailed information in real time.
-
-   ..  figure:: images/slurm/07_grafana_metrics_details.png
-       :alt: get detailed info
-       :width: 1000
-       :figwidth: 1100
-
-Interactive Sessions
--------------------------
-
-Interactive sessions can be implemented in several ways, depending on what is needed. To start up a bash shell terminal on a CPU or GPU node:
-
-- Single core with 16GB of memory, with one task on a CPU node
-
-  .. code-block::
-
-     srun --account=account_name --partition=cpu-interactive \
-       --nodes=1 --tasks=1 --tasks-per-node=1 \
-       --cpus-per-task=4 --mem=16g \
-       --pty bash
-
-- Single core with 20GB of memory, with one task on a A40 GPU node
-
-  .. code-block::
-
-     srun --account=account_name --partition=gpuA40x4-interactive \
-       --nodes=1 --gpus-per-node=1 --tasks=1 \
-       --tasks-per-node=16 --cpus-per-task=1 --mem=20g \
-       --pty bash 
-
 MPI Interactive Jobs: Use salloc Followed by srun
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 
 Interactive jobs are already a child process of ``srun``, therefore, one cannot srun (or mpirun) applications from within them. 
 Within standard batch jobs submitted via ``sbatch``, use ``srun`` to launch MPI codes. 
@@ -515,7 +311,7 @@ For true interactive MPI, use ``salloc`` in place of srun shown above, then **sr
 |
 
 Interactive X11 Support
-~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 To run an X11 based application on a compute node in an interactive session, the use of the **--x11** switch with ``srun`` is needed. 
 For example, to run a single core job that uses 1G of memory with X11 (in this case an xterm) do the following:
@@ -527,15 +323,195 @@ For example, to run a single core job that uses 1G of memory with X11 (in this c
      --cpus-per-task=2 --mem=16g \
      --x11  xterm
 
-.. _file-system-dependency-specification-for-jobs-1:
+squeue
+--------
 
-File System Dependency Specification for Jobs
----------------------------------------------
+The ``squeue`` command is used to pull up information about batch jobs submitted to the batch system. By default, the ``squeue`` command will print out the JobID,  partition, username, job status, number of nodes, and name of nodes for all batch jobs queued or running within batch system.
 
-Please see the :ref:`depend_arch` section in System Architecture for information on setting job file system dependencies for jobs.
+============================ ============
+Slurm Command                Description
+============================ ============
+``squeue -a``                List the status of all batch jobs in the batch system.
+``squeue -u $USER``          List the status of all your batch jobs in the batch system.
+``squeue -j JobID``          List nodes allocated to a specific running batch job in addition to basic information.
+``scontrol show job JobID``  List detailed information on a particular batch job.
+============================ ============
 
-Jobs that do not specify a dependency on WORK (/projects) and SCRATCH (/scratch) will be assumed to depend only on the HOME (/u) file system.
+See the squeue man page for other available options.
 
+.. code-block::
+
+   $ sbatch tensorflow_cpu.slurm
+   Submitted batch job 2337924
+   $ squeue -u $USER
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2337924 cpu-inter    tfcpu  mylogin  R       0:46      1 cn006
+
+If the **NODELIST(REASON)** is **MaxGRESPerAccount**, that means that a user has exceeded the number of cores or GPUs allotted per user or project for a given partition.
+
+sinfo
+-------
+
+The ``sinfo`` command is used to view partition and node information for a system running Slurm.
+
++------------------------+----------------------------------------------------------+
+| Slurm Command          | Description                                              |
++========================+==========================================================+
+| ``sinfo -a``           | List summary information on all the partitions (queues). |
++------------------------+----------------------------------------------------------+
+| ``sinfo -p PRTN_NAME`` | Print information only about the specified partition(s). |
+|                        |                                                          |
+|                        | Multiple partitions are separated by commas.             |
++------------------------+----------------------------------------------------------+
+
+See the sinfo man page for other available options (``man sinfo``).
+
+scontrol
+----------
+
+The ``scontrol`` command can be used to view detailed information on a particular job.
+
++-------------------------+-------------------------------------------+
+| Slurm Example Command   | Description                               |
++=========================+===========================================+
+| scontrol show job JobID | Lists detailed information on a particular|
+|                         | job.                                      |
++-------------------------+-------------------------------------------+
+
+See the scontrol man page for other available options. Note that most of the scontrol options can only be executed by user root or an administrator.
+
+scancel
+----------
+
+The ``scancel`` command deletes a queued job or ends a running job.
+
++------------------------------+--------------------------------------------------------------------------+
+| Slurm Command                | Description                                                              |
++==============================+==========================================================================+
+| ``scancel JobID``            | To delete/end a specific batch job                                       |
++------------------------------+--------------------------------------------------------------------------+
+| ``scancel JobID01, JobID02`` | To delete/end multiple batch jobs, use a comma-separated list of JobIDs  |
++------------------------------+--------------------------------------------------------------------------+
+| ``scancel -u $USER``         | To delete/end all your batch jobs (removes all your batch jobs from      |
+|                              |                                                                          |
+|                              | the batch system regardless of the batch job’s state)                    |
++------------------------------+--------------------------------------------------------------------------+
+| ``scancel --name JobName``   | To delete/end multiple batch jobs based on the batch job’s name          |
++------------------------------+--------------------------------------------------------------------------+
+
+See the scancel man page for other available options.
+
+Useful Batch Job Environment Variables
+-----------------------------------------
+
++-------------------------+----------------------------+-------------------------------------------------------------------------+
+| Description             | Slurm Environment Variable | Detail Description                                                      |
++=========================+============================+=========================================================================+
+| Array JobID             | $SLURM_ARRAY_JOB_ID        | Each member of a job array is assigned a unique identifier.             |
+|                         |                            |                                                                         |
+|                         | $SLURM_ARRAY_TASK_ID       |                                                                         |
++-------------------------+----------------------------+-------------------------------------------------------------------------+
+| Job Submission Directory| $SLURM_SUBMIT_DIR          | By default, jobs start in the directory that the job was submitted      |
+|                         |                            |                                                                         |
+|                         |                            | from. So the "cd $SLURM_SUBMIT_DIR" command is not needed.              |
++-------------------------+----------------------------+-------------------------------------------------------------------------+
+| JobID                   | $SLURM_JOB_ID              | Job identifier assigned to the job.                                     |
++-------------------------+----------------------------+-------------------------------------------------------------------------+
+| Machine(node) list      | $SLURM_NODELIST            | Variable name that contains the list of nodes assigned to the batch job.|
++-------------------------+----------------------------+-------------------------------------------------------------------------+
+
+See the sbatch man page for additional environment variables available.
+
+.. _mon_node:
+
+Monitoring a Node During a Job
+---------------------------------
+
+You have SSH access to nodes in your running job(s). Some of the basic monitoring tools are demonstrated in the example transcript below. Screen shots are appended so that you can see the output from the tools. Most common Linux utilities are available from the compute nodes (free, strace, ps, and so on).
+
+.. code-block::
+
+   [arnoldg@dt-login03 python]$ squeue -u $USER
+                JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+              1214412 gpuA40x4- interact  arnoldg  R       8:14      1 gpub045
+   [arnoldg@dt-login03 python]$ ssh gpub045
+   gpub045.delta.internal.ncsa.edu (141.142.145.145)
+     OS: RedHat 8.4   HW: HPE   CPU: 64x    RAM: 252 GB
+   Last login: Wed Dec 14 09:45:26 2022 from 141.142.144.42
+   [arnoldg@gpub045 ~]$ nvidia-smi
+
+   [arnoldg@gpub045 ~]$ module load nvtop
+   ---------------------------------------------------------------------------------------------------------------------
+   The following dependent module(s) are not currently loaded: cuda/11.6.1 (required by: ucx/1.11.2, openmpi/4.1.2)
+   ---------------------------------------------------------------------------------------------------------------------
+
+   The following have been reloaded with a version change:
+   1) cuda/11.6.1 => cuda/11.7.0
+
+   [arnoldg@gpub045 ~]$ nvtop
+
+   [arnoldg@gpub045 ~]$ module load anaconda3_gpu
+   [arnoldg@gpub045 ~]$ nvitop
+
+   [arnoldg@gpub045 ~]$ top -u $USER
+
+nvidia-smi
+~~~~~~~~~~~
+
+..  figure:: images/slurm/01_nvidia-smi.png
+    :alt: nvidia smi
+    :width: 1000
+    :figwidth: 1100
+
+nvtop
+~~~~~~
+
+..  figure:: images/slurm/02_nvtop.png
+    :alt: nvtop
+    :width: 1000
+    :figwidth: 1100
+
+nvitop
+~~~~~~
+
+..  figure:: images/slurm/03_nvitop.png
+    :alt: nvitop
+    :width: 1000
+    :figwidth: 1100
+
+top -u $USER
+~~~~~~~~~~~~~~
+
+..  figure:: images/slurm/04_top.png
+    :alt: top
+    :width: 1000
+    :figwidth: 1100
+
+Grafana
+~~~~~~~~~
+
+#. Navigate to: https://metrics.ncsa.illinois.edu
+
+#. Sign in (top-right).
+
+   ..  figure:: images/slurm/metrics_signin_icon.png
+       :alt: sign in icon
+       :width: 400
+       :figwidth: 500
+
+#. Navigate to the metrics of interest.
+
+   ..  figure:: images/slurm/06_grafana_metrics_home.png
+       :alt: metrics home
+       :width: 1000
+       :figwidth: 1100
+
+   You may choose a node from the list of nodes and get detailed information in real time.
+
+   ..  figure:: images/slurm/07_grafana_metrics_details.png
+       :alt: get detailed info
+       :width: 1000
+       :figwidth: 1100
 
 .. _examples:
 
