@@ -26,7 +26,7 @@ You will need to set up a separate account on `globus.org <globus.org>`_, that w
 
 #. Click on **Settings** in the left menu pane.
 
-   .. figure:: images/transfer/globus-left-menu-pane.png
+   .. image:: images/transfer/globus-left-menu-pane.png
       :alt: Globus left menu pane with settings highlighted.
 
 #. Click on the **Account** tab.
