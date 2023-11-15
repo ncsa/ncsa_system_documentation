@@ -101,7 +101,7 @@ Using Globus to Transfer Files
       :width: 600
       :figwidth: 700
 
-#. After you are logged in, you should be taken to the **File Manager** section. On one side, search for "ngale" and click on the **ncsa#ngale** endpoint from the resulting list.
+#. After you are logged in, you should be taken to the **File Manager** section. On one side, search for your desired endpoint and click on it from the resulting list. The below example shows the Nightingale **ncsa#ngale** endpoint.
 
    .. figure:: images/transfer/globus-file-manager-collection-search.png
       :alt: Globus file manager "nagle" search results.
