@@ -14,8 +14,8 @@ Globus
 
 Globus is a web-based file transfer system that works in the background to move files between systems with "Globus Endpoints". Nightingale will have a permanent Globus Endpoint (with a name announced at that time). To transfer files to and from your directories using Globus, you will have to authenticate that endpoint, using your already-existing NCSA username, password, and NCSA Duo account. 
 
-One-Time Setup
-~~~~~~~~~~~~~~~~
+[**Hydro and Nightingale Only**] One-Time Setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You will need to set up a separate account on `globus.org <globus.org>`_, that will have a username and a separate password. To use Globus to transfer files to and from Nightingale, you will need to "link" your new Globus account with your NCSA identity. 
 
@@ -42,71 +42,76 @@ You will need to set up a separate account on `globus.org <globus.org>`_, that w
 
    If your NCSA username and email address is **not* in that list (your University of Illinois at Urbana-Champaign identity **is not** your NCSA identity):
 
-      #. Click **Link Another Identity**.
+      i. Click **Link Another Identity**.
 
          .. figure:: images/transfer/globus-link-another-identity.png
-            :alt: Globus link another identity button.
-            :width: 300
-            :figwidth: 400
+             :alt: Globus link another identity button.
+             :width: 300
+             :figwidth: 400
 
-      #. Enter **NCSA** in the organization search bar. 
-      #. Select **National Center for Supercomputing Applications** and click **Continue**.
+      ii.  Enter **NCSA** in the organization search bar. 
+      iii.  Select **National Center for Supercomputing Applications** and click **Continue**.
 
-         .. figure:: images/transfer/globus-select-an-identity-to-link.png
-            :alt: Globus select an identity to link window with national center for supercomputing applications entered.
-            :width: 800
-            :figwidth: 900
+            .. figure:: images/transfer/globus-select-an-identity-to-link.png
+               :alt: Globus select an identity to link window with national center for supercomputing applications entered.
+               :width: 800
+               :figwidth: 900
 
-      #. Enter your **NCSA username** and **NCSA Kerberos password** and then click **Continue**.
+      iv.  Enter your **NCSA username** and **NCSA Kerberos password** and then click **Continue**.
 
-         .. figure:: images/transfer/globus-ncsa-authentication.png
-            :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
-            :width: 700
-            :figwidth: 800
+           .. figure:: images/transfer/globus-ncsa-authentication.png
+              :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
+              :width: 700
+              :figwidth: 800
 
-      #. Approve the **NCSA Duo** push on your mobile device.
+      v. Approve the **NCSA Duo** push on your mobile device.
 
          .. figure:: images/transfer/ncsa-duo-push.png  
             :alt: NCSA Duo Push window.
             :width: 400
             :figwidth: 500
 
-      #. If you are directed to the **Log into your primary identity** window, click **Continue**.
+      vi.  If you are directed to the **Log into your primary identity** window, click **Continue**.
 
-         .. figure:: images/transfer/globus-log-into-your-primary-identity.png
-            :alt: Globus log into your primary identity window.
-            :width: 700
-            :figwidth: 800
+           .. figure:: images/transfer/globus-log-into-your-primary-identity.png
+              :alt: Globus log into your primary identity window.
+              :width: 700
+              :figwidth: 800
 
-      #. You should be redirected to the Globus Settings **Account** window. Verify that your **NCSA** identity is listed; the organization will be **National Center for Supercomputing Applications**.
+      vii.  You should be redirected to the Globus Settings **Account** window. Verify that your **NCSA** identity is listed; the organization will be **National Center for Supercomputing Applications**.
 
-         .. figure:: images/transfer/globus-settings-account-with-ncsa.png
-            :alt: Globus account window with an NCSA identity shown.
-            :width: 800
-            :figwidth: 900
+            .. figure:: images/transfer/globus-settings-account-with-ncsa.png
+               :alt: Globus account window with an NCSA identity shown.
+               :width: 800
+               :figwidth: 900
 
 Using Globus to Transfer Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once your identity is linked (above), then do the following to transfer files using Globus.
+**After** your identity (*NCSA identity* for Hydro and Nightingale) is linked in Globus, do the following to transfer files.
 
 #. Navigate to globus.org and click **Log In** in the upper right corner
 
    We recommend that you use an independent password for your Globus account. If you are doing that, on the **Log in to use Globus Web App** screen, click on **Globus ID to sign in** at the very bottom, and sign in with your Globus password.  
 
-#. If prompted click **Allow** when asked to authorized the Globus Web App.
+#. If prompted, click **Allow** when asked to authorized the Globus Web App.
 
    .. figure:: images/transfer/globus-web-app-info-and-services.png
       :alt: Globus Web App authorization prompt.
       :width: 600
       :figwidth: 700
 
-#. Once logged in, you should be taken to the **File Manager** section. On one side, search for "ngale" and click on the **ncsa#ngale** endpoint from the resulting list.
+#. After you are logged in, you should be taken to the **File Manager** section. On one side, search for "ngale" and click on the **ncsa#ngale** endpoint from the resulting list.
 
    .. figure:: images/transfer/globus-file-manager-collection-search.png
       :alt: Globus file manager "nagle" search results.
       :width: 500
       :figwidth: 600
+
+   - `Delta endpoints <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_: **NCSA Delta**
+   - `Hydro endpoints <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_: **NFI Hydro**
+   - `ICC endpoints <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_: **Illinois Research Storage**, **Illinois Research Storage - Box**, and **Illinois Research Storage - Google Drive**
+   - `Nightingale <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_: **ncsa#ngale**
 
 #. The system will prompt you to Authenticate to the endpoint, click **Continue**. 
 
