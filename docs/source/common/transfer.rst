@@ -42,48 +42,48 @@ You will need to set up a separate account on `globus.org <globus.org>`_, that w
 
    If your NCSA username and email address is **not* in that list (your University of Illinois at Urbana-Champaign identity **is not** your NCSA identity):
 
-      i. Click **Link Another Identity**.
+      a. Click **Link Another Identity**.
 
          .. figure:: images/transfer/globus-link-another-identity.png
              :alt: Globus link another identity button.
              :width: 300
              :figwidth: 400
 
-      ii.  Enter **NCSA** in the organization search bar. 
-      iii.  Select **National Center for Supercomputing Applications** and click **Continue**.
+      b. Enter **NCSA** in the organization search bar. 
+      c. Select **National Center for Supercomputing Applications** and click **Continue**.
 
-            .. figure:: images/transfer/globus-select-an-identity-to-link.png
-               :alt: Globus select an identity to link window with national center for supercomputing applications entered.
-               :width: 800
-               :figwidth: 900
+         .. figure:: images/transfer/globus-select-an-identity-to-link.png
+            :alt: Globus select an identity to link window with national center for supercomputing applications entered.
+            :width: 800
+            :figwidth: 900
 
-      iv.  Enter your **NCSA username** and **NCSA Kerberos password** and then click **Continue**.
+      d. Enter your **NCSA username** and **NCSA Kerberos password** and then click **Continue**.
 
-           .. figure:: images/transfer/globus-ncsa-authentication.png
-              :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
-              :width: 700
-              :figwidth: 800
+         .. figure:: images/transfer/globus-ncsa-authentication.png
+            :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
+            :width: 700
+            :figwidth: 800
 
-      v. Approve the **NCSA Duo** push on your mobile device.
+      e. Approve the **NCSA Duo** push on your mobile device.
 
          .. figure:: images/transfer/ncsa-duo-push.png  
             :alt: NCSA Duo Push window.
             :width: 400
             :figwidth: 500
 
-      vi.  If you are directed to the **Log into your primary identity** window, click **Continue**.
+      f. If you are directed to the **Log into your primary identity** window, click **Continue**.
 
-           .. figure:: images/transfer/globus-log-into-your-primary-identity.png
-              :alt: Globus log into your primary identity window.
-              :width: 700
-              :figwidth: 800
+         .. figure:: images/transfer/globus-log-into-your-primary-identity.png
+            :alt: Globus log into your primary identity window.
+            :width: 700
+            :figwidth: 800
 
-      vii.  You should be redirected to the Globus Settings **Account** window. Verify that your **NCSA** identity is listed; the organization will be **National Center for Supercomputing Applications**.
+      g. You should be redirected to the Globus Settings **Account** window. Verify that your **NCSA** identity is listed; the organization will be **National Center for Supercomputing Applications**.
 
-            .. figure:: images/transfer/globus-settings-account-with-ncsa.png
-               :alt: Globus account window with an NCSA identity shown.
-               :width: 800
-               :figwidth: 900
+         .. figure:: images/transfer/globus-settings-account-with-ncsa.png
+            :alt: Globus account window with an NCSA identity shown.
+            :width: 800
+            :figwidth: 900
 
 Using Globus to Transfer Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
