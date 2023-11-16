@@ -3,7 +3,7 @@
 Job Management with Slurm
 =================================
 
-NCSA computer systems use the Slurm software stack for job management. 
+NCSA computer systems use the Slurm software stack for job workload management. 
 
 .. _access_nodes:
 
@@ -71,10 +71,13 @@ Node-exclusive mode can be obtained by specifying all the consumable resources f
 
    --exclusive --mem=0
 
+Job Submission
+----------------
+
 .. _sbatch:
 
 sbatch
---------
+~~~~~~~~
 
 Batch jobs are submitted through a *job script* (as in the :ref:`examples`) using the ``sbatch`` command. 
 Job scripts generally start with a series of Slurm *directives* that describe requirements of the job, such as number of nodes and wall time required, to the batch system/scheduler. Slurm directives can also be specified as options on the sbatch command line; command line options take precedence over those in the script. 
@@ -127,12 +130,12 @@ See the sbatch `man page <https://en.wikipedia.org/wiki/Man_page>`_ for addition
 .. _srun:
 
 srun
-------
+~~~~~~
 
 .. _interactive:
 
 Command Line
-~~~~~~~~~~~~~~
+$$$$$$$$$$$$$
 
 Instead of queuing up a batch job to run on the compute nodes, you can request that the job scheduler allocate you to a compute node **now** and log you onto it. These are called **interactive batch jobs**. Projects that have dedicated interactive nodes, do not need to go through the scheduler; members of these projects just log in directly to their nodes.
 
@@ -173,7 +176,7 @@ Specifying a small number of nodes for smaller amounts of time should shorten th
 When you are done with your interactive batch job session, use the ``exit`` command to end the job.
 
 srun Examples
-$$$$$$$$$$$$$$$
+^^^^^^^^^^^^^^
 
 - Single core with 16GB of memory, with one task on a CPU node
 
@@ -194,7 +197,7 @@ $$$$$$$$$$$$$$$
        --pty bash 
 
 Batch Script
-~~~~~~~~~~~~~~
+$$$$$$$$$$$$$$
 
 Inside a batch script if you want to run multiple copies of a program you can use the ``srun`` command followed by the name of the executable: 
 
@@ -212,7 +215,7 @@ You can use the ``-n``  flag/option with the ``srun`` command to specify the num
 .. _salloc:
 
 salloc
---------
+~~~~~~~
 
 While interactive like ``srun``, ``salloc`` allocates compute resources for you, while leaving your shell on the login node. Run commands on the login node as usual, use ``exit`` to end a salloc session early, and use ``srun`` with no extra flags to launch processes on the compute resources.
 
@@ -246,7 +249,7 @@ While interactive like ``srun``, ``salloc`` allocates compute resources for you,
    salloc: Relinquishing job allocation 2323230
 
 MPI Interactive Jobs: Use salloc Followed by srun
-----------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Interactive jobs are already a child process of ``srun``, therefore, one cannot srun (or mpirun) applications from within them. 
 Within standard batch jobs submitted via ``sbatch``, use ``srun`` to launch MPI codes. 
@@ -305,7 +308,7 @@ For true interactive MPI, use ``salloc`` in place of srun shown above, then **sr
 |
 
 Interactive X11 Support
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To run an X11 based application on a compute node in an interactive session, the use of the **--x11** switch with ``srun`` is needed. 
 For example, to run a single core job that uses 1G of memory with X11 (in this case an xterm) do the following:
@@ -317,8 +320,11 @@ For example, to run a single core job that uses 1G of memory with X11 (in this c
      --cpus-per-task=2 --mem=16g \
      --x11  xterm
 
+Job Management
+----------------
+
 sview 
----------
+~~~~~~~
 
 `sview <https://slurm.schedmd.com/sview.html>`_ is a graphical user interface (GUI) that can be used to view job, node and partition (queue) states. Run the ``sview`` command to initiate the GUI.
 
@@ -328,7 +334,7 @@ sview
     :figwidth: 600
 
 squeue
---------
+~~~~~~~
 
 The ``squeue`` command is used to pull up information about batch jobs submitted to the batch system. By default, the ``squeue`` command will print out the JobID,  partition, username, job status, number of nodes, and name of nodes for all batch jobs queued or running within batch system.
 
@@ -354,7 +360,7 @@ See the squeue man page for other available options.
 If the **NODELIST(REASON)** is **MaxGRESPerAccount**, that means that a user has exceeded the number of cores or GPUs allotted per user or project for a given partition.
 
 sinfo
--------
+~~~~~~~
 
 The ``sinfo`` command is used to view partition and node information for a system running Slurm.
 
@@ -371,7 +377,7 @@ The ``sinfo`` command is used to view partition and node information for a syste
 See the sinfo man page for other available options (``man sinfo``).
 
 scontrol
-----------
+~~~~~~~~~
 
 The ``scontrol`` command can be used to view detailed information on a particular job.
 
@@ -385,7 +391,7 @@ The ``scontrol`` command can be used to view detailed information on a particula
 See the scontrol man page for other available options. Note that most of the scontrol options can only be executed by user root or an administrator.
 
 scancel
-----------
+~~~~~~~~
 
 The ``scancel`` command deletes a queued job or ends a running job.
 
