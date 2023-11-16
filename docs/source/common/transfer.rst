@@ -120,7 +120,7 @@ Using Globus to Transfer Files
 
 #. In a similar manner (in the right half of the **File Manger** view), search for and authenticate to the collection you are planning to transfer data to/from. Then use the GUI to transfer the data; you can choose transfer settings. You can click on the **Activity** button on the left to view your current transfer activity.
 
-   .. figure:: images/transfer/globus-file-manager-transfer-window.png
+   .. figure:: 
       :alt: Globus file manager tansfer window.
       :width: 900
       :figwidth: 1000
