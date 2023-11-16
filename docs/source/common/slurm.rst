@@ -46,8 +46,6 @@ See also, :ref:`mon_node`.
 
 ..  figure:: images/slurm/slurm_summary.pdf
     :alt: Slurm quick reference guide
-    :width: 500
-    :figwidth: 600
 
 .. _partitions:
 
