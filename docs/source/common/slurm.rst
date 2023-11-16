@@ -12,6 +12,7 @@ Accessing the Compute Nodes
 
 Use the Slurm commands to run batch jobs or for interactive access to compute nodes. 
 See the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
+A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <images/slurm/slurm_summary.pdf>`
 
 Batch scripts (sbatch) or Interactive (srun , salloc), which is right for you?
 
@@ -43,8 +44,6 @@ Then in a terminal session:
    $
 
 See also, :ref:`mon_node`.
-
-A summary guide to Slurm commands is available for download: :download:`Slurm Command Summary <images/slurm/slurm_summary.pdf>`
 
 .. _partitions:
 
