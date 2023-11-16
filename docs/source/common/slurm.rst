@@ -44,8 +44,7 @@ Then in a terminal session:
 
 See also, :ref:`mon_node`.
 
-..  figure:: images/slurm/slurm_summary.pdf
-    :alt: Slurm quick reference guide
+A summary guide to Slurm commands is available for download: :download:`Slurm Command Summary <images/slurm/slurm_summary.pdf>`
 
 .. _partitions:
 
