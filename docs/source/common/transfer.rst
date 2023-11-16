@@ -14,7 +14,7 @@ Globus
 
 Globus is a web-based file transfer system that works in the background to move files between systems with "Globus Endpoints". Nightingale will have a permanent Globus Endpoint (with a name announced at that time). To transfer files to and from your directories using Globus, you will have to authenticate that endpoint, using your already-existing NCSA username, password, and NCSA Duo account. 
 
-[**Hydro and Nightingale Only**] One-Time Setup
+One-Time Setup [Hydro and Nightingale Only] 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You will need to set up a separate account on `globus.org <globus.org>`_, that will have a username and a separate password. To use Globus to transfer files to and from Nightingale, you will need to "link" your new Globus account with your NCSA identity. 
@@ -26,7 +26,7 @@ You will need to set up a separate account on `globus.org <globus.org>`_, that w
 
 #. Click on **Settings** in the left menu pane.
 
-   .. image:: images/transfer/globus-left-menu-pane.png
+   .. image:: images/transfer/globus-left-menu-pane-copy.png
       :alt: Globus left menu pane with settings highlighted.
 
 #. Click on the **Account** tab.
