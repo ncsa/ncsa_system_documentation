@@ -54,9 +54,6 @@ You will need to set up a separate account on `globus.org <globus.org>`_, that w
 
       e. Approve the **NCSA Duo** push on your mobile device.
 
-         .. figure:: images/transfer/ncsa-duo-push.png  
-            :alt: NCSA Duo Push window.
-
       f. If you are directed to the **Log into your primary identity** window, click **Continue**.
 
          .. figure:: images/transfer/globus-log-into-your-primary-identity.png
