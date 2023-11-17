@@ -4,21 +4,24 @@ Using AWS S3 CLI with Boto3 Python Package
 ===========================================
 
 .. note::
+
+   **Applicable Compute Resources:** Hydro
+
    You will need to access the `Hydro cluster <https://newfrontiers.illinois.edu/hydro/>`_ to use Boto3.
 
 This page steps through the process of setting up an Amazon Web Services (AWS) account and using the Boto3 Python package to access S3 buckets via the command line interface (CLI).
 
 For those at the University of Illinois, here are a couple useful links:
 
-- Log in to Illinois AWS account: `https://aws.illinois.edu <https://aws.illinois.edu/>`__
-- Illinois AWS resources (Tech Services page): https://answers.uillinois.edu/illinois/search.php?q=AWS
+- `Log in to Illinois AWS account <https://aws.illinois.edu/>`_
+- `Illinois AWS resources (Tech Services page) <https://answers.uillinois.edu/illinois/search.php?q=AWS>`_
 
 .. _aws_account:
 
 Obtain an AWS Account
 ----------------------
 
-If you are associated with the University of Illinois, instructions for requesting an Illinois AWS account are available through `Technology Services <https://answers.uillinois.edu/illinois/63359>`_. Otherwise, consult the IT/network team at your institution for details on obtaining an account.
+If you are associated with the University of Illinois, `instructions for requesting an Illinois AWS account <https://answers.uillinois.edu/illinois/63359>`_ are available through Technology Services. Otherwise, consult the IT/network team at your institution for details on obtaining an account.
 
 .. _access_key:
 
@@ -29,7 +32,7 @@ Access keys are created by an account admin through the AWS IAM (Identity and Ac
 
 If you were given an admin account on AWS, follow the steps below to create a user with access keys. Only user instances can have keys, so even if you have an admin account, you still need to create a user instance for yourself. If you don't have an admin account, find out who does at your institution and ask them to create a user with access keys for you.
 
-#. After logging in (use `https://aws.illinois.edu <https://aws.illinois.edu/>`_ if you're at the U of I), go to the IAM Dashboard:
+#. After logging in (use `Illinois AWS login <https://aws.illinois.edu/>`_ if you're at the U of I), click on **IAM Dashboard**:
 
    .. image:: images/aws_boto3/boto_step1.png
 
@@ -37,21 +40,21 @@ If you were given an admin account on AWS, follow the steps below to create a us
 
    .. image:: images/aws_boto3/boto_step2.png
 
-#. Select **Add users**:
+#. Click **Add users**:
 
    .. image:: images/aws_boto3/boto_step3.png
 
-#. Choose a user name and set access type to **Programmatic access**; click **Next: Permissions**:
+#. Choose a **user name** and set access type to **Programmatic access**; then click **Next: Permissions**:
 
    .. image:: images/aws_boto3/boto_step4.png
 
-#. On the **Set permissions** screen, select **Attach existing policies directly** and choose **AmazonS3FullAccess**; click **Next: Tags**:
+#. On the **Set permissions** screen, select **Attach existing policies directly** and choose **AmazonS3FullAccess**; then click **Next: Tags**:
 
    .. image:: images/aws_boto3/boto_step5.png
 
-#. On the next screen, there's no need to do anything with tags, so just click **Next: Review**.
+#. On the **Tags** screen, there is no need to do anything with tags, so just click **Next: Review**.
 
-#. There's also nothing you need to do on the **Review** screen, so just click **Create user**.
+#. There is also nothing you need to do on the **Review** screen, so just click **Create user**.
 
 #. At the end of the user creation process, it gives you an **Access key ID** and **Secret access key**; save these:
 
@@ -62,7 +65,7 @@ If you have an admin account, you can also create user instances for other group
 Store Access Keys on System
 -----------------------------
 
-To allow CLI access to AWS, the keys need to be stored in a credentials file:
+To allow CLI access to AWS, your keys need to be stored in a credentials file. Create a credentials file using the below commands:
 
 .. code-block::  
 
@@ -80,7 +83,7 @@ The file should have these three lines:
 Install Boto3
 --------------
 
-Instructions can be found in the `Boto3 documentation <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html>`_.
+Boto3 install instructions can be found in the `Boto3 documentation <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html>`_.
 
 The procedure for installing Boto3 in a virtual environment on the Hydro cluster:
 
