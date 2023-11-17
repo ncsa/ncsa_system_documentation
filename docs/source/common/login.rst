@@ -175,36 +175,42 @@ One-time SSH Configuration
 
 #. After pasting the above lines into the file, use the arrow keys to position your cursor and replace the below inputs:
 
-   - [If you are *not* logging into Nightingale]: Replace **ng-login01** with the name of the head node you are logging into.   
-   - Replace **YOUR_USERNAME** with your NCSA identity username. 
-   - [If you are *not* logging into Nightingale]: Replace **ng-login01.ngale.internal.ncsa.edu** with the node hostname you are logging into:
+   - If you are *not* logging into Nightingale: 
 
-     - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
-     - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
-     - Hydro node hostnames
+     - Replace **ng-login01** with the name of the head node you are logging into.   
+     - Replace **YOUR_USERNAME** with your NCSA identity username. 
+     - Replace **ng-login01.ngale.internal.ncsa.edu** with the node hostname you are logging into:
 
-   [**Nightingale only**] If you have an interactive node assigned to you on Nightingale, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
+       - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
+       - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
+       - Hydro node hostnames   
 
-     For example, a user with username "hirop" with the assigned node "ng-gpu-x07" on Nightingale would have the below configuration file.  
+   - If you are logging into Nightingale:
 
-     .. code-block::
+     - Replace **Your_USERNAME** with your **NCSA identity username**.
 
-        Host ngb1
-          HostName ngale-bastion-1.ncsa.illinois.edu
-          ControlMaster auto
-          ControlPath /tmp/ssh_mux_%h_%p_%r
-          ControlPersist 5h
-          User hirop
+     - If you have an interactive node assigned to you on Nightingale, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
 
-        Host ng-login01
-          HostName ng-login01.ngale.internal.ncsa.edu
-          ProxyJump ngb1
-          User hirop
+       For example, a user with username "hirop" with the assigned node "ng-gpu-x07" on Nightingale would have the below configuration file.  
+
+       .. code-block::
+
+          Host ngb1
+            HostName ngale-bastion-1.ncsa.illinois.edu
+            ControlMaster auto
+            ControlPath /tmp/ssh_mux_%h_%p_%r
+            ControlPersist 5h
+            User hirop
+
+          Host ng-login01
+            HostName ng-login01.ngale.internal.ncsa.edu
+            ProxyJump ngb1
+            User hirop
       
-        Host ng-gpu-x07
-          HostName ng-gpu-x07.ngale.internal.ncsa.edu
-          ProxyJump ngb1
-          User hirop
+          Host ng-gpu-x07
+            HostName ng-gpu-x07.ngale.internal.ncsa.edu
+            ProxyJump ngb1
+            User hirop
       
 #. Once you have finished editing the file, hit **control-O** to write the file.
 
