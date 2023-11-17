@@ -3,6 +3,9 @@
 Logging Into NCSA Systems
 ===========================
 
+.. note:: 
+   **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
+
 .. note::
    The instructions on this page don't apply to `ICRN <https://publish.illinois.edu/ncsa-jupyter/>`_. See the ICRN user documentation `Acessing the System <https://ncsa-icrn-docs.readthedocs-hosted.com/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
 
