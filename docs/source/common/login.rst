@@ -92,27 +92,30 @@ This section is the one-time setup on your Windows machine so that it can connec
    ..  figure:: images/login/mobaxterm-jump-host-configuration.png
        :alt: MobaXterm Session window with showing values for the SSH gateway jump host filled in.
 
-#. Click the **OK** button in the **Session settings** window to initiate your SSH connection. A terminal window will be displayed asking for your password; enter your **NCSA (Kerberos) password** and hit **Enter**.
+#. Click the **OK** button in the **Session settings** window to initiate your SSH connection. 
+
+#. Enter your **NCSA (Kerberos) password** in the terminal window and hit **Enter**.
 
 Logging Into the System
 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
-Once the above, one-time, steps are complete, follow the below steps each time you want to log into a resource to work.
+Once the above, one-time, steps are complete for a resource, follow the below steps each time you want to log into the resource to work.
 
 #. Open **MobaXterm**. 
 
-#. In the left bar, there is a list of **User sessions**. Each one is a node that you configured above for logging in. Mouse over the node you want to log into, right click, and in the resulting menu, select **execute**. 
+#. In the left bar, there is a list of **User sessions**. Each one is a node that you configured for logging in. Mouse over the node you want to log into, **right click**, and in the resulting menu, select **execute**. 
 
-#. A window will pop up, asking for your password. Enter your NCSA password. As you type it, you will see a row of *************. Hit **Enter** or click **OK**.
+#. Enter your **NCSA password** in the pop-up window; as you type it, you will see a row of *************. Hit **Enter** or click **OK**.
 
-#. A second window will pop up asking for your 2FA code. Open your **Duo app**, click on the **NCSA** entry (not the *University of Illinois* entry), and type the 6-digit code displayed in the Duo app into the window. As with the password, you will see it as **********.  
+#. A window will pop up asking for your 2FA code. Open your **Duo app**, click on the **NCSA** entry (not the *University of Illinois* entry), and type the 6-digit code displayed in the Duo app into the pop-up window. Like your password, it will display as ********** as you type.  
 
-#. The screen will bring up a black window without a prompt. **You may need to wait 30 seconds or a minute here.** Then it will ask for your password. Enter your NCSA password. You **won't see your characters** echoed back to the screen; just type it blindly.
+#. The screen will bring up a black window without a prompt. **You may need to wait 30 seconds or a minute here.** Then it will ask for your password. Enter your **NCSA password**. You **won't see your characters** echoed back on the screen; just type it blindly.
 
 #. You should have a prompt at the bottom and a file window on the left showing your directories on the resource. You are now ready to work.  
 
-Termius
-~~~~~~~~~
+..
+  Termius
+  ~~~~~~~~~
 
 .. _mac:
 
@@ -154,7 +157,7 @@ One-time SSH Configuration
 #. Copy the lines from the below code block, you will modify them in your window per the next steps. 
 
    .. note::
-      If you are using Nightingale, copy both the **host ngb1** and **Host ng-login01** paragraphs. If you are using any other resource, only copy the **Host ng-login01** paragraph.
+      If you are using Nightingale, copy both the **Host ngb1** and **Host ng-login01** paragraphs. If you are using any other resource, only copy the **Host ng-login01** paragraph.
 
    .. code-block::
 
@@ -182,26 +185,26 @@ One-time SSH Configuration
 
    [**Nightingale only**] If you have an interactive node assigned to you on Nightingale, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
 
-   For example, a user with username "hirop" with the assigned node "ng-gpu-x07" on Nightingale would have the below configuration file.  
+     For example, a user with username "hirop" with the assigned node "ng-gpu-x07" on Nightingale would have the below configuration file.  
 
-   .. code-block::
+     .. code-block::
 
-      Host ngb1
-        HostName ngale-bastion-1.ncsa.illinois.edu
-        ControlMaster auto
-        ControlPath /tmp/ssh_mux_%h_%p_%r
-        ControlPersist 5h
-        User hirop
+        Host ngb1
+          HostName ngale-bastion-1.ncsa.illinois.edu
+          ControlMaster auto
+          ControlPath /tmp/ssh_mux_%h_%p_%r
+          ControlPersist 5h
+          User hirop
 
-      Host ng-login01
-        HostName ng-login01.ngale.internal.ncsa.edu
-        ProxyJump ngb1
-        User hirop
+        Host ng-login01
+          HostName ng-login01.ngale.internal.ncsa.edu
+          ProxyJump ngb1
+          User hirop
       
-      Host ng-gpu-x07
-        HostName ng-gpu-x07.ngale.internal.ncsa.edu
-        ProxyJump ngb1
-        User hirop
+        Host ng-gpu-x07
+          HostName ng-gpu-x07.ngale.internal.ncsa.edu
+          ProxyJump ngb1
+          User hirop
       
 #. Once you have finished editing the file, hit **control-O** to write the file.
 
@@ -214,17 +217,19 @@ Logging Into the System
       
 Once the above, one-time, steps are complete, follow the below steps each time you want to log into a resource to work.
 
-#. Type the following at the prompt, replacing "ng-login01" with the name of the node you are logging into:
+#. Type the following at the prompt, replacing **ng-login01** with the name of the node you are logging into:
 
-   ``ssh -X ng-login01``
+   .. code-block::
 
-   You may see a message that begins "The authenticity of host...." and ends with "Are you sure you want to continue connecting (yes/no/[fingerprint])?" You may safely type ``yes`` then hit **return**.  
+      ssh -X ng-login01
+
+   You may see a message that begins "The authenticity of host...." and ends with "Are you sure you want to continue connecting (yes/no/[fingerprint])?" You may safely type **yes** then hit **return**.  
 
 #. Enter your NCSA (kerberos) password at the prompt. You **won't see your characters** echoed back to the screen; just type it blindly.  
 
 #. There will be a Duo prompt asking for a passcode or for "option 1". You may either:
 
-   - Type ``1``, then your phone Duo will ask you for login confirmation. 
+   - Type **1**, then your phone Duo will ask you for login confirmation. 
    
    Or 
 
