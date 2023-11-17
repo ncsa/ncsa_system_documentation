@@ -25,7 +25,7 @@ Microsoft Windows SSH Clients
 You can use the built-in SSH Client in Windows (version 10 and above) or select from several freely available third-party SSH clients. 
 These typically provide a graphical user interface (GUI) rather than a command-line interface. `PuTTY <http://www.chiark.greenend.org.uk/~sgtatham/putty/>`_ is a popular choice, `MobaXterm <http://mobaxterm.mobatek.net/>`_ is another one.
 
-Moba Xterm
+MobaXterm
 ~~~~~~~~~~~~~
 
 You can install `MobaXterm <https://mobaxterm.mobatek.net/>`_ on your workstation and use it to connect to nodes using SSH. 
@@ -36,14 +36,14 @@ Follow the steps below to install MobaXterm and connect to a resource.
 One-time setup
 $$$$$$$$$$$$$$$
 
+This section is the one-time setup on your Windows machine so that it can connect to a resource.  
+
 .. note::
    Nightingale has extra security to protect the data stored on it, so configuring this connection is slightly more complicated than other HPC clusters. The difference involves adding the SSH connection to the secure bastion node; this is described in Steps 5 and 6.
 
-This section is the one-time setup on your Windows machine so that it can connect to a resource.  
+#. `Download MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_ and **install** it on your Windows workstation. 
 
-#. `Download MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_ and install it on your Windows workstation. 
-
-   You can install either the Portable or Installer edition of MobaXterm. You will need to have admin privileges to install the Installer edition. 
+   You can install the Portable or Installer edition of MobaXterm. You will need to have admin privileges to install the Installer edition. 
    The Portable edition does not require admin privileges, to use it just **extract** the downloaded zip file and click **mobaxterm.exe**.
 
 #. Launch the MobaXterm application and click the **Session** button in the upper left of the window to start an SSH session.
@@ -52,7 +52,7 @@ This section is the one-time setup on your Windows machine so that it can connec
        :alt: MobaXterm initial window with Session button circled.
        :class: no-scaled-link
 
-#. Select **SSH** from the session types displayed and click the **OK** button. 
+#. Select **SSH** from the session types and click the **OK** button. 
 
    ..  figure:: images/login_tools/XC_01_select_ssh.png
        :alt: MobaXterm Session window with SSH button circled.
@@ -64,12 +64,20 @@ This section is the one-time setup on your Windows machine so that it can connec
        :alt: MobaXterm Session window with Basic SSH Settings area displayed.
        :class: no-scaled-link
 
-#. In the **Remote host** text box, enter the name of the login node you want to access (either a general access or interactive node). Then check the **Specify username** box and enter your NCSA Identity username as shown in the following example. 
+#. In the **Basic SSH Settings** area:
 
-   - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
-   - `Delta node hostnames <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
-   - Hydro node hostnames
-   - `Nightingale node hostnames <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/accessing.html#node-hostnames>`_
+   - Enter the name of the **login node** you want to access (either a general access or interactive node) in the **Remote host** text box. 
+
+     - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
+     - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
+     - Hydro node hostnames
+     - `Nightingale node hostnames <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+   - Check the **Specify username** box.
+
+   - Enter your **NCSA Identity username**.
+
+   The user in the below exmample is setting up to log into one of the Nightingale login nodes.
 
    ..  figure:: images/login_tools/XC_specify_host_username2.png
        :alt: MobaXterm Session window with Basic SSH Settings filled in.
@@ -81,15 +89,21 @@ This section is the one-time setup on your Windows machine so that it can connec
        :alt: MobaXterm Session window with showing Network settings tab clicked and SSH gateway jump host button displayed.
        :class: no-scaled-link
 
-#. [**Nightingale Only**] In the configuration window displayed, enter ``ngale-bastion-1.ncsa.illinois.edu`` in the **Gateway host** box and your NCSA username in the **Username** box. Then click the **OK** button. 
+#. [**Nightingale Only**] In the configuration window displayed:
 
-   You may see a warning message saying that your remote host identification has changed; click the **Yes** button to continue.
+   - Enter **ngale-bastion-1.ncsa.illinois.edu** in the **Gateway host** box.
+
+   - Enter your **NCSA username** in the **Username** box. 
+
+   - Click the **OK** button. 
+
+   - You may see a warning message saying that your remote host identification has changed; click the **Yes** button to continue.
 
    ..  figure:: images/login_tools/XC_jump_host_filled_in.png
        :alt: MobaXterm Session window with showing values for the SSH gateway jump host filled in.
        :class: no-scaled-link
 
-#. You should now be back in the **Session settings** window. Click the **OK** button to initiate your SSH connection. A terminal window will be displayed asking for your password; enter your NCSA (kerberos) password and hit **Enter**.
+#. Click the **OK** button in the **Session settings** window to initiate your SSH connection. A terminal window will be displayed asking for your password; enter your **NCSA (Kerberos) password** and hit **Enter**.
 
 Logging Into the System
 $$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -174,7 +188,7 @@ One-time SSH Configuration
    - [If you are *not* logging into Nightingale]: Replace **ng-login01.ngale.internal.ncsa.edu** with the node hostname you are logging into:
 
      - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
-     - `Delta node hostnames <https://ncsa-delta-doc.readthedocs-hosted.com/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
+     - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
      - Hydro node hostnames
 
    [**Nightingale only**] If you have an interactive node assigned to you on Nightingale, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
