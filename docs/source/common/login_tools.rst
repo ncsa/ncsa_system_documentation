@@ -1,12 +1,12 @@
-.. note:: 
-   **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
-
-   See the ICRN user documentation `Acessing the System <https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
-
 .. _logging_in:
 
 Logging Into NCSA Systems
 ===========================
+
+.. note:: 
+   **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
+
+   See the ICRN user documentation `Acessing the System <https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
 
 .. _ssh:
 
