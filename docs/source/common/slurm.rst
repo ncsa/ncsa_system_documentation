@@ -3,6 +3,9 @@
 Job Management with Slurm
 =================================
 
+.. note::
+   **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
+
 NCSA computer systems use the Slurm software stack for job workload management. 
 
 .. _access_nodes:
