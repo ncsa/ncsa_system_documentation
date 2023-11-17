@@ -3,6 +3,9 @@
 Transferring Files
 ===================
 
+.. note::
+   **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
+
 .. _globus:
 
 Globus
