@@ -8,7 +8,7 @@ Documentation on topics that are applicable across multiple NCSA computing resou
 .. toctree::
    :maxdepth: 2
 
-   login_tools
+   login
    keys
    slurm
    transfer
