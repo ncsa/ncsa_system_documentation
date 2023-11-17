@@ -48,15 +48,13 @@ This section is the one-time setup on your Windows machine so that it can connec
 
 #. Launch the MobaXterm application and click the **Session** button in the upper left of the window to start an SSH session.
 
-   ..  figure:: images/login_tools/ng_mxt_session_button.gif
+   ..  figure:: images/login/mobaxterm-session-button.png
        :alt: MobaXterm initial window with Session button circled.
-       :class: no-scaled-link
 
 #. Select **SSH** from the session types and click the **OK** button. 
 
-   ..  figure:: images/login_tools/XC_01_select_ssh.png
+   ..  figure:: images/login/mobaxterm-select-ssh.png
        :alt: MobaXterm Session window with SSH button circled.
-       :class: no-scaled-link
 
 #. In the **Basic SSH Settings** area:
 
@@ -73,15 +71,13 @@ This section is the one-time setup on your Windows machine so that it can connec
 
    The user in the below exmample is setting up to log into one of the Nightingale login nodes.
 
-   ..  figure:: images/login_tools/XC_specify_host_username2.png
+   ..  figure:: images/login/mobaxterm-basic-ssh-settings.png
        :alt: MobaXterm Session window with Basic SSH Settings filled in.
-       :class: no-scaled-link
 
 #. [**Nightingale Only**] Click the **Network settings** tab and then click the **SSH gateway (jump host)** button.
 
-   ..  figure:: images/login_tools/XC_network_settings.png
+   ..  figure:: images/login/mobaxterm-network-settings.png
        :alt: MobaXterm Session window with showing Network settings tab clicked and SSH gateway jump host button displayed.
-       :class: no-scaled-link
 
 #. [**Nightingale Only**] In the configuration window displayed:
 
@@ -93,9 +89,8 @@ This section is the one-time setup on your Windows machine so that it can connec
 
    - You may see a warning message saying that your remote host identification has changed; click the **Yes** button to continue.
 
-   ..  figure:: images/login_tools/XC_jump_host_filled_in.png
+   ..  figure:: images/login/mobaxterm-jump-host-configuration.png
        :alt: MobaXterm Session window with showing values for the SSH gateway jump host filled in.
-       :class: no-scaled-link
 
 #. Click the **OK** button in the **Session settings** window to initiate your SSH connection. A terminal window will be displayed asking for your password; enter your **NCSA (Kerberos) password** and hit **Enter**.
 
