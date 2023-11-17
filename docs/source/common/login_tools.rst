@@ -1,12 +1,12 @@
-.. _logging_in:
-
-Logging Into NCSA Systems
-===========================
-
 .. note:: 
    **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
 
    See the ICRN user documentation `Acessing the System <https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
+
+.. _logging_in:
+
+Logging Into NCSA Systems
+===========================
 
 .. _ssh:
 
@@ -56,12 +56,6 @@ This section is the one-time setup on your Windows machine so that it can connec
 
    ..  figure:: images/login_tools/XC_01_select_ssh.png
        :alt: MobaXterm Session window with SSH button circled.
-       :class: no-scaled-link
-
-   You will now see an area titled **Basic SSH Settings**. 
-
-   ..  figure:: images/login_tools/XC_specify_host_username.png
-       :alt: MobaXterm Session window with Basic SSH Settings area displayed.
        :class: no-scaled-link
 
 #. In the **Basic SSH Settings** area:
