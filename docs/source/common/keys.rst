@@ -3,6 +3,9 @@
 Login Accounts and SSH Keys
 ==================================
 
+.. note::
+   **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
+
 .. _login_acct:
 
 Login Accounts
