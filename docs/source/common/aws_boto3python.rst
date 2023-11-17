@@ -34,23 +34,23 @@ If you were given an admin account on AWS, follow the steps below to create a us
 
 #. After logging in (use `Illinois AWS login <https://aws.illinois.edu/>`_ if you're at the U of I), click on **IAM Dashboard**:
 
-   .. image:: images/aws_boto3/boto_step1.png
+   .. image:: images/aws_boto3/aws-management-console.png
 
 #. Under **IAM resources** click **Users**:
 
-   .. image:: images/aws_boto3/boto_step2.png
+   .. image:: images/aws_boto3/aws-iam-dashboard.png
 
 #. Click **Add users**:
 
-   .. image:: images/aws_boto3/boto_step3.png
+   .. image:: images/aws_boto3/aws-iam-users.png
 
 #. Choose a **user name** and set access type to **Programmatic access**; then click **Next: Permissions**:
 
-   .. image:: images/aws_boto3/boto_step4.png
+   .. image:: images/aws_boto3/aws-set-user-details.png
 
 #. On the **Set permissions** screen, select **Attach existing policies directly** and choose **AmazonS3FullAccess**; then click **Next: Tags**:
 
-   .. image:: images/aws_boto3/boto_step5.png
+   .. image:: images/aws_boto3/aws-set-permissions.png
 
 #. On the **Tags** screen, there is no need to do anything with tags, so just click **Next: Review**.
 
@@ -58,7 +58,7 @@ If you were given an admin account on AWS, follow the steps below to create a us
 
 #. At the end of the user creation process, it gives you an **Access key ID** and **Secret access key**; save these:
 
-   .. image:: images/aws_boto3/boto_step6.png
+   .. image:: images/aws_boto3/aws-keys.png
 
 If you have an admin account, you can also create user instances for other group members.
 
