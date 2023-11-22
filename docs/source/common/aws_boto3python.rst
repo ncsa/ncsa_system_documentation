@@ -34,7 +34,7 @@ If you were given an admin account on AWS, follow the steps below to create a us
 
 #. After logging in (use `Illinois AWS login <https://aws.illinois.edu/>`_ if you're at the U of I), click on **IAM Dashboard**:
 
-   .. image:: images/aws_boto3/aws-management-console.png
+   .. image:: images/aws_boto3/aws-management-console1.png
 
 #. Under **IAM resources** click **Users**:
 
