@@ -18,7 +18,6 @@ To log into an NCSA computer system, you need a **login** account, for that syst
 - Attached two-factor authentication method (typically Duo)  
 
 Your login account is associated with you as a person, and you should only have one login account per system.  
-
 Your login account is different from an **allocation** account (sometimes also called a **charge** or **project** account). Allocation accounts are associated with a project or an allocation and keep track of the resource amounts you are allowed to use.  
 
 For the `ICRN <https://publish.illinois.edu/ncsa-jupyter/>`_ system, your login account information is your University of Illinois at Urbana-Champaign, NetID, NetID password, and associated University of Illinois Duo.
