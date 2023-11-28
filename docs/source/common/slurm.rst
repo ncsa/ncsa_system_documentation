@@ -13,22 +13,22 @@ NCSA computer systems use the Slurm software stack for job workload management.
 Accessing the Compute Nodes
 -------------------------------
 
-Use the Slurm commands to run batch jobs or for interactive access to compute nodes. 
+Use Slurm commands to run batch jobs or for interactive access to compute nodes. 
 See the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
-A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <images/slurm/slurm_summary.pdf>`
+A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <images/slurm/slurm_summary.pdf>`.
 
-Batch scripts (sbatch) or Interactive (srun , salloc), which is right for you?
+Batch scripts (sbatch) or Interactive (srun, salloc), which is right for you?
 
 - :ref:`sbatch`: Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
   Sample Slurm batch job scripts are provided in the :ref:`examples` section.
-  For mixed resource heterogeneous jobs see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
+  For mixed resource heterogeneous jobs, see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
   Slurm also supports job arrays for easy management of a set of similar jobs, see the `Slurm job arrays documentation <https://slurm.schedmd.com/job_array.html>`_.
 
-- :ref:`srun`: For interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
+- :ref:`srun`: For interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, which means that it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
 
 - :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Type **exit** when finished with an salloc allocation if you want to end it before the time expires.
 
-Direct SSH access to a compute node in a running job from a dt-loginNN node is enabled once the job has started:
+Direct SSH access to a compute node in a running job from a login node is enabled once the job has started:
 
 .. code-block::
 
@@ -53,7 +53,8 @@ See also, :ref:`mon_node`.
 Partitions (Queues)
 -----------------------
 
-Each resource has partitions (queues) with different specifications including maximum number of nodes, maximum wall time, and memory. Consult the documentation for your desired resource for more information on its queues.
+Each resource has partitions (queues) with different specifications including maximum number of nodes, maximum wall time, and memory. 
+Consult the resource-specific documentation for more information on a system's queues.
 
 - `Delta Queues <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#partitions-queues>`_
 - `Hydro Queues <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/partitions_and_job_policies.html#partitions-queues>`_
@@ -63,8 +64,8 @@ Each resource has partitions (queues) with different specifications including ma
 Node Sharing
 --------------
 
-Node-sharing is the default for jobs. 
-Node-exclusive mode can be obtained by specifying all the consumable resources for that node type or adding the following Slurm options:
+Node sharing is the default for jobs. 
+Node exclusive mode can be obtained by specifying all the consumable resources for that node type or adding the following Slurm options:
 
 .. code-block::
 
@@ -88,25 +89,25 @@ The syntax for submitting a batch job with ``sbatch`` is:
 
   sbatch [list of sbatch options] script_name
 
-The main ``sbatch`` options are listed below. 
+.. table:: main ``sbatch`` options
 
-+-------------------------+------------------------------------------------------------------+
-| Option                  | Description                                                      |
-+=========================+==================================================================+
-| ``--time=time``         | time = maximum wall clock time (d-hh:mm:ss) [default: 30 minutes]|
-+-------------------------+------------------------------------------------------------------+
-| ``--nodes=n``           | Total number of nodes for the batch job.                         |
-|                         |                                                                  |
-|                         | n = number of 64-core nodes [default: 1 node]                    |
-+-------------------------+------------------------------------------------------------------+
-| ``--ntasks=p``          | Total number of cores for the batch job.                         |
-|                         |                                                                  |
-|                         | p = number of cores per job to use (1 - 64) [default: 1 core]    |
-+-------------------------+------------------------------------------------------------------+
-| ``--ntasks-per-node=p`` | Number of cores per node.                                        |
-|                         |                                                                  |
-|                         | p = number of cores per node to use (1 - 64) [default: 1 core]   |
-+-------------------------+------------------------------------------------------------------+
+  +-------------------------+------------------------------------------------------------------+
+  | Option                  | Description                                                      |
+  +=========================+==================================================================+
+  | ``--time=time``         | time = maximum wall clock time (d-hh:mm:ss) [default: 30 minutes]|
+  +-------------------------+------------------------------------------------------------------+
+  | ``--nodes=n``           | Total number of nodes for the batch job.                         |
+  |                         |                                                                  |
+  |                         | n = number of 64-core nodes [default: 1 node]                    |
+  +-------------------------+------------------------------------------------------------------+
+  | ``--ntasks=p``          | Total number of cores for the batch job.                         |
+  |                         |                                                                  |
+  |                         | p = number of cores per job to use (1 - 64) [default: 1 core]    |
+  +-------------------------+------------------------------------------------------------------+
+  | ``--ntasks-per-node=p`` | Number of cores per node.                                        |
+  |                         |                                                                  |
+  |                         | p = number of cores per node to use (1 - 64) [default: 1 core]   |
+  +-------------------------+------------------------------------------------------------------+
 
 **Example:**
 
@@ -138,7 +139,7 @@ $$$$$$$$$$$$$
 
 Instead of queuing up a batch job to run on the compute nodes, you can request that the job scheduler allocate you to a compute node **now** and log you onto it. These are called **interactive batch jobs**. Projects that have dedicated interactive nodes, do not need to go through the scheduler; members of these projects just log in directly to their nodes.
 
-To launch an interactive batch job using the job scheduler with the default values for the job resources (nodes, cores, memory, and so on), run the following command, replacing **ALL_ACCT**, with the name of your allocation account:
+To launch an interactive batch job using the job scheduler with the default values for the job resources (nodes, cores, memory, and so on), run the following command, replacing **ALL_ACCT** with the name of your allocation account:
 
 .. code-block::
 
@@ -166,7 +167,7 @@ After you enter the command, you will have to wait for Slurm to start the job. Y
 
    srun: job 123456 queued and waiting for resources
 
-Specifying a small number of nodes for smaller amounts of time should shorten the wait time because such jobs will backfill among larger jobs. Once the job starts, you will see something similar to the below and will be presented with an interactive shell prompt on the launch node. At this point, you can use the appropriate command(s) to start your program.
+Specifying a small number of nodes for smaller amounts of time should shorten the wait time because the job will backfill among larger jobs. Once the job starts, you will see something similar to the below and will be presented with an interactive shell prompt on the launch node. At this point, you can use the appropriate command(s) to start your program.
 
 .. code-block::
 
@@ -335,14 +336,16 @@ squeue
 
 The ``squeue`` command is used to pull up information about batch jobs submitted to the batch system. By default, the ``squeue`` command will print out the JobID,  partition, username, job status, number of nodes, and name of nodes for all batch jobs queued or running within batch system.
 
-============================ ============
-Slurm Command                Description
-============================ ============
-``squeue -a``                List the status of all batch jobs in the batch system.
-``squeue -u $USER``          List the status of all your batch jobs in the batch system.
-``squeue -j JobID``          List nodes allocated to a specific running batch job in addition to basic information.
-``scontrol show job JobID``  List detailed information on a particular batch job.
-============================ ============
+.. table:: ``squeue`` command options
+
+  ============================ ============
+  Slurm Command                Description
+  ============================ ============
+  ``squeue -a``                List the status of all batch jobs in the batch system.
+  ``squeue -u $USER``          List the status of all your batch jobs in the batch system.
+  ``squeue -j JobID``          List nodes allocated to a specific running batch job in addition to basic information.
+  ``scontrol show job JobID``  List detailed information on a particular batch job.
+  ============================ ============
 
 See the squeue man page for other available options.
 
@@ -361,71 +364,74 @@ sinfo
 
 The ``sinfo`` command is used to view partition and node information for a system running Slurm.
 
-+------------------------+----------------------------------------------------------+
-| Slurm Command          | Description                                              |
-+========================+==========================================================+
-| ``sinfo -a``           | List summary information on all the partitions (queues). |
-+------------------------+----------------------------------------------------------+
-| ``sinfo -p PRTN_NAME`` | Print information only about the specified partition(s). |
-|                        |                                                          |
-|                        | Multiple partitions are separated by commas.             |
-+------------------------+----------------------------------------------------------+
+.. table:: ``sinfo`` command options
+
+  +------------------------+----------------------------------------------------------+
+  | Slurm Command          | Description                                              |
+  +========================+==========================================================+
+  | ``sinfo -a``           | List summary information on all the partitions (queues). |
+  +------------------------+----------------------------------------------------------+
+  | ``sinfo -p PRTN_NAME`` | Print information only about the specified partition(s). |
+  |                        |                                                          |
+  |                        | Multiple partitions are separated by commas.             |
+  +------------------------+----------------------------------------------------------+
 
 See the sinfo man page for other available options (``man sinfo``).
 
 scontrol
 ~~~~~~~~~
 
-The ``scontrol`` command can be used to view detailed information on a particular job.
+The ``scontrol`` command can be used to view detailed information on a particular job (JobID).
 
-+-------------------------+-------------------------------------------+
-| Slurm Example Command   | Description                               |
-+=========================+===========================================+
-| scontrol show job JobID | Lists detailed information on a particular|
-|                         | job.                                      |
-+-------------------------+-------------------------------------------+
+.. code-block::
 
-See the scontrol man page for other available options. Note that most of the scontrol options can only be executed by user root or an administrator.
+   scontrol show job JobID
+
+See the scontrol man page for other available options. Note that most of the ``scontrol`` options can only be executed by user root or an administrator.
 
 scancel
 ~~~~~~~~
 
 The ``scancel`` command deletes a queued job or ends a running job.
 
-+------------------------------+--------------------------------------------------------------------------+
-| Slurm Command                | Description                                                              |
-+==============================+==========================================================================+
-| ``scancel JobID``            | To delete/end a specific batch job                                       |
-+------------------------------+--------------------------------------------------------------------------+
-| ``scancel JobID01, JobID02`` | To delete/end multiple batch jobs, use a comma-separated list of JobIDs  |
-+------------------------------+--------------------------------------------------------------------------+
-| ``scancel -u $USER``         | To delete/end all your batch jobs (removes all your batch jobs from      |
-|                              |                                                                          |
-|                              | the batch system regardless of the batch job’s state)                    |
-+------------------------------+--------------------------------------------------------------------------+
-| ``scancel --name JobName``   | To delete/end multiple batch jobs based on the batch job’s name          |
-+------------------------------+--------------------------------------------------------------------------+
+.. table:: ``scancel`` command options
+
+  +------------------------------+--------------------------------------------------------------------------+
+  | Slurm Command                | Description                                                              |
+  +==============================+==========================================================================+
+  | ``scancel JobID``            | To delete/end a specific batch job                                       |
+  +------------------------------+--------------------------------------------------------------------------+
+  | ``scancel JobID01, JobID02`` | To delete/end multiple batch jobs, use a comma-separated list of JobIDs  |
+  +------------------------------+--------------------------------------------------------------------------+
+  | ``scancel -u $USER``         | To delete/end all your batch jobs (removes all your batch jobs from      |
+  |                              |                                                                          |
+  |                              | the batch system regardless of the batch job’s state)                    |
+  +------------------------------+--------------------------------------------------------------------------+
+  | ``scancel --name JobName``   | To delete/end multiple batch jobs based on the batch job’s name          |
+  +------------------------------+--------------------------------------------------------------------------+
 
 See the scancel man page for other available options.
 
 Useful Batch Job Environment Variables
 -----------------------------------------
 
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| Description             | Slurm Environment Variable | Detail Description                                                      |
-+=========================+============================+=========================================================================+
-| Array JobID             | $SLURM_ARRAY_JOB_ID        | Each member of a job array is assigned a unique identifier.             |
-|                         |                            |                                                                         |
-|                         | $SLURM_ARRAY_TASK_ID       |                                                                         |
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| Job Submission Directory| $SLURM_SUBMIT_DIR          | By default, jobs start in the directory that the job was submitted      |
-|                         |                            |                                                                         |
-|                         |                            | from. So the "cd $SLURM_SUBMIT_DIR" command is not needed.              |
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| JobID                   | $SLURM_JOB_ID              | Job identifier assigned to the job.                                     |
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
-| Machine(node) list      | $SLURM_NODELIST            | Variable name that contains the list of nodes assigned to the batch job.|
-+-------------------------+----------------------------+-------------------------------------------------------------------------+
+.. table:: useful batch job environment variables
+
+  +-------------------------+----------------------------+-------------------------------------------------------------------------+
+  | Description             | Slurm Environment Variable | Detail Description                                                      |
+  +=========================+============================+=========================================================================+
+  | Array JobID             | $SLURM_ARRAY_JOB_ID        | Each member of a job array is assigned a unique identifier.             |
+  |                         |                            |                                                                         |
+  |                         | $SLURM_ARRAY_TASK_ID       |                                                                         |
+  +-------------------------+----------------------------+-------------------------------------------------------------------------+
+  | Job Submission Directory| $SLURM_SUBMIT_DIR          | By default, jobs start in the directory that the job was submitted      |
+  |                         |                            |                                                                         |
+  |                         |                            | from. So the "cd $SLURM_SUBMIT_DIR" command is not needed.              |
+  +-------------------------+----------------------------+-------------------------------------------------------------------------+
+  | JobID                   | $SLURM_JOB_ID              | Job identifier assigned to the job.                                     |
+  +-------------------------+----------------------------+-------------------------------------------------------------------------+
+  | Machine(node) list      | $SLURM_NODELIST            | Variable name that contains the list of nodes assigned to the batch job.|
+  +-------------------------+----------------------------+-------------------------------------------------------------------------+
 
 See the sbatch man page for additional environment variables available.
 
