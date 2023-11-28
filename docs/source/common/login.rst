@@ -6,7 +6,7 @@ Logging Into NCSA Systems
 .. note:: 
    **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
 
-   See the ICRN user documentation `Acessing the System <https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/accessing.html>`_ page for instructions on how to log into ICRN through your web browser.
+   See the `ICRN user documentation, Acessing the System page <https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/accessing.html>`_ for instructions on logging into ICRN through your web browser.
 
 .. _ssh:
 
@@ -23,7 +23,7 @@ Microsoft Windows SSH Clients
 -------------------------------
 
 You can use the built-in SSH Client in Windows (version 10 and above) or select from several freely available third-party SSH clients. 
-These typically provide a graphical user interface (GUI) rather than a command-line interface. `PuTTY <http://www.chiark.greenend.org.uk/~sgtatham/putty/>`_ is a popular choice, `MobaXterm <http://mobaxterm.mobatek.net/>`_ is another one.
+These typically provide a graphical user interface (GUI) rather than a command-line interface. `PuTTY <http://www.chiark.greenend.org.uk/~sgtatham/putty/>`_ and `MobaXterm <http://mobaxterm.mobatek.net/>`_ are popular choices.
 
 MobaXterm
 ~~~~~~~~~~~~~
@@ -31,20 +31,20 @@ MobaXterm
 You can install `MobaXterm <https://mobaxterm.mobatek.net/>`_ on your workstation and use it to connect to nodes using SSH. 
 MobaXterm enables an SSH connection and provides other useful utilities you can use when communicating with a cluster, such as file transfer and editing.
 
-Follow the steps below to install MobaXterm and connect to a resource. 
+Follow the steps below to install MobaXterm and connect to a compute resource. 
 
 One-time setup
 $$$$$$$$$$$$$$$
 
-This section is the one-time setup on your Windows machine so that it can connect to a resource.  
+The one-time setup, outlined below, configures MobaXterm to connect to a compute resource. If you have more than one compute resource you would like to access, repeat steps 2-8 for each resource.
 
 .. note::
-   Nightingale has extra security to protect the data stored on it, so configuring this connection is slightly more complicated than other HPC clusters. The difference involves adding the SSH connection to the secure bastion node; this is described in Steps 5 and 6.
+   Nightingale has extra security to protect the data stored on it. Configuring your connection to Nightingale requires adding the SSH connection to the secure bastion node; this is described in **Steps 5 and 6**.
 
 #. `Download MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_ and **install** it on your Windows workstation. 
 
    You can install the Portable or Installer edition of MobaXterm. You will need to have admin privileges to install the Installer edition. 
-   The Portable edition does not require admin privileges, to use it just **extract** the downloaded zip file and click **mobaxterm.exe**.
+   The Portable edition does not require admin privileges, to use it **extract** the downloaded zip file and click **mobaxterm.exe**.
 
 #. Launch the MobaXterm application and click the **Session** button in the upper left of the window to start an SSH session.
 
@@ -56,7 +56,7 @@ This section is the one-time setup on your Windows machine so that it can connec
    ..  figure:: images/login/mobaxterm-select-ssh.png
        :alt: MobaXterm Session window with SSH button circled.
 
-#. In the **Basic SSH Settings** area:
+#. In the **Basic SSH Settings** section:
 
    - Enter the name of the **login node** you want to access (either a general access or interactive node) in the **Remote host** text box. 
 
@@ -79,7 +79,7 @@ This section is the one-time setup on your Windows machine so that it can connec
    ..  figure:: images/login/mobaxterm-network-settings.png
        :alt: MobaXterm Session window with showing Network settings tab clicked and SSH gateway jump host button displayed.
 
-#. [**Nightingale Only**] In the configuration window displayed:
+#. [**Nightingale Only**] In the jump hosts configuration window:
 
    - Enter **ngale-bastion-1.ncsa.illinois.edu** in the **Gateway host** box.
 
@@ -99,11 +99,11 @@ This section is the one-time setup on your Windows machine so that it can connec
 Logging Into the System
 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
-Once the above, one-time, steps are complete for a resource, follow the below steps each time you want to log into the resource to work.
+After the one-time setup is complete for a resource, follow the below steps each time you want to log into the resource to work.
 
 #. Open **MobaXterm**. 
 
-#. In the left bar, there is a list of **User sessions**. Each one is a node that you configured for logging in. Mouse over the node you want to log into, **right click**, and in the resulting menu, select **execute**. 
+#. In the left bar, there is a list of **User sessions**. Each one is a node that you have configured for logging in. Mouse over the node you want to log into, **right click**, and in the resulting menu, select **execute**. 
 
 #. Enter your **NCSA password** in the pop-up window; as you type it, you will see a row of *************. Hit **Enter** or click **OK**.
 
@@ -122,7 +122,7 @@ Once the above, one-time, steps are complete for a resource, follow the below st
 Mac OS X SSH Clients
 ----------------------
 
-Mac OS X comes with a built-in open-source version of SSH called OpenSSH. You can access it via the Terminal application. 
+Mac OS X comes with a built-in open-source version of SSH called OpenSSH, you can access it via the Terminal application. 
 `PuTTY <http://www.chiark.greenend.org.uk/~sgtatham/putty/>`_ is also available for Mac OS X.
 
 One-time X Window Software Install
@@ -133,9 +133,11 @@ If you want to use an application from a resource and have its windows on your o
 One-time SSH Configuration 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open the **Terminal** application on your Mac; that presents a black window that you can type commands into. 
+If you have more than one compute resource you would like to access, repeat these steps for each resource.
 
-#. At the prompt, type ``cd ~/.ssh`` and then hit **return** or **Enter** (in these instructions, **return** and **Enter** are interchangeable).  
+#. Open the **Terminal** application on your Mac. 
+
+#. In the terminal window, type ``cd ~/.ssh`` and then hit **return** or **Enter** (in these instructions, **return** and **Enter** are interchangeable).  
 
 #. Type ``nano config`` and hit **return**. This will bring you into an editor program that looks like this:
 
@@ -157,7 +159,7 @@ One-time SSH Configuration
 #. Copy the lines from the below code block, you will modify them in your window per the next steps. 
 
    .. note::
-      If you are using Nightingale, copy both the **Host ngb1** and **Host ng-login01** paragraphs. If you are using any other resource, only copy the **Host ng-login01** paragraph.
+      If you are using Nightingale, copy both the **Host ngb1** and **Host ng-login01** stanzas. If you are using any other resource, only copy the **Host ng-login01** stanza.
 
    .. code-block::
 
@@ -177,7 +179,12 @@ One-time SSH Configuration
 
    - If you are *not* logging into Nightingale: 
 
-     - Replace **ng-login01** with the name of the head node you are logging into.   
+     - Replace **ng-login01** with the name of the head node you are logging into.
+
+       - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
+       - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
+       - Hydro node hostnames  
+
      - Replace **YOUR_USERNAME** with your NCSA identity username. 
      - Replace **ng-login01.ngale.internal.ncsa.edu** with the node hostname you are logging into:
 
@@ -187,7 +194,7 @@ One-time SSH Configuration
 
    - If you are logging into Nightingale:
 
-     - Replace **Your_USERNAME** with your **NCSA identity username**.
+     - in the **Host ngb1** stanza, replace **YOUR_USERNAME** with your NCSA identity username.
 
      - If you have an interactive node assigned to you on Nightingale, you can add another copy of the last stanza of the configuration file, and in that stanza, replace "ng-login01" with the name of *your* login node.  
 
@@ -221,7 +228,9 @@ One-time SSH Configuration
 Logging Into the System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
       
-Once the above, one-time, steps are complete, follow the below steps each time you want to log into a resource to work.
+After the one-time configuration is complete for a resource, follow the below steps each time you want to log into the resource to work.
+
+#. Open the **Terminal** application.
 
 #. Type the following at the prompt, replacing **ng-login01** with the name of the node you are logging into:
 
@@ -235,11 +244,11 @@ Once the above, one-time, steps are complete, follow the below steps each time y
 
 #. There will be a Duo prompt asking for a passcode or for "option 1". You may either:
 
-   - Type **1**, then your phone Duo will ask you for login confirmation. 
+   - Type **1**, then the Duo app on your phone will ask you for login confirmation. 
    
    Or 
 
-   - Enter a 6-digit password from the **NCSA** entry of your Duo app.  
+   - Type the 6-digit passcode from the **NCSA** entry of your Duo app into the terminal prompt.  
 
 #. Again enter your NCSA password at the prompt. You again **won't see your characters** echoed to the screen; just type it blindly.  
 
@@ -249,7 +258,7 @@ Once the above, one-time, steps are complete, follow the below steps each time y
 
       [hirop@ng-gpu-m01 ~] $
 
-   You can load modules and run software and access your files from there.  
+   You can load modules, run software, and access your files from there.  
 
 .. _linux:
 
@@ -261,8 +270,10 @@ The Linux operating system has SSH built into it. You use the Linux terminal app
 
 Open OnDemand
 ---------------
-Open OnDemand is a graphical login client that creates an entire Linux virtual desktop in a browser tab.  It is implemented on most NCSA systems.  
+Open OnDemand is a graphical login client that creates an entire Linux virtual desktop in a browser tab. 
+It is implemented on most NCSA systems.  
 
 Thinlinc
 ----------------
-Thinlinc is a graphical login client that creates an entire Linux virtual desktop in a browser tab.  It is available on select NCSA systems.  
+Thinlinc is a graphical login client that creates an entire Linux virtual desktop in a browser tab. 
+It is available on select NCSA systems.  
