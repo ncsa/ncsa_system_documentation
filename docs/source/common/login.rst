@@ -252,7 +252,7 @@ After the one-time configuration is complete for a resource, follow the below st
 
 #. Again enter your NCSA password at the prompt. You again **won't see your characters** echoed to the screen; just type it blindly.  
 
-#. You should now be at a prompt that reflects that you are on a node for the system. You will know this because the prompt (the bottom line in your terminal or SSH window) will contain the name of the machine you are working on; that should begin with "ng-" for Nightingale, "??-" for Delta, "??-" for ICC, and "??-" for Hydro. It will look something like this: 
+#. You should now be at a prompt that reflects that you are on a node for the system. You will know this because the prompt (the bottom line in your terminal or SSH window) will contain the name of the machine you are working on; that should begin with "ng-" for Nightingale, "dt-" for Delta, "??-" for ICC, and "??-" for Hydro. It will look something like this: 
 
    .. code-block::
 
