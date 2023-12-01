@@ -62,7 +62,7 @@ The one-time setup, outlined below, configures MobaXterm to connect to a compute
 
      - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
      - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
-     - Hydro node hostnames
+     - `Hydro node hostname <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/index.html#logging-in>`_
      - `Nightingale node hostnames <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/accessing.html#node-hostnames>`_
 
    - Check the **Specify username** box.
@@ -183,7 +183,7 @@ If you have more than one compute resource you would like to access, repeat thes
 
        - `Campus Cluster node hostnames <https://ncsa-campus-cluster.readthedocs-hosted.com/en/latest/user_guide/accessing.html#accessing-the-system>`_ 
        - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#direct-access-login-nodes>`_
-       - Hydro node hostnames  
+       - `Hydro node hostname <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/index.html#logging-in>`_ 
 
      - Replace **YOUR_USERNAME** with your NCSA identity username. 
      - Replace **ng-login01.ngale.internal.ncsa.edu** with the node hostname you are logging into:
@@ -252,7 +252,7 @@ After the one-time configuration is complete for a resource, follow the below st
 
 #. Again enter your NCSA password at the prompt. You again **won't see your characters** echoed to the screen; just type it blindly.  
 
-#. You should now be at a prompt that reflects that you are on a node for the system. You will know this because the prompt (the bottom line in your terminal or SSH window) will contain the name of the machine you are working on; that should begin with "ng-" for Nightingale, "dt-" for Delta, "??-" for ICC, and "??-" for Hydro. It will look something like this: 
+#. You should now be at a prompt that reflects that you are on a node for the system. You will know this because the prompt (the bottom line in your terminal or SSH window) will contain the name of the machine you are working on; that should begin with "ng-" for Nightingale, "dt-" for Delta, and "cc-" for ICC. For Nightingale, it will look something like this: 
 
    .. code-block::
 
