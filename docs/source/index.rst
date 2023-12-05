@@ -66,8 +66,6 @@ More Documentation
    :hidden:
 
    common/index
-   Third-Party Software <software/index>
-   historical/index
 
 ==============
 
