@@ -12,7 +12,4 @@ Documentation on topics that are applicable across multiple NCSA computing resou
    keys
    slurm
    transfer
-   acl
    aws_boto3python
-   forge
-   tmux
