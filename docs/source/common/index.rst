@@ -12,5 +12,5 @@ Documentation on topics that are applicable across multiple NCSA computing resou
    keys
    slurm
    transfer
-   relocate_conda_directory
+   relocate-conda-directory
    aws_boto3python
