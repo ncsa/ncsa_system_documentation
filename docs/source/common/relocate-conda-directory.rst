@@ -4,8 +4,9 @@ Relocating Your .conda Directory to Project Space
 .. note:: 
    **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
 
-Large conda installations may exceed your home directory size. This can be fixed by relocating your .conda directory to your project space, which has a larger quota than your home directory.
-To relocate your .conda directory to your project space go through the following steps:
+Large conda installations may exceed your home directory size. This can be avoided by relocating your .conda directory to your project space, which has a larger quota than your home directory.
+
+Relocate your .conda directory to your project space using the following steps:
 
 .. code-block::
 
