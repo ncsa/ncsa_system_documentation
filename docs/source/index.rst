@@ -16,7 +16,7 @@ The pages linked here are the official user documentation for the computing reso
 - `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
-- `Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>`_
+- `Nightingale </systems/nightingale>`_
 - `Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>`_
 - `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 
@@ -55,7 +55,7 @@ More Documentation
    Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
-   Nightingale <https://ncsa-nightingale.readthedocs-hosted.com>
+   Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
