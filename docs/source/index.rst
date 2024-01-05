@@ -13,7 +13,7 @@ Computing Resources User Documentation
 The pages linked here are the official user documentation for the computing resource.  
 
 - `Delta </systems/delta>`_ 
-- `Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>`_
+- `Hydro </systems/hydro>`_
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
 - `Nightingale </systems/nightingale>`_
@@ -52,7 +52,7 @@ More Documentation
    :hidden:
 
    Delta <https://docs.ncsa.illinois.edu/systems/delta>
-   Hydro <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/>
+   Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
