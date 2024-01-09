@@ -94,7 +94,12 @@ Hydro and Nightingale users, follow these steps **after** you have :ref:`linked 
 
    - `Delta endpoints <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_: **NCSA Delta**
    - `Hydro endpoints <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_: **NFI Hydro**
-   - `ICC endpoints <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_: **Illinois Research Storage**, **Illinois Research Storage - Box**, and **Illinois Research Storage - Google Drive**
+   - `ICC endpoints <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
+
+     - POSIX: **Illinois Research Storage** 
+     - Box: **Illinois Research Storage - Box**
+     - Google Drive: **Illinois Research Storage - Google Drive**
+
    - `Nightingale <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_: **ncsa#ngale**
 
 #. The system will prompt you to Authenticate to the endpoint, click **Continue**. 
