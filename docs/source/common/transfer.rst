@@ -25,7 +25,7 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
    .. image:: images/transfer/globus-homepage.png
       :alt: Globus homepage with login button highlighted in upper-right corner.
 
-#. Enter **UIUC** in the organization search bar. 
+#. Enter **UIUC** in the **Look-up your organization** field. 
 
 #. Select **University of Illinois at Urbana-Champaign** from the dropdown menu and click **Continue**.
 
@@ -61,7 +61,7 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
    .. figure:: images/transfer/globus-link-another-identity.png
       :alt: Globus link another identity button.
 
-#. Enter **NCSA** in the organization search bar. 
+#. Enter **NCSA** in the **Look-up your organization** field. 
 #. Select **National Center for Supercomputing Applications** and click **Continue**.
 
    .. figure:: images/transfer/globus-select-an-identity-to-link.png
