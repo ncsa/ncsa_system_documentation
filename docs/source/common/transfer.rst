@@ -22,14 +22,14 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
 
 #. Go to `globus.org <globus.org>`_ and click on **LOG IN**.
 
-   .. image:: images/transfer/globus-homepage.png
+   .. figure:: images/transfer/globus-homepage.png
       :alt: Globus homepage with login button highlighted in upper-right corner.
 
 #. Enter **UIUC** in the **Look-up your organization** field. 
 
 #. Select **University of Illinois at Urbana-Champaign** from the dropdown menu and click **Continue**.
 
-   .. image:: images/transfer/globus-login-organization.png
+   .. figure:: images/transfer/globus-login-organization.png
       :alt: Globus use your existing organizational login window with University of Illinois at Urbana-Champaign entered.
 
 #. Complete your **UIUC login** and **UIUC Duo** authentication, when prompted. 
@@ -43,7 +43,7 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
 
 #. Click on **Settings** in the left menu pane.
 
-   .. image:: images/transfer/globus-left-menu-pane.png
+   .. figure:: images/transfer/globus-left-menu-pane.png
       :alt: Globus left menu pane with settings highlighted.
 
 #. Click on the **Account** tab.
@@ -102,7 +102,7 @@ After you :ref:`link your identity to Globus <globus-link>`, use the below steps
 
 #. Log into `globus.org <globus.org>`_ and click on **File Manager** in the left menu pane. 
 
-   .. image:: images/transfer/globus-file-manager.png
+   .. figure:: images/transfer/globus-file-manager.png
       :alt: Globus left menu pane with file manager highlighted.
 
 #. In the **Collection** field, search for the **endpoint** of your resource (use the links below to find the endpoint of each resource). 
@@ -142,7 +142,7 @@ After you :ref:`link your identity to Globus <globus-link>`, use the below steps
    .. note::
       You may need to change the **Panels** selction in the upper right corner to the *split* option to show the **Collection** search field in the other half of the **File Manager** .
 
-      .. image:: images/transfer/globus-panels-toggle.png
+      .. figure:: images/transfer/globus-panels-toggle.png
          :alt: Globus panels icons in upper right corner of file manager window.
 
 #. Use the GUI to transfer the data; you can choose transfer settings under **Transfer & Sync Options**. 
