@@ -131,7 +131,7 @@ After you :ref:`link your identity to Globus <globus-link>`, use the below steps
 
 #. You should be returned to the **File Manger** view. Navigate from there to your home directory or project directory. 
 
-   .. figure:: images/transfer/globus-file-manager.png
+   .. figure:: images/transfer/globus-file-manager-ngale.png
       :alt: Globus file manager view showing home and project directories.
 
 #. In the other half of the **File Manger**, search for and authenticate to the collection you are planning to transfer data to/from. 
