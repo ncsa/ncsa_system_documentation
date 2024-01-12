@@ -11,14 +11,14 @@ Transferring Files
 Globus
 -----------  
 
-`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with **Globus Endpoints**. Globus is a good tool to use when transferring many files or large files to and from your directories.
+`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with **Globus Endpoints**. Globus is a good tool to use to transfer many files or large files to and from your directories. 
 
 .. _globus-link:
 
 One-Time Setup
 ~~~~~~~~~~~~~~~~
 
-To use Globus to transfer files to and from your NCSA resource directories, you first need to "link" your NCSA (Delta, Hydro, and Nightingale) or UIUC (ICC) identity. 
+To use Globus to transfer files to and from your NCSA resource directories, you first need to *link* your NCSA (Delta, Hydro, and Nightingale) or UIUC (ICC) identity.
 
 #. Go to `globus.org <globus.org>`_ and click on **LOG IN**.
 
@@ -28,6 +28,9 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
 #. Enter **UIUC** in the organization search bar. 
 
 #. Select **University of Illinois at Urbana-Champaign** from the dropdown menu and click **Continue**.
+
+   .. image:: images/transfer/globus-login-organization.png
+      :alt: Globus use your existing organizational login window with University of Illinois at Urbana-Champaign entered.
 
 #. Complete your **UIUC login** and **UIUC Duo** authentication, when prompted. 
 
@@ -62,7 +65,7 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
 #. Select **National Center for Supercomputing Applications** and click **Continue**.
 
    .. figure:: images/transfer/globus-select-an-identity-to-link.png
-      :alt: Globus select an identity to link window with national center for supercomputing applications entered.
+      :alt: Globus select an identity to link window with National Center for Supercomputing Applications entered.
 
 #. Enter your **NCSA username** and **NCSA Kerberos password** and then click **Login**.
 
