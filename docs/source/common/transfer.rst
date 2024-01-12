@@ -61,13 +61,13 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
 #. Enter **NCSA** in the organization search bar. 
 #. Select **National Center for Supercomputing Applications** and click **Continue**.
 
-    .. figure:: images/transfer/globus-select-an-identity-to-link.png
-       :alt: Globus select an identity to link window with national center for supercomputing applications entered.
+   .. figure:: images/transfer/globus-select-an-identity-to-link.png
+      :alt: Globus select an identity to link window with national center for supercomputing applications entered.
 
 #. Enter your **NCSA username** and **NCSA Kerberos password** and then click **Login**.
 
-    .. figure:: images/transfer/globus-ncsa-authentication.png
-       :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
+   .. figure:: images/transfer/globus-ncsa-authentication.png
+      :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
 
 #. Approve the **NCSA Duo** push on your mobile device.
 
@@ -129,22 +129,22 @@ After you :ref:`link your identity to Globus <globus-link>`, use the below steps
    .. figure:: images/transfer/globus-web-app-info-and-services-il-research-storage.png
       :alt: Globus Web App authorization prompt
 
-#. You should be returned to the **File Manger** view. Navigate from there to your home directory (**u**) or to your project directory (**projects**). 
+#. You should be returned to the **File Manger** view. Navigate from there to your home directory or project directory. 
 
    .. figure:: images/transfer/globus-file-manager.png
       :alt: Globus file manager view showing home and project directories.
 
-#. In a similar manner (in the right half of the **File Manger** view), search for and authenticate to the collection you are planning to transfer data to/from. 
+#. In the other half of the **File Manger**, search for and authenticate to the collection you are planning to transfer data to/from. 
 
    .. note::
-      You may need to change the **Panels** selction in the upper right corner of the window to show the right half of the **File Manager**
+      You may need to change the **Panels** selction in the upper right corner to the *split* option to show the **Collection** search field in the other half of the **File Manager** .
 
       .. image:: images/transfer/globus-panels-toggle.png
          :alt: Globus panels icons in upper right corner of file manager window.
 
 #. Use the GUI to transfer the data; you can choose transfer settings under **Transfer & Sync Options**. 
 
-   The **Activity** tab, available in the left menu pane, shows your current transfer activity.
+   The **Activity** tab, accessible from the left menu pane, shows your current transfer activity.
 
    .. figure:: images/transfer/globus-file-manager-transfer-window.png
       :alt: Globus file manager tansfer window.
