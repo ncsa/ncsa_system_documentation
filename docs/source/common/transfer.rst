@@ -40,7 +40,7 @@ To use Globus to transfer files to and from your NCSA resource directories, you 
 
 #. Click on **Settings** in the left menu pane.
 
-   .. image:: images/transfer/globus-left-menu-pane-copy.png
+   .. image:: images/transfer/globus-left-menu-pane.png
       :alt: Globus left menu pane with settings highlighted.
 
 #. Click on the **Account** tab.
