@@ -9,27 +9,32 @@ Transferring Files
 .. _globus:
 
 Globus
------------
+-----------  
 
-.. warning::
-
-   As of January 2023, Globus is available for use on **Nightingale**. However, we have not finished the final contracts and setup for specifically HIPAA-data certified variant of Globus, so **do not transfer HIPAA data over Globus** at this time. When HIPAA-certified Globus is installed, this warning will be removed. If you have any questions about data movement, please don't hesitate to submit a ticket (:ref:`help`).  
-
-Globus is a web-based file transfer system that works in the background to move files between systems with "Globus Endpoints". Nightingale will have a permanent Globus Endpoint (with a name announced at that time). To transfer files to and from your directories using Globus, you will have to authenticate that endpoint, using your already-existing NCSA username, password, and NCSA Duo account. 
+Globus is a web-based file transfer system that works in the background to move files between systems with **Globus Endpoints**. Globus is a good tool to use when transferring many files or large files to and from your directories.
 
 .. _globus-link:
 
-One-Time Setup [Hydro and Nightingale Only] 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+One-Time Setup
+~~~~~~~~~~~~~~~~
 
-These one-time setup steps are only required for Hydro and Nightingale users; Delta and ICC users can jump directly to the :ref:`transfer steps <transfer-globus>`.
+To use Globus to transfer files to and from a resource, you need to "link" your Globus account with your NCSA (Delta, Hydro, and Nightingale) or UIUC (ICC) identity. 
 
-You will need to set up a separate account on `globus.org <globus.org>`_, that will have a username and a separate password. To use Globus to transfer files to and from Nightingale, you will need to "link" your new Globus account with your NCSA identity. 
-
-#. Log into `globus.org <globus.org>`_.
+#. Go to `globus.org <globus.org>`_ and click on **LOG IN**.
 
    .. image:: images/transfer/globus-homepage.png
       :alt: Globus homepage with login button highlighted in upper-right corner.
+
+#. Enter **UIUC** in the organization search bar. 
+
+#. Select **University of Illinois at Urbana-Champaign** from the dropdown menu and click **Continue**
+
+#. Complete your UIUC login and UIUC Duo authentication, when prompted. 
+
+   If you have an existing Globus account, separate from UIUC/NCSA, you can `link your idenity to an existing Globus account <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`. 
+
+   .. note::
+      If you are using ICC, you can now jump to the :ref:`file transfer <transfer-globus>` steps. If you are using Delta, Hydro, or Nightingale, continue with the remaining setup steps.
 
 #. Click on **Settings** in the left menu pane.
 
@@ -38,45 +43,44 @@ You will need to set up a separate account on `globus.org <globus.org>`_, that w
 
 #. Click on the **Account** tab.
 
+   .. note::
+      If your NCSA username and email address is listed (your University of Illinois at Urbana-Champaign identity **is not** your NCSA identity), you can now jump to the :ref:`file transfer <transfer-globus>` steps. If your NCSA username and email address are *not* listed, continue with the remaining steps.
+
    .. figure:: images/transfer/globus-settings-account-with-ncsa.png
      :alt: Globus account window showing no NCSA identity.
 
-   If your NCSA username and email address is **not** in that list (your University of Illinois at Urbana-Champaign identity **is not** your NCSA identity):
+#. Click **Link Another Identity**.
 
-      a. Click **Link Another Identity**.
+   .. figure:: images/transfer/globus-link-another-identity.png
+      :alt: Globus link another identity button.
 
-         .. figure:: images/transfer/globus-link-another-identity.png
-             :alt: Globus link another identity button.
+#. Enter **NCSA** in the organization search bar. 
+#. Select **National Center for Supercomputing Applications** and click **Continue**.
 
-      b. Enter **NCSA** in the organization search bar. 
-      c. Select **National Center for Supercomputing Applications** and click **Continue**.
+    .. figure:: images/transfer/globus-select-an-identity-to-link.png
+       :alt: Globus select an identity to link window with national center for supercomputing applications entered.
 
-         .. figure:: images/transfer/globus-select-an-identity-to-link.png
-            :alt: Globus select an identity to link window with national center for supercomputing applications entered.
+#. Enter your **NCSA username** and **NCSA Kerberos password** and then click **Continue**.
 
-      d. Enter your **NCSA username** and **NCSA Kerberos password** and then click **Continue**.
+    .. figure:: images/transfer/globus-ncsa-authentication.png
+       :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
 
-         .. figure:: images/transfer/globus-ncsa-authentication.png
-            :alt: NCSA web authentication window with NCSA username and NCSA Kerberos password fields.
+#. Approve the **NCSA Duo** push on your mobile device.
 
-      e. Approve the **NCSA Duo** push on your mobile device.
+#. If you are directed to the **Log into your primary identity** window, click **Continue**.
 
-      f. If you are directed to the **Log into your primary identity** window, click **Continue**.
+   .. figure:: images/transfer/globus-log-into-your-primary-identity.png
+      :alt: Globus log into your primary identity window.
 
-         .. figure:: images/transfer/globus-log-into-your-primary-identity.png
-            :alt: Globus log into your primary identity window.
+#. You should be redirected to the Globus Settings **Account** window. Verify that your **NCSA** identity is listed; the Identity Provider and Organization will be **National Center for Supercomputing Applications**.
 
-      g. You should be redirected to the Globus Settings **Account** window. Verify that your **NCSA** identity is listed; the organization will be **National Center for Supercomputing Applications**.
-
-         .. figure:: images/transfer/globus-settings-account-with-ncsa.png
-            :alt: Globus account window with an NCSA identity shown.
+   .. figure:: images/transfer/globus-settings-account-with-ncsa.png
+      :alt: Globus account window with an NCSA identity shown.
 
 .. _transfer-globus:
 
 Using Globus to Transfer Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Hydro and Nightingale users, follow these steps **after** you have :ref:`linked your NCSA identity in Globus <globus-link>`.
 
 #. Navigate to globus.org and click **Log In** in the upper right corner
 
