@@ -26,6 +26,13 @@ More Documentation
 .. note::
    This section is in development, pages will be added as they are created.
 
+Addititional user documentation on topics common across one or more NCSA computing resource.
+
+- :ref:`common`
+
+  - :ref:`transfer`
+  - :ref:`conda`
+
 ..
    Additional non-system specific user documentation on topics related to NCSA's computing resources.
 
