@@ -1,3 +1,5 @@
+.. _conda:
+
 Relocating Your .conda Directory to Project Space
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
