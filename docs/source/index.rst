@@ -72,18 +72,3 @@ More Documentation
 ==============
 
 `NCSA <https://ncsa.illinois.edu>`_ is an Illinois Research Institute on the `University of Illinois Urbana-Champaign <https://illinois.edu>`_ campus.
-
-
-.. code-block::
-
-   this is a test.
-
-.. tabs::
-
-   .. tab:: tab 1
-
-      This is tab 1.
-
-   .. tab:: tab 2
-
-      This is tab 2.
