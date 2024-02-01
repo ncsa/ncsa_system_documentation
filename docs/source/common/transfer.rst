@@ -11,7 +11,7 @@ Transferring Files
 Globus
 -----------  
 
-`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with Globus endpoints. Globus is a good tool to use to transfer *many* files or *large* files to and from your directories. 
+`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with Globus endpoints. Globus is a good tool to use to transfer many files or large files to and from your directories. 
 
 - If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started. The tutorial includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
 
@@ -29,7 +29,7 @@ Globus
      .. figure:: images/transfer/globus-authentication-required-example.png
         :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
 
-  #. Click the identity you want to link (there will usually only be one option).
+  #. Click the identity you want to link (there may only be one option).
 
      .. figure:: images/transfer/globus-link-an-identity.png
         :alt: Link an identity prompt example for the Nightingale endpoint.
