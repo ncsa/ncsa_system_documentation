@@ -15,20 +15,20 @@ Globus
 
 - If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started.
 
-- Find the resource `endpoints <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/#move_beyond_getting_started>`_ at the below links:
+- Find the resource collection name to search for at the below links:
 
-   - `Delta endpoint <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_
-   - `Hydro endpoint <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
-   - `ICC endpoint <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
-   - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#file-transfers-with-globus>`_ 
+  - `Delta collection <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_
+  - `Hydro collection <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
+  - `ICC collection <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
+  - `Nightingale collection <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#file-transfers-with-globus>`_ 
 
-- When you select one of the above endpoints for the first time, you may see an Authentication/Consent Required prompt (Nightingale endpoint example shown below. 
+- When you select one of the above endpoints for the first time, you may see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
   #. Click continue.
   #. Select the identity you want to connect
-  #. Follow the prompts to link your required identity. 
+  #. Follow the prompts to log into and link your required identity. 
 
-  You can also reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_.
+  You can also reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for more information.
 
    .. figure:: images/transfer/globus-authentication-required-example.png
       :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
