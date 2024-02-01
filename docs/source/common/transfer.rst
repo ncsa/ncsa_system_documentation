@@ -11,7 +11,29 @@ Transferring Files
 Globus
 -----------  
 
-`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with **Globus Endpoints**. Globus is a good tool to use to transfer many files or large files to and from your directories. 
+`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with **Globus Endpoints**. Globus is a good tool to use to transfer many files or large files to and from your directories. Follow the below steps to learn how to transfer your files with Globus.
+
+- Log into `Globus <https://www.globus.org>`_. If you are new to Globus, recommend referencing the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_.
+
+- Find the `endpoint <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/#move_beyond_getting_started>`_ for your resource at the below:
+
+   - `Delta endpoint <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_
+   - `Hydro endpoint <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
+   - `ICC endpoint <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
+   - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#file-transfers-with-globus>`_ 
+
+- When you select one of the above endpoints for the first time, you may see an Authentication/Consent Required prompt (Nightingale endpoint example shown below. Click continue, select the identity you want to connect, and follow the prompts to link your required identity. You can also reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_.
+
+   .. figure:: images/transfer/globus-authentication-required.png
+      :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
+
+   .. figure:: images/transfer/globus-link-an-identity.png
+      :alt: Link an identity prompt example for the Nightingale endpoint.
+
+- Learn more about Globus at the `beyond getting started tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/#move_beyond_getting_started>`_.
+
+
+=======================
 
 .. _globus-link:
 
