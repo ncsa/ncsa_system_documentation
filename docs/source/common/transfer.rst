@@ -15,7 +15,7 @@ Globus
 
 - If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started.
 
-- Find the resource collection name to search for at the below links:
+- Find the collection name for the resource endpoints at the below links:
 
   - `Delta collection <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_
   - `Hydro collection <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
@@ -25,20 +25,27 @@ Globus
 - When you select one of the above endpoints for the first time, you may see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
   #. Click continue.
-  #. Select the identity you want to connect
+
+     .. figure:: images/transfer/globus-authentication-required-example.png
+        :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
+
+  #. Click the identity you want to connect (there will usually only be one option).
+
+     .. figure:: images/transfer/globus-link-an-identity.png
+        :alt: Link an identity prompt example for the Nightingale endpoint.
+
   #. Follow the prompts to log into and link your required identity. 
 
   You can also reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for more information.
 
-   .. figure:: images/transfer/globus-authentication-required-example.png
-      :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
-
-   .. figure:: images/transfer/globus-link-an-identity.png
-      :alt: Link an identity prompt example for the Nightingale endpoint.
-
 - Learn more about Globus at the `beyond getting started tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/#move_beyond_getting_started>`_.
 
+.. note::
+   You may need to change the **Panels** selction in the upper right corner to the *split* option to show the **Collection** search field in the other half of the **File Manager**.
 
+    .. figure:: images/transfer/globus-panels-toggle.png
+       :alt: Globus panels icons in upper right corner of file manager window.
+   
 =======================
 
 .. _globus-link:
