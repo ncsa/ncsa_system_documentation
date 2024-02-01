@@ -13,7 +13,7 @@ Globus
 
 `Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with **Globus Endpoints**. Globus is a good tool to use to transfer many files or large files to and from your directories. Follow the below steps to learn how to transfer your files with Globus.
 
-- If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started.
+- If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started. The tutorial includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
 
 - Find the collection name for the resource endpoints at the below links:
 
@@ -22,7 +22,7 @@ Globus
   - `ICC endpoint <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
   - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#file-transfers-with-globus>`_ 
 
-- When you select one of the above endpoints for the first time, you may see an Authentication/Consent Required prompt (Nightingale example shown below). 
+- When you select one of the above endpoints for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
   #. Click continue.
 
