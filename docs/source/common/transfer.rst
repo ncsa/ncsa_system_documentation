@@ -37,6 +37,8 @@ Globus
   #. Follow the prompts to log into and link your required identity. 
 
   You can also reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for more information.
+
+- If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page including how to contact Globus support.
    
 |
 
