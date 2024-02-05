@@ -34,6 +34,8 @@ Relocate your ``.conda`` directory to your project space using the following ste
 
       [testuser1@golubh1 ~]$ ln -s /projects/<your proj. dir>/<your username>/.conda ~/.conda
 
+|
+
 ..
   .. code-block::
   
