@@ -13,39 +13,37 @@ Globus
 
 `Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with Globus endpoints. Globus is a good tool to use to transfer many files or large files to and from your directories. 
 
-- If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started. The tutorial includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
+If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started. The tutorial includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
 
-- Find the collection names for NCSA's endpoints at the below links:
+Find the collection names for NCSA's endpoints at the below links:
 
-  - `Delta endpoint <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_
-  - `Hydro endpoint <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
-  - `ICC endpoint <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
-  - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#file-transfers-with-globus>`_ 
+- `Delta endpoint <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_
+- `Hydro endpoint <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
+- `ICC endpoint <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
+- `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#file-transfers-with-globus>`_ 
 
-- If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
+If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
 
 Tips for Using Globus with NCSA Compute Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- When you select one of the above endpoints for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
+When you select one of the above endpoints for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
-  #. Click continue.
+#. Click continue.
 
-     .. figure:: images/transfer/globus-authentication-required-example.png
-        :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
+   .. figure:: images/transfer/globus-authentication-required-example.png
+      :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
 
-  #. Click the identity you want to link (there may only be one option).
+#. Click the identity you want to link (there may only be one option).
 
-     .. figure:: images/transfer/globus-link-an-identity.png
-        :alt: Link an identity prompt example for the Nightingale endpoint.
+   .. figure:: images/transfer/globus-link-an-identity.png
+      :alt: Link an identity prompt example for the Nightingale endpoint.
 
-  #. Follow the prompts to log into and link your required identity. 
+#. Follow the prompts to log into and link your required identity. 
 
-- Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource you're using and how you created your Globus account.
+Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource(s) you're using and how you created your Globus account.
 
-      
-
-- After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field will display the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
+After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field will display the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
 
   .. figure:: images/transfer/globus-file-manager-path-example.png
      :alt: Globus screenshot example showing the results with "Illinois Research Storage" collection and "/" path.
