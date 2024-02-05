@@ -22,6 +22,11 @@ Globus
   - `ICC endpoint <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
   - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#file-transfers-with-globus>`_ 
 
+- If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
+
+Tips for Using Globus with NCSA Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 - When you select one of the above endpoints for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
   #. Click continue.
@@ -36,9 +41,12 @@ Globus
 
   #. Follow the prompts to log into and link your required identity. 
 
-  You can also reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for more information.
+  You can also reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account.
 
-- If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page including how to contact Globus support.
+- After you have found the resource endpoint using the **Collection** search, entering a forward slash (/) into the **Path** field will display the directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field, if you know it.)
+
+  .. figure:: images/transfer/globus-file-manager-path-example.png
+     :alt: Globus screenshot example showing the results with "Illinois Research Storage" collection and "/" path.
    
 |
 
