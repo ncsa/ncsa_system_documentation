@@ -11,7 +11,7 @@ Transferring Files
 Globus
 -----------  
 
-`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between computer systems with Globus Endpoints.  Globus is a good tool to use to transfer many files or large files between directories on different computer systems at different sites.  A *system* Globus endpoint is specifically configured by the system administrators; large public computing systems typically have these.  To transfer files to and from a computer system that isn't public (like a personal computer, your laptop or desktop, or a small cluster that doesn't have a system Globus Endpoint), see :ref:`globus_connect_personal`.  
+`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between computer systems with Globus Endpoints.  Globus is a good tool to use to transfer many files or large files between directories on different computer systems at different sites.  A *system* Globus Endpoint is specifically configured by the system administrators; large public computing systems typically have these.  To transfer files to and from a computer system that isn't public (like a personal computer, your laptop or desktop, or a small cluster that doesn't have a system Globus Endpoint), see :ref:`globus_connect_personal`.  
 
 If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started. The tutorial includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
 
