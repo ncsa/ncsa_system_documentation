@@ -11,7 +11,7 @@ Transferring Files
 Globus
 -----------  
 
-`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between systems with Globus endpoints. Globus is a good tool to use to transfer many files or large files to and from your directories. 
+`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between computer systems with Globus Endpoints.  Globus is a good tool to use to transfer many files or large files between directories on different computer systems at different sites.  A *system* Globus endpoint is specifically configured by the system administrators; large public computing systems typically have these.  To transfer files to and from a computer system that isn't public (like a personal computer, your laptop or desktop, or a small cluster that doesn't have a system Globus Endpoint), see :ref:`globus_connect_personal`.  
 
 If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started. The tutorial includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
 
@@ -190,3 +190,10 @@ After you have navigated to an endpoint using the **Collection** search, enterin
   
      .. figure:: images/transfer/globus-file-manager-transfer-window.png
         :alt: Globus file manager tansfer window.
+
+.. _globus_connect_personal:
+
+Globus Connect Personal
+-------------------------
+`Globus Connect Personal <https://www.globus.org/globus-connect-personal>`_ is software that you can install and run on a system without a system Globus Endpoint in order to use Globus to transfer files on and off.  All versions of the software are installable as a user.  You can use Globus Connect Personal to connect a personal machine to Globus to move files on and off.  If you happen to have login acces to a cluster system that doesn't have a system Globus endpoint, you can install and run Globus Connect Personal as a user to connect to Globus without having to have any system priviledges (of course, you will need certain network and port connectivity to the outside world for it to work.)
+
