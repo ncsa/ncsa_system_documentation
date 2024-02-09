@@ -11,11 +11,11 @@ Transferring Files
 Globus
 -----------  
 
-`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between computer systems with Globus Endpoints.  Globus is a good tool to use to transfer many files or large files between directories on different computer systems at different sites.  A *system* Globus Endpoint is specifically configured by the system administrators; large public computing systems typically have these.  To transfer files to and from a computer system that isn't public (like a personal computer, your laptop or desktop, or a small cluster that doesn't have a system Globus Endpoint), see :ref:`globus_connect_personal`.  
+`Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between computer systems with Globus `endpoints <https://docs.globus.org/faq/globus-connect-endpoints/#what_is_an_endpoint>`_. Globus is a good tool to use to transfer many files or large files between directories (within the same system or between a systems).
 
-If you are new to Globus, reference the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ to get started. The tutorial includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
+If you are new to Globus, the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
 
-Find the collection names for NCSA's endpoints at the below links:
+The NCSA systems listed have Globus endpoints configured by the system administrators; the collection names for these endpoints are at the links below. To transfer data to/from a system without a Globus endpoint, see :ref:`globus_connect_personal`.
 
 - `Delta endpoint <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#transferring-data>`_
 - `Hydro endpoint <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
@@ -24,10 +24,17 @@ Find the collection names for NCSA's endpoints at the below links:
 
 If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
 
+.. _globus_connect_personal:
+
+Globus Connect Personal
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Install `Globus Connect Personal <https://www.globus.org/globus-connect-personal>`_ to transfer files between a Globus endpoint and a system without an existing Globus endpoint (a personal laptop, for example). On Nightingale, the `protected data <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/protected_data.html>`_ requirements still apply. 
+
 Tips for Using Globus with NCSA Compute Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you select one of the above endpoints for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
+When you select a Globus endpoint for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
 #. Click continue.
 
@@ -47,7 +54,7 @@ After you have navigated to an endpoint using the **Collection** search, enterin
 
   .. figure:: images/transfer/globus-file-manager-path-example.png
      :alt: Globus screenshot example showing the results with "Illinois Research Storage" collection and "/" path.
-   
+
 |
 
 ..
@@ -190,10 +197,3 @@ After you have navigated to an endpoint using the **Collection** search, enterin
   
      .. figure:: images/transfer/globus-file-manager-transfer-window.png
         :alt: Globus file manager tansfer window.
-
-.. _globus_connect_personal:
-
-Globus Connect Personal
--------------------------
-`Globus Connect Personal <https://www.globus.org/globus-connect-personal>`_ is software that you can install and run on a system without a system Globus Endpoint in order to use Globus to transfer files on and off.  All versions of the software are installable as a user.  You can use Globus Connect Personal to connect a personal machine to Globus to move files on and off.  If you happen to have login acces to a cluster system that doesn't have a system Globus endpoint, you can install and run Globus Connect Personal as a user to connect to Globus without having to have any system priviledges (of course, you will need certain network and port connectivity to the outside world for it to work.)
-
