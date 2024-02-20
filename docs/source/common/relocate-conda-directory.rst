@@ -16,7 +16,7 @@ Relocate your ``.conda`` directory to your project space using the following ste
 
       [testuser1@golubh1 ~]$ mkdir -p /projects/<your proj. dir>/<your username>/.conda
 
-#. Copy over your existing .conda data.  (This may take several minues of your .conda directory is large.)
+#. Copy over your existing .conda data.  (This may take several minues if your .conda directory is large.)
 
    .. code-block::
 
