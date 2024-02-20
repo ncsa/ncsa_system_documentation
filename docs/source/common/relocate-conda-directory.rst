@@ -16,19 +16,19 @@ Relocate your ``.conda`` directory to your project space using the following ste
 
       [testuser1@golubh1 ~]$ mkdir -p /projects/<your proj. dir>/<your username>/.conda
 
-#. Copy over your existing .conda data.  (This may take several minutes if your .conda directory is large.)
+#. Copy over your existing ``.conda`` data.  (This may take several minutes if your .conda directory is large.)
 
    .. code-block::
 
       [testuser1@golubh1 ~]$ rsync -aAvP ~/.conda/* /projects/<your proj. dir>/<your username>/.conda/
 
-#. Remove your current .conda directory.
+#. Remove your current ``.conda`` directory.
 
    .. code-block::
 
       [testuser1@golubh1 ~]$ rm -rf ~/.conda
 
-#. Create a link to your new .conda directory.
+#. Create a link to your new ``.conda`` directory.
 
    .. code-block::
 
