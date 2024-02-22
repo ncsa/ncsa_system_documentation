@@ -1,4 +1,0 @@
-.. _fluent:
-
-ANSYS Fluent
-===============

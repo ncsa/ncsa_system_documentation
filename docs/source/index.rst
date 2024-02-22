@@ -26,6 +26,16 @@ More Documentation
 .. note::
    This section is in development, pages will be added as they are created.
 
+Common System Documentation
+-----------------------------
+
+Addititional user documentation on topics common across one or more NCSA computing resource.
+
+- :ref:`common`
+
+  - :ref:`transfer`
+  - :ref:`conda`
+
 ..
    Additional non-system specific user documentation on topics related to NCSA's computing resources.
 
@@ -60,14 +70,12 @@ More Documentation
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
 
-..
-   .. toctree::
-      :caption: More Documentation
-      :hidden:
 
-      system_generic/index
-      Licensed Software <licensed_software/index>
-      legacy_apps/index
+.. toctree::
+   :caption: More Documentation
+   :hidden:
+
+   common/index
 
 ==============
 
