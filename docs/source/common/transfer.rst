@@ -10,7 +10,8 @@ Globus
 
 `Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between computer systems with Globus `endpoints <https://docs.globus.org/faq/globus-connect-endpoints/#what_is_an_endpoint>`_. Globus is a good tool to use to transfer many files or large files between directories (within the same system or between a systems).
 
-If you are new to Globus, the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
+.. note::
+   If you are new to Globus, the `Globus log in and transfer files tutorial <https://docs.globus.org/guides/tutorials/manage-files/transfer-files/>`_ includes step-by-step instructions for transferring files that you can follow along with using their built-in demonstration collections.
 
 The NCSA systems listed have Globus endpoints configured by the system administrators; the collection names for these endpoints are at the links below. To transfer data to/from a system that does not have a Globus endpoint, see :ref:`globus_connect_personal`.
 
