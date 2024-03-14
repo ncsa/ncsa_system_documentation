@@ -3,10 +3,7 @@
 Job Management with Slurm
 =================================
 
-.. note::
-   **Applicable Compute Resources:** Delta, Hydro, ICC, and Nightingale.
-
-NCSA computer systems use the Slurm software stack for job workload management. 
+Many of the NCSA computer systems use the Slurm software stack for job workload management. 
 
 .. _access_nodes:
 
@@ -14,7 +11,7 @@ Accessing the Compute Nodes
 -------------------------------
 
 Use Slurm commands to run batch jobs or for interactive access to compute nodes. 
-See the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
+Refer to the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
 A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <images/slurm/slurm_summary.pdf>`.
 
 Batch scripts (sbatch) or Interactive (srun, salloc), which is right for you?
@@ -26,7 +23,7 @@ Batch scripts (sbatch) or Interactive (srun, salloc), which is right for you?
 
 - :ref:`srun`: For interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, which means that it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
 
-- :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Type **exit** when finished with an salloc allocation if you want to end it before the time expires.
+- :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Type **exit** when finished with a salloc allocation if you want to end it before the time expires.
 
 Direct SSH access to a compute node in a running job from a login node is enabled once the job has started:
 
@@ -319,6 +316,104 @@ For example, to run a single core job that uses 1G of memory with X11 (in this c
      --nodes=1 --tasks=1 --tasks-per-node=1 \
      --cpus-per-task=2 --mem=16g \
      --x11  xterm
+
+.. _jobdepend:
+
+Job Dependencies
+-------------------
+
+Slurm job dependencies allow you to set the execution order that your queued jobs run in. 
+Job dependencies are set by using the ``‑‑dependency`` option with the syntax, ``‑‑dependency=<dependency type>:<JobID>``. 
+Slurm places the jobs in *Hold* state until they are eligible to run.
+
+The following are examples on how to specify job dependencies using the ``afterany`` dependency type, which indicates to Slurm that the dependent job should become eligible to start only after the specified job has completed.
+
+On the command line:
+
+.. code-block::
+
+   [golubh1 ~]$ sbatch --dependency=afterany:<JobID> jobscript.sbatch
+
+In a job script:
+
+.. code-block::
+
+   #!/bin/bash
+   #SBATCH --time=00:30:00
+   #SBATCH --nodes=1
+   #SBATCH --ntasks-per-node=16
+   #SBATCH --account=account_name    # <- replace "account_name" with an account available to you
+   #SBATCH --job-name="myjob"
+   #SBATCH --partition=secondary
+   #SBATCH --output=myjob.o%j
+   #SBATCH --dependency=afterany:<JobID>
+
+In a shell script that submits batch jobs:
+
+.. code-block::
+
+   #!/bin/bash
+   JOB_01=`sbatch jobscript1.sbatch |cut -f 4 -d " "`
+   JOB_02=`sbatch --dependency=afterany:$JOB_01 jobscript2.sbatch |cut -f 4 -d " "`
+   JOB_03=`sbatch --dependency=afterany:$JOB_02 jobscript3.sbatch |cut -f 4 -d " "`
+   ...
+
+Generally, the recommended dependency types to use are ``after``, ``afterany``, ``afternotok``, and ``afterok``. 
+There are more dependency types, however the dependencies that work based on batch job error codes may not behave as expected because of the difference between a batch job error and application errors. 
+See the dependency section of the ``sbatch`` man page for additional information.
+
+.. _job-contraints:
+
+Job Constraints
+----------------
+
+Use the ``--constraint`` option to specify required *features* for a job. Refer to the `Slurm srun -\-constraint documentation <https://slurm.schedmd.com/srun.html#OPT_constraint>`_ for more details. (You can also find the same information in the `Slurm sbatch documentation <https://slurm.schedmd.com/sbatch.html#OPT_constraint>`_ and `Slurm salloc documentation <https://slurm.schedmd.com/salloc.html#OPT_constraint>`_.) 
+
+Features include:
+
+- CPU type 
+- GPU type
+- Memory 
+- Interconnect 
+
+Run the ``sinfo`` command below to see a full list of features for nodes that are in queues that you can submit to:
+
+.. code-block:: terminal
+
+   sinfo -N --format="%R (%N): %f" -S %R | more 
+
+If a constraint(s) cannot be satisfied, your job will *not* run and ``squeue`` will return ``BadConstraints``; refer to the `Slurm squeue documentation <https://slurm.schedmd.com/squeue.html#OPT_BadConstraints>`_.
+
+.. _jobarrays:
+
+Job Arrays
+-------------
+
+If you need to submit the same job to the batch system multiple times, instead of issuing one ``sbatch`` command for each individual job, you can submit a job array. 
+Job arrays allow you to submit multiple jobs with a single job script using the ``‑‑array`` option to ``sbatch``. 
+An optional ``slot limit`` can be specified to limit the number of jobs that can run concurrently in the job array. 
+See the ``sbatch`` man page for details. 
+The file names for the input, output, and so on, can be varied for each job using the job array index value defined by the Slurm environment variable ``SLURM_ARRAY_TASK_ID``.
+
+A sample batch script that makes use of job arrays is available in the Campus Cluster system at **/projects/consult/slurm/jobarray.sbatch**.
+
+**A few things to keep in mind:**
+
+-  Valid specifications for job arrays are:
+   
+   ``‑‑array 1-10``
+   
+   ``‑‑array 1,2,6-10``
+   
+   ``‑‑array 8``
+   
+   ``‑‑array 1-100%5`` (a limit of 5 jobs can run concurrently) 
+
+-  You should limit the number of batch jobs in the queues at any one time to 1,000 or less (each job within a job array is counted as one batch job.)
+
+-  Interactive batch jobs are not supported with job array submissions.
+
+-  To delete job arrays, see the :ref:`qdel` command section.
 
 Job Management
 ----------------
