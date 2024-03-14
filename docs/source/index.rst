@@ -33,6 +33,7 @@ Addititional user documentation on topics common across one or more NCSA computi
 
 - :ref:`common`
 
+  - :ref:`slurm`
   - :ref:`transfer`
   - :ref:`conda`
 
