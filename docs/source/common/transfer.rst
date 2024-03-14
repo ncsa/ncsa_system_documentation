@@ -3,6 +3,47 @@
 Transferring Files
 ===================
 
+.. _scp:
+
+Secure Copy (scp)
+-------------------
+
+Copying Files onto Nightingale Using SCP
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SCP (Secure Copy) is an application that gives users a secure way to copy files between machines over an unsecured network. Its syntax is similar to that of SSH used to log into a remote machine.
+
+SCP requires a source and a destination. You can use it to copy individual files or directories. The source and destination are specified with a file path if it is on your local machine or as ``<login_name>@<machine_name>:<file_name>`` if it is on a remote machine.
+
+Since Nightingale has a bastion host which all network traffic travels through, you need to specify that the copy will jump through the bastion. For example, a user, "test1", copying the file "my_data" from their current directory on their local machine to their home directory on the Nightingale login node "ng-login01" would use the following command:
+
+.. code-block::
+
+   scp -J test1@ngale-bastion-1.ncsa.illinois.edu my_data test1@ng-login01:.
+
+Secure Copy (scp)
+~~~~~~~~~~~~~~~~~~
+
+Use ``scp`` for small to modest transfers to avoid impacting the usability of the :ref:`Delta login node <direct_access>`. The Campus Cluster user guide has `instructions on using scp <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-transfer-method-scp>`_ (you will need to modify the example command for Delta).
+
+
+CLI Transfer Method: scp
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For allocations that started on/after September 2023, ``$teams_directory`` will follow the syntax ``illinois/$college/$department/$pi_netid``.
+
+.. code-block::
+
+   ## Users wants to transfer the images directory
+   [testuser1@users-machine hubble]~ ls
+   images
+
+   ## Transfer using scp to a project directory
+   [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+
+
+
+
 .. _globus:
 
 Globus
