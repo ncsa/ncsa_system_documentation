@@ -105,17 +105,25 @@ WinSCP
 ~~~~~~~~
 
 #. Download and install `WinSCP <https://winscp.net/eng/download.php>`_.
-#. Open WinSCP and log into the associated NCSA system node as your **remote** node username, password, and Duo MFA.
+#. Open WinSCP and log into the associated NCSA system node. 
 
-   - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
-   - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
-   - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
-   - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+   a. File protocol: SFTP
+   b. Host name:
+
+     - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+     - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+     - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+     - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+   c. Port number: 22
+   d. User name: Your username for the associated NCSA system.
+   e. Password: Your password for the associated NCSA system.
 
    Illinois Campus Cluster example:
 
    .. figure:: images/transfer/winscp-new-login.png
       :alt: WinSCP new login example for Campus Cluster DTN node.
+      :width: 768px
 
 #. Once you're logged in, WinSCP works like a drag and drop interface for moving files between your local machine and remote machine connection.
 
@@ -127,20 +135,26 @@ Cyberduck
 
    .. figure:: images/transfer/cyberduck-open-connection-button.png
       :alt: Cyberduck inteface highlighting the "Open Connection" button in the upper left corner.
+      :width: 512px
 
-#. Select **SFTP** in the drop-down menu.
+#. Connect to the associated NCSA system node.
 
-#. Fill in the associated NCSA system node hostname in the **Server** field as your **remote** node and your username and password in the respective fields.
+   a. Select **SFTP** in the drop-down menu.
+   b. Server: 
 
-   - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
-   - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
-   - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
-   - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+     - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+     - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+     - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+     - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+   c. Port: 22
+   d. Username: Your username for the associated NCSA system.
+   e. Password: Your password for the associated NCSA system. 
 
    Illinois Campus Cluster example:
 
    .. figure:: images/transfer/cyberduck-sftp-protocol-connection.png
       :alt: Cyberduck SFTP protocol connection window. SFTP selected from drop-down menu. Server: cc-xfer.campuscluster.illinois.edu. Port: 22. Username and password: your campus cluster credentials.
+      :width: 500px
 
 #. Once connected, you should see a listing of your home directory, and you can navigate the file system via the GUI. Download and upload files, as needed.
 
