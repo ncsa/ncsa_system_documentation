@@ -28,18 +28,16 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Illinois Campus Cluster example**
+**Illinois Campus Cluster example**, for ICC allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
 
-  For Illinois Campus Cluster allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
+.. code-block::
 
-  .. code-block::
+   ## Users wants to transfer the images directory
+   [testuser1@users-machine hubble]~ ls
+   images
 
-     ## Users wants to transfer the images directory
-     [testuser1@users-machine hubble]~ ls
-     images
-
-     ## Transfer using scp to a project directory
-     [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   ## Transfer using scp to a project directory
+   [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -73,18 +71,16 @@ Transferring from Local Machine to Remote Machine
 
    rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Illinois Campus Cluster example**
+**Illinois Campus Cluster example**, for ICC allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
 
-  For allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
+.. code-block::
 
-  .. code-block::
+   ## Users wants to transfer the images directory
+   [testuser1@users-machine hubble]~ ls
+   images
 
-     ## Users wants to transfer the images directory
-     [testuser1@users-machine hubble]~ ls
-     images
-
-     ## Transfer using rsync to a project directory
-     [testuser1@users-machine hubble]~ rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   ## Transfer using rsync to a project directory
+   [testuser1@users-machine hubble]~ rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
