@@ -28,8 +28,7 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <file_name> <login_name>@<machine_name>:<remote_destination_path>
 
-Example using Illinois Campus Cluster
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+**Example using Illinois Campus Cluster**
 
 For Illinois Campus Cluster allocations that started on/after September 2023, ``$teams_directory`` will follow the syntax ``illinois/$college/$department/$pi_netid``.
 
