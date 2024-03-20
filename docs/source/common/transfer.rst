@@ -99,7 +99,7 @@ Transferring from Remote Machine to Local Machine
 Secure File Transfer Protocol (sftp)
 ---------------------------------------
 
-You can transfer data using sftp via the command line or one of many common sftp transfer utilities. Two options are `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_ both are free to download and install.
+You can transfer data using sftp via the command line or one of many common sftp transfer utilities. Two options are `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_, both are free to download and install.
 
 WinSCP
 ~~~~~~~~
@@ -137,7 +137,7 @@ Cyberduck
    - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
    - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
 
-   Campus Cluster example:
+   Illinois Campus Cluster example:
 
    .. figure:: images/transfer/cyberduck-sftp-protocol-connection.png
       :alt: Cyberduck SFTP protocol connection window. SFTP selected from drop-down menu. Server: cc-xfer.campuscluster.illinois.edu. Port: 22. Username and password: your campus cluster credentials.
