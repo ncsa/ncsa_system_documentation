@@ -28,7 +28,7 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Illinois Campus Cluster example**, for ICC allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
+**Illinois Campus Cluster example:**
 
 .. code-block::
 
@@ -71,7 +71,7 @@ Transferring from Local Machine to Remote Machine
 
    rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Illinois Campus Cluster example**, for ICC allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
+**Illinois Campus Cluster example:**
 
 .. code-block::
 
