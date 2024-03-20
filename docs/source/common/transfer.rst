@@ -10,11 +10,11 @@ CLI Transfer Method - Secure Copy (scp)
 
 `scp <https://man.openbsd.org/scp.1>`_ is a command line interface (CLI) application that provides a secure way to copy files between machines over an unsecured network. Use scp for small to modest transfers to avoid impacting usability of a system's login node.
 
-scp requires a **source** and a **destination**. You can use it to copy individual files or directories. The source and destination are specified with a file path if it is on your local machine or as ``<login_name>@<machine_name>:<file_name>`` if it is on a remote machine.
+scp requires a **source** and a **destination**. You can use it to copy individual files or directories. The source and destination are specified with a file path if it is on your local machine or as ``<username>@<hostname>:<file_name>`` if it is on a remote machine.
 
 .. code-block::
 
-   scp <options> <login_name>@<source_machine_name>:<source_file_path> <login_name>@<destination_machine_name>:<destination_file_path>
+   scp <options> <username>@<source_hostname>:<source_file_path> <username>@<destination_hostname>:<destination_file_path>
 
 - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
 - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
@@ -26,7 +26,7 @@ Transferring from Local Machine to Remote Machine
 
 .. code-block::
 
-   scp <options> <source_file_name> <login_name>@<machine_name>:<remote_destination_path>
+   scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
 **Example using Illinois Campus Cluster**
 
@@ -46,7 +46,7 @@ Transferring from Remote Machine to Local Machine
 
 .. code-block::
 
-   scp <options> <login_name>@<machine_name>:<source_file_path> <local_destination_path>
+   scp <options> <username>@<hostname>:<source_file_path> <destination_path>
 
 .. _rsync:
 
@@ -57,7 +57,7 @@ CLI Transfer Method - rsync
 
 .. code-block::
 
-   rsync <options> <login_name>@<source_machine_name>:<source_file_path> <login_name>@<destination_machine_name>:<destination_file_path>
+   rsync <options> <username>@<source_hostname>:<source_file_path> <username>@<destination_hostname>:<destination_file_path>
 
 - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
 - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
@@ -69,7 +69,7 @@ Transferring from Local Machine to Remote Machine
 
 .. code-block::
 
-   rsync <options> <source_file_name> <login_name>@<machine_name>:<remote_destination_path>
+   rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
 
 **Example using Illinois Campus Cluster**
 
@@ -89,7 +89,7 @@ Transferring from Remote Machine to Local Machine
 
 .. code-block::
 
-   rsync <options> <login_name>@<machine_name>:<source_file_path> <local_destination_path>
+   rsync <options> <username>@<hostname>:<source_file_path> <destination_path>
 
 
 .. _sftp:
