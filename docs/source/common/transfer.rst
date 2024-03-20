@@ -84,7 +84,6 @@ For allocations that started on/after September 2023, ``$teams_directory`` will 
    ## Transfer using rsync to a project directory
    [testuser1@users-machine hubble]~ rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
 
-
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -92,6 +91,54 @@ Transferring from Remote Machine to Local Machine
 
    rsync <options> <login_name>@<machine_name>:<source_file_path> <local_destination_path>
 
+
+.. _sftp:
+
+Secure File Transfer Protocol (sftp)
+---------------------------------------
+
+You can transfer data using sftp via the command line or one of many common sftp transfer utilities. Two options are `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_ both are free to download and install.
+
+WinSCP
+~~~~~~~~
+
+#. Download and install `WinSCP <https://winscp.net/eng/download.php>`_.
+#. Open WinSCP and log into the associated NCSA system node as your **remote** node username, password, and Duo MFA.
+
+   - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+   - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+   - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+   - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+   Campus Cluster example:
+
+   .. figure:: /images/common/transfer/winscp-new-login.png
+      :alt: WinSCP new login example for Campus Cluster DTN node.
+
+#. Once you're logged in, WinSCP will work like a drag and drop interface for moving files between your local machine and remote machine connection.
+
+Cyberduck
+~~~~~~~~~~
+
+#. Download and install `Cyberduck <https://cyberduck.io/download/>`_.
+#. Open Cyberduck and click the **Open Connection** button in the upper left corner.
+
+   .. figure:: /images/common/transfer/cyberduck-open-connection-button.png
+      :alt: Cyberduck inteface highlighting the "Open Connection" button in the upper left corner.
+
+#. Select **SFTP** in the drop-down menu.
+
+#. Fill in the associated NCSA system node hostname in the **Server** field as your **remote** node and your username and password in the respective fields.
+
+   - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+   - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+   - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+   - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+   .. figure:: /images/common/transfer/cyberduck-sftp-protocol-connection.png
+      :alt: Cyberduck SFTP protocol connection window. SFTP selected from drop-down menu. Server: cc-xfer.campuscluster.illinois.edu. Port: 22. Username and password: your campus cluster credentials.
+
+#. Once connected, you should see a listing of your home directory, and you can navigate the file system via the GUI. Download and upload files, as needed.
 
 .. _globus:
 
