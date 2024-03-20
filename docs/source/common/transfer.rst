@@ -48,15 +48,6 @@ Transferring from Remote Machine to Local Machine
 
    scp <options> <login_name>@<machine_name>:<source_file_path> <local_destination_path>
 
-Copying Files onto Nightingale Using scp
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Nightingale has a bastion host which all network traffic travels through; therefore, you need to specify that the copy will jump through the bastion. For example, a user, "test1", copying the file "my_data" from their current directory on their local machine to their home directory on the Nightingale login node "ng-login01" would use the following command:
-
-.. code-block::
-
-   scp -J test1@ngale-bastion-1.ncsa.illinois.edu my_data test1@ng-login01:.
-
 .. _rsync:
 
 CLI Transfer Method - rsync
