@@ -8,9 +8,9 @@ Transferring Files
 CLI Transfer Method - Secure Copy (scp)
 -----------------------------------------
 
-`scp <https://man.openbsd.org/scp.1>`_ is a command line interface (CLI) application that provides a secure way to copy files between machines over an unsecured network. Use scp for small to modest transfers to avoid impacting usability of a system's login node.
+`scp <https://man.openbsd.org/scp.1>`_ is a command line interface (CLI) application that provides a secure way to copy files and directories between machines over an unsecured network. Use ``scp`` for small to modest transfers to avoid impacting usability of a system's login node.
 
-scp requires a **source** and a **destination**. You can use it to copy individual files or directories. The source and destination are specified with a file path if it is on your local machine or as ``<username>@<hostname>:<file_name>`` if it is on a remote machine.
+``scp`` requires a **source** and a **destination**; these are specified with a file path if it is on your local machine or as ``<username>@<hostname>:<file_name>`` if it is on a remote machine.
 
 .. code-block::
 
@@ -28,18 +28,18 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Example using Illinois Campus Cluster**
+**Illinois Campus Cluster example**
 
-For Illinois Campus Cluster allocations that started on/after September 2023, ``$teams_directory`` will follow the syntax ``illinois/$college/$department/$pi_netid``.
+  For Illinois Campus Cluster allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
 
-.. code-block::
+  .. code-block::
 
-   ## Users wants to transfer the images directory
-   [testuser1@users-machine hubble]~ ls
-   images
+     ## Users wants to transfer the images directory
+     [testuser1@users-machine hubble]~ ls
+     images
 
-   ## Transfer using scp to a project directory
-   [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+     ## Transfer using scp to a project directory
+     [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +53,9 @@ Transferring from Remote Machine to Local Machine
 CLI Transfer Method - rsync
 -----------------------------
 
-`rsync <https://download.samba.org/pub/rsync/rsync.1>`_ is a command line interface (CLI) utility that syncs files and directories. Use rsync for small to modest transfers to avoid impacting usability of a system's login node.
+`rsync <https://download.samba.org/pub/rsync/rsync.1>`_ is a CLI utility that syncs files and directories. Use ``rsync`` for small to modest transfers to avoid impacting usability of a system's login node.
+
+``rsync`` requires a **source** and a **destination**; these are specified with a file path if it is on your local machine or as ``<username>@<hostname>:<file_name>`` if it is on a remote machine.
 
 .. code-block::
 
@@ -71,18 +73,18 @@ Transferring from Local Machine to Remote Machine
 
    rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Example using Illinois Campus Cluster**
+**Illinois Campus Cluster example**
 
-For allocations that started on/after September 2023, ``$teams_directory`` will follow the syntax ``illinois/$college/$department/$pi_netid``.
+  For allocations that started on/after September 2023, ``$teams_directory`` follows the syntax ``illinois/$college/$department/$pi_netid``.
 
-.. code-block::
+  .. code-block::
 
-   ## Users wants to transfer the images directory
-   [testuser1@users-machine hubble]~ ls
-   images
+     ## Users wants to transfer the images directory
+     [testuser1@users-machine hubble]~ ls
+     images
 
-   ## Transfer using rsync to a project directory
-   [testuser1@users-machine hubble]~ rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+     ## Transfer using rsync to a project directory
+     [testuser1@users-machine hubble]~ rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -110,12 +112,12 @@ WinSCP
    - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
    - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
 
-   Campus Cluster example:
+   Illinois Campus Cluster example:
 
    .. figure:: images/transfer/winscp-new-login.png
       :alt: WinSCP new login example for Campus Cluster DTN node.
 
-#. Once you're logged in, WinSCP will work like a drag and drop interface for moving files between your local machine and remote machine connection.
+#. Once you're logged in, WinSCP works like a drag and drop interface for moving files between your local machine and remote machine connection.
 
 Cyberduck
 ~~~~~~~~~~
@@ -187,7 +189,7 @@ When you select a Globus endpoint for the first time, you *may* see an Authentic
 
 Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource(s) you're using and how you created your Globus account.
 
-After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field will display the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
+After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field displays the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
 
   .. figure:: images/transfer/globus-file-manager-path-example.png
      :alt: Globus screenshot example showing the results with "Illinois Research Storage" collection and "/" path.
