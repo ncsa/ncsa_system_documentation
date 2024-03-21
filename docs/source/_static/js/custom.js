@@ -6,9 +6,6 @@ $( document ).ready(function() {
   hub_link.appendChild(hub_text);
   hub_link.setAttribute("href", "https://docs.ncsa.illinois.edu");
 
-  // Open documentation hub home page in new tab when clicked
-  hub_link.setAttribute("target","_blank");
-
   var separator = document.createTextNode(" | ");
 
   // These items are right-aligned in the RTD theme breadcrumbs
@@ -16,6 +13,6 @@ $( document ).ready(function() {
 
   // Next to the default "Edit on GitHub", add a separator, then the hub link.
   aside.appendChild(separator);
-  aside.appendChild(hub_link);
+  aside.prependChild(hub_link);
                     
 });
