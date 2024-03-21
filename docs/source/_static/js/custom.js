@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
   // Create link and text for navigation back to the documentation hub home page
   var hub_link = document.createElement("a");
-  var hub_text = document.createTextNode("Documentation Home Page");
+  var hub_text = document.createTextNode("Documentation Hub");
   hub_link.appendChild(hub_text);
   hub_link.setAttribute("href", "https://docs.ncsa.illinois.edu");
 
