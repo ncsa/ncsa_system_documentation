@@ -8,8 +8,8 @@ body > div > nav > div > div.wy-side-nav-search > a:hover{
 }
 
 /* making "Documentation Hub" link hover color the same as background */
-body > div > nav > div > div.wy-side-nav-search > a > a:hover{
-    background: #2980b9 !important;
+body > div > nav > div > div.wy-side-nav-search > a > a:visited{
+    color: white !important;
 }
 
 
