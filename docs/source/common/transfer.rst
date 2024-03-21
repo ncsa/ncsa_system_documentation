@@ -16,6 +16,8 @@ CLI Transfer Method - Secure Copy (scp)
 
    scp <options> <username>@<source_hostname>:<source_file_path> <username>@<destination_hostname>:<destination_file_path>
 
+- `scp <options> <https://man.openbsd.org/scp.1>`_
+
 - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
 - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
 - `Illinois Campus Cluster DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
@@ -58,6 +60,8 @@ CLI Transfer Method - rsync
 .. code-block::
 
    rsync <options> <username>@<source_hostname>:<source_file_path> <username>@<destination_hostname>:<destination_file_path>
+
+- `rsync <options> <https://download.samba.org/pub/rsync/rsync.1#OPTION_SUMMARY>`_
 
 - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
 - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
