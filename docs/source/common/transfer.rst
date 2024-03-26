@@ -3,6 +3,161 @@
 Transferring Files
 ===================
 
+.. _scp:
+
+CLI Transfer Method - Secure Copy (scp)
+-----------------------------------------
+
+`scp <https://man.openbsd.org/scp.1>`_ is a command line interface (CLI) application that provides a secure way to copy files and directories between machines over an unsecured network. Use ``scp`` for small to modest transfers to avoid impacting usability of a system's login node.
+
+``scp`` requires a **source** and a **destination**; these are specified with a file path if it is on your local machine or as ``<username>@<hostname>:<file_name>`` if it is on a remote machine.
+
+.. code-block::
+
+   scp <options> <username>@<source_hostname>:<source_file_path> <username>@<destination_hostname>:<destination_file_path>
+
+- `scp <options> <https://man.openbsd.org/scp.1>`_
+
+- `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+- `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+- `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+- `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+Transferring from Local Machine to Remote Machine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+   scp <options> <source_file_name> <username>@<hostname>:<destination_path>
+
+**ICC example:**
+
+.. code-block::
+
+   ## Users wants to transfer the images directory
+   [testuser1@users-machine hubble]~ ls
+   images
+
+   ## Transfer using scp to a project directory
+   [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+
+Transferring from Remote Machine to Local Machine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+   scp <options> <username>@<hostname>:<source_file_path> <destination_path>
+
+.. _rsync:
+
+CLI Transfer Method - rsync
+-----------------------------
+
+`rsync <https://download.samba.org/pub/rsync/rsync.1>`_ is a CLI utility that syncs files and directories. Use ``rsync`` for small to modest transfers to avoid impacting usability of a system's login node.
+
+``rsync`` requires a **source** and a **destination**; these are specified with a file path if it is on your local machine or as ``<username>@<hostname>:<file_name>`` if it is on a remote machine.
+
+.. code-block::
+
+   rsync <options> <username>@<source_hostname>:<source_file_path> <username>@<destination_hostname>:<destination_file_path>
+
+- `rsync <options> <https://download.samba.org/pub/rsync/rsync.1#OPTION_SUMMARY>`_
+
+- `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+- `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+- `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+- `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+Transferring from Local Machine to Remote Machine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+   rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
+
+**ICC example:**
+
+.. code-block::
+
+   ## Users wants to transfer the images directory
+   [testuser1@users-machine hubble]~ ls
+   images
+
+   ## Transfer using rsync to a project directory
+   [testuser1@users-machine hubble]~ rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+
+Transferring from Remote Machine to Local Machine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+   rsync <options> <username>@<hostname>:<source_file_path> <destination_path>
+
+
+.. _sftp:
+
+Secure File Transfer Protocol (sftp)
+---------------------------------------
+
+You can transfer data using sftp via the command line or one of many common sftp transfer utilities. Two options are `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_, both are free to download and install.
+
+WinSCP
+~~~~~~~~
+
+#. Download and install `WinSCP <https://winscp.net/eng/download.php>`_.
+#. Open WinSCP and log into the associated NCSA system node. 
+
+   a. File protocol: SFTP
+   b. Host name:
+
+     - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+     - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+     - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+     - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+
+   c. Port number: 22
+   d. User name: Your username for the associated NCSA system.
+   e. Password: Your password for the associated NCSA system.
+
+   ICC example:
+
+   .. figure:: images/transfer/winscp-new-login.png
+      :alt: WinSCP new login example for Campus Cluster DTN node.
+      :width: 768px
+
+#. Once you're logged in, WinSCP works like a drag and drop interface for moving files between your local machine and remote machine connection.
+
+Cyberduck
+~~~~~~~~~~
+
+#. Download and install `Cyberduck <https://cyberduck.io/download/>`_.
+#. Open Cyberduck and click the **Open Connection** button in the upper left corner.
+
+   .. figure:: images/transfer/cyberduck-open-connection-button.png
+      :alt: Cyberduck inteface highlighting the "Open Connection" button in the upper left corner.
+      :width: 512px
+
+#. Connect to the associated NCSA system node.
+
+   a. Select **SFTP** in the drop-down menu.
+   b. Server: 
+
+     - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+     - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
+     - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
+     - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+   c. Port: 22
+   d. Username: Your username for the associated NCSA system.
+   e. Password: Your password for the associated NCSA system. 
+
+   ICC example:
+
+   .. figure:: images/transfer/cyberduck-sftp-protocol-connection.png
+      :alt: Cyberduck SFTP protocol connection window. SFTP selected from drop-down menu. Server: cc-xfer.campuscluster.illinois.edu. Port: 22. Username and password: your campus cluster credentials.
+      :width: 500px
+
+#. Once connected, you should see a listing of your home directory, and you can navigate the file system via the GUI. Download and upload files, as needed.
+
 .. _globus:
 
 Globus
@@ -48,7 +203,7 @@ When you select a Globus endpoint for the first time, you *may* see an Authentic
 
 Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource(s) you're using and how you created your Globus account.
 
-After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field will display the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
+After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field displays the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
 
   .. figure:: images/transfer/globus-file-manager-path-example.png
      :alt: Globus screenshot example showing the results with "Illinois Research Storage" collection and "/" path.
