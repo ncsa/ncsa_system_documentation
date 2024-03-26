@@ -30,7 +30,7 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Illinois Campus Cluster example:**
+**ICC example:**
 
 .. code-block::
 
@@ -75,7 +75,7 @@ Transferring from Local Machine to Remote Machine
 
    rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**Illinois Campus Cluster example:**
+**ICC example:**
 
 .. code-block::
 
@@ -119,7 +119,7 @@ WinSCP
    d. User name: Your username for the associated NCSA system.
    e. Password: Your password for the associated NCSA system.
 
-   Illinois Campus Cluster example:
+   ICC example:
 
    .. figure:: images/transfer/winscp-new-login.png
       :alt: WinSCP new login example for Campus Cluster DTN node.
@@ -150,7 +150,7 @@ Cyberduck
    d. Username: Your username for the associated NCSA system.
    e. Password: Your password for the associated NCSA system. 
 
-   Illinois Campus Cluster example:
+   ICC example:
 
    .. figure:: images/transfer/cyberduck-sftp-protocol-connection.png
       :alt: Cyberduck SFTP protocol connection window. SFTP selected from drop-down menu. Server: cc-xfer.campuscluster.illinois.edu. Port: 22. Username and password: your campus cluster credentials.
