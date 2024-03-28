@@ -30,14 +30,14 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
- **ICC example:**
+.. code-block:: terminal
 
- .. code-block:: terminal
+   ## ICC example:
 
-    ## testuser1 wants to transfer a file (local_file) from their
-    ## local machine to the their home directory on the Campus Cluster
+   ## testuser1 wants to transfer a file (local_file) from their
+   ## local machine to the their home directory on the Campus Cluster
    
-    [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
+   [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -46,14 +46,14 @@ Transferring from Remote Machine to Local Machine
 
    scp <options> <username>@<hostname>:<source_file_path> <destination_path>
 
-  **ICC example:**
+.. code-block:: terminal
 
-  .. code-block:: terminal
+   ## ICC example:
+  
+   ## testuser1 wants to transfer a file (remote_file) from their 
+   ## home directory on the Campus Cluster to their local machine
 
-     ## testuser1 wants to transfer a file (remote_file) from their 
-     ## home directory on the Campus Cluster to their local machine
-
-     [testuser1_machine] ~ % scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
+   [testuser1_machine] ~ % scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
 
 .. _rsync:
 
@@ -82,16 +82,16 @@ Transferring from Local Machine to Remote Machine
 
    rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-  **ICC example:**
+.. code-block::
 
-  .. code-block::
+   ## ICC example:
+  
+   ## testuser1 wants to transfer the "images" directory
+   [testuser1_machine] ~ % ls
+   images
 
-     ## testuser1 wants to transfer the "images" directory
-     [testuser1_machine] ~ % ls
-     images
-
-     ## Transfer using rsync to a project directory
-     [testuser1_machine] ~ % rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   ## Transfer using rsync to a project directory
+   [testuser1_machine] ~ % rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
