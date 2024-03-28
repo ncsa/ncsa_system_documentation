@@ -99,7 +99,7 @@ Transferring from Remote Machine to Local Machine
 Secure File Transfer Protocol (sftp)
 ---------------------------------------
 
-You can transfer data using sftp via the command line or one of many common sftp transfer utilities. Two options are `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_, both are free to download and install.
+You can transfer data using ``sftp`` via the command line or one of many common transfer utilities. Two transfer utility options, `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_, are described below; both are free to download and install.
 
 WinSCP
 ~~~~~~~~
