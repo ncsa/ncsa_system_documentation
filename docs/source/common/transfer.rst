@@ -30,23 +30,28 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**ICC example:**
+.. code-block:: terminal
 
-.. code-block::
-
-   ## Users wants to transfer the images directory
-   [testuser1@users-machine hubble]~ ls
-   images
-
-   ## Transfer using scp to a project directory
-   [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   ## ICC example:
+   ## testuser1 transfers a file ("local_file") from their
+   ## local machine to the their home directory on the Campus Cluster
+   
+   [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block::
+.. code-block:: 
 
    scp <options> <username>@<hostname>:<source_file_path> <destination_path>
+
+.. code-block:: terminal
+
+   ## ICC example:
+   ## testuser1 transfers a file ("remote_file") from their 
+   ## home directory on the Campus Cluster to their local machine
+
+   [testuser1_machine] ~ % scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
 
 .. _rsync:
 
@@ -75,16 +80,16 @@ Transferring from Local Machine to Remote Machine
 
    rsync <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-**ICC example:**
-
 .. code-block::
 
-   ## Users wants to transfer the images directory
-   [testuser1@users-machine hubble]~ ls
+   ## ICC example:
+   ## testuser 1 transfers the "images" directory from their 
+   ## local machine to a projects directory on the Campus Cluster
+
+   [testuser1_machine] ~ % ls
    images
 
-   ## Transfer using rsync to a project directory
-   [testuser1@users-machine hubble]~ rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   [testuser1_machine] ~ % rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -99,7 +104,7 @@ Transferring from Remote Machine to Local Machine
 Secure File Transfer Protocol (sftp)
 ---------------------------------------
 
-You can transfer data using sftp via the command line or one of many common sftp transfer utilities. Two options are `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_, both are free to download and install.
+You can transfer data using ``sftp`` via the command line or one of many common transfer utilities. Two transfer utility options, `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_, are described below; both are free to download and install.
 
 WinSCP
 ~~~~~~~~
