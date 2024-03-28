@@ -30,14 +30,14 @@ Transferring from Local Machine to Remote Machine
 
    scp <options> <source_file_name> <username>@<hostname>:<destination_path>
 
-  **ICC example:**
+ **ICC example:**
 
-  .. code-block:: terminal
+ .. code-block:: terminal
 
-     ## testuser1 wants to transfer a file (local_file) from their
-     ## local machine to the their home directory on the Campus Cluster
+    ## testuser1 wants to transfer a file (local_file) from their
+    ## local machine to the their home directory on the Campus Cluster
    
-     [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
+    [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
