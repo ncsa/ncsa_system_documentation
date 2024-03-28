@@ -415,6 +415,18 @@ A sample batch script that makes use of job arrays is available in the Campus Cl
 
 -  To delete job arrays, see the :ref:`qdel` command section.
 
+Job Prioritization
+-------------------
+
+Slurm prioritizes jobs in the queue based on more than just when the job was submitted. A combination of factors are considered to fairly distribute the compute resources to all cluster users. These factors include:
+
+- Resources requested for the job: Smaller jobs may backfill between larger jobs (without delaying higher priority jobs), allowing these smaller jobs to run prior to larger jobs that may have been submitted earlier.
+- Age of the job in the queue: Jobs that have been in the queue longer are given a higher priority. However, since this is not the only factor considered, newer jobs may run before older jobs.
+- Fair Share factor: Fair Share considers recent usage and the amount of an account's allocation that has already been used, among other factors. Higher priority is given to jobs on accounts that have not had recent cluster usage over accounts that have been recently active. Higher priority is also given to accounts that have used a smaller portion of their total allocation.
+- Preemption: Jobs that are submitted to preempt queues (where available), will have a lower priority than non-preempt jobs.
+
+If you have concerns about the prioritization of your jobs in the queue, :ref:`submit a support request <help>`.
+
 Job Management
 ----------------
 
