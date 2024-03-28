@@ -32,7 +32,7 @@ Transferring from Local Machine to Remote Machine
 
 **ICC example:**
 
-.. code-block::
+.. code-block:: terminal
 
    ## testuser1 wants to transfer a file (local_file) from their
    ## local machine to the their home directory on the Campus Cluster
@@ -42,13 +42,13 @@ Transferring from Local Machine to Remote Machine
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block::
+.. code-block:: 
 
    scp <options> <username>@<hostname>:<source_file_path> <destination_path>
 
 **ICC example:**
 
-.. code-block::
+.. code-block:: terminal
 
    ## testuser1 wants to transfer a file (remote_file) from their 
    ## home directory on the Campus Cluster to their local machine
