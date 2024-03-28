@@ -34,7 +34,7 @@ Transferring from Local Machine to Remote Machine
 
 .. code-block::
 
-   ## Users wants to transfer the images directory
+   ## testuser1 wants to transfer the "images" directory
    [testuser1@users-machine hubble]~ ls
    images
 
@@ -79,7 +79,7 @@ Transferring from Local Machine to Remote Machine
 
 .. code-block::
 
-   ## Users wants to transfer the images directory
+   ## testuser1 wants to transfer the "images" directory
    [testuser1@users-machine hubble]~ ls
    images
 
