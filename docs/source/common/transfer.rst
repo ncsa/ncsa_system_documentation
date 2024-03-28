@@ -34,12 +34,10 @@ Transferring from Local Machine to Remote Machine
 
 .. code-block::
 
-   ## testuser1 wants to transfer the "images" directory
-   [testuser1@users-machine hubble]~ ls
-   images
-
-   ## Transfer using scp to a project directory
-   [testuser1@users-machine hubble]~ scp -rp images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   ## testuser1 wants to transfer a file (local_file) from their
+   ## local machine to the their home directory on the Campus Cluster
+   
+   my_desktop% scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,6 +45,15 @@ Transferring from Remote Machine to Local Machine
 .. code-block::
 
    scp <options> <username>@<hostname>:<source_file_path> <destination_path>
+
+**ICC example:**
+
+.. code-block::
+
+   ## testuser1 wants to transfer a file (remote_file) from their 
+   ## home directory on the Campus Cluster to their local machine
+
+   my_desktop% scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
 
 .. _rsync:
 
