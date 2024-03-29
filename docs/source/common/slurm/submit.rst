@@ -3,6 +3,17 @@
 How to Submit Jobs
 ====================
 
+Batch scripts (sbatch) or Interactive (srun, salloc), which is right for you?
+
+- :ref:`sbatch`: Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
+  Sample Slurm batch job scripts are provided in the :ref:`examples` section.
+  For mixed resource heterogeneous jobs, see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
+  Slurm also supports job arrays for easy management of a set of similar jobs, see the `Slurm job arrays documentation <https://slurm.schedmd.com/job_array.html>`_.
+
+- :ref:`srun`: For interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, which means that it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
+
+- :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Type **exit** when finished with a salloc allocation if you want to end it before the time expires.
+
 .. _sbatch:
 
 sbatch
