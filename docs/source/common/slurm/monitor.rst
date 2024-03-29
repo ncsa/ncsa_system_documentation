@@ -11,7 +11,7 @@ sview
 
 `sview <https://slurm.schedmd.com/sview.html>`_ is a graphical user interface (GUI) that can be used to view job, node and partition (queue) states. Run the ``sview`` command to initiate the GUI.
 
-..  figure:: images/slurm/sview-sinfo.png
+..  figure:: ../images/slurm/sview-sinfo.png
     :alt: sview view of Slurm partitions
 
 squeue
@@ -156,7 +156,7 @@ nvidia-smi
 
 `NVIDIA System Management Interface (nvidia-smi) <https://developer.nvidia.com/nvidia-system-management-interface>`_ is a utility for **GPUs**.
 
-..  figure:: images/slurm/nvidia-smi.png
+..  figure:: ../images/slurm/nvidia-smi.png
     :alt: nvidia smi
 
 nvtop
@@ -164,7 +164,7 @@ nvtop
 
 `nvtop <https://manpages.ubuntu.com/manpages/focal/man1/nvtop.1.html>`_ is an interactive **GPU** process viewer.
 
-..  figure:: images/slurm/nvtop.png
+..  figure:: ../images/slurm/nvtop.png
     :alt: nvtop
 
 nvitop
@@ -172,13 +172,13 @@ nvitop
 
 `nvitop <https://nvitop.readthedocs.io/en/latest/>`_ is an interactive **GPU** process viewer.
 
-..  figure:: images/slurm/nvitop.png
+..  figure:: ../images/slurm/nvitop.png
     :alt: nvitop
 
 top -u $USER
 ~~~~~~~~~~~~~~
 
-..  figure:: images/slurm/top-user.png
+..  figure:: ../images/slurm/top-user.png
     :alt: top
 
 Grafana
@@ -190,15 +190,15 @@ Monitor node metrics using `Grafana <https://grafana.com>`_.
 
 #. Sign in (top-right).
 
-   ..  figure:: images/slurm/metrics-signin-icon.png
+   ..  figure:: ../images/slurm/metrics-signin-icon.png
        :alt: sign in icon
 
 #. Navigate to the metrics of interest.
 
-   ..  figure:: images/slurm/grafana-metrics-home.png
+   ..  figure:: ../images/slurm/grafana-metrics-home.png
        :alt: metrics home
 
    You may choose a node from the list of nodes and get detailed information in real time.
 
-   ..  figure:: images/slurm/grafana-metrics-details.png
+   ..  figure:: ../images/slurm/grafana-metrics-details.png
        :alt: get detailed info
