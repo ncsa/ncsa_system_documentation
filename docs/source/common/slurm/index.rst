@@ -3,16 +3,25 @@
 Job Management with Slurm
 ============================
 
-Many of the NCSA computer systems use the Slurm software stack for job workload management. 
+Many of the NCSA computer systems use the Slurm software stack for job workload management.
+
+.. _partitions:
+
+Partitions (Queues)
+-----------------------
+
+Each resource has partitions (queues) with different specifications including maximum number of nodes, maximum wall time, and memory. 
+Consult the resource-specific documentation for more information on a system's queues.
+
+- `Delta Queues <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#partitions-queues>`_
+- `Hydro Queues <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/partitions_and_job_policies.html#partitions-queues>`_
+- `ICC Queues <https://docs.ncsa.illinois.edu/systems/icc/en/proposed_changes/user_guide/running_jobs.html#queues>`_
+- `Nightingale Queues <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/running_jobs.html#nightingale-queues>`_
 
 .. _access_nodes:
 
 Accessing the Compute Nodes
 -------------------------------
-
-Use Slurm commands to run batch jobs or for interactive access to compute nodes. 
-Refer to the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
-A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <images/slurm/slurm_summary.pdf>`.
 
 Direct SSH access to a compute node in a running job from a login node is enabled once the job has started:
 
@@ -33,19 +42,6 @@ Then in a terminal session:
    $
 
 See also, :ref:`mon_node`.
-
-.. _partitions:
-
-Partitions (Queues)
------------------------
-
-Each resource has partitions (queues) with different specifications including maximum number of nodes, maximum wall time, and memory. 
-Consult the resource-specific documentation for more information on a system's queues.
-
-- `Delta Queues <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#partitions-queues>`_
-- `Hydro Queues <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/partitions_and_job_policies.html#partitions-queues>`_
-- `ICC Queues <https://docs.ncsa.illinois.edu/systems/icc/en/proposed_changes/user_guide/running_jobs.html#queues>`_
-- `Nightingale Queues <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/running_jobs.html#nightingale-queues>`_
 
 .. toctree::
    :maxdepth: 2
