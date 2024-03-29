@@ -3,6 +3,10 @@
 How to Submit Jobs
 ====================
 
+Use Slurm commands to run batch jobs or for interactive access to compute nodes. 
+Refer to the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
+A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <../images/slurm/slurm_summary.pdf>`.
+
 Batch scripts (sbatch) or Interactive (srun, salloc), which is right for you?
 
 - :ref:`sbatch`: Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
