@@ -17,7 +17,7 @@ The pages linked here are the official user documentation for the computing reso
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
 - `Nightingale </systems/nightingale>`_
-- `Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>`_
+- `Radiant </systems/radiant>`_
 - `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 
 More Documentation
@@ -66,7 +66,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
-   Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
+   Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
 
