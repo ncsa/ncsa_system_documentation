@@ -3,7 +3,11 @@
 Allocation Information by Resource
 ====================================
 
-If you know which NCSA resource you want to request an allocation on, use the below table to learn how to submit an allocation request. If you don't know which resource you want to use, see XXXXX for more information on the NCSA resources and allocation programs available to determine which is right for you.
+.. note::
+
+   If you know which NCSA resource you want to request an allocation on, use this page to learn how to submit an allocation request. 
+
+   If you don't know which resource you want to use, see XXXXX for more information on the NCSA resources and allocation programs available to determine which is right for you.
 
 Delta
 --------
