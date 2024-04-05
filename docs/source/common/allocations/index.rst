@@ -3,7 +3,7 @@
 NCSA Allocations
 ===================
 
-.. note:
+.. note::
    Are you an Illinois researcher looking for access to compute or support resources? We have great news — there is now an easy and free way to get access to computing and support resources on campus, through the Illinois Research Computing and Data effort.  Connect with us to get started!
 
    For more information, see our `Illinois Computes <https://computes.illinois.edu/>`_ page.
