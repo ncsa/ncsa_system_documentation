@@ -17,7 +17,7 @@ The table below contains resources available to Illinois users through the `NCSA
 
 To get started with Illinois allocations, `request an NCSA Kerberos account <https://identity.ncsa.illinois.edu/join/ETGX7ICQAX>`_.  Account creation may take up to 24 hours once requested.
 
-Once your user account has been created, you can submit proposals for open Illinois allocation requests by visiting the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/login>`_.
+Once your user account has been created, you can submit proposals for open Illinois allocation requests by visiting the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/login>`_. For more information on how to submit an allocation request, refer to :ref:`xras-new`.
 
 .. table:: Illinois Allocation Resource Summary
 
