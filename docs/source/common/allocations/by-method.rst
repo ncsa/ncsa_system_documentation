@@ -12,7 +12,7 @@ Allocation Information by Allocation Method
 
 Illinois Computes is targeted at providing computing for all with the goal of accelerating innovation across all disciplines.  Whether you’re an expert HPC user, or completely new to using computing and storage resources in your research, NCSA and its expert staff are ready to help. Base level of services and resources are available at **no cost**.
 
-For details about the base level of services resources available through Illinois Computes, refer to the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+For details about the base level of services resources available through Illinois Computes, refer to the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
   Resources available through Illinois Computes:
 
@@ -46,7 +46,7 @@ A majority of `Delta <https://delta.ncsa.illinois.edu>`_ is allocated through AC
 Direct Investment/Request
 ---------------------------
 
-Direct investment in the following resources is available through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New <Resource> Submission", where <Resource> is the name of resource you want to use (:ref:`how to submit a new XRAS portal request <xras-new>`).
+Direct investment in the following resources is available through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New <Resource> Submission", where <Resource> is the name of resource you want to use. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
 - `vForge <https://www.ncsa.illinois.edu/industry/vforge/>`_
@@ -55,6 +55,11 @@ Direct investment in the following resources is available through the `NCSA XRAS
 - `Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 - `Delta <https://delta.ncsa.illinois.edu>`_
 - ??? HOLL-I
+
+Direct investment in the Illinois Campus Cluster is available through:
+
+- `Campus Cluster Buy Compute <https://campuscluster.illinois.edu/access/buy-compute/>`_ page
+- `Campus Cluster Buy Storage <https://campuscluster.illinois.edu/access/buy-storage/>`_ page
 
 Access for Instruction
 -------------------------
