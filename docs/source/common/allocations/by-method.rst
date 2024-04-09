@@ -61,7 +61,7 @@ Access for Instruction
 
 To request access to one of the following Illinois Campus Cluster primary queues for using in instruction, submit the `Campus Cluster add class request form <https://campuscluster.illinois.edu/new_forms/class_form.php>`_ (select the appropriate primary queue from the dropdown menu in the form).
 
-  **Illinois Campus Cluster - Add Class Primary Queues:**
+  Illinois Campus Cluster - Add Class Primary Queues:
 
   - CS
   - ENG-INSTRUCTION
