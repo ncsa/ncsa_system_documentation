@@ -12,6 +12,14 @@ NCSA Allocations
      - :ref:`xras-new`
      - :ref:`xras-renew`
 
+.. toctree::
+   :maxdepth: 1
+
+   by-resource
+   by-method
+   xras-new
+   xras-renew
+
 
 NCSA Resources Summary
 ------------------------
