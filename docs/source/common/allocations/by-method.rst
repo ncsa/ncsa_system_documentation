@@ -14,27 +14,27 @@ Illinois Computes is targeted at providing computing for all with the goal of ac
 
 For details about the base level of services resources available through Illinois Computes, refer to the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
 
-**Resources available through Illinois Computes:**
+  Resources available through Illinois Computes:
 
-- NCSA Consulting Services - Expert support on a project from NCSA Research Consulting
-- Compute
+  - NCSA Consulting Services - Expert support on a project from NCSA Research Consulting
+  - Compute
 
-  - `Illinois Campus Cluster <https://campuscluster.illinois.edu/>`_
-  - `Hydro <https://docs.ncsa.illinois.edu/systems/hydro>`_
-  - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
-  - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
-  - `Illinois HTC <https://docs.ncsa.illinois.edu/systems/htc>`_
+    - `Illinois Campus Cluster <https://campuscluster.illinois.edu/>`_
+    - `Hydro <https://docs.ncsa.illinois.edu/systems/hydro>`_
+    - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
+    - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
+    - `Illinois HTC <https://docs.ncsa.illinois.edu/systems/htc>`_
 
-- Storage
+  - Storage
 
-  - `Taiga <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
-  - `Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
-  - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
+    - `Taiga <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
+    - `Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
+    - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
 
-- Data
+  - Data
 
-  - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
-  - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
+    - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
+    - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
 
 
 Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS)
@@ -61,12 +61,12 @@ Access for Instruction
 
 To request access to one of the following Illinois Campus Cluster primary queues for using in instruction, submit the `Campus Cluster add class request form <https://campuscluster.illinois.edu/new_forms/class_form.php>`_ (select the appropriate primary queue from the dropdown menu in the form).
 
-**Illinois Campus Cluster - Add Class Primary Queues:**
+  **Illinois Campus Cluster - Add Class Primary Queues:**
 
-- CS
-- ENG-INSTRUCTION
-- ICHASS
-- STATSTUDENT
+  - CS
+  - ENG-INSTRUCTION
+  - ICHASS
+  - STATSTUDENT
 
 
 New Frontiers Initiative (NFI)
