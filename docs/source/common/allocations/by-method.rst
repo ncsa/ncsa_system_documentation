@@ -4,10 +4,8 @@ Allocation Information by Allocation Method
 ==============================================
 
 .. note::
-  
-   If you know don't know which NCSA resource you want to request an allocation on, use this page to learn about the different allocation methods/programs available.
 
-   If you know which resource you want to use, refer to :ref:`by-resource` for information on how to request an allocation for each resource.
+   If you know which resource you want to use, refer to :ref:`by-resource`.
 
 `Illinois Computes <https://computes.illinois.edu>`_
 ------------------------------------------------------
