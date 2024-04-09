@@ -4,10 +4,22 @@ NCSA Allocations
 ===================
 
 .. toctree::
+   :caption: Start here if you know which resource you want to use
    :maxdepth: 1
 
    by-resource
-   by-method
+
+.. toctree::
+   :caption: Start here if you want to explore the available allocation programs/methods
+   :maxdepth: 1
+
+   by method
+
+
+.. toctree::
+   :caption: NCSA XRAS Portal guides
+   :maxdepth: 1
+
    xras-new
    xras-renew
 
@@ -44,9 +56,9 @@ NCSA offers access to a variety of resources that can be requested by University
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `HAL user support`_                         |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| HOLL-I                          | AI-HPC          | Extreme Scale Machine Learning with select Tensorflow and Pytorch models     | - `HOLL-I hardware/storage`_                  |
+| HOLL-I                          | AI-HPC          | Extreme Scale Machine Learning                                               | - `HOLL-I hardware/storage`_                  |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - `Accessing HOLL-I`_                         |
+|                                 |                 | with select Tensorflow and Pytorch models                                    | - `Accessing HOLL-I`_                         |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `HOLL-I user documentation`_                |
 |                                 |                 |                                                                              |                                               |
