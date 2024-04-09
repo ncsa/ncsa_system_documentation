@@ -23,7 +23,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +=================================+=================+==============================================================================+===============================================+
 | Delta                           | HPC             | Coming Soon!                                                                 | - `Delta hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - :ref:`allocate-delta`                       |
+|                                 |                 |                                                                              | - :ref:`Accessing Delta <allocate-delta>`     |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Delta user documentation`_                 |
 |                                 |                 |                                                                              |                                               |
