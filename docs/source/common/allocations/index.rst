@@ -14,6 +14,7 @@ NCSA Allocations
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    by-resource
    by-method
