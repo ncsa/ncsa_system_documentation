@@ -9,12 +9,11 @@ NCSA Allocations
    For more information, see our `Illinois Computes <https://computes.illinois.edu/>`_ page.
 
 .. toctree::
-   :max-depth: 2
 
-   allocations/by-resource
-   allocations/by-method
-   allocations/xras-new
-   allocations/xras-renew
+   by-resource
+   by-method
+   xras-new
+   xras-renew
 
 
 NCSA Resources Summary
