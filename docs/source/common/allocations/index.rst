@@ -11,10 +11,10 @@ NCSA Allocations
 .. toctree::
    :max-depth: 2
 
-   by-resource
-   by-method
-   xras-new
-   xras-renew
+   allocations/by-resource
+   allocations/by-method
+   allocations/xras-new
+   allocations/xras-renew
 
 
 NCSA Resources Summary
