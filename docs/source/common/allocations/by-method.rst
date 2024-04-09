@@ -12,9 +12,9 @@ Allocation Information by Allocation Method
 
 Illinois Computes is targeted at providing computing for all with the goal of accelerating innovation across all disciplines.  Whether you’re an expert HPC user, or completely new to using computing and storage resources in your research, NCSA and its expert staff are ready to help. Base level of services and resources are available at **no cost**.
 
-For details about the base level of services resources available through Illinois Computes, refer to the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_ (:ref:`xras-new`); choose "Start a New Illinois Computes Program Submission".
+For details about the base level of services resources available through Illinois Computes, refer to the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
 
-Resources available through Illinois Computes:
+**Resources available through Illinois Computes:**
 
 - NCSA Consulting Services - Expert support on a project from NCSA Research Consulting
 - Compute
@@ -46,7 +46,7 @@ A majority of `Delta <https://delta.ncsa.illinois.edu>`_ is allocated through AC
 Direct Investment/Request
 ---------------------------
 
-Direct investment in the following resources is available through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_ (:ref:`xras-new`); choose "Start a New <Resource> Submission", where <Resource> is the name of resource you want to use.
+Direct investment in the following resources is available through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New <Resource> Submission", where <Resource> is the name of resource you want to use (:ref:`how to submit a new XRAS portal request <xras-new>`).
 
 - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
 - `vForge <https://www.ncsa.illinois.edu/industry/vforge/>`_
@@ -61,7 +61,7 @@ Access for Instruction
 
 To request access to one of the following Illinois Campus Cluster primary queues for using in instruction, submit the `Campus Cluster add class request form <https://campuscluster.illinois.edu/new_forms/class_form.php>`_ (select the appropriate primary queue from the dropdown menu in the form).
 
-Illinois Campus Cluster - Add Class Primary Queues:
+**Illinois Campus Cluster - Add Class Primary Queues:**
 
 - CS
 - ENG-INSTRUCTION
