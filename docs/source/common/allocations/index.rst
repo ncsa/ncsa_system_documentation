@@ -88,7 +88,7 @@ NCSA offers access to a variety of resources that can be requested by University
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Illinois HTC user support`_                | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Innovative Systems Lab (ISL)    |                 |                                                                              | - `ISL info`_                                 |
+| Innovative Systems Lab          |                 |                                                                              | - `ISL info`_                                 |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
@@ -112,7 +112,7 @@ NCSA offers access to a variety of resources that can be requested by University
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Radiant user support`_                     |     
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Research Consulting Services    | Support         | Coming Soon!                                                                 | - `Research Consulting Services info`_        |
+| Research Consulting             | Support         | Coming Soon!                                                                 | - `Research Consulting Services info`_        |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
