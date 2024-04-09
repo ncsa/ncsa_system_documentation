@@ -10,4 +10,4 @@ Documentation on topics that are applicable across multiple NCSA computing resou
 
    transfer
    relocate-conda-directory
-   allocations
+   allocations/index
