@@ -40,7 +40,7 @@ NCSA offers access to a variety of resources that can be requested by University
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Delta user support`_                       | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Granite                         | Archive Storage | - Storage of infrequently accessed data                                      | - `Granite hardware/storage`_                 |
+| Granite                         | Archive Storage | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                 |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 | - Disaster recovery                                                          | - `Accessing Granite`_                        |
 |                                 |                 |                                                                              |                                               |
@@ -58,7 +58,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | HOLL-I                          | AI-HPC          | Extreme Scale Machine Learning                                               | - `HOLL-I hardware/storage`_                  |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 | with select Tensorflow and Pytorch models                                    | - `Accessing HOLL-I`_                         |
+|                                 |                 | with Tensorflow and Pytorch models                                           | - `Accessing HOLL-I`_                         |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `HOLL-I user documentation`_                |
 |                                 |                 |                                                                              |                                               |
@@ -120,7 +120,7 @@ NCSA offers access to a variety of resources that can be requested by University
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Taiga                           | Storage         | - Active Research and Project Data,                                          | - `Taiga hardware/storage`_                   |
+| Taiga                           | Storage         | - Active Research and Project Data                                           | - `Taiga hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 | - Visualization data                                                         | - `Accessing Taiga`_                          |
 |                                 |                 |                                                                              |                                               |
@@ -223,7 +223,7 @@ NCSA offers access to a variety of resources that can be requested by University
 
 .. _Taiga user support: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
 
-.. _vForge hardware/support:
+.. _vForge hardware/storage:
 
 .. _Accessing vForge:
 
