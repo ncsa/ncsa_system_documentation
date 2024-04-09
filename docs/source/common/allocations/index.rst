@@ -13,7 +13,7 @@ NCSA Allocations
    :caption: Start here if you want to explore the available allocation programs/methods
    :maxdepth: 1
 
-   by method
+   by-method
 
 
 .. toctree::
