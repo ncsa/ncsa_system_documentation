@@ -19,6 +19,7 @@ NCSA Allocations
    xras-new
    xras-renew
 
+.. _resource-summary:
 
 NCSA Resources Summary
 ------------------------
