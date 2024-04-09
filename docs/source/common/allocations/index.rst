@@ -3,13 +3,6 @@
 NCSA Allocations
 ===================
 
-- :ref:`by-resource` - Start here if you know which resource you want to use.
-- :ref:`by-method` - Explore the available allocation programs/methods.
-- NCSA XRAS Portal guides:
-
-  - :ref:`xras-new`
-  - :ref:`xras-renew`
-
 :ref:`by-resource` - Start here if you know which resource you want to use.
 
 :ref:`by-method` - Explore the available allocation programs/methods.
