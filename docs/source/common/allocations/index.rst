@@ -28,79 +28,55 @@ NCSA offers access to a variety of resources that can be requested by University
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Delta user support`_                       | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Granite                         | Archive Storage | Storage of infrequently accessed data, Disaster Recovery, Archive Datasets   | `Granite hardware/storage`_                   |
+| Granite                         | Archive Storage | - Storage of infrequently accessed data                                      | - `Granite hardware/storage`_                 |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Granite`_                          |
+|                                 |                 | - Disaster recovery                                                          | - `Accessing Granite`_                        |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Granite user documentation`_                 |
+|                                 |                 | - Archive datasets                                                           | - `Granite user documentation`_               |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Granite user support`_                       |
+|                                 |                 |                                                                              | - `Granite user support`_                     |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| HAL                             | HPC             | Deep learning frameworks, TensorFlow, PyTorch                                | `HAL hardware/storage`_                       |
+| HAL                             | HPC             | - Deep learning frameworks                                                   | - `HAL hardware/storage`_                     |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing HAL`_                              |
+|                                 |                 | - TensorFlow                                                                 | - `Accessing HAL`_                            |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `HAL user documentation`_                     |
+|                                 |                 | - PyTorch                                                                    | - `HAL user documentation`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `HAL user support`_                           |
+|                                 |                 |                                                                              | - `HAL user support`_                         |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| HOLL-I                          | AI-HPC          | Extreme Scale Machine Learning with select Tensorflow and Pytorch models     | `HOLL-I hardware/storage`_                    |
+| HOLL-I                          | AI-HPC          | Extreme Scale Machine Learning with select Tensorflow and Pytorch models     | - `HOLL-I hardware/storage`_                  |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing HOLL-I`_                           |
+|                                 |                 |                                                                              | - `Accessing HOLL-I`_                         |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `HOLL-I user documentation`_                  |
+|                                 |                 |                                                                              | - `HOLL-I user documentation`_                |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `HOLL-I user support`_                        |
+|                                 |                 |                                                                              | - `HOLL-I user support`_                      |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Hydro                           | HPC             | Priority use for NFI projects.                                               | `Hydro hardware/storage`_                     |
+| Hydro                           | HPC             | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Hydro`_                            |
+|                                 |                 |                                                                              | - `Accessing Hydro`_                          |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Hydro user documentation`_                   |
+|                                 |                 |                                                                              | - `Hydro user documentation`_                 |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Hydro user support`_                         |
+|                                 |                 |                                                                              | - `Hydro user support`_                       |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Illinois Campus Cluster         | HPC             | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | `Campus Cluster hardware/storage`_            |
+| Illinois Campus Cluster         | HPC             | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster hardware/storage`_          |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Campus Cluster`_                   |
+|                                 |                 |                                                                              | - `Accessing Campus Cluster`_                 |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Campus Cluster user documentation`_          | 
+|                                 |                 |                                                                              | - `Campus Cluster user documentation`_        | 
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Campus Cluster user support`_                | 
+|                                 |                 |                                                                              | - `Campus Cluster user support`_              | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Illinois HTC                    | HTC             |                                                                              | `Illinois HTC hardware/storage`_              |
+| Illinois HTC                    | HTC             |                                                                              | - `Illinois HTC hardware/storage`_            |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Illinois HTC`_                     |
+|                                 |                 |                                                                              | - `Accessing Illinois HTC`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Illinois HTC user documentation`_            |
+|                                 |                 |                                                                              | - `Illinois HTC user documentation`_          |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Illinois HTC user support`_                  | 
+|                                 |                 |                                                                              | - `Illinois HTC user support`_                | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Innovative Systems Lab (ISL)    |                 |                                                                              | `ISL info`_                                   |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              |                                               |
-+---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Nightingale                     | HIPAA HPC       | Projects working with HIPAA, CUI, and other protected or sensitive data.     | `Nightingale hardware/storage`_               |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Nightingale`_                      | 
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Nightingale user documentation`_             |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Nightingale user support`_                   |
-+---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Radiant                         | HPC             | `Radiant use cases`_                                                         | `Radiant hardware/storage`_                   |
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Radiant`_                          |  
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Radiant user documentation`_                 | 
-|                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Radiant user support`_                       |     
-+---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Research Consulting Services    | Support         | Coming Soon!                                                                 | `Research Consulting Services info`_          |
+| Innovative Systems Lab (ISL)    |                 |                                                                              | - `ISL info`_                                 |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
@@ -108,21 +84,45 @@ NCSA offers access to a variety of resources that can be requested by University
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              |                                               |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| Taiga                           | Storage         | Active Research and Project Data, Visualization data                         | `Taiga hardware/storage`_                     |
+| Nightingale                     | HIPAA HPC       | Projects working with:                                                       | - `Nightingale hardware/storage`_             |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Taiga`_                            |
+|                                 |                 | - HIPAA                                                                      | - `Accessing Nightingale`_                    | 
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Taiga user documentation`_                   |
+|                                 |                 | - CUI                                                                        | - `Nightingale user documentation`_           |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Taiga user support`_                         |
+|                                 |                 | - Other protected or sensetive data                                          | - `Nightingale user support`_                 |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
-| vForge                          | HTC             | Starting point for NCSA’s industry partners                                  | `vForge hardware/storage`_                    |
+| Radiant                         | HPC             | `Radiant use cases`_                                                         | - `Radiant hardware/storage`_                 |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing vForge`_                           |
+|                                 |                 |                                                                              | - `Accessing Radiant`_                        |  
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `vForge user documentation`_                  |
+|                                 |                 |                                                                              | - `Radiant user documentation`_               | 
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `vForge user support`_                        |
+|                                 |                 |                                                                              | - `Radiant user support`_                     |     
++---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Research Consulting Services    | Support         | Coming Soon!                                                                 | - `Research Consulting Services info`_        |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              |                                               |
++---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| Taiga                           | Storage         | - Active Research and Project Data,                                          | - `Taiga hardware/storage`_                   |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 | - Visualization data                                                         | - `Accessing Taiga`_                          |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              | - `Taiga user documentation`_                 |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              | - `Taiga user support`_                       |
++---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
+| vForge                          | HTC             | Starting point for NCSA’s industry partners                                  | - `vForge hardware/storage`_                  |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              | - `Accessing vForge`_                         |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              | - `vForge user documentation`_                |
+|                                 |                 |                                                                              |                                               |
+|                                 |                 |                                                                              | - `vForge user support`_                      |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 
 .. _Radiant use cases: https://docs.google.com/spreadsheets/d/1VCg9hZVzsY_qiX_FGY_k0LDLZl_HPPkEJhOgv31YNHo/edit#gid=0
