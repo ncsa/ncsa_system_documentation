@@ -3,11 +3,6 @@
 NCSA Allocations
 ===================
 
-.. note::
-   Are you an Illinois researcher looking for access to compute or support resources? We have great news — there is now an easy and free way to get access to computing and support resources on campus, through the Illinois Research Computing and Data effort.  Connect with us to get started!
-
-   For more information, see our `Illinois Computes <https://computes.illinois.edu/>`_ page.
-
 .. toctree::
    :maxdepth: 1
 
@@ -25,13 +20,13 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Resource Name                   | Computing Type  | Primary Use Cases                                                            | User Documentation and Support                |
 +=================================+=================+==============================================================================+===============================================+
-| Delta                           | HPC             | Coming Soon!                                                                 | `Delta hardware/storage`_                     |
+| Delta                           | HPC             | Coming Soon!                                                                 | - `Delta hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Accessing Delta`_                            |
+|                                 |                 |                                                                              | - `Accessing Delta`_                          |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Delta user documentation`_                   |
+|                                 |                 |                                                                              | - `Delta user documentation`_                 |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | `Delta user support`_                         | 
+|                                 |                 |                                                                              | - `Delta user support`_                       | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Granite                         | Archive Storage | Storage of infrequently accessed data, Disaster Recovery, Archive Datasets   | `Granite hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
