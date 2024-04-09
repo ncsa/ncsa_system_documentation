@@ -24,7 +24,7 @@ NCSA Allocations
 NCSA Resources Summary
 ------------------------
 
-NCSA offers access to a variety of resources that can be requested by University of Illinois users through our Illinois allocations, or, through the ACCESS program.
+NCSA offers access to a variety of resources, browse the resources below to find one that best fits your research needs.
 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Resource Name                   | Computing Type  | Primary Use Cases                                                            | User Documentation and Support                        |
