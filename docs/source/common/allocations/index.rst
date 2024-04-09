@@ -23,7 +23,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +=================================+=================+==============================================================================+===============================================+
 | Delta                           | HPC             | Coming Soon!                                                                 | - `Delta hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - `Accessing Delta`_                          |
+|                                 |                 |                                                                              | - :ref:`allocate-delta`                       |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Delta user documentation`_                 |
 |                                 |                 |                                                                              |                                               |
@@ -31,7 +31,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Granite                         | Archive Storage | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                 |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 | - Disaster recovery                                                          | - `Accessing Granite`_                        |
+|                                 |                 | - Disaster recovery                                                          | - :ref:`allocate-granite`                     |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 | - Archive datasets                                                           | - `Granite user documentation`_               |
 |                                 |                 |                                                                              |                                               |
@@ -39,7 +39,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | HAL                             | HPC             | - Deep learning frameworks                                                   | - `HAL hardware/storage`_                     |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 | - TensorFlow                                                                 | - `Accessing HAL`_                            |
+|                                 |                 | - TensorFlow                                                                 | - :ref:`allocate-hal`                         |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 | - PyTorch                                                                    | - `HAL user documentation`_                   |
 |                                 |                 |                                                                              |                                               |
@@ -47,7 +47,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | HOLL-I                          | AI-HPC          | Extreme Scale Machine Learning                                               | - `HOLL-I hardware/storage`_                  |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 | with Tensorflow and Pytorch models                                           | - `Accessing HOLL-I`_                         |
+|                                 |                 | with Tensorflow and Pytorch models                                           | - :ref:`allocate-holli`                       |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `HOLL-I user documentation`_                |
 |                                 |                 |                                                                              |                                               |
@@ -55,7 +55,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Hydro                           | HPC             | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - `Accessing Hydro`_                          |
+|                                 |                 |                                                                              | - :ref:`allocate-hydro`                       |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Hydro user documentation`_                 |
 |                                 |                 |                                                                              |                                               |
@@ -63,7 +63,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Illinois Campus Cluster         | HPC             | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster hardware/storage`_          |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - `Accessing Campus Cluster`_                 |
+|                                 |                 |                                                                              | - :ref:`allocate-icc`                         |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Campus Cluster user documentation`_        | 
 |                                 |                 |                                                                              |                                               |
@@ -71,7 +71,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Illinois HTC                    | HTC             |                                                                              | - `Illinois HTC hardware/storage`_            |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - `Accessing Illinois HTC`_                   |
+|                                 |                 |                                                                              | - :ref:`allocate-htc`                         |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Illinois HTC user documentation`_          |
 |                                 |                 |                                                                              |                                               |
@@ -87,7 +87,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Nightingale                     | HIPAA HPC       | Projects working with:                                                       | - `Nightingale hardware/storage`_             |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 | - HIPAA                                                                      | - `Accessing Nightingale`_                    | 
+|                                 |                 | - HIPAA                                                                      | - :ref:`allocate-nightingale`                 | 
 |                                 |                 |                                                                              |                                               |
 |                                 |                 | - CUI                                                                        | - `Nightingale user documentation`_           |
 |                                 |                 |                                                                              |                                               |
@@ -95,7 +95,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Radiant                         | HPC             | `Radiant use cases`_                                                         | - `Radiant hardware/storage`_                 |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - `Accessing Radiant`_                        |  
+|                                 |                 |                                                                              | - :ref:`allocate-nightingale`                 |  
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Radiant user documentation`_               | 
 |                                 |                 |                                                                              |                                               |
@@ -111,7 +111,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | Taiga                           | Storage         | - Active Research and Project Data                                           | - `Taiga hardware/storage`_                   |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 | - Visualization data                                                         | - `Accessing Taiga`_                          |
+|                                 |                 | - Visualization data                                                         | - :ref:`allocate-taiga`                       |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `Taiga user documentation`_                 |
 |                                 |                 |                                                                              |                                               |
@@ -119,7 +119,7 @@ NCSA offers access to a variety of resources that can be requested by University
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-----------------------------------------------+
 | vForge                          | HTC             | Starting point for NCSA’s industry partners                                  | - `vForge hardware/storage`_                  |
 |                                 |                 |                                                                              |                                               |
-|                                 |                 |                                                                              | - `Accessing vForge`_                         |
+|                                 |                 |                                                                              | - :ref:`allocate-vforge`                      |
 |                                 |                 |                                                                              |                                               |
 |                                 |                 |                                                                              | - `vForge user documentation`_                |
 |                                 |                 |                                                                              |                                               |
@@ -130,15 +130,11 @@ NCSA offers access to a variety of resources that can be requested by University
 
 .. _Delta hardware/storage: https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/architecture.html
 
-.. _Accessing Delta:
-
 .. _Delta user documentation: https://docs.ncsa.illinois.edu/systems/delta
 
 .. _Delta user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
 
 .. _Granite hardware/storage: https://wiki.ncsa.illinois.edu/display/TG/Granite+Architecture
-
-.. _Accessing Granite:
 
 .. _Granite user documentation: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
 
@@ -146,15 +142,11 @@ NCSA offers access to a variety of resources that can be requested by University
 
 .. _HAL hardware/storage:
 
-.. _Accessing HAL:
-
 .. _HAL user documentation:
 
 .. _HAL user support:
 
 .. _HOLL-I hardware/storage:
-
-.. _Accessing HOLL-I:
 
 .. _HOLL-I user documentation:
 
@@ -162,23 +154,17 @@ NCSA offers access to a variety of resources that can be requested by University
 
 .. _Hydro hardware/storage: https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/architecture.html
 
-.. _Accessing Hydro:
-
 .. _Hydro user documentation: https://docs.ncsa.illinois.edu/systems/hydro
 
 .. _Hydro user support: https://docs.ncsa.illinois.edu/systems/hydro/en/latest/help.html
 
 .. _Campus Cluster hardware/storage: 
 
-.. _Accessing Campus Cluster:
-
 .. _Campus Cluster user documentation: https://docs.ncsa.illinois.edu/systems/icc
 
 .. _Campus Cluster user support: https://docs.ncsa.illinois.edu/systems/icc/en/latest/help.html
 
 .. _Illinois HTC hardware/storage: 
-
-.. _Accessing Illinois HTC:
 
 .. _Illinois HTC user documentation: https://docs.ncsa.illinois.edu/systems/iccp-htc
 
@@ -188,15 +174,11 @@ NCSA offers access to a variety of resources that can be requested by University
 
 .. _Nightingale hardware/storage: https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/architecture.html
 
-.. _Accessing Nightingale:
-
 .. _Nightingale user documentation: https://docs.ncsa.illinois.edu/systems/nightingale
 
 .. _Nightingale user support: https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/help.html
 
 .. _Radiant hardware/storage: https://docs.ncsa.illinois.edu/systems/radiant/en/latest/user-guide/architecture.html
-
-.. _Accessing Radiant:
 
 .. _Radiant user documentation: https://docs.ncsa.illinois.edu/systems/radiant
 
@@ -206,15 +188,11 @@ NCSA offers access to a variety of resources that can be requested by University
 
 .. _Taiga hardware/storage: https://wiki.ncsa.illinois.edu/display/TG/Taiga+Architecture
 
-.. _Accessing Taiga:
-
 .. _Taiga user documentation: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
 
 .. _Taiga user support: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
 
 .. _vForge hardware/storage:
-
-.. _Accessing vForge:
 
 .. _vForge user documentation:
 
