@@ -3,9 +3,7 @@
 Allocation Information by Resource
 ====================================
 
-.. note::
-
-   If you know which NCSA resource you want to request an allocation on, use this page to learn how to submit an allocation request. 
+.. note:: 
 
    If you *don't* know which resource you want to use, refer to the :ref:`resource-summary` for more information on the NCSA resources and :ref:`by-method` for more information on the available allocation programs/methods available.
 
