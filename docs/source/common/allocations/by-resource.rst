@@ -16,7 +16,7 @@ There are four ways to request an allocation on Delta, they are listed below in 
 
 - **ACCESS** - This is how a majority of Delta is allocated. To submit an ACCESS Delta allocation request, go to the `ACCESS get your first project <https://allocations.access-ci.org/get-your-first-project>`_ page.
 
-- **Discretionary** - A portion of the Delta system is also available to Illinois researchers primarily to fill needs not met by the ACCESS program. Submit a discretionary Delta request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Delta - Discretionary Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Discretionary** - A portion of the Delta system is also available to Illinois researchers primarily to fill needs not met by the ACCESS program. Submit a discretionary Delta request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Delta - Discretionary Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 - **NFS NAIRR** - Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is not open continuously.
 
@@ -29,9 +29,9 @@ Granite
 
 There are two ways to request an allocation on Granite.
 
-- **Illinois Computes Program** - Granite storage allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Illinois Computes Program** - Granite storage allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
-- **Direct investment** - Make a direct investment request for Granite storage allocation through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Granite Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Direct investment** - Make a direct investment request for Granite storage allocation through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Granite Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-hal:
 
@@ -56,7 +56,7 @@ Hydro
 
 There are two ways to request access to Hydro.
 
-**Illinois Computes Program** - Hydro allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+**Illinois Computes Program** - Hydro allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 **NFI** - If you are part of an allocated New Frontiers Initiative (NFI) project and would like access to the Hydro cluster, please email help+hydro@ncsa.illinois.edu with a justification for your need to use the cluster.
 
@@ -67,7 +67,7 @@ Illinois Campus Cluster
 
 There are five ways to request an allocation on the Illinois Campus Cluster.
 
-- **Illinois Computes Program** - Campus Cluster allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Illinois Computes Program** - Campus Cluster allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 - **Direct compute investment** - Refer to the `Campus Cluster Buy Compute <https://campuscluster.illinois.edu/access/buy-compute/>`_ page for information on how to submit a direct investment order.
 
@@ -84,7 +84,7 @@ Illinois High Throughput Computing (HTC)
 
 There are two ways to request an allocation on Illinois HTC.
 
-- **Illinois Computes Program** - Illinois HTC allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Illinois Computes Program** - Illinois HTC allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 - **Direct request** - Make a direct request for access to Illinois HTC by submitting the `Illinois HTC request form <https://forms.gle/Mqp5EFb9vgTUSJ876>`_.
 
@@ -102,11 +102,11 @@ Nightingale
 
 There are three ways to request an allocation on Nightingale.
 
-- **Illinois Computes Program** - Nightingale allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`). 
+- **Illinois Computes Program** - Nightingale allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.) 
 
   Note, there are Nightingale allocation options under the "Compute", "Storage", and "Data" sections of the Illinois Computes Program submission form.
 
-- **Direct investment** - Make a direct investment request for Nightingale through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Nightingale Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Direct investment** - Make a direct investment request for Nightingale through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Nightingale Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-radiant:
 
@@ -115,18 +115,18 @@ Radiant
 
 There are two ways to submit an allocation request on Radiant.
 
-- **Illinois Computes Program** - Radiant allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`). 
+- **Illinois Computes Program** - Radiant allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.) 
 
   Note, there are Radiant allocation options under the "Compute" and "Data" sections of the Illinois Computes Program submission form.
 
-- **Direct investment** - Make a direct investment request for Radiant through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Radiant Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Direct investment** - Make a direct investment request for Radiant through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Radiant Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-rcs:
 
 Research Computing Facilitation Services
 -------------------------------------------
 
-Research Consulting resources are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`). 
+Research Consulting resources are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.) 
 
 ?? are there other options for this?
 
@@ -137,14 +137,14 @@ Taiga
 
 There are two ways to request an allocation on Granite.
 
-- **Illinois Computes Program** - Taiga storage allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Illinois Computes Program** - Taiga storage allocations are available to Illinois researchers through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
-- **Direct investment** - Make a direct investment request for Taiga storage allocation through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Taiga Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+- **Direct investment** - Make a direct investment request for Taiga storage allocation through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Taiga Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-vforge:
 
 vForge
 -------
 
-Request access to vForge through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New vForge Submission" (:ref:`how to submit a new XRAS portal request <xras-new>`).
+Request access to vForge through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New vForge Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
