@@ -9,6 +9,7 @@ NCSA Allocations
    For more information, see our `Illinois Computes <https://computes.illinois.edu/>`_ page.
 
 .. toctree::
+   :maxdepth: 1
 
    by-resource
    by-method
