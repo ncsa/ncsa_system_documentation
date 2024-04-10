@@ -14,9 +14,9 @@ Delta
 
 There are four ways to request an allocation on Delta, they are listed below in order of prevalence. For additional information on Delta allocations, please review the `Delta: Allocations <https://delta.ncsa.illinois.edu/delta-allocations/>`_ page.
 
-- **ACCESS** - A majority of Delta is allocated through the Advanced Cyberinfrastructure Coordination Ecosystem: Support & Services (ACCESS) program. To submit an ACCESS Delta allocation request, go to the `ACCESS get your first project <https://allocations.access-ci.org/get-your-first-project>`_ page.
+- **ACCESS** - 90% of Delta is allocated through the Advanced Cyberinfrastructure Coordination Ecosystem: Support & Services (ACCESS) program. To submit an ACCESS Delta allocation request, go to the `ACCESS get your first project <https://allocations.access-ci.org/get-your-first-project>`_ page.
 
-- **Discretionary** - A small portion of the Delta system is discretionarily available to Illinois researchers, primarily to fill needs not met by the ACCESS program. Submit a discretionary Delta request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Delta - Discretionary Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+- **Discretionary** - A modest portion of the Delta system is discretionarily available to Illinois researchers, primarily to fill needs not met by the ACCESS program. Submit a discretionary Delta request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Delta - Discretionary Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 - **NFS NAIRR** - Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is *not* open continuously.
 
