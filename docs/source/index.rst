@@ -35,6 +35,7 @@ Addititional user documentation on topics common across one or more NCSA computi
 
   - :ref:`transfer`
   - :ref:`conda`
+  - :ref:`allocations`
 
 ..
    Additional non-system specific user documentation on topics related to NCSA's computing resources.
