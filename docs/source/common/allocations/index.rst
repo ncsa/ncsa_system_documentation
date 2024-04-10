@@ -202,10 +202,10 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Taiga user support: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
 
-.. _vForge hardware/storage:
+.. _vForge hardware/storage: https://www.ncsa.illinois.edu/industry/vforge/
 
-.. _vForge user documentation:
+.. _vForge user documentation: 
 
-.. _vForge user support:
+.. _vForge user support: https://www.ncsa.illinois.edu/industry/vforge/
 
 |
