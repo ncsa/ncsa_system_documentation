@@ -14,3 +14,6 @@ How to Request an Extension or Supplement to an Exising Allocation
 #. Fill out the form and click the **Submit** button.
 
    You can expect to hear back with a decision on your allocation request within 10 business days of submission (this may be longer if you have been requested to provide additional information).
+
+.. figure:: ../images/allocations/xras-renew.png
+   :alt: NCSA XRAS portal showing the My Allocation Requests tab with the Extension/Supplement dropdown menu open.
