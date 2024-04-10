@@ -10,9 +10,11 @@ Allocation Information by Allocation Method
 `Illinois Computes <https://computes.illinois.edu>`_
 ------------------------------------------------------
 
-Illinois Computes is targeted at providing computing for all with the goal of accelerating innovation across all disciplines.  Whether you’re an expert HPC user, or completely new to using computing and storage resources in your research, NCSA and its expert staff are ready to help. Base level of services and resources are available at **no cost**.
+Illinois Computes is targeted at providing **computing for all** with the goal of accelerating innovation across all disciplines.  Whether you’re an expert HPC user, or completely new to using computing and storage resources in your research, NCSA and its expert staff are ready to help. Base level of services and resources are available to Illinois researchers at **no cost**.
 
-For details about the base level of services resources available through Illinois Computes, refer to the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+Submit an Illinois Computes allocation request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+
+For details about the base level of services and resources available, refer to the Illinois Computes XRAS portal submission form.
 
   Resources available through Illinois Computes:
 
@@ -40,7 +42,7 @@ For details about the base level of services resources available through Illinoi
 Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS)
 -----------------------------------------------------------------------------------
 
-A majority of `Delta <https://delta.ncsa.illinois.edu>`_ is allocated through ACCESS. To submit an ACCESS Delta allocation request, go to the `ACCESS get your first project <https://allocations.access-ci.org/get-your-first-project>`_ page.
+A majority of `Delta <https://delta.ncsa.illinois.edu>`_ is allocated through ACCESS. To submit an ACCESS Delta allocation request, go to the `get your first ACCESS project <https://allocations.access-ci.org/get-your-first-project>`_ page.
 
 
 Direct Investment/Request
@@ -58,13 +60,13 @@ Direct investment in the following resources is available through the `NCSA XRAS
 
 Direct investment in the Illinois Campus Cluster is available through:
 
-- `Campus Cluster Buy Compute <https://campuscluster.illinois.edu/access/buy-compute/>`_ page
-- `Campus Cluster Buy Storage <https://campuscluster.illinois.edu/access/buy-storage/>`_ page
+- `Campus Cluster Buy Compute <https://campuscluster.illinois.edu/access/buy-compute/>`_
+- `Campus Cluster Buy Storage <https://campuscluster.illinois.edu/access/buy-storage/>`_
 
 Access for Instruction
 -------------------------
 
-To request access to one of the following Illinois Campus Cluster primary queues for using in instruction, submit the `Campus Cluster add class request form <https://campuscluster.illinois.edu/new_forms/class_form.php>`_ (select the appropriate primary queue from the dropdown menu in the form).
+To request access for instruction to one of the following Illinois Campus Cluster primary queues, submit the `Campus Cluster add class request form <https://campuscluster.illinois.edu/new_forms/class_form.php>`_ (select the appropriate primary queue from the dropdown menu in the form).
 
   Illinois Campus Cluster - Add Class Primary Queues:
 
