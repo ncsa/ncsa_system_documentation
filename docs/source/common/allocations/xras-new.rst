@@ -22,7 +22,7 @@ How to Request a New Allocation in the NCSA XRAS Portal
 
    You can expect to hear back with a decision on your allocation request within 10 business days of submission (this may be longer if you have been requested to provide additional information).
 
-   .. figure:: ../images/allocations/xras-new.png
-      :alt: Landing pages after logging into the NCSA XRAS portal showing the Start New Submission tab.
-      :width: 750
-      :align: center
+.. figure:: ../images/allocations/xras-new.png
+   :alt: Landing pages after logging into the NCSA XRAS portal showing the Start New Submission tab.
+   :width: 750
+   :align: center
