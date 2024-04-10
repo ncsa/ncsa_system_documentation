@@ -76,7 +76,3 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
 
    common/index
-
-==============
-
-`NCSA <https://ncsa.illinois.edu>`_ is an Illinois Research Institute on the `University of Illinois Urbana-Champaign <https://illinois.edu>`_ campus.
