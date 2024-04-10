@@ -24,3 +24,4 @@ How to Request a New Allocation in the NCSA XRAS Portal
 
 .. figure:: ../images/allocations/xras-new.png
    :alt: Landing pages after logging into the NCSA XRAS portal showing the Start New Submission tab.
+   :width: 750
