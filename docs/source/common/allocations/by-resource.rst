@@ -14,13 +14,13 @@ Delta
 
 There are four ways to request an allocation on Delta, they are listed below in order of prevalence. For additional information on Delta allocations, please review the `Delta: Allocations <https://delta.ncsa.illinois.edu/delta-allocations/>`_ page.
 
-- **ACCESS** - This is how a majority of Delta is allocated. To submit an ACCESS Delta allocation request, go to the `ACCESS get your first project <https://allocations.access-ci.org/get-your-first-project>`_ page.
+- **ACCESS** - A majority of Delta is allocated through the Advanced Cyberinfrastructure Coordination Ecosystem: Support & Services (ACCESS) program. To submit an ACCESS Delta allocation request, go to the `ACCESS get your first project <https://allocations.access-ci.org/get-your-first-project>`_ page.
 
-- **Discretionary** - A portion of the Delta system is also available to Illinois researchers primarily to fill needs not met by the ACCESS program. Submit a discretionary Delta request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Delta - Discretionary Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+- **Discretionary** - A small portion of the Delta system is discretionarily available to Illinois researchers, primarily to fill needs not met by the ACCESS program. Submit a discretionary Delta request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Delta - Discretionary Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
-- **NFS NAIRR** - Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is not open continuously.
+- **NFS NAIRR** - Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is *not* open continuously.
 
-- **Other** - Allocations for Innovative/Exploratory, Diversity, Science Gateways, and Data Science areas are also available. Email help@ncsa.illinois.edu for more information on these other allocation opportunities.
+- **Other** - Allocations for Innovative/Exploratory, Diversity, Science Gateways, and Data Science areas are also available. Email help@ncsa.illinois.edu for more information on these other Delta allocation opportunities.
 
 .. _allocate-granite:
 
@@ -69,13 +69,15 @@ There are five ways to request an allocation on the Illinois Campus Cluster.
 
 - **Illinois Computes Program** - Campus Cluster allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
-- **Direct compute investment** - Refer to the `Campus Cluster Buy Compute <https://campuscluster.illinois.edu/access/buy-compute/>`_ page for information on how to submit a direct investment order.
+- **Direct compute investment** - Refer to the `Campus Cluster Buy Compute <https://campuscluster.illinois.edu/access/buy-compute/>`_ page for information on how to submit a direct compute investment order.
 
-- **Direct storage investment** - Refer to the `Campus Cluster Buy Storage <https://campuscluster.illinois.edu/access/buy-storage/>`_ page for information on how to submit a direct investment order.
+- **Direct storage investment** - Refer to the `Campus Cluster Buy Storage <https://campuscluster.illinois.edu/access/buy-storage/>`_ page for information on how to submit a direct storage investment order.
 
-- **Affiliation with an existing Illinois Campus Cluster investor** - If you are affiliated with an existing Campus Cluster investor, submit the `Campus Cluster new user request form <https://campuscluster.illinois.edu/new_forms/user_form.php>`_ and select the investor's queue.
+- **Affiliation with an existing Illinois Campus Cluster investor** - If you are affiliated with an existing Campus Cluster investor, submit the `Campus Cluster new user request form <https://campuscluster.illinois.edu/new_forms/user_form.php>`_ and select the investor's queue in the "Primary queue" dropdown menu.
 
-- **Access for instruction** - Submit the `Campus Cluster add class request form <https://campuscluster.illinois.edu/new_forms/class_form.php>`_ to request access for a University course.
+- **Access for instruction** - Submit the `Campus Cluster add class request form <https://campuscluster.illinois.edu/new_forms/class_form.php>`_ to request access for a University course. 
+
+  Note, this is available for instructors associated with the CS, ENG-INSTRUCTION, ICHASS, and STATSTUDENT primary queues.
 
 .. _allocate-htc:
 
@@ -127,8 +129,6 @@ Research Computing Facilitation Services
 -------------------------------------------
 
 Research Consulting resources are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.) 
-
-?? are there other options for this?
 
 .. _allocate-taiga:
 
