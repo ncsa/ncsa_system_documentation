@@ -144,11 +144,11 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Granite user support: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
 
-.. _HAL hardware/storage:
+.. _HAL hardware/storage: https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster
 
-.. _HAL user documentation:
+.. _HAL user documentation: https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster
 
-.. _HAL user support:
+.. _HAL user support: https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster
 
 .. _Hydro hardware/storage: https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/architecture.html
 
