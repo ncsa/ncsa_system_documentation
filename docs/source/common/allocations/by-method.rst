@@ -56,7 +56,6 @@ Direct investment in the following resources is available through the `NCSA XRAS
 - `Taiga <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 - `Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 - `Delta <https://delta.ncsa.illinois.edu>`_
-- ??? HOLL-I
 
 Direct investment in the Illinois Campus Cluster is available through:
 
