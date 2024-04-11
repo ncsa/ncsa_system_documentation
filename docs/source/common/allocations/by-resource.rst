@@ -42,13 +42,6 @@ HAL
 
 Request an access to the HAL cluster through the `HAL request form <https://forms.illinois.edu/sec/6587313?referrer=https://shibboleth.illinois.edu/>`_.
 
-.. _allocate-holli:
-
-HOLL-I
------------
-
-?? Should this still be listed?
-
 .. _allocate-hydro:
 
 Hydro
