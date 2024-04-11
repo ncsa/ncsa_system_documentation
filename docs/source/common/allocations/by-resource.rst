@@ -86,7 +86,7 @@ There are two ways to request an allocation on Illinois HTC.
 Innovative Systems Lab (ISL)
 ------------------------------
 
-?? Not sure what to put here?
+Visit the `ISL <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=47292973>`_ page and reach out to `ISL staff <help+isl@ncsa.illinois.edu>`_ to learn more about this unit and how to get involved.
 
 .. _allocate-nightingale:
 
