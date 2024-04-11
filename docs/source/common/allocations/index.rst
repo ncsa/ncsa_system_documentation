@@ -65,7 +65,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `Hydro user support`_                               |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| Illinois Campus Cluster         | HPC             | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster storage`_                           |
+| Illinois Campus Cluster         | HPC             | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster hardware/storage`_                  |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - :ref:`Accessing Campus Cluster <allocate-icc>`      |
 |                                 |                 |                                                                              |                                                       |
@@ -156,7 +156,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Hydro user support: https://docs.ncsa.illinois.edu/systems/hydro/en/latest/help.html
 
-.. _Campus Cluster storage: https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html
+.. _Campus Cluster hardware/storage: https://campuscluster.illinois.edu/about/system-info/
 
 .. _Campus Cluster user documentation: https://docs.ncsa.illinois.edu/systems/icc
 
