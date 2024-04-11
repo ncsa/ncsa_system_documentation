@@ -39,8 +39,8 @@ For details about the base level of services and resources available, refer to t
     - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
 
 
-Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS)
------------------------------------------------------------------------------------
+`Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) <https://access-ci.org/>`_
+---------------------------------------------------------------------------------------------------------------
 
 A majority of `Delta <https://delta.ncsa.illinois.edu>`_ is allocated through ACCESS. To submit an ACCESS Delta allocation request, go to the `get your first ACCESS project <https://allocations.access-ci.org/get-your-first-project>`_ page.
 
@@ -76,14 +76,14 @@ To request access for instruction to one of the following Illinois Campus Cluste
   - STATSTUDENT
 
 
-New Frontiers Initiative (NFI)
---------------------------------
+`New Frontiers Initiative (NFI) <https://newfrontiers.illinois.edu/>`_
+------------------------------------------------------------------------
 
 If you are part of an allocated NFI project and would like access to the Hydro cluster, please email help+hydro@ncsa.illinois.edu with a justification for your need to use the cluster.
 
 
-National Science Foundation (NSF) NAIRR Pilot Program
--------------------------------------------------------
+`National Science Foundation (NSF) NAIRR Pilot Program <https://nairrpilot.org/>`_
+-------------------------------------------------------------------------------------
 
 Starting in January 2024, a portion of Delta is available for allocation from the NSF National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation program is *not* open continuously.
 
