@@ -57,14 +57,6 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `HAL user support`_                                 |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| HOLL-I                          | AI-HPC          | Extreme Scale Machine Learning                                               | - `HOLL-I hardware/storage`_                          |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 | with Tensorflow and Pytorch models                                           | - :ref:`Accessing HOLL-I <allocate-holli>`            |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - `HOLL-I user documentation`_                        |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - `HOLL-I user support`_                              |
-+---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Hydro                           | HPC             | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                           |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - :ref:`Accessing Hydro <allocate-hydro>`             |
@@ -157,12 +149,6 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. _HAL user documentation:
 
 .. _HAL user support:
-
-.. _HOLL-I hardware/storage:
-
-.. _HOLL-I user documentation:
-
-.. _HOLL-I user support:
 
 .. _Hydro hardware/storage: https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/architecture.html
 
