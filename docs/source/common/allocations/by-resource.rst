@@ -38,9 +38,7 @@ There are two ways to request an allocation on Granite.
 HAL
 -----
 
-?? Should this still be listed?
-
-Request an access to the HAL cluster through the `HAL request form <https://forms.illinois.edu/sec/6587313?referrer=https://shibboleth.illinois.edu/>`_.
+Request an access to the HAL cluster by following the `apply for a HAL user account <https://wiki.ncsa.illinois.edu/display/ISL20/New+User+Guide+for+HAL+System>`_ instructions in the new user guide.
 
 .. _allocate-hydro:
 
