@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'NCSA System Documentation'
+project = 'NCSA Documentation Hub'
 copyright = '2023, University of Illinois'
 author = 'University of Illinois'
 
@@ -36,6 +36,11 @@ epub_show_urls = 'footnote'
 
 html_css_files = [
     'css/custom.css',
+]
+
+# -- custom JS
+html_js_files = [
+    'js/custom.js',
 ]
 
 # -- Logo 
