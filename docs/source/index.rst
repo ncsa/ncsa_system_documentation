@@ -66,7 +66,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
-   Illinois HTC <https://docs.ncsa.illinois.edu/system/iccp-htc>
+   Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://wiki.ncsa.illinois.edu/display/PUBCR/User+Documentation+Directory>
    Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
