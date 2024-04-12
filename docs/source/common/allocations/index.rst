@@ -73,6 +73,14 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `Campus Cluster user support`_                      | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+| Illinois Computes               | JupyterLab      | Coming soon!                                                                 | - `ICRN hardware/storage`_                            |
+|                                 |                 |                                                                              |                                                       |
+| Research Notebooks              |                 |                                                                              | - `Accessing ICRN`_                                   |
+|                                 |                 |                                                                              |                                                       |
+| (ICRN)                          |                 |                                                                              | - `ICRN user documentation`_                          |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              | - `ICRN user support`_                                |
++---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Illinois HTC                    | HTC             |                                                                              | - `Illinois HTC hardware/storage`_                    |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - :ref:`Accessing Illinois HTC <allocate-htc>`        |
@@ -125,8 +133,6 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - :ref:`Accessing vForge <allocate-vforge>`           |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - `vForge user documentation`_                        |
-|                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `vForge user support`_                              |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 
@@ -134,7 +140,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Delta hardware/storage: https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/architecture.html
 
-.. _Delta user documentation: https://docs.ncsa.illinois.edu/systems/delta
+.. _Delta user documentation: https://docs.ncsa.illinois.edu/systems/delta/
 
 .. _Delta user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
 
@@ -152,19 +158,27 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Hydro hardware/storage: https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/architecture.html
 
-.. _Hydro user documentation: https://docs.ncsa.illinois.edu/systems/hydro
+.. _Hydro user documentation: https://docs.ncsa.illinois.edu/systems/hydro/
 
 .. _Hydro user support: https://docs.ncsa.illinois.edu/systems/hydro/en/latest/help.html
 
 .. _Campus Cluster hardware/storage: https://campuscluster.illinois.edu/about/system-info/
 
-.. _Campus Cluster user documentation: https://docs.ncsa.illinois.edu/systems/icc
+.. _Campus Cluster user documentation: https://docs.ncsa.illinois.edu/systems/icc/
 
 .. _Campus Cluster user support: https://docs.ncsa.illinois.edu/systems/icc/en/latest/help.html
 
+.. _ICRN hardware/storage: https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/architecture.html
+
+.. _Accessing ICRN: https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/accessing.html
+
+.. _ICRN user documentation: https://docs.ncsa.illinois.edu/systems/icrn/
+
+.. _ICRN user support: https://docs.ncsa.illinois.edu/systems/icrn/en/latest/help.html
+
 .. _Illinois HTC hardware/storage: https://docs.ncsa.illinois.edu/systems/iccp-htc
 
-.. _Illinois HTC user documentation: https://docs.ncsa.illinois.edu/systems/iccp-htc
+.. _Illinois HTC user documentation: https://docs.ncsa.illinois.edu/systems/iccp-htc/
 
 .. _Illinois HTC user support: https://docs.ncsa.illinois.edu/systems/iccp-htc/en/latest/help.html
 
@@ -172,13 +186,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Nightingale hardware/storage: https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/architecture.html
 
-.. _Nightingale user documentation: https://docs.ncsa.illinois.edu/systems/nightingale
+.. _Nightingale user documentation: https://docs.ncsa.illinois.edu/systems/nightingale/
 
 .. _Nightingale user support: https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/help.html
 
 .. _Radiant hardware/storage: https://docs.ncsa.illinois.edu/systems/radiant/en/latest/user-guide/architecture.html
 
-.. _Radiant user documentation: https://docs.ncsa.illinois.edu/systems/radiant
+.. _Radiant user documentation: https://docs.ncsa.illinois.edu/systems/radiant/
 
 .. _Radiant user support: https://docs.ncsa.illinois.edu/systems/radiant/en/latest/help.html
 
@@ -191,8 +205,6 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. _Taiga user support: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
 
 .. _vForge hardware/storage: https://www.ncsa.illinois.edu/industry/vforge/
-
-.. _vForge user documentation: 
 
 .. _vForge user support: https://www.ncsa.illinois.edu/industry/vforge/
 
