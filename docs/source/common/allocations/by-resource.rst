@@ -55,11 +55,11 @@ Hydro
 
 There are two ways to request access to Hydro.
 
-**Illinois Computes Program** - Hydro allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+- **Illinois Computes Program** - Hydro allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 \
 
-**NFI** - If you are part of an allocated New Frontiers Initiative (NFI) project and would like access to the Hydro cluster, please email help+hydro@ncsa.illinois.edu with a justification for your need to use the cluster.
+- **NFI** - If you are part of an allocated New Frontiers Initiative (NFI) project and would like access to the Hydro cluster, please email help+hydro@ncsa.illinois.edu with a justification for your need to use the cluster.
 
 .. _allocate-icc:
 
@@ -138,9 +138,16 @@ There are two ways to submit an allocation request on Radiant.
 
 - **Direct investment** - Make a direct investment request for Radiant through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Radiant Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
+.. _allocate-rccs:
+
+Research Computing Collaborative Services (RCCS)
+-------------------------------------------------
+
+RCCS is a partnership between NCSA and Research IT. Visit the `RCCS <https://researchit.illinois.edu/get-help/research-computing-collaborative-services>`_ page to learn more. Complete the `intake request form <https://forms.illinois.edu/sec/2003064801>`_ to request service support.
+
 .. _allocate-rcs:
 
-Research Computing Facilitation Services
+Research Consulting Services
 -------------------------------------------
 
 Research Consulting resources are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Illinois Computes Program Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.) 
