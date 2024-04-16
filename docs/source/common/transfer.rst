@@ -3,6 +3,11 @@
 Transferring Files
 ===================
 
+.. toctree::
+   :maxdepth: 2
+
+   transfer
+
 .. _scp:
 
 CLI Transfer Method - Secure Copy (scp)
