@@ -177,7 +177,7 @@ The NCSA systems listed have Globus endpoints configured by the system administr
 
 - `Delta endpoints <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#globus>`_
 - `Hydro endpoint <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
-- `ICC endpoint <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoint-posix-endpoint>`_ 
+- `ICC endpoints <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoints>`_ 
 - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#transferring-files-with-globus>`_ 
 
 If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
@@ -192,23 +192,25 @@ Install `Globus Connect Personal <https://www.globus.org/globus-connect-personal
 Tips for Using Globus with NCSA Compute Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you select a Globus endpoint for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
+- When you select a Globus endpoint for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
-#. Click continue.
+  #. Click continue.
 
-   .. figure:: images/transfer/globus-authentication-required-example.png
-      :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
+     .. figure:: images/transfer/globus-authentication-required-example.png
+        :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
 
-#. Click the identity you want to link (there may only be one option).
+  #. Click the identity you want to link (there may only be one option).
 
-   .. figure:: images/transfer/globus-link-an-identity.png
-      :alt: Link an identity prompt example for the Nightingale endpoint.
+     .. figure:: images/transfer/globus-link-an-identity.png
+        :alt: Link an identity prompt example for the Nightingale endpoint.
 
-#. Follow the prompts to log into and link your required identity. 
+  #. Follow the prompts to log into and link your required identity. 
 
-Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource(s) you're using and how you created your Globus account.
+- Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource(s) you're using and how you created your Globus account.
 
-After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field displays the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
+\
+
+- After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field displays the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
 
   .. figure:: images/transfer/globus-file-manager-path-example.png
      :alt: Globus screenshot example showing the results with "Illinois Research Storage" collection and "/" path.
