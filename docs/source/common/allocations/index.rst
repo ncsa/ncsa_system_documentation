@@ -113,11 +113,11 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `Radiant user support`_                             |     
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| Research Consulting             | Support         | Coming Soon!                                                                 | - `Research Consulting Services info`_                |
+| Research Computing              | Support         | Coming Soon!                                                                 | - `RCCS info`_                                        |
 |                                 |                 |                                                                              |                                                       |
+| Collaborative Services          |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              |                                                       |
+| (RCCS)                          |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
@@ -196,7 +196,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Radiant user support: https://docs.ncsa.illinois.edu/systems/radiant/en/latest/help.html
 
-.. _Research Consulting Services info: https://wiki.ncsa.illinois.edu/display/USSPPRT/Research+Consulting+Support+Home
+.. _RCCS info: https://researchit.illinois.edu/get-help/research-computing-collaborative-services
 
 .. _Taiga hardware/storage: https://wiki.ncsa.illinois.edu/display/TG/Taiga+Architecture
 
