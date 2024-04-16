@@ -208,6 +208,8 @@ Tips for Using Globus with NCSA Compute Resources
 
 - Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource(s) you're using and how you created your Globus account.
 
+\
+
 - After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field displays the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
 
   .. figure:: images/transfer/globus-file-manager-path-example.png
