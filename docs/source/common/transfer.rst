@@ -3,10 +3,10 @@
 Transferring Files
 ===================
 
-- :ref:`scp-jump`
-- :ref:`rsync-jump`
-- :ref:`sftp-jump`
-- :ref:`globus-jump`
+- :ref:`scp <scp-jump>`
+- :ref:`rsync <rsync-jump>`
+- :ref:`sftp <sftp-jump>`
+- :ref:`Globus <globus-jump>`
 
 .. _scp-jump:
 
