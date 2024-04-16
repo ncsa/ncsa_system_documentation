@@ -81,7 +81,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `ICRN user support`_                                |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| Illinois HTC                    | HTC             |                                                                              | - `Illinois HTC hardware/storage`_                    |
+| Illinois HTC                    | HTC             | Coming soon!                                                                 | - `Illinois HTC hardware/storage`_                    |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - :ref:`Accessing Illinois HTC <allocate-htc>`        |
 |                                 |                 |                                                                              |                                                       |
@@ -89,7 +89,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `Illinois HTC user support`_                        | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| Innovative Systems Lab          |                 |                                                                              | - `ISL info`_                                         |
+| Innovative Systems Lab          |                 | Coming soon!                                                                 | - `ISL info`_                                         |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
