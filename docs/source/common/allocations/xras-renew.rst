@@ -1,7 +1,7 @@
 .. _xras-renew:
 
-How to Request an Extension or Supplement to an Exising Allocation
-======================================================================
+How to Request an Extension or Supplement to an Allocation
+============================================================
 
 #. Log into the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu>`_ with your NCSA account username and Kerberos password.
 
