@@ -3,12 +3,12 @@
 Transferring Files
 ===================
 
-- :ref:`scp`
-- :ref:`rsync`
-- :ref:`sftp`
-- :ref:`globus`
+- :ref:`scp-jump`
+- :ref:`rsync-jump`
+- :ref:`sftp-jump`
+- :ref:`globus-jump`
 
-.. _scp:
+.. _scp-jump:
 
 CLI Transfer Method - Secure Copy (scp)
 -----------------------------------------
@@ -58,7 +58,7 @@ Transferring from Remote Machine to Local Machine
 
    [testuser1_machine] ~ % scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
 
-.. _rsync:
+.. _rsync-jump:
 
 CLI Transfer Method - rsync
 -----------------------------
@@ -104,7 +104,7 @@ Transferring from Remote Machine to Local Machine
    rsync <options> <username>@<hostname>:<source_file_path> <destination_path>
 
 
-.. _sftp:
+.. _sftp-jump:
 
 Secure File Transfer Protocol (sftp)
 ---------------------------------------
@@ -168,7 +168,7 @@ Cyberduck
 
 #. Once connected, you should see a listing of your home directory, and you can navigate the file system via the GUI. Download and upload files, as needed.
 
-.. _globus:
+.. _globus-jump:
 
 Globus
 -----------  
