@@ -9,7 +9,7 @@ NCSA Allocations
 
    :ref:`by-method` - Explore the available allocation programs/methods.
 
-   NCSA XRAS Portal guides:
+   NCSA XRAS portal guides:
 
      - :ref:`xras-new`
      - :ref:`xras-renew`
