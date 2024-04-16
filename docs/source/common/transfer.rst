@@ -3,10 +3,10 @@
 Transferring Files
 ===================
 
-.. toctree::
-   :maxdepth: 2
-
-   transfer
+- :ref:`scp`
+- :ref:`rsync`
+- :ref:`sftp`
+- :ref:`globus`
 
 .. _scp:
 
