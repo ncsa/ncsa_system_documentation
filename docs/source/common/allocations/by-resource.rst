@@ -33,7 +33,7 @@ There are four ways to request an allocation on Delta, they are listed below in 
 Granite
 ----------
 
-There are two ways to request an allocation on Granite.
+There are three ways to request an allocation on Granite.
 
 - **Illinois Computes Program** - Granite storage allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose **Start a New Illinois Computes Program Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
@@ -116,7 +116,7 @@ Visit the `ISL <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=4729
 Nightingale
 --------------
 
-There are three ways to request an allocation on Nightingale.
+There are two ways to request an allocation on Nightingale.
 
 - **Illinois Computes Program** - Nightingale allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose **Start a New Illinois Computes Program Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.) 
 
@@ -160,7 +160,7 @@ Research Consulting resources are available to Illinois researchers, at **no cos
 Taiga
 -------
 
-There are two ways to request an allocation on Granite.
+There are three ways to request an allocation on Granite.
 
 - **Illinois Computes Program** - Taiga storage allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose **Start a New Illinois Computes Program Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
