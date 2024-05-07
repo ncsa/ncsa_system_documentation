@@ -172,6 +172,9 @@ There are three ways to request an allocation on Taiga.
 - **Direct investment** - Make a direct investment request for Taiga storage allocation by one of these two methods:
 
   - `Request Taiga via email <https://wiki.ncsa.illinois.edu/display/TG/Taiga%3A+How+to+get+started>`_.
+
+  \
+
   - Request via the the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose **Start a New Taiga Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-vforge:
