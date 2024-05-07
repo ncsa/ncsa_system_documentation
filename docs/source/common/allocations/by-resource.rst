@@ -41,7 +41,10 @@ There are three ways to request an allocation on Granite.
 
 - **Direct investment** - Make a direct investment request for Granite storage allocation by one of these two methods:
 
-  - Request Granite via email.
+  - `Request Granite via email <https://wiki.ncsa.illinois.edu/display/TG/Granite%3A+How+to+get+started>`_.
+
+  \
+
   - Request via the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose **Start a New Granite Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-hal:
@@ -160,7 +163,7 @@ Research Consulting resources are available to Illinois researchers, at **no cos
 Taiga
 -------
 
-There are three ways to request an allocation on Granite.
+There are three ways to request an allocation on Taiga.
 
 - **Illinois Computes Program** - Taiga storage allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose **Start a New Illinois Computes Program Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
@@ -168,7 +171,7 @@ There are three ways to request an allocation on Granite.
 
 - **Direct investment** - Make a direct investment request for Taiga storage allocation by one of these two methods:
 
-  - Request Taiga via email.
+  - `Request Taiga via email <https://wiki.ncsa.illinois.edu/display/TG/Taiga%3A+How+to+get+started>`_.
   - Request via the the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose **Start a New Taiga Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-vforge:
