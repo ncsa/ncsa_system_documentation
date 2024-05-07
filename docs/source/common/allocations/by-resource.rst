@@ -39,7 +39,10 @@ There are two ways to request an allocation on Granite.
 
 \
 
-- **Direct investment** - Make a direct investment request for Granite storage allocation through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Granite Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+- **Direct investment** - Make a direct investment request for Granite storage allocation by one of these two methods:
+
+  - Request Granite via email.
+  - Request via the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose "Start a New Granite Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-hal:
 
@@ -163,7 +166,10 @@ There are two ways to request an allocation on Granite.
 
 \
 
-- **Direct investment** - Make a direct investment request for Taiga storage allocation through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose "Start a New Taiga Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+- **Direct investment** - Make a direct investment request for Taiga storage allocation by one of these two methods:
+
+  - Request Taiga via email.
+  - Request via the the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose "Start a New Taiga Submission". (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-vforge:
 
