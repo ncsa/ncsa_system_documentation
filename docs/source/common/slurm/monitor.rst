@@ -22,7 +22,18 @@ Job Management
 sview 
 ~~~~~~~
 
-`sview <https://slurm.schedmd.com/sview.html>`_ is a graphical user interface (GUI) that can be used to view job, node and partition (queue) states. Run the ``sview`` command to initiate the GUI.
+`sview <https://slurm.schedmd.com/sview.html>`_ is a graphical user interface (GUI) that can be used to view job, node and partition (queue) states. Use the following steps to use ``sview``:
+
+  #. Install an `X Window server <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/x_window_system.html#x-windows-software>`_ on your local machine.
+  #. Enable X11 when you SSH into the system with the ``-Y`` or ``-X`` option. This is an example for Delta:
+
+     .. code-block:: terminal
+
+        ssh -Y <loginID>@login.delta.ncsa.illinois.edu
+
+     Once you're logged into the system, you can verify X11 is enabled by running ``xterm``. 
+
+  #. Run ``sview`` to initiate the GUI.
 
 ..  figure:: ../images/slurm/sview-sinfo.png
     :alt: sview view of Slurm partitions
