@@ -380,6 +380,6 @@ A sample batch script that makes use of job arrays is available in the Campus Cl
 
   \
 
-  -  To delete job arrays, see the :ref:`qdel` command section.
+  -  To delete job arrays, see the `Slurm scancel documentation <https://slurm.schedmd.com/job_array.html#scancel>`_.
 
 |
