@@ -7,7 +7,7 @@ Use Slurm commands to run batch jobs or for interactive access to compute nodes.
 Refer to the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
 A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <../images/slurm/slurm_summary.pdf>`.
 
-Batch scripts (sbatch) or Interactive (srun, salloc), which is right for you?
+Batch scripts (``sbatch``) or Interactive (``srun``, ``salloc``), which is right for you?
 
 - :ref:`sbatch`: Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
   Sample Slurm batch job scripts are provided in the :ref:`examples` section.
@@ -360,26 +360,26 @@ A sample batch script that makes use of job arrays is available in the Campus Cl
 
 **A few things to keep in mind:**
 
--  Valid specifications for job arrays are:
+  -  Valid specifications for job arrays are:
    
-   ``‑‑array 1-10``
+     ``‑‑array 1-10``
    
-   ``‑‑array 1,2,6-10``
+     ``‑‑array 1,2,6-10``
    
-   ``‑‑array 8``
+     ``‑‑array 8``
    
-   ``‑‑array 1-100%5`` (a limit of 5 jobs can run concurrently) 
+     ``‑‑array 1-100%5`` (a limit of 5 jobs can run concurrently) 
 
-\
+  \
 
--  You should limit the number of batch jobs in the queues at any one time to 1,000 or less (each job within a job array is counted as one batch job.)
+  -  You should limit the number of batch jobs in the queues at any one time to 1,000 or less (each job within a job array is counted as one batch job.)
 
-\
+  \
 
--  Interactive batch jobs are not supported with job array submissions.
+  -  Interactive batch jobs are not supported with job array submissions.
 
-\
+  \
 
--  To delete job arrays, see the :ref:`qdel` command section.
+  -  To delete job arrays, see the :ref:`qdel` command section.
 
 |
