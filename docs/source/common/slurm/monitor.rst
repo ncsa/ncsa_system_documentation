@@ -108,13 +108,14 @@ The ``scancel`` command deletes a queued job or ends a running job.
 
 See the scancel man page for other available options.
 
-System Maintenance Reservations
+System Reservations
 ----------------------------------
 
-Slurm will block your job from starting if there's a reservation scheduled to start before your job would finish. 
+Slurm will block your job from starting if there's a reservation scheduled to start before your job would finish. You may be able to shorten the runtime of your job to fit in before the reservation starts.
 
-If a reservation is blocking your job from starting, ``squeue`` will return a message like ``ReqNodeNotAvail, Reserved for maintenance`` for your job.
-You may be able to shorten the runtime of your job to fit in before the reservation starts.
+- If a system maintenance reservation is blocking your job from starting, ``squeue`` will return a message like ``ReqNodeNotAvail, Reserved for maintenance`` in the ``NODELIST(REASON)`` column for your job.
+
+- To see a list of reservations on a system, use ``scontrol show reservations``.
 
 Useful Batch Job Environment Variables
 -----------------------------------------
