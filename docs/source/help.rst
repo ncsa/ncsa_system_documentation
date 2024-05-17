@@ -8,15 +8,15 @@ Explore Solutions
 
 System users can often fix problems or help diagnose them on their own. The following are some strategies to try *before* you submit a support request:
 
-- Search the documentation for relevant keywords; use the search box in the upper left.
+  - Search the documentation for relevant keywords; use the search box in the upper left.
 
-\
+  \
 
-- If you're getting an error, perform a web search of the error message (Google, Bing, or others).
+  - If you're getting an error, perform a web search of the error message (Google, Bing, or others).
 
-\
+  \
 
-- If you're looking for a package, perform a web search for "how do I install <package name>" and try the solutions you find that seem applicable and reasonable.  
+  - If you're looking for a package, perform a web search for "how do I install <package name>" and try the solutions you find that seem applicable and reasonable.  
 
 When you submit a support request, please let us know what you tried, and what happened if it didn't seem to work.  
 
