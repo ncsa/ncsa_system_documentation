@@ -13,13 +13,14 @@ Computing Resources User Documentation
 The pages linked here are the official user documentation for the computing resource.  
 
 - `Delta </systems/delta>`_ 
+- `Granite </systems/granite>`_
 - `Hydro </systems/hydro>`_
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
 - `Illinois High-Throughput Computing (HTC) </systems/iccp-htc>`_
 - `Nightingale </systems/nightingale>`_
 - `Radiant </systems/radiant>`_
-- `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
+- `Taiga </systems/taiga>`_
 
 More Documentation
 ===================
@@ -64,13 +65,14 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
 
    Delta <https://docs.ncsa.illinois.edu/systems/delta>
+   Granite <https://docs.ncsa.illinois.edu/systems/granite/>
    Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
    Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
-   Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
+   Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
 
 
