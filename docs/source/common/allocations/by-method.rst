@@ -29,8 +29,8 @@ For details about the base level of services and resources available, refer to t
 
   - Storage
 
-    - `Taiga <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
-    - `Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
+    - `Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>`_
+    - `Granite <https://docs.ncsa.illinois.edu/systems/granite/>`_
     - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
 
   - Data
@@ -53,8 +53,8 @@ Direct investment in the following resources is available through the `NCSA XRAS
 - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
 - `vForge <https://www.ncsa.illinois.edu/industry/vforge/>`_
 - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
-- `Taiga <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
-- `Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
+- `Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>`_
+- `Granite <https://docs.ncsa.illinois.edu/systems/granite/>`_
 - `Delta <https://delta.ncsa.illinois.edu>`_
 
 Direct investment in the Illinois Campus Cluster is available through:
