@@ -41,7 +41,7 @@ There are three ways to request an allocation on Granite.
 
 - **Direct investment** - Make a direct investment request for Granite storage allocation by one of these two methods:
 
-  - `Request Granite via email <https://wiki.ncsa.illinois.edu/display/TG/Granite%3A+How+to+get+started>`_.
+  - `Request Granite via email <https://docs.ncsa.illinois.edu/systems/granite/en/latest/user-guide/allocations.html#request-via-email>`_.
 
   \
 
@@ -171,7 +171,7 @@ There are three ways to request an allocation on Taiga.
 
 - **Direct investment** - Make a direct investment request for Taiga storage allocation by one of these two methods:
 
-  - `Request Taiga via email <https://wiki.ncsa.illinois.edu/display/TG/Taiga%3A+How+to+get+started>`_.
+  - `Request Taiga via email <https://docs.ncsa.illinois.edu/systems/taiga/en/latest/user-guide/allocations.html#request-via-email>`_.
 
   \
 
