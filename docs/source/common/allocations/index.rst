@@ -144,11 +144,11 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _Delta user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
 
-.. _Granite hardware/storage: https://wiki.ncsa.illinois.edu/display/TG/Granite+Architecture
+.. _Granite hardware/storage: https://docs.ncsa.illinois.edu/systems/granite/en/latest/user-guide/architecture.html
 
-.. _Granite user documentation: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
+.. _Granite user documentation: https://docs.ncsa.illinois.edu/systems/granite/
 
-.. _Granite user support: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
+.. _Granite user support: https://docs.ncsa.illinois.edu/systems/granite/en/latest/help.html
 
 .. _HAL hardware/storage: https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster
 
@@ -198,11 +198,11 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _RCCS info: https://researchit.illinois.edu/get-help/research-computing-collaborative-services
 
-.. _Taiga hardware/storage: https://wiki.ncsa.illinois.edu/display/TG/Taiga+Architecture
+.. _Taiga hardware/storage: https://docs.ncsa.illinois.edu/systems/taiga/en/latest/user-guide/architecture.html
 
-.. _Taiga user documentation: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
+.. _Taiga user documentation: https://docs.ncsa.illinois.edu/systems/taiga/
 
-.. _Taiga user support: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533
+.. _Taiga user support: https://docs.ncsa.illinois.edu/systems/taiga/en/latest/help.html
 
 .. _vForge hardware/storage: https://www.ncsa.illinois.edu/industry/vforge/
 
