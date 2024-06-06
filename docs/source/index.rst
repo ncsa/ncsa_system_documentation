@@ -18,6 +18,7 @@ The pages linked here are the official user documentation for the computing reso
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
 - `Illinois High-Throughput Computing (HTC) </systems/iccp-htc>`_
+- `Jade </systems/jade>`_
 - `Nightingale </systems/nightingale>`_
 - `Radiant </systems/radiant>`_
 - `Taiga </systems/taiga>`_
@@ -70,6 +71,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
    Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
+   Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
