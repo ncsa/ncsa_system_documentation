@@ -115,19 +115,19 @@ WinSCP
 ~~~~~~~~
 
 #. Download and install `WinSCP <https://winscp.net/eng/download.php>`_.
-#. Open WinSCP and log into the associated NCSA system node. 
+#. Open WinSCP and log in to the associated NCSA system node. 
 
-   a. File protocol: SFTP
-   b. Host name:
+   a. **File protocol**: SFTP
+   b. **Host name**:
 
      - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
      - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
      - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
      - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
 
-   c. Port number: 22
-   d. User name: Your username for the associated NCSA system.
-   e. Password: Your password for the associated NCSA system.
+   c. **Port number**: 22
+   d. **User name**: Your username for the associated NCSA system.
+   e. **Password**: Your password for the associated NCSA system.
 
    ICC example:
 
@@ -141,7 +141,7 @@ Cyberduck
 ~~~~~~~~~~
 
 #. Download and install `Cyberduck <https://cyberduck.io/download/>`_.
-#. Open Cyberduck and click the **Open Connection** button in the upper left corner.
+#. Open Cyberduck and click **Open Connection** in the upper left corner.
 
    .. figure:: images/transfer/cyberduck-open-connection-button.png
       :alt: Cyberduck interface highlighting the "Open Connection" button in the upper left corner.
@@ -150,15 +150,15 @@ Cyberduck
 #. Connect to the associated NCSA system node.
 
    a. Select **SFTP** in the drop-down menu.
-   b. Server: 
+   b. **Server**: 
 
      - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
      - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
      - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
      - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
-   c. Port: 22
-   d. Username: Your username for the associated NCSA system.
-   e. Password: Your password for the associated NCSA system. 
+   c. **Port**: 22
+   d. **Username**: Your username for the associated NCSA system.
+   e. **Password**: Your password for the associated NCSA system. 
 
    ICC example:
 
@@ -199,7 +199,7 @@ Tips for Using Globus with NCSA Compute Resources
 
 - When you select a Globus endpoint for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
-  #. Click continue.
+  #. Click **Continue**.
 
      .. figure:: images/transfer/globus-authentication-required.png
         :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
@@ -211,7 +211,7 @@ Tips for Using Globus with NCSA Compute Resources
         :alt: Link an identity prompt example for the Nightingale endpoint.
         :width: 700
 
-  #. Follow the prompts to log into and link your required identity. 
+  #. Follow the prompts to log in to and link your required identity. 
 
 - Reference the `Globus link an identity tutorial <https://docs.globus.org/guides/tutorials/manage-identities/link-to-existing/>`_ for instructions on how to proactively link an identity to your Globus account. Consider linking your UIUC, NCSA, and/or ACCESS identity, as applicable, depending on the compute resource(s) you're using and how you created your Globus account.
 
