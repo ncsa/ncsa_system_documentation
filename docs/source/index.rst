@@ -29,14 +29,8 @@ The pages linked here are the official user documentation for the storage resour
 - `Jade </systems/jade>`_
 - `Taiga </systems/taiga>`_
 
-More Documentation
-===================
-
-.. note::
-   This section is in development, pages will be added as they are created.
-
 Common System Documentation
------------------------------
+===================
 
 Addititional user documentation on topics common across one or more NCSA computing resource.
 
