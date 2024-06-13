@@ -10,17 +10,23 @@ This is the centralized page for NCSA computing resource user documentation and 
 Computing Resources User Documentation
 =========================================
 
-The pages linked here are the official user documentation for the computing resource.  
+The pages linked here are the official user documentation for the computing resources.  
 
 - `Delta </systems/delta>`_ 
-- `Granite </systems/granite>`_
 - `Hydro </systems/hydro>`_
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
 - `Illinois High-Throughput Computing (HTC) </systems/iccp-htc>`_
-- `Jade </systems/jade>`_
 - `Nightingale </systems/nightingale>`_
 - `Radiant </systems/radiant>`_
+
+Storage Resources User Documentation
+=========================================
+
+The pages linked here are the official user documentation for the storage resources.
+
+- `Granite </systems/granite>`_
+- `Jade </systems/jade>`_
 - `Taiga </systems/taiga>`_
 
 More Documentation
