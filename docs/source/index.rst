@@ -62,21 +62,24 @@ Addititional user documentation on topics common across one or more NCSA computi
    help
 
 .. toctree::
-   :caption: Resource Documentation
+   :caption: Computing Resources
    :hidden:
 
    Delta <https://docs.ncsa.illinois.edu/systems/delta>
-   Granite <https://docs.ncsa.illinois.edu/systems/granite/>
    Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
    Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
-   Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
+
+.. toctree::
+   :caption: Storage Resources
+   :hidden:
+
+   Granite <https://docs.ncsa.illinois.edu/systems/granite/>
+   Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
-
-
 
 .. toctree::
    :caption: More Documentation
