@@ -201,13 +201,15 @@ Tips for Using Globus with NCSA Compute Resources
 
   #. Click continue.
 
-     .. figure:: images/transfer/globus-authentication-required-example.png
+     .. figure:: images/transfer/globus-authentication-required.png
         :alt: Authentication/Consent Required prompt example for the Nightingale endpoint.
+        :width: 700
 
   #. Click the identity you want to link (there may only be one option).
 
      .. figure:: images/transfer/globus-link-an-identity.png
         :alt: Link an identity prompt example for the Nightingale endpoint.
+        :width: 700
 
   #. Follow the prompts to log into and link your required identity. 
 
@@ -217,7 +219,8 @@ Tips for Using Globus with NCSA Compute Resources
 
 - After you have navigated to an endpoint using the **Collection** search, entering a forward slash ( / ) into the **Path** field displays the top-level directories you have access to at that endpoint. From there you can navigate to the location you want to transfer to/from. (You can also enter the direct file path into the **Path** field.)
 
-  .. figure:: images/transfer/globus-file-manager-path-example.png
-     :alt: Globus screenshot example showing the results with "Illinois Research Storage" collection and "/" path.
+  .. figure:: images/transfer/globus-file-manager-example.png
+     :alt: Globus file manager showing the results of "NCSA Delta" collection and "/" path.
+     :width: 700
 
 |
