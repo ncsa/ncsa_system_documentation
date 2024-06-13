@@ -10,7 +10,7 @@ This is the centralized page for NCSA computing resource user documentation and 
 Computing Resources User Documentation
 =========================================
 
-The pages linked here are the official user documentation for the computing resource.  
+The pages linked here are the official user documentation for the computing resources.  
 
 - `Delta </systems/delta>`_ 
 - `Hydro </systems/hydro>`_
@@ -23,7 +23,7 @@ The pages linked here are the official user documentation for the computing reso
 Storage Resources User Documentation
 =========================================
 
-The pages linked here are the official user documentation for the storage resource.
+The pages linked here are the official user documentation for the storage resources.
 
 - `Granite </systems/granite>`_
 - `Jade </systems/jade>`_
