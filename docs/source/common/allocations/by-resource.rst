@@ -30,8 +30,8 @@ There are four ways to request an allocation on Delta, they are listed below in 
 
 .. _allocate-delta-ai:
 
-DeltaAI
---------
+`DeltaAI <https://www.ncsa.illinois.edu/ncsa-awarded-10-million-for-deltaai/>`_
+-------------------------------------------------------------------------------------
 
 Coming soon!
 
