@@ -33,13 +33,48 @@ NCSA offers access to a variety of resources, browse the resources below to find
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Resource Name                   | Computing Type  | Primary Use Cases                                                            | User Documentation and Support                        |
 +=================================+=================+==============================================================================+=======================================================+
-| Delta                           | HPC             | Coming Soon!                                                                 | - `Delta hardware/storage`_                           |
+| Delta                           | HPC             | CPU                                                                          | - `Delta hardware/storage`_                           |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - :ref:`Accessing Delta <allocate-delta>`             |
+|                                 |                 |   - General purpose computation                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - `Delta user documentation`_                         |
+|                                 |                 |   - Weather and climate                                                      | - :ref:`Accessing Delta <allocate-delta>`             |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - `Delta user support`_                               | 
+|                                 |                 |   - Hydrodynamics,                                                           |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - Astrophysics                                                             | - `Delta user documentation`_                         |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - Engineering modeling and simulation                                      |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - Data analysis and analytics                                              | - `Delta user support`_                               | 
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 | GPU                                                                          |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - accelerated computation across a broad range of domains                  |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - Transition applications from CPU-only to GPU or hybrid CPU-GPU models    |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - soft-matter physics                                                      |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - molecular dynamics                                                       |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - deep learning                                                            |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - natural language processing                                              |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - textual analysis                                                         |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - visualization                                                            |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - ray tracing                                                              |                                                       |
+|                                 |                 |                                                                              |                                                       |
++---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+| DeltaAI                         | HPC             | Coming Soon!                                                                 | - DeltaAI hardware/storage - Coming Soon!             |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              | - Accessing DeltaAI - Coming Soon!                    |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              | - DeltaAI user documentation - Coming Soon!           |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              | - DeltaAI user support - Coming Soon!                 | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Granite                         | Archive Storage | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                         |
 |                                 |                 |                                                                              |                                                       |
@@ -143,6 +178,12 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. _Delta user documentation: https://docs.ncsa.illinois.edu/systems/delta/
 
 .. _Delta user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
+
+.. _DeltaAI hardware/storage: https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/architecture.html
+
+.. _DeltaAI user documentation: https://docs.ncsa.illinois.edu/systems/delta/
+
+.. _DeltaAI user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
 
 .. _Granite hardware/storage: https://docs.ncsa.illinois.edu/systems/granite/en/latest/user-guide/architecture.html
 
