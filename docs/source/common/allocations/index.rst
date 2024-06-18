@@ -49,23 +49,25 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 | GPU                                                                          |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - accelerated computation across a broad range of domains                  |                                                       |
+|                                 |                 |   - Accelerated computation                                                  |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Transition applications from CPU-only to GPU or hybrid CPU-GPU models    |                                                       |
+|                                 |                 |   - Transition applications from CPU-only to GPU                             |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - soft-matter physics                                                      |                                                       |
+|                                 |                 |   - Transition applications to hybrid CPU-GPU models                         |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - molecular dynamics                                                       |                                                       |
+|                                 |                 |   - Soft-matter physics                                                      |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - deep learning                                                            |                                                       |
+|                                 |                 |   - Molecular dynamics                                                       |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - natural language processing                                              |                                                       |
+|                                 |                 |   - Deep learning                                                            |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - textual analysis                                                         |                                                       |
+|                                 |                 |   - Natural language processing                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - visualization                                                            |                                                       |
+|                                 |                 |   - Textual analysis                                                         |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - ray tracing                                                              |                                                       |
+|                                 |                 |   - Visualization                                                            |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |   - Ray tracing                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | DeltaAI                         | HPC             | Coming Soon!                                                                 | - DeltaAI hardware/storage - Coming Soon!             |
@@ -131,6 +133,16 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              |                                                       |
++---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+| Jade                            | ePHI/CUI Archive| - Store infrequently accessed ePHC or CUI data                               | - `Jade hardware/storage`_                            |
+|                                 |                 |                                                                              |                                                       |
+|                                 | Storage         |                                                                              | - :ref:`Accessing Jade <allocate-jade>`               |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 | - Archive ePHI or CUI datasets                                               | - `Jade user documentation`_                          |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              | - `Jade user support`_                                |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Nightingale                     | HIPAA HPC       | Projects working with:                                                       | - `Nightingale hardware/storage`_                     |
 |                                 |                 |                                                                              |                                                       |
