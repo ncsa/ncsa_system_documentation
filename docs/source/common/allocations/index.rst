@@ -239,6 +239,12 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. _ISL info: https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=47292973
 
+.. _Jade hardware/storage: https://docs.ncsa.illinois.edu/systems/jade/en/latest/user-guide/architecture.html
+
+.. _Jade user documentation: https://docs.ncsa.illinois.edu/systems/jade/
+
+.. _Jade user support: https://docs.ncsa.illinois.edu/systems/jade/en/latest/help.html
+
 .. _Nightingale hardware/storage: https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/architecture.html
 
 .. _Nightingale user documentation: https://docs.ncsa.illinois.edu/systems/nightingale/
