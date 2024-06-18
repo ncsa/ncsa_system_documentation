@@ -28,6 +28,13 @@ There are four ways to request an allocation on Delta, they are listed below in 
 
 - **Other** - Allocations for Innovative/Exploratory, Diversity, Science Gateways, and Data Science areas are also available. Email help@ncsa.illinois.edu for more information on these other Delta allocation opportunities.
 
+.. _allocate-delta-ai:
+
+DeltaAI
+--------
+
+Coming soon!
+
 .. _allocate-granite:
 
 Granite
