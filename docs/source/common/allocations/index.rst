@@ -70,13 +70,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |   - Ray tracing                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| DeltaAI                         | HPC             | Coming Soon!                                                                 | - DeltaAI hardware/storage - Coming Soon!             |
+| `DeltaAI`_                      | HPC             | Coming Soon!                                                                 | Coming Soon!                                          |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - Accessing DeltaAI - Coming Soon!                    |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - DeltaAI user documentation - Coming Soon!           |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |                                                                              | - DeltaAI user support - Coming Soon!                 | 
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              |                                                       |
+|                                 |                 |                                                                              |                                                       | 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Granite                         | Archive Storage | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                         |
 |                                 |                 |                                                                              |                                                       |
@@ -190,6 +190,8 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. _Delta user documentation: https://docs.ncsa.illinois.edu/systems/delta/
 
 .. _Delta user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
+
+.. _DeltaAI: https://www.ncsa.illinois.edu/ncsa-awarded-10-million-for-deltaai/
 
 .. _DeltaAI hardware/storage: https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/architecture.html
 
