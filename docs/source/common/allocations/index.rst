@@ -136,11 +136,11 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| Jade                            | ePHI/CUI Archive| - Store infrequently accessed ePHC or CUI data                               | - `Jade hardware/storage`_                            |
+| Jade                            | ePHI/CUI Archive| - Store infrequently accessed data                                           | - `Jade hardware/storage`_                            |
 |                                 |                 |                                                                              |                                                       |
 |                                 | Storage         |                                                                              | - :ref:`Accessing Jade <allocate-jade>`               |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 | - Archive ePHI or CUI datasets                                               | - `Jade user documentation`_                          |
+|                                 |                 | - Archive datasets                                                           | - `Jade user documentation`_                          |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |                                                                              | - `Jade user support`_                                |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
