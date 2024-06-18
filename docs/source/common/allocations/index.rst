@@ -51,9 +51,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |   - Accelerated computation                                                  |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Transition applications from CPU-only to GPU                             |                                                       |
+|                                 |                 |   - Transition from CPU-only to GPU                                          |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Transition applications to hybrid CPU-GPU models                         |                                                       |
+|                                 |                 |   - Transition to hybrid CPU-GPU models                                      |                                                       |
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 |   - Soft-matter physics                                                      |                                                       |
 |                                 |                 |                                                                              |                                                       |
