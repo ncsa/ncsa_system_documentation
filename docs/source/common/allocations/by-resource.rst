@@ -121,6 +121,25 @@ Innovative Systems Lab (ISL)
 
 Visit the `ISL <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=47292973>`_ page and reach out to `ISL staff <help+isl@ncsa.illinois.edu>`_ to learn more about this unit and how to get involved.
 
+.. _allocate-jade:
+
+Jade
+-------
+
+There are three ways to request an allocation on Jade.
+
+- **Illinois Computes Program** - Jade storage allocations are available to Illinois researchers, at **no cost**, through the Illinois Computes program. Submit an Illinois Computes request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_; choose **Start a New Illinois Computes Program Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+
+\
+
+- **Direct investment** - Make a direct investment request for Jade storage allocation by one of these two methods:
+
+  - `Request Jade via email <https://docs.ncsa.illinois.edu/systems/jade/en/latest/user-guide/allocations.html#request-via-email>`_.
+
+  \
+
+  - Request via the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose **Start a New Jade Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+
 .. _allocate-nightingale:
 
 Nightingale
