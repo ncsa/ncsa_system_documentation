@@ -35,6 +35,7 @@ Common System Documentation
 Addititional user documentation on topics common across one or more NCSA computing resource.
 
 - :ref:`common`
+- :ref:`licensed`
 
   .. - :ref:`slurm`
   - :ref:`transfer`
@@ -82,7 +83,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
 .. toctree::
-   :caption: More Documentation
-   :hidden:
+   :caption: Common System Documentation
 
    common/index
+   licensed/index
