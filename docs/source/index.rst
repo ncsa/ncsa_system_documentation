@@ -35,9 +35,11 @@ Common System Documentation
 Addititional user documentation on topics common across one or more NCSA computing resource.
 
 - :ref:`common`
+
   .. - :ref:`slurm`
   - :ref:`transfer`
   - :ref:`conda`
+
 - :ref:`licensed`
 ..
    Additional non-system specific user documentation on topics related to NCSA's computing resources.
