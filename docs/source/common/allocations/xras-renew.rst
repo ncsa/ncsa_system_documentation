@@ -1,5 +1,3 @@
-:nosearch:
-
 .. _xras-renew:
 
 How to Request an Extension or Supplement to an Allocation
