@@ -40,6 +40,7 @@ Addititional user documentation on topics common across one or more NCSA computi
   - :ref:`transfer`
   - :ref:`conda`
 
+- :ref:`licensed`
 ..
    Additional non-system specific user documentation on topics related to NCSA's computing resources.
 
@@ -82,7 +83,8 @@ Addititional user documentation on topics common across one or more NCSA computi
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
 .. toctree::
-   :caption: More Documentation
+   :caption: Common System Documentation
    :hidden:
 
    common/index
+   software/index
