@@ -1,5 +1,3 @@
-:nosearch:
-
 .. _by-resource:
 
 Allocation Information by Resource
