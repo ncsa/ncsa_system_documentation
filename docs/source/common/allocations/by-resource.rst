@@ -22,7 +22,7 @@ There are four ways to request an allocation on Delta, they are listed below in 
 
 \
 
-- **NFS NAIRR** - Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is *not* open continuously.
+- **NSF NAIRR** - Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is *not* open continuously.
 
 \
 
