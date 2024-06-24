@@ -1,5 +1,3 @@
-:nosearch:
-
 .. _xras-new:
 
 How to Request a New Allocation in the NCSA XRAS Portal
