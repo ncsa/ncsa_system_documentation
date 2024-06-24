@@ -33,41 +33,30 @@ NCSA offers access to a variety of resources, browse the resources below to find
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Resource Name                   | Computing Type  | Primary Use Cases                                                            | User Documentation and Support                        |
 +=================================+=================+==============================================================================+=======================================================+
-| Delta                           | HPC             | CPU                                                                          | - `Delta hardware/storage`_                           |
+| Delta                           | HPC             | CPU:                                                                         | - `Delta hardware/storage`_                           |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - General purpose computation                                              |                                                       |
+|                                 |                 | - General purpose computation                                                |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Weather and climate                                                      | - :ref:`Accessing Delta <allocate-delta>`             |
+|                                 |                 | - Engineering modeling and simulation                                        | - :ref:`Accessing Delta <allocate-delta>`             |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Hydrodynamics,                                                           |                                                       |
+|                                 |                 | - Data analysis and analytics                                                |                                                       |
+|                                 |                 |                                                                              | - `Delta user documentation`_                         |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Astrophysics                                                             | - `Delta user documentation`_                         |
+|                                 |                 | GPU:                                                                         |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Engineering modeling and simulation                                      |                                                       |
+|                                 |                 | - Accelerated computation                                                    | - `Delta user support`_                               | 
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Data analysis and analytics                                              | - `Delta user support`_                               | 
+|                                 |                 | - Transition from CPU-only to GPU                                            |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 | GPU                                                                          |                                                       |
+|                                 |                 | - Transition to hybrid CPU-GPU models                                        |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Accelerated computation                                                  |                                                       |
+|                                 |                 | - Deep learning                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Transition from CPU-only to GPU                                          |                                                       |
+|                                 |                 | - Natural language processing                                                |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Transition to hybrid CPU-GPU models                                      |                                                       |
+|                                 |                 | - Visualization                                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Soft-matter physics                                                      |                                                       |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Molecular dynamics                                                       |                                                       |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Deep learning                                                            |                                                       |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Natural language processing                                              |                                                       |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Textual analysis                                                         |                                                       |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Visualization                                                            |                                                       |
-|                                 |                 |                                                                              |                                                       |
-|                                 |                 |   - Ray tracing                                                              |                                                       |
+|                                 |                 | - Ray tracing                                                                |                                                       |
 |                                 |                 |                                                                              |                                                       |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | `DeltaAI`_                      | HPC             | Coming Soon!                                                                 | Coming Soon!                                          |
