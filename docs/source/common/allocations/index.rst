@@ -54,9 +54,8 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 | - Natural language processing                                                |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 | - Visualization                                                              |                                                       |
+|                                 |                 | - Visualization and ray tracing                                              |                                                       |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 | - Ray tracing                                                                |                                                       |
 |                                 |                 |                                                                              |                                                       |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | `DeltaAI`_                      | HPC             | Coming Soon!                                                                 | Coming Soon!                                          |
@@ -139,7 +138,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 |                                 |                 |                                                                              |                                                       |
 |                                 |                 | - CUI                                                                        | - `Nightingale user documentation`_                   |
 |                                 |                 |                                                                              |                                                       |
-|                                 |                 | - Other protected or sensetive data                                          | - `Nightingale user support`_                         |
+|                                 |                 | - Other protected or sensitive data                                          | - `Nightingale user support`_                         |
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 | Radiant                         | HPC             | `Radiant use cases`_                                                         | - `Radiant hardware/storage`_                         |
 |                                 |                 |                                                                              |                                                       |
