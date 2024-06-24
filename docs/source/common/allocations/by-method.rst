@@ -1,5 +1,3 @@
-:nosearch:
-
 .. _by-method:
 
 Allocation Information by Allocation Method
