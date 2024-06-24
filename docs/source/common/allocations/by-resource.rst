@@ -201,7 +201,7 @@ There are three ways to request an allocation on Taiga.
 
   \
 
-  - Request via the the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose **Start a New Taiga Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+  - Request via the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_: choose **Start a New Taiga Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
 .. _allocate-vforge:
 
