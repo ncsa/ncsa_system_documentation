@@ -1,5 +1,3 @@
-:nosearch:
-
 .. _allocations:
 
 NCSA Allocations
