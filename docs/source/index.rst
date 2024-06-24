@@ -34,7 +34,6 @@ Addititional user documentation on topics common across one or more NCSA computi
 
 - :ref:`common`
 
-  - :ref:`allocations`
   - :ref:`transfer`
   - :ref:`conda`
 
