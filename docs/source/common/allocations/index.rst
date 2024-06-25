@@ -31,7 +31,7 @@ NCSA Resources Summary
 NCSA offers access to a variety of resources, browse the resources below to find one that best fits your research needs.
 
 +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-| Resource Name                   | Computing Type  | Primary Use Cases                                                            | User Documentation and Support                        |
+| Resource Name                   | Resource Type   | Primary Use Cases                                                            | User Documentation and Support                        |
 +=================================+=================+==============================================================================+=======================================================+
 | Delta                           | HPC             | CPU:                                                                         | - `Delta hardware/storage`_                           |
 |                                 |                 |                                                                              |                                                       |
