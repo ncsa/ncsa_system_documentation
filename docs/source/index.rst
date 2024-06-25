@@ -10,7 +10,7 @@ This is the centralized page for NCSA computing resource user documentation and 
 Computing Resources User Documentation
 =========================================
 
-The pages linked here are the official user documentation for the computing resource.  
+The pages linked here are the official user documentation for the computing resources.  
 
 - `Delta </systems/delta>`_ 
 - `Hydro </systems/hydro>`_
@@ -19,21 +19,24 @@ The pages linked here are the official user documentation for the computing reso
 - `Illinois High-Throughput Computing (HTC) </systems/iccp-htc>`_
 - `Nightingale </systems/nightingale>`_
 - `Radiant </systems/radiant>`_
-- `Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>`_
 
-More Documentation
-===================
+Storage Resources User Documentation
+=========================================
 
-.. note::
-   This section is in development, pages will be added as they are created.
+The pages linked here are the official user documentation for the storage resources.
+
+- `Granite </systems/granite>`_
+- `Jade </systems/jade>`_
+- `Taiga </systems/taiga>`_
 
 Common System Documentation
------------------------------
+===================
 
 Addititional user documentation on topics common across one or more NCSA computing resource.
 
 - :ref:`common`
 
+  .. - :ref:`slurm`
   - :ref:`transfer`
   - :ref:`conda`
 
@@ -60,7 +63,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    help
 
 .. toctree::
-   :caption: Resource Documentation
+   :caption: Computing Resources
    :hidden:
 
    Delta <https://docs.ncsa.illinois.edu/systems/delta>
@@ -70,9 +73,14 @@ Addititional user documentation on topics common across one or more NCSA computi
    Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
-   Taiga & Granite <https://wiki.ncsa.illinois.edu/pages/viewpage.action?pageId=148538533>
 
+.. toctree::
+   :caption: Storage Resources
+   :hidden:
 
+   Granite <https://docs.ncsa.illinois.edu/systems/granite/>
+   Jade <https://docs.ncsa.illinois.edu/systems/jade/>
+   Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
 .. toctree::
    :caption: More Documentation

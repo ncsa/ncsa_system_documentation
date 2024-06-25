@@ -7,16 +7,20 @@ Use Slurm commands to run batch jobs or for interactive access to compute nodes.
 Refer to the `Slurm Quick Start User Guide <https://slurm.schedmd.com/quickstart.html>`_ for an introduction to Slurm. 
 A summary guide to Slurm commands is also available for download: :download:`Slurm Command Summary <../images/slurm/slurm_summary.pdf>`.
 
-Batch scripts (sbatch) or Interactive (srun, salloc), which is right for you?
+Batch scripts (``sbatch``) or Interactive (``srun``, ``salloc``), which is right for you?
 
 - :ref:`sbatch`: Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
   Sample Slurm batch job scripts are provided in the :ref:`examples` section.
   For mixed resource heterogeneous jobs, see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
   Slurm also supports job arrays for easy management of a set of similar jobs, see the `Slurm job arrays documentation <https://slurm.schedmd.com/job_array.html>`_.
 
+\
+
 - :ref:`srun`: For interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, which means that it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
 
-- :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Type **exit** when finished with a salloc allocation if you want to end it before the time expires.
+\
+
+- :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Run ``exit`` when you are finished with a ``salloc`` allocation, if you want to end it before the time expires.
 
 .. _sbatch:
 
@@ -29,7 +33,7 @@ The rest of the batch script consists of user commands.
 
 The syntax for submitting a batch job with ``sbatch`` is:
 
-.. code-block::
+.. code-block:: terminal
 
   sbatch [list of sbatch options] script_name
 
@@ -55,19 +59,19 @@ The syntax for submitting a batch job with ``sbatch`` is:
 
 **Example:**
 
-.. code-block::
+  .. code-block:: terminal
 
-   --time=00:30:00 
-   --nodes=2 
-   --ntasks=32
+     --time=00:30:00 
+     --nodes=2 
+     --ntasks=32
 
-or 
+  or 
 
-.. code-block::
+  .. code-block:: terminal
 
-   --time=00:30:00 
-   --nodes=2 
-   --ntasks-per-node=16
+     --time=00:30:00 
+     --nodes=2 
+     --ntasks-per-node=16
 
 See the sbatch `man page <https://en.wikipedia.org/wiki/Man_page>`_ for additional information.
 
@@ -83,37 +87,37 @@ Command Line
 
 Instead of queuing up a batch job to run on the compute nodes, you can request that the job scheduler allocate you to a compute node **now** and log you onto it. These are called **interactive batch jobs**. Projects that have dedicated interactive nodes, do not need to go through the scheduler; members of these projects just log in directly to their nodes.
 
-To launch an interactive batch job using the job scheduler with the default values for the job resources (nodes, cores, memory, and so on), run the following command, replacing **ALL_ACCT** with the name of your allocation account:
+To launch an interactive batch job using the job scheduler with the default values for the job resources (nodes, cores, memory, and so on), run the following command; replace ``ALL_ACCT`` with the name of your allocation account:
 
-.. code-block::
+.. code-block:: terminal
 
    srun -A ALL_ACCT --pty bash 
 
 .. warning::
-   End the interactive job **as soon as you're done**, by typing ``exit``. If you leave the job running, even if you are not running any processes, your allocation account is being charged for the time.
+   Run ``exit`` to end the interactive job **as soon as you're done**. If you leave the job running, even if you are not running any processes, your allocation account is being charged for the time.
 
-To specify resources for your interactive batch job the ``srun`` command syntax should look similar to the following, replacing **ACCT_NAME** with the name of your charge account. This example will run an interactive batch job in the CPU partition (queue) with a wall clock limit of **30 minutes**, using **one node** and **16 cores per node**. You can also use other ``sbatch`` options:
+To specify resources for your interactive batch job the ``srun`` command syntax should look similar to the following; replace ``ACCT_NAME`` with the name of your charge account. This example will run an interactive batch job in the CPU partition (queue) with a wall clock limit of **30 minutes**, using **1 node** and **16 cores per node**. You can also use other ``sbatch`` options:
 
-.. code-block::
+.. code-block:: terminal
 
   srun --account=ACCT_NAME --partition=cpu --time=00:30:00 --nodes=1 --ntasks-per-node=16 --pty /bin/bash
 
 As another example, the following command will run an interactive job, on **Delta**, in the gpuA100x4 or gpuA40x4 partition with a wall-clock time limit of 30 minutes, using one node and 16 cores per node and 1 GPU:
 
-.. code-block::
+.. code-block:: terminal
 
    srun -A ALL_ACCT --time=00:30:00 --nodes=1 --ntasks-per-node=16 \
    --partition=gpuA100x4,gpuA40x4 --gpus=1 --mem=16g --pty /bin/bash
 
 After you enter the command, you will have to wait for Slurm to start the job. You will see output similar to:
 
-.. code-block::
+.. code-block:: terminal
 
    srun: job 123456 queued and waiting for resources
 
 Specifying a small number of nodes for smaller amounts of time should shorten the wait time because the job will backfill among larger jobs. Once the job starts, you will see something similar to the below and will be presented with an interactive shell prompt on the launch node. At this point, you can use the appropriate command(s) to start your program.
 
-.. code-block::
+.. code-block:: terminal
 
    srun: job 123456 has been allocated resources
 
@@ -124,7 +128,7 @@ $$$$$$$$$$$$$$$
 
 - Single core with 16GB of memory, with one task on a CPU node
 
-  .. code-block::
+  .. code-block:: terminal
 
      srun --account=account_name --partition=cpu-interactive \
        --nodes=1 --tasks=1 --tasks-per-node=1 \
@@ -133,7 +137,7 @@ $$$$$$$$$$$$$$$
 
 - Single core with 20GB of memory, with one task on a *Delta* A40 GPU node
 
-  .. code-block::
+  .. code-block:: terminal
 
      srun --account=account_name --partition=gpuA40x4-interactive \
        --nodes=1 --gpus-per-node=1 --tasks=1 \
@@ -145,14 +149,14 @@ Batch Script
 
 Inside a batch script if you want to run multiple copies of a program you can use the ``srun`` command followed by the name of the executable: 
 
-.. code-block::
+.. code-block:: terminal
 
    srun ./a.out
 
 By default, the total number of copies run is equal to number of cores specified in the batch job resource specification.
 You can use the ``-n``  flag/option with the ``srun`` command to specify the number of copies of a program that you would like to run; the value for the ``-n`` flag/option must be less than or equal to the number of cores specified for the batch job.
 
-.. code-block::
+.. code-block:: terminal
 
    srun -n 10 ./a.out
 
@@ -163,7 +167,7 @@ salloc
 
 While interactive like ``srun``, ``salloc`` allocates compute resources for you, while leaving your shell on the login node. Run commands on the login node as usual, use ``exit`` to end a salloc session early, and use ``srun`` with no extra flags to launch processes on the compute resources.
 
-.. code-block::
+.. code-block:: terminal
 
    $ salloc --mem=16g --nodes=1 --ntasks-per-node=1 --cpus-per-task=2 \
      --partition=gpuA40x4-interactive,gpuA100x4-interactive \
@@ -204,7 +208,7 @@ For true interactive MPI, use ``salloc`` in place of srun shown above, then **sr
    <details>
    <summary><a><b>interactive MPI, salloc and srun</b> <i>(click to expand/collapse)</i></a></summary>
 
-.. code-block::
+.. code-block:: terminal
 
    [arnoldg@dt-login01 collective]$ cat osu_reduce.salloc
    salloc --account=bbka-delta-cpu --partition=cpu-interactive \
@@ -257,7 +261,7 @@ Interactive X11 Support
 To run an X11 based application on a compute node in an interactive session, the use of the **--x11** switch with ``srun`` is needed. 
 For example, to run a single core job that uses 1G of memory with X11 (in this case an xterm) do the following:
 
-.. code-block::
+.. code-block:: terminal
 
    srun -A abcd-delta-cpu  --partition=cpu-interactive \
      --nodes=1 --tasks=1 --tasks-per-node=1 \
@@ -270,7 +274,7 @@ Node Sharing
 Node sharing is the default for jobs. 
 Node exclusive mode can be obtained by specifying all the consumable resources for that node type or adding the following Slurm options:
 
-.. code-block::
+.. code-block:: terminal
 
    --exclusive --mem=0
 
@@ -287,13 +291,13 @@ The following are examples on how to specify job dependencies using the ``aftera
 
 On the command line:
 
-.. code-block::
+.. code-block:: terminal
 
    [golubh1 ~]$ sbatch --dependency=afterany:<JobID> jobscript.sbatch
 
 In a job script:
 
-.. code-block::
+.. code-block:: terminal
 
    #!/bin/bash
    #SBATCH --time=00:30:00
@@ -307,7 +311,7 @@ In a job script:
 
 In a shell script that submits batch jobs:
 
-.. code-block::
+.. code-block:: terminal
 
    #!/bin/bash
    JOB_01=`sbatch jobscript1.sbatch |cut -f 4 -d " "`
@@ -352,22 +356,30 @@ An optional ``slot limit`` can be specified to limit the number of jobs that can
 See the ``sbatch`` man page for details. 
 The file names for the input, output, and so on, can be varied for each job using the job array index value defined by the Slurm environment variable ``SLURM_ARRAY_TASK_ID``.
 
-A sample batch script that makes use of job arrays is available in the Campus Cluster system at **/projects/consult/slurm/jobarray.sbatch**.
+A sample batch script that makes use of job arrays is available in the Campus Cluster system at ``/projects/consult/slurm/jobarray.sbatch``.
 
 **A few things to keep in mind:**
 
--  Valid specifications for job arrays are:
+  -  Valid specifications for job arrays are:
    
-   ``‑‑array 1-10``
+     ``‑‑array 1-10``
    
-   ``‑‑array 1,2,6-10``
+     ``‑‑array 1,2,6-10``
    
-   ``‑‑array 8``
+     ``‑‑array 8``
    
-   ``‑‑array 1-100%5`` (a limit of 5 jobs can run concurrently) 
+     ``‑‑array 1-100%5`` (a limit of 5 jobs can run concurrently) 
 
--  You should limit the number of batch jobs in the queues at any one time to 1,000 or less (each job within a job array is counted as one batch job.)
+  \
 
--  Interactive batch jobs are not supported with job array submissions.
+  -  You should limit the number of batch jobs in the queues at any one time to 1,000 or less (each job within a job array is counted as one batch job.)
 
--  To delete job arrays, see the :ref:`qdel` command section.
+  \
+
+  -  Interactive batch jobs are not supported with job array submissions.
+
+  \
+
+  -  To delete job arrays, see the `Slurm scancel documentation <https://slurm.schedmd.com/job_array.html#scancel>`_.
+
+|
