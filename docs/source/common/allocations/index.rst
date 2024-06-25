@@ -31,10 +31,10 @@ NCSA Resources Summary
 NCSA offers access to a variety of resources, browse the resources below to find one that best fits your research needs.
 
 .. table:: NCSA Resources Summary
-   :widths: 5 5 40 40 
+   :widths: 10 10 40 40 
 
    +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Resource Name                   | Computing Type  | Primary Use Cases                                                            | User Documentation and Support                        |
+   | Resource Name                   | Resource Type   | Primary Use Cases                                                            | User Documentation and Support                        |
    +=================================+=================+==============================================================================+=======================================================+
    | Delta                           | HPC             | CPU:                                                                         | - `Delta hardware/storage`_                           |
    |                                 |                 |                                                                              |                                                       |
@@ -53,9 +53,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                                                                              |                                                       |
    |                                 |                 | - Transition to hybrid CPU-GPU models                                        |                                                       |
    |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Deep learning                                                              |                                                       |
+   |                                 |                 | - Supports machine learning frameworks                                       |                                                       |
    |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Natural language processing                                                |                                                       |
+   |                                 |                 |   like Pytorch, TensorFlow, and others                                       |                                                       |
    |                                 |                 |                                                                              |                                                       |
    |                                 |                 | - Visualization and ray tracing                                              |                                                       |
    |                                 |                 |                                                                              |                                                       |
@@ -63,11 +63,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
    +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | `DeltaAI`_                      | HPC             | Coming Soon!                                                                 | Coming Soon!                                          |
    |                                 |                 |                                                                              |                                                       |
+   |                                 |                 | - Machine learning frameworks like:                                          |                                                       |
    |                                 |                 |                                                                              |                                                       |
+   |                                 |                 |   - PyTorch                                                                  |                                                       |
    |                                 |                 |                                                                              |                                                       |
+   |                                 |                 |   - TensorFlow                                                               |                                                       |
    |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       | 
+   |                                 |                 |   - and others                                                               |                                                       | 
    +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | Granite                         | Archive Storage | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                         |
    |                                 |                 |                                                                              |                                                       |
@@ -77,13 +79,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                                                                              |                                                       |
    |                                 |                 |                                                                              | - `Granite user support`_                             |
    +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | HAL                             | HPC             | - Deep learning frameworks                                                   | - `HAL hardware/storage`_                             |
+   | HAL                             | HPC             | - Machine learning frameworks like:                                          | - `HAL hardware/storage`_                             |
    |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - TensorFlow                                                                 | - :ref:`Accessing HAL <allocate-hal>`                 |
+   |                                 |                 |   - PyTorch                                                                  | - :ref:`Accessing HAL <allocate-hal>`                 |
    |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - PyTorch                                                                    | - `HAL user documentation`_                           |
+   |                                 |                 |   - TensorFlow                                                               | - `HAL user documentation`_                           |
    |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `HAL user support`_                                 |
+   |                                 |                 |   - and others                                                               | - `HAL user support`_                                 |
    +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | Hydro                           | HPC             | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                           |
    |                                 |                 |                                                                              |                                                       |
