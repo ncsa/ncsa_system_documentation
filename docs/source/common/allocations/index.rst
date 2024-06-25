@@ -33,158 +33,142 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. table:: NCSA Resources Summary
    :widths: 10 10 40 40 
 
-   ================================== ================= ================================================================================================= ===================================
-   Resource Name                      Resource Type     Primary Use Cases                                                                                 User Documentation and Support
-   ================================== ================= ================================================================================================= ===================================
-   Delta                              HPC               Supports machine learning frameworks like Pytorch, TensorFlow, and others                         `Delta hardware/storage`_
-   Illinois Campus Cluster            Archive Storage   Supports machine learning frameworks like Pytorch, TensorFlow, and others, and others, and others `Campus Cluster hardware/storage`_
-   ================================== ================= ================================================================================================= ===================================
-
-
-.. table:: NCSA Resources Summary
-   :widths: 10 10 40 40 
-
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Resource Name                   | Resource Type   | Primary Use Cases                                                            | User Documentation and Support                        |
-   +=================================+=================+==============================================================================+=======================================================+
-   | Delta                           | HPC             | CPU:                                                                         | - `Delta hardware/storage`_                           |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - General purpose computation                                                |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Engineering modeling and simulation                                        | - :ref:`Accessing Delta <allocate-delta>`             |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Data analysis and analytics                                                |                                                       |
-   |                                 |                 |                                                                              | - `Delta user documentation`_                         |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | GPU:                                                                         |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Accelerated computation                                                    | - `Delta user support`_                               | 
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Transition from CPU-only to GPU                                            |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Transition to hybrid CPU-GPU models                                        |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Supports machine learning frameworks                                       |                                                       |
-   |                                 |                 |   like Pytorch, TensorFlow, and others                                       |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Visualization and ray tracing                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | `DeltaAI`_                      | HPC             | Coming Soon!                                                                 | Coming Soon!                                          |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Machine learning frameworks like:                                          |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |   - PyTorch                                                                  |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |   - TensorFlow                                                               |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |   - and others                                                               |                                                       | 
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Granite                         | Archive Storage | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                         |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Disaster recovery                                                          | - :ref:`Accessing Granite <allocate-granite>`         |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Archive datasets                                                           | - `Granite user documentation`_                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Granite user support`_                             |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | HAL                             | HPC             | - Machine learning frameworks like:                                          | - `HAL hardware/storage`_                             |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |   - PyTorch                                                                  | - :ref:`Accessing HAL <allocate-hal>`                 |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |   - TensorFlow                                                               | - `HAL user documentation`_                           |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |   - and others                                                               | - `HAL user support`_                                 |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Hydro                           | HPC             | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                           |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - :ref:`Accessing Hydro <allocate-hydro>`             |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Hydro user documentation`_                         |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Hydro user support`_                               |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Illinois Campus Cluster         | HPC             | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster hardware/storage`_                  |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - :ref:`Accessing Campus Cluster <allocate-icc>`      |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Campus Cluster user documentation`_                | 
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Campus Cluster user support`_                      | 
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Illinois Computes               | JupyterLab      | Coming soon!                                                                 | - `ICRN hardware/storage`_                            |
-   |                                 |                 |                                                                              |                                                       |
-   | Research Notebooks              |                 |                                                                              | - `Accessing ICRN`_                                   |
-   |                                 |                 |                                                                              |                                                       |
-   | (ICRN)                          |                 |                                                                              | - `ICRN user documentation`_                          |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `ICRN user support`_                                |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Illinois HTC                    | HTC             | Coming soon!                                                                 | - `Illinois HTC hardware/storage`_                    |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - :ref:`Accessing Illinois HTC <allocate-htc>`        |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Illinois HTC user documentation`_                  |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Illinois HTC user support`_                        | 
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Innovative Systems Lab          |                 | Coming soon!                                                                 | - `ISL info`_                                         |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Jade                            | ePHI/CUI Archive| - Store infrequently accessed data                                           | - `Jade hardware/storage`_                            |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 | Storage         |                                                                              | - :ref:`Accessing Jade <allocate-jade>`               |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Archive datasets                                                           | - `Jade user documentation`_                          |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Jade user support`_                                |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Nightingale                     | HIPAA HPC       | Projects working with:                                                       | - `Nightingale hardware/storage`_                     |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - HIPAA                                                                      | - :ref:`Accessing Nightingale <allocate-nightingale>` | 
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - CUI                                                                        | - `Nightingale user documentation`_                   |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Other protected or sensitive data                                          | - `Nightingale user support`_                         |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Radiant                         | HPC             | `Radiant use cases`_                                                         | - `Radiant hardware/storage`_                         |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - :ref:`Accessing Radiant <allocate-nightingale>`     |   
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Radiant user documentation`_                       | 
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Radiant user support`_                             |     
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Research Computing              | Support         | Coming Soon!                                                                 | - `RCCS info`_                                        |
-   |                                 |                 |                                                                              |                                                       |
-   | Collaborative Services          |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   | (RCCS)                          |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              |                                                       |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Taiga                           | Storage         | - Active Research and Project Data                                           | - `Taiga hardware/storage`_                           |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 | - Visualization data                                                         | - :ref:`Accessing Taiga <allocate-taiga>`             |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Taiga user documentation`_                         |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `Taiga user support`_                               |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | vForge                          | HTC             | Starting point for NCSA’s industry partners                                  | - `vForge hardware/storage`_                          |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - :ref:`Accessing vForge <allocate-vforge>`           |
-   |                                 |                 |                                                                              |                                                       |
-   |                                 |                 |                                                                              | - `vForge user support`_                              |
-   +---------------------------------+-----------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Resource Name                   | Resource Type   | Target Users  | Primary Use Cases                                                            | User Documentation and Support                        |
+   +=================================+=================+===============+==============================================================================+=======================================================+
+   | Delta                           | HPC             | Campus        | CPU:                                                                         | - `Delta hardware/storage`_                           |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 | National      | - General purpose computation                                                |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Engineering modeling and simulation                                        | - :ref:`Accessing Delta <allocate-delta>`             |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Data analysis and analytics                                                |                                                       |
+   |                                 |                 |               |                                                                              | - `Delta user documentation`_                         |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | GPU:                                                                         |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Accelerated computation                                                    | - `Delta user support`_                               | 
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Transition from CPU-only to GPU                                            |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Transition to hybrid CPU-GPU models                                        |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Supports machine learning frameworks                                       |                                                       |
+   |                                 |                 |               |   like Pytorch, TensorFlow, and others                                       |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Visualization and ray tracing                                              |                                                       |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | `DeltaAI`_                      | HPC             | - Campus      | Coming Soon!                                                                 | Coming Soon!                                          |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 | - National    | Supports machine learning frameworks like PyTorch, TensorFlow, and others.   |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Granite                         | Archive Storage |               | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                         |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Disaster recovery                                                          | - :ref:`Accessing Granite <allocate-granite>`         |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Archive datasets                                                           | - `Granite user documentation`_                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Granite user support`_                             |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | HAL                             | HPC             |               | Support Machine learning frameworks like PyTorch, TensorFlow, and others.    | - `HAL hardware/storage`_                             |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - :ref:`Accessing HAL <allocate-hal>`                 |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `HAL user documentation`_                           |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `HAL user support`_                                 |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Hydro                           | HPC             |               | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                           |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - :ref:`Accessing Hydro <allocate-hydro>`             |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Hydro user documentation`_                         |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Hydro user support`_                               |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Illinois Campus Cluster         | HPC             | Campus        | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster hardware/storage`_                  |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - :ref:`Accessing Campus Cluster <allocate-icc>`      |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Campus Cluster user documentation`_                | 
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Campus Cluster user support`_                      | 
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Illinois Computes               | JupyterLab      | Campus        | Coming soon!                                                                 | - `ICRN hardware/storage`_                            |
+   | Research Notebooks              |                 |               |                                                                              |                                                       |
+   | (ICRN)                          |                 |               |                                                                              | - `Accessing ICRN`_                                   |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `ICRN user documentation`_                          |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `ICRN user support`_                                |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Illinois HTC                    | HTC             | Campus        | Coming soon!                                                                 | - `Illinois HTC hardware/storage`_                    |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - :ref:`Accessing Illinois HTC <allocate-htc>`        |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Illinois HTC user documentation`_                  |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Illinois HTC user support`_                        | 
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Innovative Systems Lab          |                 |               | Coming soon!                                                                 | - `ISL info`_                                         |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Jade                            | ePHI/CUI Archive|               | - Store infrequently accessed data                                           | - `Jade hardware/storage`_                            |
+   |                                 | Storage         |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - :ref:`Accessing Jade <allocate-jade>`               |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Archive datasets                                                           | - `Jade user documentation`_                          |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Jade user support`_                                |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Nightingale                     | HIPAA HPC       |               | Projects working with:                                                       | - `Nightingale hardware/storage`_                     |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - HIPAA                                                                      | - :ref:`Accessing Nightingale <allocate-nightingale>` | 
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - CUI                                                                        | - `Nightingale user documentation`_                   |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Other protected or sensitive data                                          | - `Nightingale user support`_                         |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Radiant                         | HPC             |               | `Radiant use cases`_                                                         | - `Radiant hardware/storage`_                         |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - :ref:`Accessing Radiant <allocate-nightingale>`     |   
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Radiant user documentation`_                       | 
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Radiant user support`_                             |     
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Research Computing              | Support         |               | Coming Soon!                                                                 | - `RCCS info`_                                        |
+   | Collaborative Services          |                 |               |                                                                              |                                                       |
+   | (RCCS)                          |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              |                                                       |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | Taiga                           | Storage         |               | - Active Research and Project Data                                           | - `Taiga hardware/storage`_                           |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               | - Visualization data                                                         | - :ref:`Accessing Taiga <allocate-taiga>`             |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Taiga user documentation`_                         |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `Taiga user support`_                               |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
+   | vForge                          | HTC             | Industry      | Starting point for NCSA’s industry partners                                  | - `vForge hardware/storage`_                          |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - :ref:`Accessing vForge <allocate-vforge>`           |
+   |                                 |                 |               |                                                                              |                                                       |
+   |                                 |                 |               |                                                                              | - `vForge user support`_                              |
+   +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
 
 .. _Radiant use cases: https://docs.google.com/spreadsheets/d/1VCg9hZVzsY_qiX_FGY_k0LDLZl_HPPkEJhOgv31YNHo/edit#gid=0
 
