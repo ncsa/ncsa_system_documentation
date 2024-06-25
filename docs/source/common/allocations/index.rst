@@ -33,11 +33,12 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. table:: NCSA Resources Summary
    :widths: 10 10 40 40 
 
-   ================================== ================= ============================================================================== ===================================
-   Resource Name                      Resource Type     Primary Use Cases                                                              User Documentation and Support
-   ================================== ================= ============================================================================== ===================================
-   Delta                              HPC               Supports machine learning frameworks like Pytorch, TensorFlow, and others      `Delta hardware/storage`_
-   ================================== ================= ============================================================================== ===================================
+   ================================== ================= ================================================================================================= ===================================
+   Resource Name                      Resource Type     Primary Use Cases                                                                                 User Documentation and Support
+   ================================== ================= ================================================================================================= ===================================
+   Delta                              HPC               Supports machine learning frameworks like Pytorch, TensorFlow, and others                         `Delta hardware/storage`_
+   Illinois Campus Cluster            Archive Storage   Supports machine learning frameworks like Pytorch, TensorFlow, and others, and others, and others `Campus Cluster hardware/storage`_
+   ================================== ================= ================================================================================================= ===================================
 
 
 .. table:: NCSA Resources Summary
