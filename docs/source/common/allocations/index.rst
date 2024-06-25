@@ -31,7 +31,7 @@ NCSA Resources Summary
 NCSA offers access to a variety of resources, browse the resources below to find one that best fits your research needs.
 
 .. table:: NCSA Resources Summary
-   :widths: 10 10 40 40 
+   :widths: 10 5 5 40 40 
 
    +---------------------------------+-----------------+---------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | Resource Name                   | Resource Type   | Target Users  | Primary Use Cases                                                            | User Documentation and Support                        |
