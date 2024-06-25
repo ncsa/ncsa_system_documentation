@@ -54,7 +54,6 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 | - Transition to hybrid CPU-GPU models                                        |                                                       |
    |                                 |                 |                                                                              |                                                       |
    |                                 |                 | - Supports machine learning frameworks                                       |                                                       |
-   |                                 |                 |                                                                              |                                                       |
    |                                 |                 |   like Pytorch, TensorFlow, and others                                       |                                                       |
    |                                 |                 |                                                                              |                                                       |
    |                                 |                 | - Visualization and ray tracing                                              |                                                       |
