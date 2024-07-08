@@ -84,9 +84,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `HAL user support`_                                 |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Hydro                           | HPC             | Campus              | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                           |
+   | Hydro                           | HPC             | Campus,             | Priority use for NFI projects.                                               | - `Hydro hardware/storage`_                           |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - :ref:`Accessing Hydro <allocate-hydro>`             |
+   |                                 |                 | `NFI`_              |                                                                              | - :ref:`Accessing Hydro <allocate-hydro>`             |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `Hydro user documentation`_                         |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -231,6 +231,8 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. _Jade user documentation: https://docs.ncsa.illinois.edu/systems/jade/
 
 .. _Jade user support: https://docs.ncsa.illinois.edu/systems/jade/en/latest/help.html
+
+.. _NFI: https://newfrontiers.illinois.edu/about/
 
 .. _Nightingale hardware/storage: https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/architecture.html
 
