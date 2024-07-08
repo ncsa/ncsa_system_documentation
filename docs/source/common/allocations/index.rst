@@ -38,9 +38,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    +=================================+=================+=====================+==============================================================================+=======================================================+
    | Delta                           | HPC             | Campus,             | CPU:                                                                         | - `Delta hardware/storage`_                           |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 | National            | - General purpose computation                                                |                                                       |
+   |                                 |                 | UI System,          | - General purpose computation                                                |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     | - Engineering modeling and simulation                                        | - :ref:`Accessing Delta <allocate-delta>`             |
+   |                                 |                 | National            | - Engineering modeling and simulation                                        | - :ref:`Accessing Delta <allocate-delta>`             |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     | - Data analysis and analytics                                                |                                                       |
    |                                 |                 |                     |                                                                              | - `Delta user documentation`_                         |
@@ -258,6 +258,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
 .. rubric:: Footnotes
 
-.. [#f1] 'Campus' represents affilates of the University of Illinois. 'National' represents academic researchers outside of the University of Illinois. 'Industry' represents non-academic research.
+.. [#f1] 
+   'Campus' represents affilates of the University of Illinois Urbana-Champaign. 
+
+   'UI System' represents affiliates of the University of Illinois System.
+
+   'National' represents academic researchers outside of the University of Illinois. 
+
+   'Industry' represents non-academic applications.
 
 |
