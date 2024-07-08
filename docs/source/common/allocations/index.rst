@@ -60,9 +60,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | `DeltaAI`_                      | HPC             | Campus,             | Coming Soon!                                                                 | Coming Soon!                                          |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 | National            | Supports machine learning frameworks like PyTorch, TensorFlow, and others.   |                                                       |
+   |                                 |                 | UI System,          | Supports machine learning frameworks like PyTorch, TensorFlow, and others.   |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              |                                                       |
+   |                                 |                 | National            |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -76,9 +76,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `Granite user support`_                             |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | HAL                             | HPC             | Campus              | Support Machine learning frameworks like PyTorch, TensorFlow, and others.    | - `HAL hardware/storage`_                             |
+   | HAL                             | HPC             | Campus,             | Support Machine learning frameworks like PyTorch, TensorFlow, and others.    | - `HAL hardware/storage`_                             |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - :ref:`Accessing HAL <allocate-hal>`                 |
+   |                                 |                 | UI System           |                                                                              | - :ref:`Accessing HAL <allocate-hal>`                 |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `HAL user documentation`_                           |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -92,9 +92,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `Hydro user support`_                               |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Illinois Campus Cluster         | HPC             | Campus              | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster hardware/storage`_                  |
+   | Illinois Campus Cluster         | HPC             | Campus,             | `Campus Cluster use cases <https://campuscluster.illinois.edu/science/>`_    | - `Campus Cluster hardware/storage`_                  |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - :ref:`Accessing Campus Cluster <allocate-icc>`      |
+   |                                 |                 | UI System           |                                                                              | - :ref:`Accessing Campus Cluster <allocate-icc>`      |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `Campus Cluster user documentation`_                | 
    |                                 |                 |                     |                                                                              |                                                       |
@@ -108,9 +108,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `ICRN user support`_                                |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Illinois HTC                    | HTC             | Campus              | Coming soon!                                                                 | - `Illinois HTC hardware/storage`_                    |
+   | Illinois HTC                    | HTC             | Campus,             | Coming soon!                                                                 | - `Illinois HTC hardware/storage`_                    |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - :ref:`Accessing Illinois HTC <allocate-htc>`        |
+   |                                 |                 | UI System           |                                                                              | - :ref:`Accessing Illinois HTC <allocate-htc>`        |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `Illinois HTC user documentation`_                  |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -131,9 +131,9 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              | - `Jade user support`_                                |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Nightingale                     | HIPAA HPC       | Campus              | Projects working with:                                                       | - `Nightingale hardware/storage`_                     |
+   | Nightingale                     | HIPAA HPC       | Campus,             | Projects working with:                                                       | - `Nightingale hardware/storage`_                     |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     | - HIPAA                                                                      | - :ref:`Accessing Nightingale <allocate-nightingale>` | 
+   |                                 |                 | UI System           | - HIPAA                                                                      | - :ref:`Accessing Nightingale <allocate-nightingale>` | 
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     | - CUI                                                                        | - `Nightingale user documentation`_                   |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -259,12 +259,12 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. rubric:: Footnotes
 
 .. [#f1] 
-   'Campus' represents affilates of the University of Illinois Urbana-Champaign. 
+   'Campus' - affilates of the University of Illinois Urbana-Champaign. 
 
-   'UI System' represents affiliates of the University of Illinois System.
+   'UI System' - affiliates of the University of Illinois System.
 
-   'National' represents academic researchers outside of the University of Illinois. 
+   'National' - academic researchers outside of the University of Illinois. 
 
-   'Industry' represents non-academic applications.
+   'Industry' - non-academic applications.
 
 |
