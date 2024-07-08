@@ -265,7 +265,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
    'UI System' - affiliates of the University of Illinois System.
 
-   'National' - academic researchers outside of the University of Illinois. 
+   'National' - academic researchers outside of the University of Illinois System. 
 
    'Industry' - non-academic applications.
 
