@@ -28,7 +28,7 @@ NCSA Allocations
 NCSA Resources Summary
 ------------------------
 
-NCSA offers access to a variety of resources, browse the resources below to find one that best fits your research needs.
+NCSA offers access to a variety of compute, storage, and support resources; browse the summary table to find the resource that best fits your needs.
 
 .. table:: NCSA Resources Summary
    :widths: 12 12 12 32 32 
