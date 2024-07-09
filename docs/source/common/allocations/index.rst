@@ -269,4 +269,6 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
    Industry - non-academic applications.
 
+   If you are interested in a resource but are outside of the target user group(s), :ref:`submit a support request <help>` to discuss your options.
+
 |
