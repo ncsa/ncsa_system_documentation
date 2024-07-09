@@ -54,7 +54,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     | - Transition to hybrid CPU-GPU models                                        |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     | - Supports machine learning frameworks                                       |                                                       |
-   |                                 |                 |                     |   like Pytorch, TensorFlow, and others                                       |                                                       |
+   |                                 |                 |                     |   like PyTorch, TensorFlow, and others                                       |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     | - Visualization and ray tracing                                              |                                                       |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
@@ -261,7 +261,7 @@ NCSA offers access to a variety of resources, browse the resources below to find
 .. rubric:: Footnotes
 
 .. [#f1] 
-   - Campus - affilates of the University of Illinois Urbana-Champaign. 
+   - Campus - affiliates of the University of Illinois Urbana-Champaign. 
 
    - UI System - affiliates of the University of Illinois System.
 
@@ -269,6 +269,6 @@ NCSA offers access to a variety of resources, browse the resources below to find
 
    - Industry - non-academic applications.
 
-   If you are interested in a resource but are outside of the target user group(s), :ref:`submit a support request <general-support>` to discuss your options.
+   - If you are interested in a resource but are outside of the target user group(s), :ref:`submit a support request <general-support>` to discuss your options.
 
 |
