@@ -35,6 +35,7 @@ NCSA offers access to a variety of compute, storage, and support resources; brow
 
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | Name                            | Type            | Target Users [#f1]_ | Primary Use Cases                                                            | User Documentation and Support                        |
+   |                                 |                 | [#f2]_              |                                                                              |                                                       |
    +=================================+=================+=====================+==============================================================================+=======================================================+
    | Delta                           | HPC             | Campus,             | CPU:                                                                         | - `Delta hardware/storage`_                           |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -269,7 +270,7 @@ NCSA offers access to a variety of compute, storage, and support resources; brow
 
    Industry - non-academic applications.
 
-   If you are interested in a resource but are outside of the target user group(s), :ref:`submit a support request <general-support>` to discuss your options.
-
+.. [#f2]
+   If you are interested in a resource but are outside of the target user group(s), please :ref:`submit a support request <general-support>` to discuss your options.
 
 |
