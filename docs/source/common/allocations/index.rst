@@ -31,7 +31,7 @@ NCSA Resources Summary
 NCSA offers access to a variety of resources, browse the resources below to find one that best fits your research needs.
 
 .. table:: NCSA Resources Summary
-   :widths: 12 12 12 39 25 
+   :widths: 12 12 12 32 32 
 
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | Name                            | Type            | Target Users [#f1]_ | Primary Use Cases                                                            | User Documentation and Support                        |
@@ -68,13 +68,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Granite                         | Archive Storage | Campus              | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                         |
+   | Granite                         | Archive Storage | Campus,             | - Store infrequently accessed data                                           | - `Granite hardware/storage`_                         |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     | - Disaster recovery                                                          | - :ref:`Accessing Granite <allocate-granite>`         |
+   |                                 |                 | UI System,          | - Disaster recovery                                                          | - :ref:`Accessing Granite <allocate-granite>`         |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     | - Archive datasets                                                           | - `Granite user documentation`_                       |
+   |                                 |                 | National,           | - Archive datasets                                                           | - `Granite user documentation`_                       |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - `Granite user support`_                             |
+   |                                 |                 | Industry            |                                                                              | - `Granite user support`_                             |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | HAL                             | HPC             | Campus,             | Supports machine learning frameworks like PyTorch, TensorFlow, and others.   | - `HAL hardware/storage`_                             |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -123,13 +123,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Jade                            | ePHI/CUI Archive| Campus              | - Store infrequently accessed data                                           | - `Jade hardware/storage`_                            |
+   | Jade                            | ePHI/CUI Archive| Campus,             | - Store infrequently accessed data                                           | - `Jade hardware/storage`_                            |
    |                                 | Storage         |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - :ref:`Accessing Jade <allocate-jade>`               |
+   |                                 |                 | UI System,          |                                                                              | - :ref:`Accessing Jade <allocate-jade>`               |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     | - Archive datasets                                                           | - `Jade user documentation`_                          |
+   |                                 |                 | National,           | - Archive datasets                                                           | - `Jade user documentation`_                          |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - `Jade user support`_                                |
+   |                                 |                 | Industry            |                                                                              | - `Jade user support`_                                |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | Nightingale                     | HIPAA HPC       | Campus,             | Projects working with:                                                       | - `Nightingale hardware/storage`_                     |
    |                                 |                 |                     |                                                                              |                                                       |
@@ -155,13 +155,13 @@ NCSA offers access to a variety of resources, browse the resources below to find
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | Taiga                           | Storage         | Campus              | - Active Research and Project Data                                           | - `Taiga hardware/storage`_                           |
+   | Taiga                           | Storage         | Campus,             | - Active Research and Project Data                                           | - `Taiga hardware/storage`_                           |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     | - Visualization data                                                         | - :ref:`Accessing Taiga <allocate-taiga>`             |
+   |                                 |                 | UI System,          | - Visualization data                                                         | - :ref:`Accessing Taiga <allocate-taiga>`             |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - `Taiga user documentation`_                         |
+   |                                 |                 | National,           |                                                                              | - `Taiga user documentation`_                         |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              | - `Taiga user support`_                               |
+   |                                 |                 | Industry            |                                                                              | - `Taiga user support`_                               |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
    | vForge                          | HTC             | Industry            | Starting point for NCSA’s industry partners                                  | - `vForge hardware/storage`_                          |
    |                                 |                 |                     |                                                                              |                                                       |
