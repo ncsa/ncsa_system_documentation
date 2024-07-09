@@ -1,6 +1,8 @@
-<!--This adds the script for the OneTrust cookies banner to the <head> of each page-->
+<!--This adds the script for the OneTrust cookies banner to the <head> of each page and ties in the tablefix.css file-->
 
 {% extends '!layout.html' %}
+{% set css_files = css_files + ["_static/tablefix.css"] %}
+
 {% block extrahead %}
    <!-- OneTrust Cookies Consent Notice start, illinois.edu -->
       <script src="https://onetrust.techservices.illinois.edu/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="26be7d61-2017-4ea7-8a8b-8f1704889763"></script>
