@@ -60,7 +60,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
 
    training
-   common/allocations/index
+   allocations/index
    help
 
 .. toctree::
