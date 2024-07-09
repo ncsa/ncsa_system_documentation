@@ -16,6 +16,8 @@ System users can often fix problems or help diagnose them on their own. The foll
 
 When you submit a support request, please let us know what you tried, and what happened if it didn't seem to work.  
 
+.. _general-support:
+
 General Resource Support
 ---------------------------
 
