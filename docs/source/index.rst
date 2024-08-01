@@ -13,7 +13,7 @@ Computing Resources User Documentation
 The pages linked here are the official user documentation for the computing resources.  
 
 - `Delta </systems/delta>`_ 
-- `HAL </systems/hal>`_
+- `Hardware-Accelerated Learning (HAL) Cluster </systems/hal>`_
 - `Hydro </systems/hydro>`_
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
