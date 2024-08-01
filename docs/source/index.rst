@@ -13,6 +13,7 @@ Computing Resources User Documentation
 The pages linked here are the official user documentation for the computing resources.  
 
 - `Delta </systems/delta>`_ 
+- `Hardware-Accelerated Learning (HAL) Cluster </systems/hal>`_
 - `Hydro </systems/hydro>`_
 - `Illinois Campus Cluster (ICC) </systems/icc/>`_
 - `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
@@ -68,6 +69,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
 
    Delta <https://docs.ncsa.illinois.edu/systems/delta>
+   HAL <https://docs.ncsa.illinois.edu/systems/hal>
    Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
