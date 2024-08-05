@@ -5,30 +5,74 @@
 NCSA System Documentation Hub
 #################################
 
-This is the centralized page for NCSA computing resource user documentation and additional non-system specific user documentation.
+The NCSA System Documentation Hub is the centralized page for NCSA user documentation.
    
-Computing Resources User Documentation
-=========================================
+Computing 
+========================
 
-The pages linked here are the official user documentation for the computing resources.  
+.. grid:: 1 2 2 3
+   :gutter: 3
 
-- `Delta </systems/delta>`_ 
-- `Hardware-Accelerated Learning (HAL) Cluster </systems/hal>`_
-- `Hydro </systems/hydro>`_
-- `Illinois Campus Cluster (ICC) </systems/icc/>`_
-- `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
-- `Illinois High-Throughput Computing (HTC) </systems/iccp-htc>`_
-- `Nightingale </systems/nightingale>`_
-- `Radiant </systems/radiant>`_
+   .. grid-item-card:: Delta
+      :img-top: images/tiles/delta-border2-16-9-1.png
+      :link: https://docs.ncsa.illinois.edu/systems/delta/
+      :link-alt: Delta documentation
 
-Storage Resources User Documentation
-=========================================
+   .. grid-item-card:: Hardware-Accelerated Learning (HAL) Cluster
+      :img-top: images/tiles/hal-border-16-9-1.png
+      :link: https://docs.ncsa.illinois.edu/systems/hal/
+      :link-alt: HAL documentation
 
-The pages linked here are the official user documentation for the storage resources.
+   .. grid-item-card:: Hydro
+      :img-top: images/tiles/UI-04-161004-015-hydro-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/hydro/
+      :link-alt: Hydro documentation
 
-- `Granite </systems/granite>`_
-- `Jade </systems/jade>`_
-- `Taiga </systems/taiga>`_
+   .. grid-item-card:: Illinois Campus Cluster (ICC)
+      :img-top: images/tiles/UI-03-160714-014-icc-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/icc/
+      :link-alt: ICC documentation
+
+   .. grid-item-card:: Illinois Computes Research Notebooks (ICRN)
+      :img-top: images/tiles/UI-231201-MH-060-icrn-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/icrn/
+      :link-alt: ICRN documentation
+
+   .. grid-item-card:: Illinios High-Throughput Computing (HTC)
+      :img-top: images/tiles/UI-03-160714-108-htc-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/iccp-htc/
+      :link-alt: Illinois HTC documentation
+
+   .. grid-item-card:: Nightingale
+      :img-top: images/tiles/nightingale-border-16-9-1.png
+      :link: https://docs.ncsa.illinois.edu/systems/nightingale/
+      :link-alt: Nightingale documentation
+
+   .. grid-item-card:: Radiant
+      :img-top: images/tiles/UI-240224-FZ-0004-radiant-border-16-9-1.JPG
+      :link: https://docs.ncsa.illinois.edu/systems/radiant/
+      :link-alt: Radiant documentation
+
+Storage 
+======================
+
+.. grid:: 1 2 2 3
+   :gutter: 3
+
+   .. grid-item-card:: Granite
+      :img-top: images/tiles/granite-border-16-9-1.png
+      :link: https://docs.ncsa.illinois.edu/systems/granite/
+      :link-alt: Granite documentation
+
+   .. grid-item-card:: Jade
+      :img-top: images/tiles/jade-border-16-9-1.png
+      :link: https://docs.ncsa.illinois.edu/systems/jade/
+      :link-alt: Jade documentation
+
+   .. grid-item-card:: Taiga
+      :img-top: images/tiles/taiga-border-16-9-1.png
+      :link: https://docs.ncsa.illinois.edu/systems/taiga/
+      :link-alt: Taiga documentation
 
 Common System Documentation
 ===================

@@ -16,6 +16,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
+    'sphinx_design',
 ]
 
 intersphinx_mapping = {
