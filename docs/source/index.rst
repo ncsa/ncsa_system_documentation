@@ -112,7 +112,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    :caption: Common Documentation
    :hidden:
 
-   common/transer
+   common/transfer
    common/relocate-conda-directory
 
 .. toctree:: 
