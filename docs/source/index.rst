@@ -110,11 +110,11 @@ Addititional user documentation on topics common across one or more NCSA computi
 
 .. toctree::
    :hidden:
-   :caption: Allocations
+   :caption: Get on an NCSA System
 
    allocations/index
    allocations/by-resource
-   allocations/by-method
+   Allocation Information by Method <allocations/by-method>
    allocations/xras-new
    allocations/xras-renew
 
