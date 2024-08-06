@@ -108,7 +108,25 @@ Addititional user documentation on topics common across one or more NCSA computi
    allocations/index
    help
 
+.. toctree::
+   :hidden:
+   :caption: Allocations
 
+   allocations/index
+   allocations/by-resource
+   allocations/by-method
+   allocations/xras-new
+   allocations/xras-renew
 
+.. toctree::
+   :caption: Common Documentation
+   :hidden:
+
+   common/transfer
+   common/relocate-conda-directory
+
+.. toctree:: 
+   :caption: Software Documentation
+   :hidden:
 
 |
