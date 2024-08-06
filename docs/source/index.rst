@@ -109,28 +109,13 @@ Addititional user documentation on topics common across one or more NCSA computi
    help
 
 .. toctree::
-   :caption: Computing Resources
+   :caption: Common Documentation
    :hidden:
 
-   Delta <https://docs.ncsa.illinois.edu/systems/delta>
-   HAL <https://docs.ncsa.illinois.edu/systems/hal>
-   Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
-   ICC <https://docs.ncsa.illinois.edu/systems/icc>
-   ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
-   Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
-   Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
-   Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
+   common/transer
+   common/relocate-conda-directory
 
-.. toctree::
-   :caption: Storage Resources
-   :hidden:
+.. toctree:: 
+   :caption: Software Documentation
 
-   Granite <https://docs.ncsa.illinois.edu/systems/granite/>
-   Jade <https://docs.ncsa.illinois.edu/systems/jade/>
-   Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
-
-.. toctree::
-   :caption: More Documentation
-   :hidden:
-
-   common/index
+|
