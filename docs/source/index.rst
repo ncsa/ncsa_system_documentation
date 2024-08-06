@@ -114,8 +114,8 @@ Addititional user documentation on topics common across one or more NCSA computi
    Resource Summary <allocations/index>
    Information by Resource <allocations/by-resource>
    Information by Method <allocations/by-method>
-   Request a New Allocation in XRAS <allocations/xras-new>
-   Request an Extension or Supplement in XRAS <allocations/xras-renew>
+   XRAS - Request a New Allocation <allocations/xras-new>
+   XRAS - Request an Extension or Supplement <allocations/xras-renew>
 
 .. toctree::
    :caption: Common Documentation
