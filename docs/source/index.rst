@@ -108,14 +108,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    allocations/index
    help
 
-.. toctree::
-   :caption: Common Documentation
-   :hidden:
 
-   common/transfer
-   common/relocate-conda-directory
 
-.. toctree:: 
-   :caption: Software Documentation
 
 |
