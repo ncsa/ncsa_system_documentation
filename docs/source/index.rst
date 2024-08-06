@@ -110,7 +110,7 @@ Addititional user documentation on topics common across one or more NCSA computi
 
 .. toctree::
    :hidden:
-   :caption: Get on an NCSA System
+   :caption: Get an Allocation
 
    allocations/index
    allocations/by-resource
