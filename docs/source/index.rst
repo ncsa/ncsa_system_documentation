@@ -109,9 +109,9 @@ Addititional user documentation on topics common across one or more NCSA computi
 
 .. toctree::
    :hidden:
-   :caption: Get an Allocation
+   :caption: NCSA Allocations
 
-   allocations/index
+   Resource Summary <allocations/index>
    allocations/by-resource
    Allocation Information by Method <allocations/by-method>
    allocations/xras-new
