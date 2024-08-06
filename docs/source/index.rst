@@ -105,14 +105,13 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
 
    training
-   allocations/index
    help
 
 .. toctree::
    :hidden:
-   :caption: Get an Allocation
+   :caption: NCSA Allocations
 
-   allocations/index
+   Home <allocations/index>
    allocations/by-resource
    Allocation Information by Method <allocations/by-method>
    allocations/xras-new
