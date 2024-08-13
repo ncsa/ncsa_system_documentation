@@ -111,9 +111,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
    :caption: NCSA Allocations
 
-   Resource Summary <allocations/index>
-   Information by Resource <allocations/by-resource>
-   Information by Method <allocations/by-method>
+   Resources Summary <allocations/index>
    XRAS - Request a New Allocation <allocations/xras-new>
    XRAS - Request an Extension or Supplement <allocations/xras-renew>
 
