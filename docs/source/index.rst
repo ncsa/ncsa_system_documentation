@@ -74,16 +74,25 @@ Storage
       :link: https://docs.ncsa.illinois.edu/systems/taiga/
       :link-alt: Taiga documentation
 
+NCSA Allocations
+=================
+
+Documentation that sumarizes the allocation information for the different NCSA computing and storage resources.
+
+- :ref:`Resources Summary <allocations>`
+- :ref:`by-resource`
+- :ref:`by-method`
+- :ref:`xras-new`
+- :ref:`xras-renew`
+
 Common System Documentation
-===================
+===============================
 
 Addititional user documentation on topics common across one or more NCSA computing resource.
 
-- :ref:`common`
-
-  .. - :ref:`slurm`
-  - :ref:`transfer`
-  - :ref:`conda`
+.. - :ref:`slurm`
+- :ref:`transfer`
+- :ref:`conda`
 
 
 ..
