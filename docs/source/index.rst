@@ -88,7 +88,7 @@ Documentation that sumarizes the allocation information for the different NCSA c
 Common System Documentation
 ===============================
 
-Addititional user documentation on topics common across one or more NCSA computing resource.
+Addititional user documentation on topics common across two or more NCSA resources.
 
 .. - :ref:`slurm`
 - :ref:`transfer`
