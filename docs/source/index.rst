@@ -118,6 +118,12 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
 .. toctree::
    :hidden:
+   :maxdepth: 2
+
+   computing
+
+.. toctree::
+   :hidden:
    :caption: NCSA Allocations
 
    Resources Summary <allocations/index>
