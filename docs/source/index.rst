@@ -8,7 +8,7 @@ NCSA System Documentation Hub
 The NCSA System Documentation Hub is the centralized page for NCSA user documentation.
    
 Computing 
-========================
+=============
 
 .. grid:: 1 2 2 3
    :gutter: 3
@@ -54,7 +54,7 @@ Computing
       :link-alt: Radiant documentation
 
 Storage 
-======================
+==========
 
 .. grid:: 1 2 2 3
    :gutter: 3
@@ -74,39 +74,51 @@ Storage
       :link: https://docs.ncsa.illinois.edu/systems/taiga/
       :link-alt: Taiga documentation
 
+NCSA Allocations
+=================
+
+Documentation that sumarizes the allocation information for the different NCSA computing and storage resources.
+
+- :ref:`Resources Summary <allocations>`
+- :ref:`by-resource`
+- :ref:`by-method`
+- :ref:`xras-new`
+- :ref:`xras-renew`
+
 Common System Documentation
-===================
+===============================
 
-Addititional user documentation on topics common across one or more NCSA computing resource.
+Addititional user documentation on topics common across two or more NCSA resources.
 
-- :ref:`common`
+.. - :ref:`slurm`
+- :ref:`transfer`
+- :ref:`conda`
 
-  .. - :ref:`slurm`
-  - :ref:`transfer`
-  - :ref:`conda`
-
-
-..
-   Additional non-system specific user documentation on topics related to NCSA's computing resources.
-
-   - :ref:`general`
-  
-     Documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
-
-   - :ref:`licensed`
-
-     Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
-
-   - :ref:`legacy`
-
-     Documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
 
 .. toctree::
    :hidden:
 
    training
-   allocations/index
    help
+
+.. toctree::
+   :hidden:
+   :caption: NCSA Allocations
+
+   Resources Summary <allocations/index>
+   XRAS - Request a New Allocation <allocations/xras-new>
+   XRAS - Request an Extension or Supplement <allocations/xras-renew>
+
+.. toctree::
+   :caption: Common Documentation
+   :hidden:
+
+   common/transfer
+   common/relocate-conda-directory
+
+.. toctree:: 
+   :caption: Software Documentation
+   :hidden:
 
 .. toctree::
    :caption: Computing Resources
@@ -129,8 +141,4 @@ Addititional user documentation on topics common across one or more NCSA computi
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
-.. toctree::
-   :caption: More Documentation
-   :hidden:
-
-   common/index
+|
