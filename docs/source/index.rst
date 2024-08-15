@@ -118,12 +118,6 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
-
-   computing
-
-.. toctree::
-   :hidden:
    :caption: NCSA Allocations
 
    Resources Summary <allocations/index>
@@ -140,5 +134,26 @@ Addititional user documentation on topics common across two or more NCSA resourc
 .. toctree:: 
    :caption: Software Documentation
    :hidden:
+
+.. toctree::
+   :caption: Computing Resources
+   :hidden:
+
+   Delta <https://docs.ncsa.illinois.edu/systems/delta>
+   HAL <https://docs.ncsa.illinois.edu/systems/hal>
+   Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
+   ICC <https://docs.ncsa.illinois.edu/systems/icc>
+   ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
+   Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
+   Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
+   Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
+
+.. toctree::
+   :caption: Storage Resources
+   :hidden:
+
+   Granite <https://docs.ncsa.illinois.edu/systems/granite/>
+   Jade <https://docs.ncsa.illinois.edu/systems/jade/>
+   Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
 |
