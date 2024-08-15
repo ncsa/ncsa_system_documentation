@@ -95,21 +95,6 @@ Addititional user documentation on topics common across two or more NCSA resourc
 - :ref:`conda`
 
 
-..
-   Additional non-system specific user documentation on topics related to NCSA's computing resources.
-
-   - :ref:`general`
-  
-     Documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
-
-   - :ref:`licensed`
-
-     Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
-
-   - :ref:`legacy`
-
-     Documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
-
 .. toctree::
    :hidden:
 
