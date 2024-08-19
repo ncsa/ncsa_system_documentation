@@ -18,32 +18,23 @@ When you submit a support request, please let us know what you tried, and what h
 
 .. _general-support:
 
-General Resource Support
----------------------------
+NCSA Help Center - General Resource Support
+---------------------------------------------
 
-.. raw:: html
-   
-   <p><b>Submit a support request</b> by emailing <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a>. Your email will initiate a ticket that NCSA staff will use to help you.</p>
+There is a new `NCSA Help Center <https://help.ncsa.illinois.edu>`_! In this new tool you can:
 
-**To help NCSA staff efficiently address your request, in your initial email, please include:**
+- Search knowledge base articles to resolve issues faster.
+- Submit help request tickets.
+- Monitor the status of your tickets.
+- Respond to NCSA staff as they work to resolve your tickets.
 
-- A descriptive subject line starting with the name of the computing resource you are using (Campus Cluster, Delta, ICRN, and so on)
-- In the email body, include:
-  
-  - The UserID you use to log into the resource.
-  - Approximately when (date/time) the issue occurred.
-  - What you were trying to do and how you tried to do it.
-  - Why you think it isn’t working.
-  - Commands or scripts you ran, in enough detail to reproduce the problem (text files are preferred).
-  - The output and/or error messages you got (text files are preferred).
-  - Did you install any packages, modules, or extensions? If so, which ones?
-  - If your command or script worked in the past, when did it stop working?
-  - Any other approaches you’ve tried.
-  - Any other information you think might be relevant.
+There are pdf and video user guides that demonstrate how to navigate the new help center:
 
-**If you have multiple, unrelated issues, please create a separate ticket for each by sending separate emails.**
+- `NCSA Help Center pdf user guides <https://wiki.ncsa.illinois.edu/display/USD/Jira+and+Wiki+%28Confluence%29+User+Guides>`_ - Go to Jira Service Management (JSM) -> End User.
 
-You will receive email correspondence as your ticket is worked on, please respond to any questions that are asked.
+- `NCSA Help Center video user guides <https://wiki.ncsa.illinois.edu/display/USD/Jira+and+Wiki+%28Confluence%29+User+Guide+Videos>`_ - Go to Jira Service Management (JSM) -> End User.
+
+If you run into any problems using the new help center, please email help@ncsa.illinois.edu and include a detailed description of the issue you're having with the help center so that NCSA staff can help resolve it.
 
 Consulting Services
 ------------------------
