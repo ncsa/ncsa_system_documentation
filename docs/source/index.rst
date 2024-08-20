@@ -24,7 +24,7 @@ Computing
       :link-alt: HAL documentation
 
    .. grid-item-card:: Hydro
-      :img-top: images/tiles/UI-04-161004-015-hydro-border-16-9-1.jpg
+      :img-top: images/tiles/hydro-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/hydro/
       :link-alt: Hydro documentation
 
