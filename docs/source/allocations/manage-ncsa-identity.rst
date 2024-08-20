@@ -4,9 +4,7 @@ Manage Your NCSA Identity
 ===========================
 
 .. note::
-   ACCESS Allocations and Projects
-
-   To manage (add users, etc) a project that was awarded via ACCESS, go to `ACCESS Allocations <https://allocations.access-ci.org/>`_.
+   To manage a project that was awarded via **ACCESS**, go to `ACCESS Allocations <https://allocations.access-ci.org/>`_.
 
 Manage Your Profile
 --------------------
@@ -21,20 +19,20 @@ From here, you can update the following:
 - Primary email address
 - Secondary email address
 
-A secondary email address is useful for recovering your account or resetting your password if you lose access to your primary email account.
+A secondary email address is useful for recovering your NCSA account or resetting your password if you lose access to your primary email account.
 
 Reset Your Password
 ---------------------
 
 To reset your NCSA (Kerberos) password, go to `NCSA Identity - Reset Your Password <https://identity.ncsa.illinois.edu/reset>`_
 
-You will submit your NCSA username and NCSA Identity Service will email a code to the email address listed in your NCSA profile. Once you have the code, you enter your username and the code to set a new password.
+When you submit your NCSA username, NCSA Identity Services will send a code to the email address listed in your NCSA profile. You will need that code, along with your username, to set a new password.
 
 NCSA Duo Multi-Factor Authentication
 ---------------------------------------
 
-You are required to use NCSA Duo for mulit-factor authenication to access NCSA resources. This is separate from your University of Illinois Duo that you may have set up if you are affiliated with the University.
-Go to `Duo at NCSA <https://wiki.ncsa.illinois.edu/display/cybersec/Duo+at+NCSA>`_ for information on how to setup and manage your NCSA Duo token.
+You are required to use NCSA Duo multi-factor authentication to access NCSA resources. This is separate from your University of Illinois Duo that you have if you are affiliated with the University.
+Go to `Duo at NCSA <https://wiki.ncsa.illinois.edu/display/cybersec/Duo+at+NCSA>`_ for information on how to set up and manage your NCSA Duo.
 
 View Your Group Memberships
 -----------------------------
