@@ -34,7 +34,7 @@ Computing
       :link-alt: ICC documentation
 
    .. grid-item-card:: Illinois Computes Research Notebooks (ICRN)
-      :img-top: images/tiles/icrn-jupiter-16-9-1.jpg
+      :img-top: images/tiles/icrn-jupiter2-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/icrn/
       :link-alt: ICRN documentation
 
