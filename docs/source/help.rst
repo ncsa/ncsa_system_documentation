@@ -28,13 +28,15 @@ There is a new `NCSA Help Center <https://help.ncsa.illinois.edu>`_! In this new
 - Monitor the status of your tickets.
 - Respond to NCSA staff as they work to resolve your tickets.
 
-There are pdf and video user guides that demonstrate how to navigate the new help center:
+There are pdf and video user guides that demonstrate how to navigate the new help center (**you need to log in with your NCSA username and password to view these**):
 
 - `NCSA Help Center pdf user guides <https://wiki.ncsa.illinois.edu/display/USD/Jira+and+Wiki+%28Confluence%29+User+Guides>`_ - Go to Jira Service Management (JSM) -> End User.
 
 - `NCSA Help Center video user guides <https://wiki.ncsa.illinois.edu/display/USD/Jira+and+Wiki+%28Confluence%29+User+Guide+Videos>`_ - Go to Jira Service Management (JSM) -> End User.
 
-If you run into any problems using the new help center, please email help@ncsa.illinois.edu and include a detailed description of the issue you're having with the help center so that NCSA staff can help resolve it.
+.. raw:: html
+   
+   <p>If you run into problems using the new help center, you can still email <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a>. In your email, please provide a <b>detailed description of the issue you are having, including the name of the NCSA system (Delta, ICRN, Nightingale, and so on) that you are using</b>.</p>
 
 Consulting Services
 ------------------------
