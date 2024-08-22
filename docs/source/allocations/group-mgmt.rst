@@ -6,21 +6,18 @@ Group/Project Member Management
 .. warning::
    To manage a project that was awarded via **ACCESS**, go to `ACCESS Allocations <https://allocations.access-ci.org/>`_.
 
-.. note::
-   Your NCSA system allocation likely uses "project" to describe your allocation, for the purposes of the group management tool, "project" and "group" are interchangeable; this page will use "group". 
-
 You use the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ to add and remove group members, invite new members to your group, and add delegates.
+
+Your NCSA system allocation likely uses "project" to describe your allocation, for the purposes of the group management tool, "project" and "group" are interchangeable; this page will use "group". 
 
 NCSA Group Management Tool
 ------------------------------
-
-.. note::
-   Updates to group membership can take up to **1 hour** to propagate to the system.
-
+   
 Log in to the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ with your NCSA username, Kerberos password, and NCSA Duo MFA.
 
 The **Editable Groups** tab displays the list of groups that you have permission to edit the membership of.  
 If you are the PI of an NCSA project, there should be a group on that page with the resource name in the group name. 
+Updates to group membership can take up to **1 hour** to propagate to the system.
 
 The user in the following example has permissions to edit one group, bbka_bbkw, which is a project on the Delta resource.
 
@@ -38,7 +35,7 @@ To add a new member, with an existing NCSA account, to a group:
 
    If the person you want to add doesn't have an existing NCSA account, you won't be able to add them. Go to :ref:`invite-new`.
 
-#. Click **Add Person**.  
+#. Click **Add Person**. Updates to group membership can take up to **1 hour** to propagate to the system.
 
    .. image:: ../images/allocations/savannah-add-person.png
       :alt: Savannah group management tool with the add person field highlighted in a group.
@@ -66,7 +63,7 @@ Instead of adding new members directly, you can send an invite to your group/pro
    - Log in with an existing NCSA identity or click **Register New User and Join** to create an NCSA identity.
    - Provide any information requested for the group you invited them to.
 
-#. After a person completes the forms at the **Group invitation** URL, the group's **maintainers** will be notified by email. A group maintainer will need to come back to Group Management page to confirm the request to join the group.
+#. After a person completes the forms at the **Group invitation** URL, the group's **maintainers** will be notified by email. A group maintainer will need to come back to Group Management page to confirm the request to join the group. Updates to group membership can take up to **1 hour** to propagate to the system.
 
 Remove a Member from a Group
 ---------------------------------
@@ -74,7 +71,7 @@ Remove a Member from a Group
 To remove a member from a group, you must be an owner or maintainer of that group. To remove a member:
 
 #. In the **Editable Groups** tab, click on the group you want edit.
-#. In the **General Info** tab, click on the red dot in the **Delete** column for the person you want to remove.
+#. In the **General Info** tab, click on the red dot in the **Delete** column for the person you want to remove. Updates to group membership can take up to **1 hour** to propagate to the system.
 
    .. image:: ../images/allocations/savannah-delete-person.png
       :alt: Savannah group management tool with the general info tab selected for a group and the delete column highlighted.
