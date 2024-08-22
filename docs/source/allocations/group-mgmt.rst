@@ -12,7 +12,7 @@ Group/Project Member Management
 You use the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ to add and remove group members, invite new members to your group, and add delegates.
 
 NCSA Group Management Tool
------------------------------
+------------------------------
 
 You log in to the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ with your NCSA username, Kerberos password, and NCSA Duo MFA.
 
@@ -27,13 +27,13 @@ The user in the following example has permissions to edit one group, bbka_bbkw.
    :alt: The Savannah group management tool opened with the editable groups tab selected.
    :width: 750
 
-Add NCSA Account Holders to a Group/Project
------------------------------------------------
+Add NCSA Account Holders to a Group
+----------------------------------------
 
 .. note::
    If the person you want to add doesn't have an NCSA account go to :ref:`invite-new` to learn how to invite them to create one. 
 
-To add a new user, with an existing NCSA account, to your project:
+To add a new user, with an existing NCSA account, to your group:
 
 #. In the **Editable Groups** tab, click on the group you want edit.
 #. In the **Add Person** field, enter the name or NCSA account of the person you want to add.
@@ -48,8 +48,8 @@ To add a new user, with an existing NCSA account, to your project:
 
 .. _invite-new:
 
-Invite New Users to a Group/Project
--------------------------------------
+Invite New Users to a Group
+--------------------------------
 
 Instead of adding new users directly, you can send them an invite to your group/project. This is particularly useful if you want to add several people at the same time. This is also how you add users that don't have existing NCSA accounts.
 
@@ -70,23 +70,22 @@ Instead of adding new users directly, you can send them an invite to your group/
 
 #. After the user completes the forms at the **Group invitation** URL, the group's maintainers will be notified by email. A group maintainer will need to come back to Group Management page to confirm their request to join your group.
 
-Remove a Member from a Group/Project
------------------------------------------
+Remove a Member from a Group
+---------------------------------
 
-To remove a user from a group or project:
+To remove a user from a group:
 
-#. Click on the group name that you want to remove someone from.
-#. Click on the red dot to the right of their email address.
+#. In the **Editable Groups** tab, click on the group you want edit.
+#. In the **General Info** tab, click on the red dot in the **Delete** column for the person you want to remove.
 
-.. image::
-   :alt: Savannah group management tool remove a member example.
-   :width: 
+.. image:: ../images/allocations/savannah-delete-person.png
+   :alt: Savannah group management tool with the general info tab selected for a group and the delete column highlighted.
+   :width: 750
 
 Add a Delegate to a Group/Project
 ---------------------------------------
 
 Project owners can add delegates to a project to help manage adding and removing account members. To add a delegate:
-
 
 #. Select the Editable Groups tab.
 #. Select the group you want to invite users to.
@@ -97,6 +96,6 @@ Project owners can add delegates to a project to help manage adding and removing
 
 .. image:: 
    :alt: Savannah group management tools add a delegate example.
-   :width: 
+   :width: 750
 
 |
