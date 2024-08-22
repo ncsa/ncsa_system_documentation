@@ -34,7 +34,7 @@ Computing
       :link-alt: ICC documentation
 
    .. grid-item-card:: Illinois Computes Research Notebooks (ICRN)
-      :img-top: images/tiles/icrn-jupiter2-16-9-1.jpg
+      :img-top: images/tiles/UI-231201-MH-060-icrn-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/icrn/
       :link-alt: ICRN documentation
 
@@ -49,7 +49,7 @@ Computing
       :link-alt: Nightingale documentation
 
    .. grid-item-card:: Radiant
-      :img-top: images/tiles/UI-240224-FZ-0004-radiant-border-16-9-1.JPG
+      :img-top: images/tiles/radiant-clouds-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/radiant/
       :link-alt: Radiant documentation
 
