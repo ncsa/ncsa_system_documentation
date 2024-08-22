@@ -87,15 +87,19 @@ Add a Delegate to a Group/Project
 
 Project owners can add delegates to a project to help manage adding and removing account members. To add a delegate:
 
-#. Select the Editable Groups tab.
-#. Select the group you want to invite users to.
-#. Click the box that says "View/Modify group maintainers".  
-#. Enter the name or NCSA account of the delegate.
+#. In the **Editable Groups** tab, click on the group you want edit.
+#. In the **General Info** tab, click **View/Modify group maintainers**.  
+
+   .. image:: ../images/allocations/savannah-modify-maintainers.png
+      :alt: Savannah group management tool with the general info tab selected and the view/modify group maintainers button highlighted.
+      :width: 750
+
+#. Under **Maintainers**, enter the name or NCSA account of person you want to make a delegate, and click **Add Maintainer**.
 
    Anyone you add in this maintainer set will have full permissions to manage the group membership and invites until they are removed by the **group owner**.
 
-.. image:: 
-   :alt: Savannah group management tools add a delegate example.
-   :width: 750
+   .. image:: ../images/allocations/savannah-maintainers.png
+      :alt: Savannah group management tool with the add person field highlighted under maintainers.
+      :width: 750
 
 |
