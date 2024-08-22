@@ -52,6 +52,6 @@ Illinois researchers can request research consulting services from NCSA experts 
 These services can help with things like optimizing and modernizing existing code, visual data analysis, finding research solutions to complex questions, and much more! 
 For more details, visit `Illinois Computes - Find Support <https://computes.illinois.edu/support/>`_.
 
-Illinois Computes requests are submitted through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_. After you log in with your NCSA username and password, select **Start a New Illinois Computes Program Submission** and select **NCSA Consulting Services** as the resource in the form.
+Illinois Computes requests are submitted through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_. After you log in with your NCSA username and password, select **Start a New Illinois Computes Program Submission** and then select **NCSA Consulting Services** as the resource in the form.
 
 |
