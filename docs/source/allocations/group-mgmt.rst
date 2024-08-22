@@ -7,21 +7,22 @@ Group/Project Member Management
    To manage a project that was awarded via **ACCESS**, go to `ACCESS Allocations <https://allocations.access-ci.org/>`_.
 
 .. note::
-   Your NCSA system allocation may use "project" to describe your allocation account, for the purposes of the group management tool, "project" and "group" are interchangeable; this page will use "group". 
+   Your NCSA system allocation likely uses "project" to describe your allocation, for the purposes of the group management tool, "project" and "group" are interchangeable; this page will use "group". 
 
 You use the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ to add and remove group members, invite new members to your group, and add delegates.
 
 NCSA Group Management Tool
 ------------------------------
 
-You log in to the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ with your NCSA username, Kerberos password, and NCSA Duo MFA.
+.. note::
+   Updates to group membership can take up to **1 hour** to propagate to the system.
+
+Log in to the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ with your NCSA username, Kerberos password, and NCSA Duo MFA.
 
 The **Editable Groups** tab displays the list of groups that you have permission to edit the membership of.  
-If you are the PI of a NCSA project (on Delta, Radiant, Nightingale) you should find a group on that page with the appropriate resource name in the group name.
+If you are the PI of an NCSA project, there should be a group on that page with the resource name in the group name. 
 
-Note, updates to the group membership can take up to **1 hour** to propagate to the system.
-
-The user in the following example has permissions to edit one group, bbka_bbkw.
+The user in the following example has permissions to edit one group, bbka_bbkw, which is a project on the Delta resource.
 
 .. image:: ../images/allocations/savannah-editable-groups.png
    :alt: The Savannah group management tool opened with the editable groups tab selected.
@@ -30,15 +31,12 @@ The user in the following example has permissions to edit one group, bbka_bbkw.
 Add NCSA Account Holders to a Group
 ----------------------------------------
 
-.. note::
-   If the person you want to add doesn't have an NCSA account go to :ref:`invite-new` to learn how to invite them to create one. 
-
-To add a new user, with an existing NCSA account, to your group:
+To add a new member, with an existing NCSA account, to a group:
 
 #. In the **Editable Groups** tab, click on the group you want edit.
-#. In the **Add Person** field, enter the name or NCSA account of the person you want to add.
+#. In the **Add Person** field, enter the name or NCSA username of the person you want to add.
 
-   If the person you want to add, doesn't have an existing NCSA account, you won't be able to add them. Go to :ref:`invite-new`.
+   If the person you want to add doesn't have an existing NCSA account, you won't be able to add them. Go to :ref:`invite-new`.
 
 #. Click **Add Person**.  
 
@@ -48,14 +46,14 @@ To add a new user, with an existing NCSA account, to your group:
 
 .. _invite-new:
 
-Invite New Users to a Group
+Invite New Members to a Group
 --------------------------------
 
-Instead of adding new users directly, you can send them an invite to your group/project. This is particularly useful if you want to add several people at the same time. This is also how you add users that don't have existing NCSA accounts.
+Instead of adding new members directly, you can send an invite to your group/project. This is particularly useful if you want to add several people at the same time. This is also how you add members that don't have NCSA accounts.
 
 #. In the **Editable Groups** tab, click on the group you want edit.
 #. Select the **Invitation Info** tab.
-#. View an existing **Group invitation** URL or click **Generate Group Invitation**, if one doesn't exist.
+#. View an existing **Group invitation** URL or click **Generate Group Invitation**.
 
    Note, if you **Re**-generate a group invitation, the old URL will no longer work.
 
@@ -68,12 +66,12 @@ Instead of adding new users directly, you can send them an invite to your group/
    - Log in with an existing NCSA identity or click **Register New User and Join** to create an NCSA identity.
    - Provide any information requested for the group you invited them to.
 
-#. After the user completes the forms at the **Group invitation** URL, the group's maintainers will be notified by email. A group maintainer will need to come back to Group Management page to confirm their request to join your group.
+#. After a person completes the forms at the **Group invitation** URL, the group's **maintainers** will be notified by email. A group maintainer will need to come back to Group Management page to confirm the request to join the group.
 
 Remove a Member from a Group
 ---------------------------------
 
-To remove a user from a group:
+To remove a member from a group, you must be an owner or maintainer of that group. To remove a member:
 
 #. In the **Editable Groups** tab, click on the group you want edit.
 #. In the **General Info** tab, click on the red dot in the **Delete** column for the person you want to remove.
@@ -82,10 +80,10 @@ To remove a user from a group:
       :alt: Savannah group management tool with the general info tab selected for a group and the delete column highlighted.
       :width: 750
 
-Add a Delegate to a Group/Project
----------------------------------------
+Add a Delegate to a Group
+-----------------------------
 
-Project owners can add delegates to a project to help manage adding and removing account members. To add a delegate:
+Group owners can add delegates to a project to help manage adding and removing members. To add a delegate:
 
 #. In the **Editable Groups** tab, click on the group you want edit.
 #. In the **General Info** tab, click **View/Modify group maintainers**.  
@@ -94,9 +92,9 @@ Project owners can add delegates to a project to help manage adding and removing
       :alt: Savannah group management tool with the general info tab selected and the view/modify group maintainers button highlighted.
       :width: 750
 
-#. Under **Maintainers**, enter the name or NCSA account of person you want to make a delegate, and click **Add Maintainer**.
+#. Under **Maintainers**, enter the name or NCSA account of person you want to make a delegate and click **Add Maintainer**.
 
-   Anyone you add in this maintainer set will have full permissions to manage the group membership and invites until they are removed by the **group owner**.
+   Anyone you add to this maintainer list will have full permissions to manage the group's membership and invites until they are removed by the **group owner**.
 
    .. image:: ../images/allocations/savannah-maintainers.png
       :alt: Savannah group management tool with the add person field highlighted under maintainers.
