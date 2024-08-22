@@ -54,9 +54,10 @@ Instead of adding new members directly, you can send an invite to your group/pro
 
    Note, if you **Re**-generate a group invitation, the old URL will no longer work.
 
-   .. image:: ../images/allocations/savannah-group-invitation.png
+   .. figure:: ../images/allocations/savannah-group-invitation.png
       :alt: Savannah group managment tool with the invitation info tab selected for a group. The gropu invitation URL and re-generate group invitation options are highlighted.
       :width: 750
+      :figwidth: 800
 
 #. Share the **Group invitation** URL with people you want to add to your group. From that URL, they will:
 
@@ -85,9 +86,10 @@ Group owners can add delegates to a project to help manage adding and removing m
 #. In the **Editable Groups** tab, click on the group you want edit.
 #. In the **General Info** tab, click **View/Modify group maintainers**.  
 
-   .. image:: ../images/allocations/savannah-modify-maintainers.png
+   .. figure:: ../images/allocations/savannah-modify-maintainers.png
       :alt: Savannah group management tool with the general info tab selected and the view/modify group maintainers button highlighted.
       :width: 750
+      :figwidth: 800
 
 #. Under **Maintainers**, enter the name or NCSA account of person you want to make a delegate and click **Add Maintainer**.
 
