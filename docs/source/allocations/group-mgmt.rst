@@ -42,9 +42,9 @@ To add a new user, with an existing NCSA account, to your group:
 
 #. Click **Add Person**.  
 
-.. image:: ../images/allocations/savannah-add-person.png
-   :alt: Savannah group management tool with the add person field highlighted in a group.
-   :width: 750
+   .. image:: ../images/allocations/savannah-add-person.png
+      :alt: Savannah group management tool with the add person field highlighted in a group.
+      :width: 750
 
 .. _invite-new:
 
@@ -78,9 +78,9 @@ To remove a user from a group:
 #. In the **Editable Groups** tab, click on the group you want edit.
 #. In the **General Info** tab, click on the red dot in the **Delete** column for the person you want to remove.
 
-.. image:: ../images/allocations/savannah-delete-person.png
-   :alt: Savannah group management tool with the general info tab selected for a group and the delete column highlighted.
-   :width: 750
+   .. image:: ../images/allocations/savannah-delete-person.png
+      :alt: Savannah group management tool with the general info tab selected for a group and the delete column highlighted.
+      :width: 750
 
 Add a Delegate to a Group/Project
 ---------------------------------------
