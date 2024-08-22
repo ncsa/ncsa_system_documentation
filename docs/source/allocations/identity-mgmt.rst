@@ -11,7 +11,7 @@ Update Your Profile
 To update your NCSA profile:
 
 #. Log in to `NCSA Identity - Manage Account <https://identity.ncsa.illinois.edu/manage>`_ with your NCSA username and password.
-#. From here, you can update the following:
+#. Make your changes. You can update the following fields:
 
    - Organization
    - Address
@@ -19,7 +19,7 @@ To update your NCSA profile:
    - Primary email address
    - Secondary email address
 
-   A secondary email address is useful for recovering your NCSA account or resetting your password if you lose access to your primary email account.
+     A secondary email address is useful for recovering your NCSA account or resetting your password if you lose access to your primary email account.
 
 #. Click **Save Changes**.
 
