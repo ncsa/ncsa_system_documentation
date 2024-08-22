@@ -55,7 +55,7 @@ Instead of adding new members directly, you can send an invite to your group/pro
    Note, if you **Re**-generate a group invitation, the old URL will no longer work.
 
    .. figure:: ../images/allocations/savannah-group-invitation.png
-      :alt: Savannah group managment tool with the invitation info tab selected for a group. The gropu invitation URL and re-generate group invitation options are highlighted.
+      :alt: Savannah group management tool with the invitation info tab selected for a group. The group invitation URL and re-generate group invitation options are highlighted.
       :width: 750
       :figwidth: 800
 
