@@ -3,30 +3,34 @@
 Manage Your NCSA Identity
 ===========================
 
-.. note::
-   To manage a project that was awarded via **ACCESS**, go to `ACCESS Allocations <https://allocations.access-ci.org/>`_.
+Use the NCSA Identity and Access Management tool to update your NCSA profile information, reset your NCSA (Kerberos) password, manage your NCSA Duo, and view your NCSA group memberships.
 
-Manage Your Profile
+Update Your Profile
 --------------------
 
-Manage your NCSA account profile at the `NCSA Identity Management <https://identity.ncsa.illinois.edu/manage>`_.
+To update your NCSA profile:
 
-From here, you can update the following:
+#. Log in to `NCSA Identity - Manage Account <https://identity.ncsa.illinois.edu/manage>`_ with your NCSA username and password.
+#. From here, you can update the following:
 
-- Organization
-- Address
-- Phone number
-- Primary email address
-- Secondary email address
+   - Organization
+   - Address
+   - Phone number
+   - Primary email address
+   - Secondary email address
 
-A secondary email address is useful for recovering your NCSA account or resetting your password if you lose access to your primary email account.
+   A secondary email address is useful for recovering your NCSA account or resetting your password if you lose access to your primary email account.
+
+#. Click **Save Changes**.
 
 Reset Your Password
 ---------------------
 
-To reset your NCSA (Kerberos) password, go to `NCSA Identity - Reset Your Password <https://identity.ncsa.illinois.edu/reset>`_
+To reset your NCSA (Kerberos) password:
 
-When you submit your NCSA username, NCSA Identity Services will send a code to the email address listed in your NCSA profile. You will need that code, along with your username, to set a new password.
+#. Go to `NCSA Identity - Reset Your Password <https://identity.ncsa.illinois.edu/reset>`_.
+#. Enter you NCSA username and click **Submit**.
+#. NCSA Identity Services will send a code to the email address listed in your NCSA profile. You will need that code, along with your username, to set a new password.
 
 NCSA Duo Multi-Factor Authentication
 ---------------------------------------
@@ -37,6 +41,8 @@ Go to `Duo at NCSA <https://wiki.ncsa.illinois.edu/display/cybersec/Duo+at+NCSA>
 View Your Group Memberships
 -----------------------------
 
-To view the NCSA groups that you are a member of, go to `NCSA Identity - Groups <https://identity.ncsa.illinois.edu/groups>`_.
+To view the NCSA groups that you are a member of, log in to `NCSA Identity - Groups <https://identity.ncsa.illinois.edu/groups>`_ with your NCSA username and password.
+
+To manage (add/remove) members of groups that you are an owner or delegate of, go to :ref:`group-mgmt`.
     
 |
