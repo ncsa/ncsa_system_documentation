@@ -33,7 +33,7 @@ To add a new member, with an existing NCSA account, to a group:
 #. In the **Editable Groups** tab, click on the group you want edit.
 #. In the **Add Person** field, enter the name or NCSA username of the person you want to add.
 
-   If the person you want to add doesn't have an existing NCSA account, you won't be able to add them. Go to :ref:`invite-new`.
+   If the person you want to add doesn't have an existing NCSA account, you won't be able to add them; instead, go to :ref:`invite-new`.
 
 #. Click **Add Person**. Updates to group membership can take up to **1 hour** to propagate to the system.
 
