@@ -24,7 +24,7 @@ General Resource Support
 .. note::
    There is a new **NCSA Help Center** coming on **September 9, 2024**. Powered by Jira Service Manager (JSM), in this new tool you will be able to:
 
-   `JSM User Job Aid <../_assets/JSMUsersJobAid.pdf>`_
+   `JSM User Job Aid <_assets/JSMUsersJobAid.pdf>`_
 
    - Search knowledge base articles to resolve common issues faster.
    - Submit help request tickets.
