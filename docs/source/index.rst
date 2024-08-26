@@ -85,6 +85,14 @@ Documentation that sumarizes the allocation information for the different NCSA c
 - :ref:`xras-new`
 - :ref:`xras-renew`
 
+Account Management
+=====================
+
+Documentation that summarizes how to update/manage your NCSA identity information and the manage membership of your group/project.
+
+- :ref:`identity-mgmt`
+- :ref:`group-mgmt`
+
 Common System Documentation
 ===============================
 
@@ -108,6 +116,13 @@ Addititional user documentation on topics common across two or more NCSA resourc
    Resources Summary <allocations/index>
    XRAS - Request a New Allocation <allocations/xras-new>
    XRAS - Request an Extension or Supplement <allocations/xras-renew>
+
+.. toctree::
+   :hidden:
+   :caption: Account Management
+
+   NCSA Identity Managament <account-mgmt/identity-mgmt>
+   Project/Group Management <account-mgmt/group-mgmt>
 
 .. toctree::
    :caption: Common Documentation
