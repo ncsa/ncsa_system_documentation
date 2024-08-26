@@ -21,6 +21,16 @@ When you submit a support request, please let us know what you tried, and what h
 General Resource Support
 ---------------------------
 
+.. note::
+   There is a new **NCSA Help Center** coming on **September 9, 2024**. Powered by Jira Service Manager (JSM), in this new tool you will be able to:
+
+   - Search knowledge base articles to resolve common issues faster.
+   - Submit help request tickets.
+   - Monitor the status of your tickets.
+   - Respond to NCSA staff as they work to resolve your tickets.
+
+   See the :download:`JSM User Job Aid <images/JSMUsersJobAid.pdf>` for information on how to navigate the new help center.
+
 .. raw:: html
    
    <p><b>Submit a support request</b> by emailing <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a>. Your email will initiate a ticket that NCSA staff will use to help you.</p>
