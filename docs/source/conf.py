@@ -45,7 +45,7 @@ html_js_files = [
 ]
 
 # -- Logo 
-html_static_path = ['_static', '_assets']
+html_static_path = ['_static', 'JSMUsersJobAid']
 html_logo = "images/BlockI-NCSA-Full-Color-RGB_border4.png"
 html_theme_options = {
      'logo_only': False,
