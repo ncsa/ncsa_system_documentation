@@ -29,7 +29,7 @@ General Resource Support
    - Monitor the status of your tickets.
    - Respond to NCSA staff as they work to resolve your tickets.
 
-   See the for information on how to navigate the new help center. :download:`JSM User Job Aid <images/JSMUsersJobAid.pdf>`
+   Refer to the :download:`JSM User Job Aid <images/JSMUsersJobAid.pdf>` for information on how to navigate the new help center.
 
 .. raw:: html
    
