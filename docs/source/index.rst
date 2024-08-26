@@ -90,7 +90,7 @@ Account Management
 
 Documentation that summarizes how to update/manage your NCSA identity information and the manage membership of your group/project.
 
-- :ref:`identity-mgmt`
+- :ref:`ncsa-identity`
 - :ref:`group-mgmt`
 
 Common System Documentation
