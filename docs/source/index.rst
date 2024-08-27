@@ -7,8 +7,8 @@ NCSA System Documentation Hub
 
 The NCSA System Documentation Hub is the centralized page for NCSA user documentation.
    
-Computing 
-=============
+Computing Resource User Guides
+===============================
 
 .. grid:: 1 2 2 3
    :gutter: 3
@@ -53,8 +53,8 @@ Computing
       :link: https://docs.ncsa.illinois.edu/systems/radiant/
       :link-alt: Radiant documentation
 
-Storage 
-==========
+Storage Resource User Guides
+==============================
 
 .. grid:: 1 2 2 3
    :gutter: 3
@@ -77,7 +77,7 @@ Storage
 NCSA Allocations
 =================
 
-Documentation that sumarizes the allocation information for the different NCSA computing and storage resources.
+Documentation that summarizes the allocation information for the different NCSA computing and storage resources.
 
 - :ref:`Resources Summary <allocations>`
 - :ref:`by-resource`
