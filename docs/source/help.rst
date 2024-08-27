@@ -21,22 +21,47 @@ When you submit a support request, please let us know what you tried, and what h
 NCSA Help Center - General Resource Support
 ---------------------------------------------
 
-There is a new `NCSA Help Center <https://help.ncsa.illinois.edu>`_! In this new tool you can:
+There is a new `NCSA Help Center <https://help.ncsa.illinois.edu>`_! Powered by Jira Service Manager (JSM), in this new tool you can:
 
 - Search knowledge base articles to resolve common issues faster.
 - Submit help request tickets.
 - Monitor the status of your tickets.
 - Respond to NCSA staff as they work to resolve your tickets.
 
-There are pdf and video user guides that demonstrate how to navigate the help center (**you must log in with your NCSA username and password to view these**):
-
-- `NCSA Help Center pdf user guides <https://wiki.ncsa.illinois.edu/display/USD/Jira+and+Wiki+%28Confluence%29+User+Guides>`_ - Go to Jira Service Management (JSM) -> End User.
-
-- `NCSA Help Center video user guides <https://wiki.ncsa.illinois.edu/display/USD/Jira+and+Wiki+%28Confluence%29+User+Guide+Videos>`_ - Go to Jira Service Management (JSM) -> End User.
+Refer to the `JSM User Job Aid <_static/JSMUsersJobAid.pdf>`_ for information on how to navigate the new help center.
 
 .. raw:: html
    
    <p>If you run into problems using the new help center, you can still email <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a> for support. In your email, please provide a <b>detailed description of the issue you are having, including the name of the NCSA system (Delta, ICRN, Nightingale, and so on) that you are using</b>.</p>
+
+   <details>
+   <summary><a><b>Email support request instructions</b> <i>(click to expand/collapse)</i></a></summary>
+
+**To help NCSA staff efficiently address your request, in your initial email, please include:**
+
+- A descriptive subject line starting with the name of the computing resource you are using (Campus Cluster, Delta, ICRN, and so on)
+- In the email body, include:
+  
+  - The UserID you use to log into the resource.
+  - Approximately when (date/time) the issue occurred.
+  - What you were trying to do and how you tried to do it.
+  - Why you think it isn’t working.
+  - Commands or scripts you ran, in enough detail to reproduce the problem (text files are preferred).
+  - The output and/or error messages you got (text files are preferred).
+  - Did you install any packages, modules, or extensions? If so, which ones?
+  - If your command or script worked in the past, when did it stop working?
+  - Any other approaches you’ve tried.
+  - Any other information you think might be relevant.
+
+**If you have multiple, unrelated issues, please create a separate ticket for each by sending separate emails.**
+
+You will receive email correspondence as your ticket is worked on, please respond to any questions that are asked.
+
+
+.. raw:: html
+
+   </details>
+|
 
 Consulting Services
 ------------------------
