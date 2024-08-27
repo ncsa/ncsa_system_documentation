@@ -32,7 +32,7 @@ Refer to the `JSM User Job Aid <_static/JSMUsersJobAid.pdf>`_ for information on
 
 .. raw:: html
    
-   <p>If you run into problems using the new help center, you can still email <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a> for support. In your email, please provide a <b>detailed description of the issue you are having, including the name of the NCSA system (Delta, ICRN, Nightingale, and so on) that you are using</b>.</p>
+   <p>If you run into problems using the new help center, you can still email <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a> for support. In your email, please provide a <b>detailed description</b> of the issue you are having, including the <b>name of the NCSA system (Delta, ICRN, Nightingale, and so on) you are using</b> Expand the following section for a full list of information to include so that NCSA staff can efficiently address your request.</p>
 
    <details>
    <summary><a><b>Email support request instructions</b> <i>(click to expand/collapse)</i></a></summary>
