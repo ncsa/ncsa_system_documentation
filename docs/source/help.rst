@@ -32,10 +32,15 @@ Refer to the `JSM User Job Aid <_static/JSMUsersJobAid.pdf>`_ for information on
 
 .. raw:: html
    
-   <p>If you run into problems using the new help center, you can still email <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a> for support. In your email, please provide a <b>detailed description</b> of the issue you are having, including the <b>name of the NCSA system (Delta, ICRN, Nightingale, and so on) you are using</b> Expand the following section for a full list of information to include so that NCSA staff can efficiently address your request.</p>
+   <p>The NCSA Help Center is the preferred method to submit requests, however, if you run into problems using it, you can still email <a href="mailto:help@ncsa.illinois.edu">help@ncsa.illinois.edu</a> for support. Expand the following section for guidelines on sending email requests so that NCSA staff can efficiently address them.</p>
+
+Email Support Request Guidelines
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
 
    <details>
-   <summary><a><b>Email support request instructions</b> <i>(click to expand/collapse)</i></a></summary>
+   <summary><a><b>Email support request guidelines</b> <i>(click to expand/collapse)</i></a></summary>
 
 **To help NCSA staff efficiently address your request, in your initial email, please include:**
 
