@@ -6,17 +6,17 @@ Storage Areas
 Quotas
 --------
 
-When you run the ``quota`` command, you will see columns for soft quota and hard limit. On some systems, these will have the same value, and on some systems, they will be different. 
+When you run the ``quota`` command, there are **soft quota** and **hard limit** columns. On some systems, these have the same value, and on others, they are different. 
 
-If the soft quota and hard limit are the **same**, then it is straightforward, this is the limit that you will not be allowed to exceed. If you do exceed it, you won't be able to write to that filesystem area until you reduce the usage to below the limit.
+When the soft quota and hard limit are the **same**, this is the limit that you are not allowed to exceed. If you reach it, you will not be able to write to that filesystem area until you reduce the usage to below the limit.
 
-If the soft quota and hard limit are **different**:
+When the soft quota and hard limit are **different**:
 
-- If you exceed your **soft quota**, there is a grace period to reduce your usage below that limit (the default grace period is 7 days, unless otherwise noted for a specific system).
-- If, after the grace period, you are still exceeding the **soft quota**, you will not be able to write anything to that filesystem area until you reduce the usage to below the **soft quota** value.
-- At no point, can you exceed a **hard limit**. If your reach the **hard limit** for a filesystem area, you will not be able to write to it until you reduce the usage below the limit.
+- If you exceed the **soft quota**, there is a grace period to reduce the usage below that quota (the default grace period is 7 days, unless otherwise noted for a system).
+- If, after the grace period, you are still exceeding the **soft quota**, you will not be able to write to that filesystem area until you reduce the usage to below the **soft quota**.
+- You are not allowed to exceed the **hard limit**. If you reach it, you won't be able to write to that filesystem area until you reduce the usage to below the limit.
 
-The following is a ``quota`` output example from Delta; this example user has access to two projects (bbka and bbkw). You can see that on Delta, the soft quota and hard limit are different.
+The following is a ``quota`` output example from Delta; this example user has access to two projects (bbka and bbkw). Notice that on Delta, the soft quotas and hard limits are different.
 
 .. code-block:: terminal
 
