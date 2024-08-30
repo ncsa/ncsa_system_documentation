@@ -14,12 +14,12 @@ Computing User Documentation
    :gutter: 3
 
    .. grid-item-card:: Delta
-      :img-top: images/tiles/delta-border2-16-9-1.png
+      :img-top: images/tiles/delta-border2-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/delta/
       :link-alt: Delta documentation
 
    .. grid-item-card:: Hardware-Accelerated Learning (HAL) Cluster
-      :img-top: images/tiles/hal-border-16-9-1.png
+      :img-top: images/tiles/hal-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/hal/
       :link-alt: HAL documentation
 
@@ -44,7 +44,7 @@ Computing User Documentation
       :link-alt: Illinois HTC documentation
 
    .. grid-item-card:: Nightingale
-      :img-top: images/tiles/nightingale-border-16-9-1.png
+      :img-top: images/tiles/nightingale-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/nightingale/
       :link-alt: Nightingale documentation
 
@@ -60,17 +60,17 @@ Storage User Documentation
    :gutter: 3
 
    .. grid-item-card:: Granite
-      :img-top: images/tiles/granite-border-16-9-1.png
+      :img-top: images/tiles/granite-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/granite/
       :link-alt: Granite documentation
 
    .. grid-item-card:: Jade
-      :img-top: images/tiles/jade-border-16-9-1.png
+      :img-top: images/tiles/jade-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/jade/
       :link-alt: Jade documentation
 
    .. grid-item-card:: Taiga
-      :img-top: images/tiles/taiga-border-16-9-1.png
+      :img-top: images/tiles/taiga-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/taiga/
       :link-alt: Taiga documentation
 
