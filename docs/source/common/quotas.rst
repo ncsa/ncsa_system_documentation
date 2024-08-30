@@ -11,7 +11,7 @@ When the soft quota and hard limit are **different**:
 
 - If you exceed the **soft quota**, there is a grace period to reduce the usage below that quota (the default grace period is 7 days, unless otherwise noted for a system).
 - If, after the grace period, you are still exceeding the **soft quota**, you will not be able to write to that filesystem area until you reduce the usage to below the **soft quota**.
-- You are not allowed to exceed the **hard limit**. If you reach it, you won't be able to write to that filesystem area until you reduce the usage to below the limit.
+- You are not allowed to exceed the **hard limit** (there is no grace period). If you reach it, you won't be able to write to that filesystem area until you reduce the usage to below the limit.
 
 The following is a ``quota`` output example from Delta; this example user has access to two projects (bbka and bbkw). Notice that on Delta, the soft quotas and hard limits are different.
 
