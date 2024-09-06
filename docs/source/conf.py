@@ -1,4 +1,13 @@
 # Configuration file for the Sphinx documentation builder.
+import os
+
+# Set canonical URL from the Read the Docs Domain
+# (from Craig: we may need to hard-code the URL as the second argument here, for it to fall back to, in case it's not properly defined in the virtual OS for the build)
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    html_context["READTHEDOCS"] = True
 
 # -- Project information
 
