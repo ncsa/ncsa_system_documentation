@@ -31,21 +31,33 @@ The pages linked here are the official user documentation for the storage resour
 - `Jade </systems/jade>`_
 - `Taiga </systems/taiga>`_
 
-More Documentation
-===================
+NCSA Allocations
+=================
 
-Addititional user documentation on topics common across one or more NCSA resource.
+Documentation that summarizes the allocation information for the different NCSA computing and storage resources.
 
-- NCSA Account Management
+- :ref:`Resources Summary <allocations>`
+- :ref:`by-resource`
+- :ref:`by-method`
+- :ref:`xras-new`
+- :ref:`xras-renew`
 
-  - :ref:`ncsa-identity`
-  - :ref:`group-mgmt`
+Account Management
+=====================
 
-- :ref:`common`
+Documentation that summarizes how to update/manage your NCSA identity information and the manage membership of your group/project.
 
-  .. - :ref:`slurm`
-  - :ref:`transfer`
-  - :ref:`conda`
+- :ref:`ncsa-identity`
+- :ref:`group-mgmt`
+
+Common System Documentation
+===============================
+
+Addititional user documentation on topics common across two or more NCSA resources.
+
+.. - :ref:`slurm`
+- :ref:`transfer`
+- :ref:`conda`
 
 
 ..
@@ -96,6 +108,4 @@ Addititional user documentation on topics common across one or more NCSA resourc
    :caption: More Documentation
    :hidden:
 
-   account-mgmt/identity-mgmt
-   account-mgmt/group-mgmt
    common/index
