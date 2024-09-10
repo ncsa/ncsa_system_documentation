@@ -31,10 +31,15 @@ The pages linked here are the official user documentation for the storage resour
 - `Jade </systems/jade>`_
 - `Taiga </systems/taiga>`_
 
-Common System Documentation
+More Documentation
 ===================
 
-Addititional user documentation on topics common across one or more NCSA computing resource.
+Addititional user documentation on topics common across one or more NCSA resource.
+
+- NCSA Account Management
+
+  - :ref:`ncsa-identity`
+  - :ref:`group-mgmt`
 
 - :ref:`common`
 
@@ -91,4 +96,6 @@ Addititional user documentation on topics common across one or more NCSA computi
    :caption: More Documentation
    :hidden:
 
+   account-mgmt/identity-mgmt
+   account-mgmt/gropu-mgmt
    common/index
