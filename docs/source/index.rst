@@ -97,5 +97,5 @@ Addititional user documentation on topics common across one or more NCSA resourc
    :hidden:
 
    account-mgmt/identity-mgmt
-   account-mgmt/gropu-mgmt
+   account-mgmt/group-mgmt
    common/index
