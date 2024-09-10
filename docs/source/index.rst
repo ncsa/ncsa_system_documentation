@@ -18,6 +18,11 @@ Computing User Documentation
       :link: https://docs.ncsa.illinois.edu/systems/delta/
       :link-alt: Delta documentation
 
+.. grid-item-card:: DeltaAI
+      :img-top: images/tiles/delta-ai-npcf-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/deltaai/
+      :link-alt: DeltaAI documentation
+
    .. grid-item-card:: Hardware-Accelerated Learning (HAL) Cluster
       :img-top: images/tiles/hal-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/hal/
@@ -63,6 +68,11 @@ Storage User Documentation
       :img-top: images/tiles/granite-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/granite/
       :link-alt: Granite documentation
+
+.. grid-item-card:: Harbor
+      :img-top: images/tiles/harbor-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/harbor/
+      :link-alt: Harbor documentation
 
    .. grid-item-card:: Jade
       :img-top: images/tiles/jade-border-16-9-1.jpg
