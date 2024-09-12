@@ -59,13 +59,13 @@ NCSA offers access to a variety of compute, storage, and support resources; brow
    |                                 |                 |                     | - Visualization and ray tracin                                               |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
-   | `DeltaAI`_                      | HPC             | Campus,             | Coming soon!                                                                 | Coming Soon!                                          |
+   | DeltaAI                         | HPC             | Campus,             | Coming soon!                                                                 | - `DeltaAI hardware/storage`_                         |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 | UI System,          |                                                                              |                                                       |
+   |                                 |                 | UI System,          |                                                                              | - :ref:`Accessing DeltaAI <allocate-deltaai>`         |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 | National            |                                                                              |                                                       |
+   |                                 |                 | National            |                                                                              | - `DeltaAI user documentation`_                       |
    |                                 |                 |                     |                                                                              |                                                       |
-   |                                 |                 |                     |                                                                              |                                                       |
+   |                                 |                 |                     |                                                                              | - `DeltaAI user support`_                             |
    |                                 |                 |                     |                                                                              |                                                       |
    |                                 |                 |                     |                                                                              |                                                       |
    +---------------------------------+-----------------+---------------------+------------------------------------------------------------------------------+-------------------------------------------------------+
@@ -179,13 +179,11 @@ NCSA offers access to a variety of compute, storage, and support resources; brow
 
 .. _Delta user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
 
-.. _DeltaAI: https://www.ncsa.illinois.edu/ncsa-awarded-10-million-for-deltaai/
+.. _DeltaAI hardware/storage: https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/architecture.html
 
-.. _DeltaAI hardware/storage: https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/architecture.html
+.. _DeltaAI user documentation: https://docs.ncsa.illinois.edu/systems/deltaai/
 
-.. _DeltaAI user documentation: https://docs.ncsa.illinois.edu/systems/delta/
-
-.. _DeltaAI user support: https://docs.ncsa.illinois.edu/systems/delta/en/latest/help.html
+.. _DeltaAI user support: https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/help.html
 
 .. _Granite hardware/storage: https://docs.ncsa.illinois.edu/systems/granite/en/latest/user-guide/architecture.html
 
