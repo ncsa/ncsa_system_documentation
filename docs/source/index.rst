@@ -28,6 +28,7 @@ Storage Resources User Documentation
 The pages linked here are the official user documentation for the storage resources.
 
 - `Granite </systems/granite>`_
+- `Harbor </systems/harbor>`_
 - `Jade </systems/jade>`_
 - `Taiga </systems/taiga>`_
 
@@ -82,6 +83,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :hidden:
 
    Granite <https://docs.ncsa.illinois.edu/systems/granite/>
+   Harbor <https://docs.ncsa.illinois.edu/systems/harbor/>
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
