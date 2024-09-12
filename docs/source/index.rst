@@ -28,19 +28,18 @@ Storage Resources User Documentation
 The pages linked here are the official user documentation for the storage resources.
 
 - `Granite </systems/granite>`_
+- `Harbor </systems/harbor>`_
 - `Jade </systems/jade>`_
 - `Taiga </systems/taiga>`_
 
 Common System Documentation
-===================
+===============================
 
-Addititional user documentation on topics common across one or more NCSA computing resource.
+Addititional user documentation on topics common across two or more NCSA resources.
 
-- :ref:`common`
-
-  .. - :ref:`slurm`
-  - :ref:`transfer`
-  - :ref:`conda`
+.. - :ref:`slurm`
+- :ref:`transfer`
+- :ref:`conda`
 
 
 ..
@@ -84,6 +83,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
 
    Granite <https://docs.ncsa.illinois.edu/systems/granite/>
+   Harbor <https://docs.ncsa.illinois.edu/systems/harbor/>
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
