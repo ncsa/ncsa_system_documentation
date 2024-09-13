@@ -32,6 +32,19 @@ The pages linked here are the official user documentation for the storage resour
 - `Jade </systems/jade>`_
 - `Taiga </systems/taiga>`_
 
+NCSA Allocations and Identity Management
+========================================
+
+Documentation that summarizes allocation information for NCSA resources and how to manage your NCSA identity and groups.
+
+- :ref:`Resources Summary <allocations>`
+- :ref:`by-resource`
+- :ref:`by-method`
+- :ref:`xras-new`
+- :ref:`xras-renew`
+- :ref:`ncsa-identity`
+- :ref:`group-mgmt`
+
 Common System Documentation
 ===============================
 
@@ -61,8 +74,24 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :hidden:
 
    training
-   allocations/index
    help
+
+.. toctree::
+   :hidden:
+   :caption: Allocations
+
+   Resources Summary <allocations/index>
+   XRAS - Request a New Allocation <allocations/xras-new>
+   XRAS - Request an Extension or Supplement <allocations/xras-renew>
+   NCSA Identity Managament <account-mgmt/identity-mgmt>
+   Project/Group Management <account-mgmt/group-mgmt>
+
+.. toctree::
+   :caption: Common Documentation
+   :hidden:
+
+   common/transfer
+   common/relocate-conda-directory
 
 .. toctree::
    :caption: Computing Resources
@@ -87,8 +116,4 @@ Addititional user documentation on topics common across two or more NCSA resourc
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
-.. toctree::
-   :caption: More Documentation
-   :hidden:
-
-   common/index
+|
