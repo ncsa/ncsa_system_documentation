@@ -74,24 +74,8 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :hidden:
 
    training
+   allocations/index
    help
-
-.. toctree::
-   :hidden:
-   :caption: Allocations
-
-   Resources Summary <allocations/index>
-   XRAS - Request a New Allocation <allocations/xras-new>
-   XRAS - Request an Extension or Supplement <allocations/xras-renew>
-   NCSA Identity Managament <account-mgmt/identity-mgmt>
-   Project/Group Management <account-mgmt/group-mgmt>
-
-.. toctree::
-   :caption: Common Documentation
-   :hidden:
-
-   common/transfer
-   common/relocate-conda-directory
 
 .. toctree::
    :caption: Computing Resources
@@ -115,5 +99,11 @@ Addititional user documentation on topics common across two or more NCSA resourc
    Harbor <https://docs.ncsa.illinois.edu/systems/harbor/>
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
+
+.. toctree::
+   :caption: More Documentation
+   :hidden:
+
+   common/index
 
 |
