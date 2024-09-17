@@ -18,13 +18,13 @@ When you submit a support request, please let us know what you tried, and what h
 
 .. _general-support:
 
-General Resource Support - NCSA Support Help Center
-------------------------------------------------------
+General Resource Support
+---------------------------
 
 Go to the `NCSA Support Help Center <http://help.ncsa.illinois.edu>`_ for assistance with questions or issues not answered by the documentation. Powered by Jira Service Manager (JSM), in this new tool you can:
 
+- Submit support request tickets.
 - Search knowledge base articles to resolve common issues faster.
-- Submit help request tickets.
 - Monitor the status of your tickets.
 - Respond to NCSA staff as they work to resolve your tickets.
 
