@@ -6,6 +6,8 @@ Group/Project Member Management
 .. warning::
    To manage a project that was awarded via **ACCESS**, go to `ACCESS Allocations <https://allocations.access-ci.org/>`_.
 
+   To manage users in a **Campus Cluster** project, go to the `Campus Cluster Investor Portal <https://campuscluster.illinois.edu/investor/>`_.
+
 You use the `NCSA Group Management Tool <https://internal.ncsa.illinois.edu/mis/groups/>`_ to add and remove group members, invite new members to your group, and add delegates.
 
 Your NCSA system allocation likely uses "project" to describe your allocation, for the purposes of the group management tool, "project" and "group" are interchangeable; this page will use "group". 

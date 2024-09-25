@@ -139,6 +139,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :hidden:
 
    Delta <https://docs.ncsa.illinois.edu/systems/delta>
+   DeltaAI <https://docs.ncsa.illinois.edu/systems/deltaai>
    HAL <https://docs.ncsa.illinois.edu/systems/hal>
    Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
@@ -152,6 +153,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :hidden:
 
    Granite <https://docs.ncsa.illinois.edu/systems/granite/>
+   Harbor <https://docs.ncsa.illinois.edu/systems/harbor/>
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
