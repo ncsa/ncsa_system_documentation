@@ -115,7 +115,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
 .. toctree::
    :hidden:
-   :caption: Allocations & Identity Mgmt
+   :caption: NCSA Allocations
 
    Resources Summary <allocations/index>
    XRAS - Request a New Allocation <allocations/xras-new>
