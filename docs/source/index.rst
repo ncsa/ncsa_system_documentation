@@ -84,22 +84,16 @@ Storage User Documentation
       :link: https://docs.ncsa.illinois.edu/systems/taiga/
       :link-alt: Taiga documentation
 
-NCSA Allocations
-=================
+NCSA Allocations and Identity Management
+==========================================
 
-Documentation that summarizes the allocation information for the different NCSA computing and storage resources.
+Documentation that summarizes allocation information for NCSA resources and how to manage your NCSA identity and groups.
 
 - :ref:`Resources Summary <allocations>`
 - :ref:`by-resource`
 - :ref:`by-method`
 - :ref:`xras-new`
 - :ref:`xras-renew`
-
-Account Management
-=====================
-
-Documentation that summarizes how to update/manage your NCSA identity information and the manage membership of your group/project.
-
 - :ref:`ncsa-identity`
 - :ref:`group-mgmt`
 
@@ -121,16 +115,11 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
 .. toctree::
    :hidden:
-   :caption: NCSA Allocations
+   :caption: Allocations & Identity Mgmt
 
    Resources Summary <allocations/index>
    XRAS - Request a New Allocation <allocations/xras-new>
    XRAS - Request an Extension or Supplement <allocations/xras-renew>
-
-.. toctree::
-   :hidden:
-   :caption: Account Management
-
    NCSA Identity Managament <account-mgmt/identity-mgmt>
    Project/Group Management <account-mgmt/group-mgmt>
 
