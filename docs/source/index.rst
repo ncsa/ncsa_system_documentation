@@ -103,8 +103,8 @@ Common System Documentation
 Addititional user documentation on topics common across two or more NCSA resources.
 
 .. - :ref:`slurm`
-- :ref:`quotas`
 - :ref:`transfer`
+- :ref:`quotas`
 - :ref:`conda`
 
 
@@ -128,8 +128,8 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :caption: Common Documentation
    :hidden:
 
-   common/quotas
    common/transfer
+   common/quotas
    common/relocate-conda-directory
 
 .. toctree:: 
