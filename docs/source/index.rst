@@ -128,6 +128,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :caption: Common Documentation
    :hidden:
 
+   common/quotas
    common/transfer
    common/relocate-conda-directory
 
