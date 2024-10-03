@@ -7,3 +7,6 @@ sphinx-tabs
 
 # Adding copybutton extension
 sphinx-copybutton
+
+#Adding sphinx-design extension
+sphinx-design
