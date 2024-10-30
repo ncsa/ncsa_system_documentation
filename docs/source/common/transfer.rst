@@ -129,8 +129,8 @@ WinSCP
      - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
 
    c. **Port number**: 22
-   d. **User name**: Your username for the associated NCSA system.
-   e. **Password**: Your password for the associated NCSA system.
+   d. **User name**: The username you use to log in to the system whose hostname you entered.
+   e. **Password**: The password you use to log in to the system whose hostname you entered.
 
    ICC example:
 
@@ -161,8 +161,8 @@ Cyberduck
      - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
      - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
    c. **Port**: 22
-   d. **Username**: Your username for the associated NCSA system.
-   e. **Password**: Your password for the associated NCSA system. 
+   d. **Username**: The username you use to log in to the system whose hostname you entered.
+   e. **Password**: The password you use to log in to the system whose hostname you entered.
 
    ICC example:
 
