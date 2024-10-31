@@ -40,7 +40,7 @@ The following sections have additional system-specific information:
 - `DeltAI: Installed Software <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/software.html>`_
 - `HAL: Software <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/software.html>`_
 - `Hydro: Programming Environments <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/prog-env.html>`_
-- `ICC: Software <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/software.html>`_
+- `ICC: Investor-Specific Software Installation <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/investor.html>`_, `ICC: Software <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/software.html>`_
 - `ICRN: Packages <https://docs.ncsa.illinois.edu/systems/icrn/en/latest/user_guide/packages.html>`_
 - `Nightingale: Software <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/software.html>`_
 
