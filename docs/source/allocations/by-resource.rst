@@ -33,7 +33,7 @@ There are four ways to request an allocation on Delta, they are listed below in 
 DeltaAI
 ---------------
 
-Coming soon! DeltaAI is currently in the early access period, which helps NCSA test the system’s functionality and performance. 
+Coming soon! DeltaAI is currently in pre-production. 
 
 .. _allocate-granite:
 
