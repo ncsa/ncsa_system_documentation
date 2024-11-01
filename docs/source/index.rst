@@ -102,7 +102,7 @@ Common System Documentation
 
 Addititional user documentation on topics common across two or more NCSA resources.
 
-.. - :ref:`slurm`
+- :ref:`slurm`
 - :ref:`transfer`
 - :ref:`quotas`
 - :ref:`conda`
