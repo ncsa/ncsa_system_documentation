@@ -1,5 +1,5 @@
-Job Prioritization
-====================
+Job Prioritization and Reservations
+=====================================
 
 Job Prioritization
 -------------------
@@ -13,5 +13,14 @@ Slurm prioritizes jobs in the queue based on more than just when the job was sub
 - Preemption: Lower priority is given to jobs that are submitted to preempt queues (where available).
 
 If you have concerns about the prioritization of your jobs in the queue, :ref:`submit a support request <help>`.
+
+System Reservations
+----------------------------------
+
+Slurm will block your job from starting if there's a reservation scheduled to start before your job would finish. You may be able to shorten the runtime of your job to fit in before the reservation starts.
+
+- If a system maintenance reservation is blocking your job from starting, ``squeue`` will return a message like ``ReqNodeNotAvail, Reserved for maintenance`` in the ``NODELIST(REASON)`` column for your job.
+
+- To see a list of reservations on a system, use ``scontrol show reservations``.
 
 |
