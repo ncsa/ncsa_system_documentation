@@ -1,0 +1,62 @@
+Batch Jobs
+=============
+
+.. _sbatch:
+
+Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
+For mixed resource heterogeneous jobs, see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
+Slurm also supports job arrays for easy management of a set of similar jobs, see the `Slurm job arrays documentation <https://slurm.schedmd.com/job_array.html>`_.
+
+
+sbatch
+--------
+
+Batch jobs are submitted through a *job script* (as in the :ref:`examples`) using the ``sbatch`` command. 
+Job scripts generally start with a series of Slurm *directives* that describe requirements of the job, such as number of nodes and wall time required, to the batch system/scheduler. Slurm directives can also be specified as options on the sbatch command line; command line options take precedence over those in the script. 
+The rest of the batch script consists of user commands.
+
+The syntax for submitting a batch job with ``sbatch`` is:
+
+.. code-block:: terminal
+
+  sbatch [list of sbatch options] script_name
+
+.. table:: main ``sbatch`` options
+
+  +-------------------------+------------------------------------------------------------------+
+  | Option                  | Description                                                      |
+  +=========================+==================================================================+
+  | ``--time=time``         | time = maximum wall clock time (d-hh:mm:ss) [default: 30 minutes]|
+  +-------------------------+------------------------------------------------------------------+
+  | ``--nodes=n``           | Total number of nodes for the batch job.                         |
+  |                         |                                                                  |
+  |                         | n = number of 64-core nodes [default: 1 node]                    |
+  +-------------------------+------------------------------------------------------------------+
+  | ``--ntasks=p``          | Total number of cores for the batch job.                         |
+  |                         |                                                                  |
+  |                         | p = number of cores per job to use (1 - 64) [default: 1 core]    |
+  +-------------------------+------------------------------------------------------------------+
+  | ``--ntasks-per-node=p`` | Number of cores per node.                                        |
+  |                         |                                                                  |
+  |                         | p = number of cores per node to use (1 - 64) [default: 1 core]   |
+  +-------------------------+------------------------------------------------------------------+
+
+**Example:**
+
+  .. code-block:: terminal
+
+     --time=00:30:00 
+     --nodes=2 
+     --ntasks=32
+
+  or 
+
+  .. code-block:: terminal
+
+     --time=00:30:00 
+     --nodes=2 
+     --ntasks-per-node=16
+
+See the sbatch `man page <https://en.wikipedia.org/wiki/Man_page>`_ for additional information.
+
+|
