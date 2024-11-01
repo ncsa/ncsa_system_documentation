@@ -1,10 +1,7 @@
-Job Arrays
-=============
-
 .. _jobarrays:
 
 Job Arrays
--------------
+=============
 
 If you need to submit the same job to the batch system multiple times, instead of issuing one ``sbatch`` command for each individual job, you can submit a job array. 
 Job arrays allow you to submit multiple jobs with a single job script using the ``‑‑array`` option to ``sbatch``. 
@@ -37,5 +34,9 @@ A sample batch script that makes use of job arrays is available in the Campus Cl
   \
 
   -  To delete job arrays, see the `Slurm scancel documentation <https://slurm.schedmd.com/job_array.html#scancel>`_.
+
+  \
+
+  - See the `Slurm job arrays documentation <https://slurm.schedmd.com/job_array.html>`_ for more information.
 
 |
