@@ -1,18 +1,16 @@
+.. _interactive:
+
 Interactive Jobs
 ==================
 
-- :ref:`srun`: For interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, which means that it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
+Use :ref:`srun` for interactive use of a compute node, ``srun`` will run a single command through Slurm on a compute node. ``srun`` blocks, which means that it will wait until Slurm has scheduled compute resources, and when it returns, the job is complete.
 
-\
-
-- :ref:`salloc`: Also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Run ``exit`` when you are finished with a ``salloc`` allocation, if you want to end it before the time expires.
+:ref:`salloc`: is also interactive, use ``salloc`` when you want to reserve compute resources for a period of time and interact with them using multiple commands. Each command you type after your salloc session begins will run on the login node if it is just a normal command, or on your reserved compute resources if prefixed with ``srun``.  Run ``exit`` when you are finished with a ``salloc`` allocation, if you want to end it before the time expires.
 
 .. _srun:
 
 srun
 -----
-
-.. _interactive:
 
 Command Line
 ~~~~~~~~~~~~~~~
@@ -199,3 +197,5 @@ For example, to run a single core job that uses 1G of memory with X11 (in this c
      --nodes=1 --tasks=1 --tasks-per-node=1 \
      --cpus-per-task=2 --mem=16g \
      --x11  xterm
+
+|
