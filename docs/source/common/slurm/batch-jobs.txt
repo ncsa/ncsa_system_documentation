@@ -1,3 +1,5 @@
+.. _batch-jobs:
+
 Batch Jobs
 =============
 
@@ -5,8 +7,6 @@ Batch Jobs
 
 Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
 For mixed resource heterogeneous jobs, see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
-Slurm also supports job arrays for easy management of a set of similar jobs, see the `Slurm job arrays documentation <https://slurm.schedmd.com/job_array.html>`_.
-
 
 sbatch
 --------
