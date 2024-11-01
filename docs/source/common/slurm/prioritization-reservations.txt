@@ -1,3 +1,5 @@
+.. _priority-reserve:
+
 Job Prioritization and Reservations
 =====================================
 
@@ -15,7 +17,7 @@ Slurm prioritizes jobs in the queue based on more than just when the job was sub
 If you have concerns about the prioritization of your jobs in the queue, :ref:`submit a support request <help>`.
 
 System Reservations
-----------------------------------
+-----------------------
 
 Slurm will block your job from starting if there's a reservation scheduled to start before your job would finish. You may be able to shorten the runtime of your job to fit in before the reservation starts.
 
