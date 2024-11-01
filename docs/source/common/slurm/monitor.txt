@@ -1,10 +1,7 @@
-Monitoring a Node During a Job
-===============================
-
 .. _mon_node:
 
 Monitoring a Node During a Job
----------------------------------
+===============================
 
 You have SSH access to nodes in your running job(s). Some of the basic monitoring tools are demonstrated in the example transcript below. Screen shots are appended so that you can see the output from the tools. Most common Linux utilities are available from the compute nodes (free, strace, ps, and so on).
 
@@ -35,7 +32,7 @@ You have SSH access to nodes in your running job(s). Some of the basic monitorin
    [arnoldg@gpub045 ~]$ top -u $USER
 
 nvidia-smi
-~~~~~~~~~~~
+-----------
 
 `NVIDIA System Management Interface (nvidia-smi) <https://developer.nvidia.com/nvidia-system-management-interface>`_ is a utility for **GPUs**.
 
@@ -43,7 +40,7 @@ nvidia-smi
     :alt: nvidia smi
 
 nvtop
-~~~~~~
+------
 
 `nvtop <https://manpages.ubuntu.com/manpages/focal/man1/nvtop.1.html>`_ is an interactive **GPU** process viewer.
 
@@ -51,7 +48,7 @@ nvtop
     :alt: nvtop
 
 nvitop
-~~~~~~
+--------
 
 `nvitop <https://nvitop.readthedocs.io/en/latest/>`_ is an interactive **GPU** process viewer.
 
@@ -59,13 +56,13 @@ nvitop
     :alt: nvitop
 
 top -u $USER
-~~~~~~~~~~~~~~
+--------------
 
 ..  figure:: ../images/slurm/top-user.png
     :alt: top
 
 Grafana
-~~~~~~~~~
+---------
 
 Monitor node metrics using `Grafana <https://grafana.com>`_.
 
