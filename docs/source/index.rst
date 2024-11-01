@@ -128,6 +128,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :caption: Common Documentation
    :hidden:
 
+   common/slurm/index
    common/transfer
    common/quotas
    common/relocate-conda-directory
