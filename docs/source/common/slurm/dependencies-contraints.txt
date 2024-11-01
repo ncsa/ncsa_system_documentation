@@ -1,7 +1,9 @@
+.. _depend-constraints:
+
 Job Dependencies and Contraints
 =================================
 
-  .. _jobdepend:
+.. _jobdepend:
 
 Job Dependencies
 -------------------
@@ -67,3 +69,5 @@ Run the ``sinfo`` command below to see a full list of features for nodes that ar
    sinfo -N --format="%R (%N): %f" -S %R | more 
 
 If a constraint(s) cannot be satisfied, your job will *not* run and ``squeue`` will return ``BadConstraints``; refer to the `Slurm squeue documentation <https://slurm.schedmd.com/squeue.html#OPT_BadConstraints>`_.
+
+|
