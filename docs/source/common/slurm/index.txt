@@ -9,6 +9,11 @@ Many of the NCSA computer systems use the Slurm software stack for job workload 
    :maxdepth: 2
 
    access
-   submit
-   monitor
+   batch-jobs
+   interactive-jobs
+   job-arrays
+   node-sharing
+   dependencies-constraints
+   job-management
+   prioritization-reservations
    sample-scripts
