@@ -6,7 +6,7 @@ Slurm
 Many of the NCSA computer systems use the Slurm software stack for job workload management.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    access
    batch-jobs
