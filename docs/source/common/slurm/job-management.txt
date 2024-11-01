@@ -1,11 +1,10 @@
+.. _job-mgmt:
+
 Job Management
 ===============
 
-Job Management
-----------------
-
 sview 
-~~~~~~~
+-------
 
 `sview <https://slurm.schedmd.com/sview.html>`_ is a graphical user interface (GUI) that can be used to view job, node and partition (queue) states. Use the following steps to use ``sview``:
 
@@ -24,7 +23,7 @@ sview
     :alt: sview view of Slurm partitions
 
 squeue
-~~~~~~~
+-------
 
 The ``squeue`` command is used to pull up information about batch jobs submitted to the batch system. By default, the ``squeue`` command will print out the JobID,  partition, username, job status, number of nodes, and name of nodes for all batch jobs queued or running within batch system.
 
@@ -52,7 +51,7 @@ See the squeue man page for other available options.
 If the **NODELIST(REASON)** is **MaxGRESPerAccount**, that means that a user has exceeded the number of cores or GPUs allotted per user or project for a given partition.
 
 sinfo
-~~~~~~~
+-------
 
 The ``sinfo`` command is used to view partition and node information for a system running Slurm.
 
@@ -71,7 +70,7 @@ The ``sinfo`` command is used to view partition and node information for a syste
 See the sinfo man page for other available options (``man sinfo``).
 
 scontrol
-~~~~~~~~~
+----------
 
 The ``scontrol`` command can be used to view detailed information on a particular job (JobID).
 
@@ -82,7 +81,7 @@ The ``scontrol`` command can be used to view detailed information on a particula
 See the scontrol man page for other available options. Note that most of the ``scontrol`` options can only be executed by user root or an administrator.
 
 scancel
-~~~~~~~~
+---------
 
 The ``scancel`` command deletes a queued job or ends a running job.
 
