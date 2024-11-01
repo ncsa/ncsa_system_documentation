@@ -1,0 +1,11 @@
+Recurring Jobs (scrontab)
+===========================
+
+.. warning:
+   ``scrontab`` is not enabled on all clusters. You can check if ``scrontab`` is enabled by running ``scrontab -l`` on a **compute node**.
+
+``scrontab`` allows you to schedule recurring jobs in Slurm, similar to ``crontab`` in Linux.
+
+See the `scrontab Slurm documentation <https://slurm.schedmd.com/scrontab.html>`_ or man page (``man scrontab``) for more inforation.
+
+|
