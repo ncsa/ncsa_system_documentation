@@ -1,7 +1,7 @@
 .. _slurm:
 
-Job Management with Slurm
-============================
+Slurm
+===============
 
 Many of the NCSA computer systems use the Slurm software stack for job workload management.
 
