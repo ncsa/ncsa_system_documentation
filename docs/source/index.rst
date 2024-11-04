@@ -21,14 +21,18 @@ Computing User Documentation
       Delta
 
    .. grid-item-card:: DeltaAI
-      :img-top: images/tiles/delta-ai-npcf-16-9-1.jpg
+      :img-background: images/tiles/delta-ai-npcf-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/deltaai/
       :link-alt: DeltaAI documentation
 
-   .. grid-item-card:: Hardware-Accelerated Learning (HAL) Cluster
+      DeltaAI
+
+   .. grid-item-background:: Hardware-Accelerated Learning (HAL) Cluster
       :img-top: images/tiles/hal-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/hal/
       :link-alt: HAL documentation
+
+      Hardware-Accelerated Learning (HAL) Cluster
 
    .. grid-item-card:: Hydro
       :img-top: images/tiles/hydro-16-9-1.jpg
