@@ -13,8 +13,10 @@ Computing User Documentation
 .. grid:: 1 2 2 4
    :gutter: 1
 
-   .. grid-item-card:: Delta
-      :img-top: images/tiles/delta-border2-16-9-1.jpg
+   .. grid-item-card:: 
+      :img-background: images/tiles/delta-border2-16-9-1.jpg
+      Delta
+      :::
       :link: https://docs.ncsa.illinois.edu/systems/delta/
       :link-alt: Delta documentation
 
