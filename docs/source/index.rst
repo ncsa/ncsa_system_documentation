@@ -10,7 +10,7 @@ The NCSA System Documentation Hub is the centralized page for NCSA user document
 Computing User Documentation
 ===============================
 
-.. grid:: 1 2 2 3
+.. grid:: auto
    :gutter: 3
 
    .. grid-item-card:: Delta
