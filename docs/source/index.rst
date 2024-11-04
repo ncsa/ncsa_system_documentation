@@ -11,7 +11,7 @@ Computing User Documentation
 ===============================
 
 .. grid:: 1 2 2 3
-   :gutter: 2
+   :gutter: 3
 
    .. grid-item-card:: Delta
       :img-top: images/tiles/delta-border2-16-9-1.jpg
