@@ -10,29 +10,23 @@ The NCSA System Documentation Hub is the centralized page for NCSA user document
 Computing User Documentation
 ===============================
 
-.. grid:: 1 2 2 4
-   :gutter: 3
+.. grid:: 1 2 2 3
+   :gutter: 2
 
-   .. grid-item-card:: 
-      :img-background: images/tiles/delta-border2-16-9-1.jpg
+   .. grid-item-card:: Delta
+      :img-top: images/tiles/delta-border2-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/delta/
       :link-alt: Delta documentation
 
-      Delta
-
-   .. grid-item-card:: 
-      :img-background: images/tiles/delta-ai-npcf-16-9-1.jpg
+   .. grid-item-card:: DeltaAI
+      :img-top: images/tiles/delta-ai-npcf-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/deltaai/
       :link-alt: DeltaAI documentation
 
-      DeltaAI
-
-   .. grid-item-card::
-      :img-background: images/tiles/hal-border-16-9-1.jpg
+   .. grid-item-card:: Hardware-Accelerated Learning (HAL) Cluster
+      :img-top: images/tiles/hal-border-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/hal/
       :link-alt: HAL documentation
-
-      Hardware-Accelerated Learning (HAL) Cluster
 
    .. grid-item-card:: Hydro
       :img-top: images/tiles/hydro-16-9-1.jpg
