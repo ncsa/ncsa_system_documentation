@@ -1,7 +1,7 @@
 .. _slurm-access:
 
-How to Access the Compute Nodes
-=================================
+Access the Compute Nodes
+==============================
 
 .. _partitions:
 
