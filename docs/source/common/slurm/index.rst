@@ -18,8 +18,4 @@ Many of the NCSA computer systems use the Slurm software stack for job workload 
    prioritization-reservations
    sample-scripts
 
-
-.. include:: access.rst
-
-.. literalinclude:: access.rst
-   :language: rst
+|
