@@ -1,7 +1,7 @@
 .. _priority-reserve:
 
-Job Prioritization and Reservations
-=====================================
+Prioritization, Reservations, and Node Sharing
+================================================
 
 Job Prioritization
 -------------------
@@ -24,5 +24,17 @@ Slurm will block your job from starting if there's a reservation scheduled to st
 - If a system maintenance reservation is blocking your job from starting, ``squeue`` will return a message like ``ReqNodeNotAvail, Reserved for maintenance`` in the ``NODELIST(REASON)`` column for your job.
 
 - To see a list of reservations on a system, use ``scontrol show reservations``.
+
+.. _node-share:
+
+Node Sharing
+-------------
+
+Node sharing is the default for jobs. 
+Node exclusive mode can be obtained by specifying all the consumable resources for that node type or adding the following Slurm options:
+
+.. code-block:: terminal
+
+   --exclusive --mem=0
 
 |
