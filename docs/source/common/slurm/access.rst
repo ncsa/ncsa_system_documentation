@@ -18,8 +18,8 @@ Consult the resource-specific documentation for more information on a system's q
 
 .. _access_nodes:
 
-Accessing the Compute Nodes
--------------------------------
+Access a Compute Node in a Running Job
+----------------------------------------
 
 Direct SSH access to a compute node in a running job from a login node is enabled once the job has started:
 
