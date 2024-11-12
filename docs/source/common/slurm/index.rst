@@ -15,6 +15,7 @@ Many of the NCSA computer systems use the Slurm software stack for job workload 
    dependencies-constraints
    job-management
    prioritization-reservations
+   monitor
    sample-scripts
 
 |
