@@ -46,6 +46,8 @@ If you are using a third-party SSH client with a GUI, you will enter the followi
 
 Once you are connected, a terminal window will be displayed and you will be prompted for your NetID password.
 
+.. include:: cli.rst
+
 .. include:: text-editors.rst
 
 .. include:: building-applications.rst
