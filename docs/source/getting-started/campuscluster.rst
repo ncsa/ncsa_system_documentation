@@ -36,7 +36,7 @@ Connect from a Terminal Window
 
 #. At the prompt, enter your NetID password and press **enter (return)**. As you type, the terminal will not show your password (or placeholder symbols such as asterisks [*]).
 
-/
+\
 
 If you are using a third-party SSH client with a GUI, you will enter the following connection information: 
 
