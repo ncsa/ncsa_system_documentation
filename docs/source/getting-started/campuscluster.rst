@@ -36,13 +36,23 @@ Connect from a Terminal Window
 
 #. At the prompt, enter your NetID password and press **enter (return)**. As you type, the terminal will not show your password (or placeholder symbols such as asterisks [*]).
 
-\
+Third-Party SSH Client with a GUI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are using a third-party SSH client with a GUI, you will enter the following connection information: 
 
 - Hostname: cc-login.campuscluster.illinois.edu
 - Username: Your Illinois NetID
 - Port Number: 22
+
+Successful Login
+~~~~~~~~~~~~~~~~~
+
+If your login is successful, you will be connected to one of the Campus Cluster login nodes. Which one of the nodes will be indicated in the terminal window command prompt. The example prompt shown below indicates that the user has been logged into the login node named ``cc-login1``.
+
+.. code-block::
+
+   [NetID@cc-login1 ~]$
 
 Once you are connected, a terminal window will be displayed and you will be prompted for your NetID password.
 
