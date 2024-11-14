@@ -49,10 +49,10 @@ To build an application using the ``hello.c`` program that was created in the na
 Batch Job Submission
 ~~~~~~~~~~~~~~~~~~~~
 
-The head nodes on the Campus Cluster are a shared resource for all users. Computational use of the head nodes should be limited to compiling and building programs, and for short non-intensive runs. 
+The head (login) nodes on the cluster are a shared resource for all users. Computational use of the head nodes should be limited to compiling and building programs, and for short non-intensive runs. 
 Users should do all production work by submitting jobs to the batch system.
 
-To submit jobs on the Campus Cluster, users should create a *job script*. 
+To submit jobs on the cluster, users should create a *job script*. 
 A job script is a plain text file that contains special lines that describe the resources needed for the batch job. 
 Also contained in the job script are sequential commands to execute specific tasks or run a specific code.
 
@@ -122,7 +122,6 @@ A message with a job identification number similar to the one shown below is pri
 
 |
 
-Additional information regarding batch job submissions and commands can be found in the :ref:`jobs` section of the Campus Cluster user guide. 
 To try other types of beginner examples (MPI, OpenMP, or Hybrid), view the ``README.helloworld`` file by typing the below on the command line:
 
 .. code-block:: terminal
