@@ -1,6 +1,6 @@
 .. _get-start-delta:
 
-Getting Started with Delta
+Getting Started on Delta
 ==========================================
 
 This guide is intended for users with *no prior experience* with Linux/Command Line Interface (CLI) or cluster computing. 
