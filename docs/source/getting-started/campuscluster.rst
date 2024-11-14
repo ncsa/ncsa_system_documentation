@@ -1,6 +1,6 @@
 .. _get-start-icc:
 
-Getting Started with the Cammpus Cluster
+Getting Started with the Campus Cluster
 ==========================================
 
 This guide is intended for users with *no prior experience* with Linux/Command Line Interface (CLI) or cluster computing. 
