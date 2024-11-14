@@ -4,9 +4,9 @@ Text Editors
 -------------
 
 Text editors are used for editing plain text files. 
-The Campus Cluster has two text editing programs: `vi <http://en.wikibooks.org/wiki/Learning_the_vi_Editor>`_ (and an improved version called `vim <http://www.vim.org/>`_) and `nano <http://www.nano-editor.org/>`_.
+The cluster has two text editing programs: `vi <http://en.wikibooks.org/wiki/Learning_the_vi_Editor>`_ (and an improved version called `vim <http://www.vim.org/>`_) and `nano <http://www.nano-editor.org/>`_.
 
-vi/vim is one of the most commonly used text editors, however Campus Cluster staff recommend that new Linux users start off using nano; nano may be more similar to the way users edit text files on non-Linux based machines. 
+vi/vim is one of the most commonly used text editors, however NCSA staff recommend that new Linux users start off using nano; nano may be more similar to the way users edit text files on non-Linux based machines. 
 
 The general syntax to begin editing a file with nano is:
 
