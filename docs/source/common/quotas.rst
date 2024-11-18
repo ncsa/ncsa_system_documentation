@@ -3,10 +3,6 @@
 Quotas
 =======
 
-- :ref:`Jump to Quota Command <quota-command>`
-- :ref:`Jump to Block Used vs File Used <blockvfile>`
-- :ref:`Jump to Soft Quota vs Hard Limit <softvhard>`
-- :ref:`Jump to Example Output <example-out>`
 - :ref:`Jump to Cannot Log in to System with VS Code Due to Disk Quota <vscode-access-quota>`
 
 .. _quota-command:
