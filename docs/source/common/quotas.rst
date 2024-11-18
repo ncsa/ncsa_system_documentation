@@ -83,7 +83,7 @@ The following is a ``quota`` output example from Delta. This example user has ac
 Cannot Log in to System with VS Code Due to Disk Quota
 -------------------------------------------------------
 
-In order to log in to a system with VS Code, VS Code must be able to write to your home directory (~/) on log in. If you home directory is at the quota/limit, then you will not be able to log in to the system via VS Code. To resolve this:
+When you log in to a system with VS Code, VS Code must be able to write to your home directory (~/) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
 
 #. Use ``ssh`` to log in to the system in a terminal. 
 
@@ -97,8 +97,8 @@ In order to log in to a system with VS Code, VS Code must be able to write to yo
 
 #. Run the ``quota`` command on the system to see how much above the quota/limit you are in your home directory. Note, you may have reached your "Block Used" and/or "File Used" quota/limit.
 
-#. Delete files in your home directory (or move them to ``/projects``, ``/scratch``, or ``/work`` directory, as appropriate) until you are below the quota/limit.
+#. Delete files in your home directory (or move them to the ``/projects``, ``/scratch``, or ``/work`` directory, as appropriate) until you are below the quota/limit.
 
-#. After you have returned your home directory back below the quota/limit, try logging in to the system via VS Code.
+#. After you have returned your home directory below the quota/limit, try logging in to the system via VS Code.
 
 |
