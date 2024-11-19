@@ -3,7 +3,7 @@
 Quotas
 =======
 
-Jump to: `Cannot Log in to System with VS Code Due to Disk Quota <vscode-access-quota>`
+Jump to: :ref:`Cannot Log in to System with VS Code Due to Disk Quota <vscode-access-quota>`
 
 .. _quota-command:
 
