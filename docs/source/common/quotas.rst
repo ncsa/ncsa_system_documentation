@@ -79,7 +79,7 @@ The following is a ``quota`` output example from Delta. This example user has ac
 Cannot Log in with VS Code Due to Disk Quota
 -------------------------------------------------------
 
-When you log in to a system with VS Code, VS Code must be able to write to your home directory (~/) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
+When you log in to a system with VS Code, VS Code must be able to write to your home directory (``~/``) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
 
 #. Use ``ssh`` to log in to the system in a **terminal**. 
 
