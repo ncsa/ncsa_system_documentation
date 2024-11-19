@@ -81,15 +81,7 @@ Cannot Log in with VS Code Due to Disk Quota
 
 When you log in to a system with VS Code, VS Code must be able to write to your home directory (~/) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
 
-#. Use ``ssh`` to log in to the system in a terminal. 
-
-   - `Delta login node hostnames <Cannot Access System in VS Code Due to Disk Quota>`_
-   - `DeltaAI login node hostnames <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/login.html#login-node-hostnames>`_
-   - `HAL login node hostnames <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/login.html#login-node-hostnames>`_
-   - `Hydro login node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
-   - `Illinois Campus Cluster login node hostnames <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/accessing.html#logging-in-to-the-cluster>`_
-   - `Illinois HTC login node hostname <https://docs.ncsa.illinois.edu/systems/iccp-htc/en/latest/user-guide/accessing.html#how-to-log-into-the-system>`_
-   - `Nightingale login node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
+#. Use ``ssh`` to log in to the system in a **terminal**. 
 
 #. Run the ``quota`` command on the system to see how much above the quota/limit you are in your home directory. Note, you may have reached your "Block Used" and/or "File Used" quota/limit.
 
