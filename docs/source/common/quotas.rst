@@ -3,7 +3,7 @@
 Quotas
 =======
 
-Jump to: :ref:`Cannot Log in to System with VS Code Due to Disk Quota <vscode-access-quota>`
+Jump to: :ref:`Cannot Log in with VS Code Due to Disk Quota <vscode-access-quota>`
 
 .. _quota-command:
 
@@ -76,7 +76,7 @@ The following is a ``quota`` output example from Delta. This example user has ac
 
 .. _vscode-access-quota:
 
-Cannot Log in to System with VS Code Due to Disk Quota
+Cannot Log in with VS Code Due to Disk Quota
 -------------------------------------------------------
 
 When you log in to a system with VS Code, VS Code must be able to write to your home directory (~/) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
