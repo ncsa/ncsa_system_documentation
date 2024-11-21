@@ -12,7 +12,7 @@ When you log in to a system with VS Code, VS Code must be able to write to your 
 
 #. Use ``ssh`` to log in to the system in a **terminal**. 
 
-#. Run the ``quota`` command on the system to see how much above the quota/limit you are in your **home directory**. Note, you may have reached your "Block Used" and/or "File Used" quota/limit. For a detailed explaination of the ``quota`` command output, see :ref:`quotas`.
+#. Run the ``quota`` command on the system to see how much above the quota/limit you are in your **home directory**. Note, you may have reached your "Block Used" and/or "File Used" quota/limit. For a detailed explanation of the ``quota`` command output, see :ref:`quotas`.
 
 #. Delete files in your home directory (or move them to the ``/projects``, ``/scratch``, or ``/work`` directory, as appropriate) until you are below the quota/limit.
 
