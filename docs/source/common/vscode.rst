@@ -1,11 +1,11 @@
 .. _vscode-trouble:
 
-VS Code Troubleshooting and Performance Issues
-================================================
+VS Code Troubleshooting 
+==============================
 
 .. _vscode-access-quota:
 
-Cannot Log in with VS Code Due to Disk Quota Exceeded
+Cannot Log in with VS Code - Disk Quota Exceeded
 -------------------------------------------------------
 
 When you log in to a system with VS Code, VS Code must be able to write to your home directory (``~/``) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
