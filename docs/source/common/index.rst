@@ -9,8 +9,8 @@ Documentation on topics that are applicable across multiple NCSA computing resou
    :maxdepth: 2
 
    .. slurm/index
+   install-software
    quotas
    transfer
-   install-software
    relocate-conda-directory
    
