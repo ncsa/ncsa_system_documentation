@@ -37,7 +37,7 @@ On NCSA systems, user-installed software/libraries must be installed without the
 The following sections have additional system-specific information:
 
 - `Delta: Installed Software <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/software.html>`_
-- `DeltAI: Installed Software <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/software.html>`_
+- `DeltaAI: Installed Software <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/software.html>`_
 - `HAL: Software <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/software.html>`_
 - `Hydro: Programming Environments <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/prog-env.html>`_
 - `ICC: Investor-Specific Software Installation <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/investor.html>`_, `ICC: Software <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/software.html>`_
