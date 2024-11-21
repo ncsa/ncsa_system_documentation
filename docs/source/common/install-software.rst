@@ -20,7 +20,7 @@ Run the following command to see what is already available.
 
    module avail
 
-When you find the software/library you want, use the following command to load it into your environment. (Replace ``module_name`` with the name of the module you want to load).
+When you find the software/library you want, use the following command to load it into your environment. (Replace ``<module_name>`` with the name of the module you want to load).
 
 .. code-block:: terminal
 
