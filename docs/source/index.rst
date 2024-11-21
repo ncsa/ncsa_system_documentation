@@ -105,6 +105,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
 .. - :ref:`slurm`
 - :ref:`transfer`
 - :ref:`quotas`
+- :ref:`install-software`
 - :ref:`conda`
 
 
@@ -130,6 +131,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
    common/transfer
    common/quotas
+   common/install-software
    common/relocate-conda-directory
 
 .. toctree:: 
