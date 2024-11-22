@@ -10,7 +10,7 @@ Do not run large processing work on login nodes, run it on compute nodes.
 
 Login nodes are intended for moving files around and setting up computational jobs, not for processing large amounts of data. Processes that do a lot of work on login nodes can interfere with other user login sessions and are subject to being killed without notice. 
 
-System-Specific VS Code Pages
+System-Specific Information
 -------------------------------
 
 - `Delta VS Code <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/prog_env.html#visual-studio-code>`_
