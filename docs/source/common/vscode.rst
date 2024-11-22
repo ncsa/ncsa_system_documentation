@@ -23,12 +23,12 @@ We have also seen cases where it was necessary to remove ``$HOME/.vscode`` on th
 VS Code Performance Issues
 ----------------------------
 
-#. See `Microsoft's VS Code Performance Issues Guide <https://github.com/Microsoft/vscode/wiki/Performance-Issues>`_.
+See `Microsoft's VS Code Performance Issues Guide <https://github.com/Microsoft/vscode/wiki/Performance-Issues>`_. 
 
-#. Run the ``code --status`` command in a VS Code terminal.
+You can run ``code --status`` in a VS Code terminal to display status information about your running VS Code and the workspace you have opened.
 
-   ..  image:: images/vscode/01_code_status.png
-       :alt: Using the code --status command with vscode.
-       :width: 700
+..  image:: images/vscode/01_code_status.png
+    :alt: Using the code --status command with vscode.
+    :width: 700
 
 |
