@@ -6,7 +6,7 @@ VS Code on NCSA Resources
 Use Policy
 ------------
 
-Do not run large processing work on login nodes, run it on compute nodes.
+**Do not run large processing work on login nodes**, this type of work should be run on compute nodes.
 
 Login nodes are intended for moving files around and setting up computational jobs, not for processing large amounts of data. Processes that do a lot of work on login nodes can interfere with other user login sessions and are subject to being killed without notice. 
 
