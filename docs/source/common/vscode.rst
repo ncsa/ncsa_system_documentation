@@ -10,6 +10,8 @@ Do not run large processing work on login nodes, run it on compute nodes.
 
 Login nodes are intended for moving files around and setting up computational jobs, not for processing large amounts of data. Processes that do a lot of work on login nodes can interfere with other user login sessions and are subject to being killed without notice. 
 
+Be aware of VS Code plugins that may attempt to endlessly auto-reconnect to a system. Unusual activity like this can result in your access to the system being blocked until the issue is identified and resolved.
+
 System-Specific Information
 -------------------------------
 
