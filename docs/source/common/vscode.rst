@@ -10,7 +10,7 @@ Cannot Log in with VS Code - Disk Quota Exceeded
 
 When you log in to a system with VS Code, VS Code must be able to write to your home directory (``~/``) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
 
-#. Use ``ssh`` to log in to the system in a **terminal**. See the system user guide for instructions on how to ``ssh`` log in to the system:
+#. Use ``ssh`` to log in to the system in a **terminal**. Go to the system user guide for instructions on how to log in with ``ssh``:
 
    - `Delta Login <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/login.html>`_
    - `DeltaAI Login <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/login.html>`_
@@ -31,7 +31,7 @@ We have also seen cases where it was necessary to remove ``$HOME/.vscode`` on th
 VS Code Performance Issues
 ----------------------------
 
-See `Microsoft's VS Code Performance Issues Guide <https://github.com/Microsoft/vscode/wiki/Performance-Issues>`_ for steps to try to resolve different performance issues.
+Go to `Microsoft's VS Code Performance Issues Guide <https://github.com/Microsoft/vscode/wiki/Performance-Issues>`_ for steps to try to resolve different performance issues.
 
 You can run ``code --status`` in a VS Code terminal to display status information about your running VS Code and the workspace you have opened.
 
