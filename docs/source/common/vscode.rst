@@ -1,12 +1,31 @@
+.. _vscode-on-ncsa:
+
+VS Code on NCSA Resources
+===========================
+
+Use Policy
+------------
+
+Do not run large processing work on login nodes, run it on compute nodes.
+
+Login nodes are intended for moving files around and setting up computational jobs, not for processing large amounts of data. Processes that do a lot of work on login nodes can interfere with other user login sessions and are subject to being killed without notice. 
+
+System-Specific VS Code Pages
+-------------------------------
+
+- `Delta VS Code <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/prog_env.html#visual-studio-code>`_
+- `DeltaAI VS Code <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/prog-env.html#visual-studio-code>`_
+- `HAL VS Code <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/prog-env.html#visual-studio-code>`_
+
 .. _vscode-trouble:
 
-VS Code Troubleshooting 
-==============================
+Troubleshooting 
+-----------------
 
 .. _vscode-access-quota:
 
 Cannot Log in with VS Code - Disk Quota Exceeded
--------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you log in to a system with VS Code, VS Code must be able to write to your home directory (``~/``) on log in. Therefore, if your home directory is at its quota/limit, you will not be able to log in to the system via VS Code. To resolve this:
 
@@ -29,7 +48,7 @@ When you log in to a system with VS Code, VS Code must be able to write to your 
 We have also seen cases where it was necessary to remove ``$HOME/.vscode`` on the system, similar the `VS Code documentation - clean uninstall <https://code.visualstudio.com/docs/setup/uninstall#_clean-uninstall>`_.
 
 VS Code Performance Issues
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Go to `Microsoft's VS Code Performance Issues Guide <https://github.com/Microsoft/vscode/wiki/Performance-Issues>`_ for steps to try to resolve different performance issues.
 
