@@ -1,0 +1,7 @@
+The default login shell for all NCSA systems is bash.  A comprehensive guide to using bash efficiently is far beyond the scope of this documentation, but here are a few brief items that will help you on NCSA systems.  
+
+Loading modules 
+
+NOT initiating python or conda envronments
+
+alaises 
