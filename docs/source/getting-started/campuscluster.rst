@@ -56,6 +56,8 @@ If your login is successful, you will be connected to one of the Campus Cluster 
 
 Once you are connected, a terminal window will be displayed and you will be prompted for your NetID password.
 
+.. include:: ../common/transfer.rst
+
 .. include:: cli.rst
 
 .. include:: text-editors.rst
