@@ -3,11 +3,6 @@
 Transferring Files
 ===================
 
-- :ref:`Jump to secure copy (scp) <scp-jump>`
-- :ref:`Jump to rsync <rsync-jump>`
-- :ref:`Jump to secure file transfer protocol (sftp) <sftp-jump>`
-- :ref:`Jump to Globus <globus-jump>`
-
 .. _scp-jump:
 
 CLI Transfer Method - Secure Copy (scp)
