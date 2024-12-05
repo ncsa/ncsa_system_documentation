@@ -8,6 +8,9 @@ The two primary types of nodes on a cluster are:
 -  **Compute nodes** — Compute nodes are the majority of nodes on a cluster and are the nodes that run user jobs.
 -  **Login (Head) nodes** — There is at least one head node on a cluster. Head nodes are where you log in from your local computer (laptop/desktop).
 
+.. figure:: images/cluster-overview.jpg
+   :alt: Cluster Usage Overview. A researcher logs into the head nodes via a secure shell client. Data moves from the head nodes to the file system (home, project, and scratch directories). Jobs are submitted from the head nodes to the compute nodes. Data can be read/written from the compute nodes to the scratch directory.
+
 User access to the compute nodes is only available via a *batch job*. 
 This is typically a sequence of commands listed in a file called a *batch script* that can be executed without the intervention of the user. 
 The batch script is a plain text file that starts with *directives* that describe the requirements of the job such as the number of nodes and wall clock time, followed by the user’s commands to execute specific tasks or run specific code. 
