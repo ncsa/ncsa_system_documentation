@@ -112,6 +112,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :hidden:
 
    training
+   getting-started/campuscluster
    help
 
 .. toctree::
