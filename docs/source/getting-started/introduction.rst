@@ -12,6 +12,7 @@ The two primary types of nodes on a cluster are:
    :alt: Cluster Usage Overview. A researcher logs into the head nodes via a secure shell client. Data moves from the head nodes to the file system (home, project, and scratch directories). Jobs are submitted from the head nodes to the compute nodes. Data can be read/written from the compute nodes to the scratch directory.
    :align: center
    :width: 600
+   :figwidth: 650
 
 User access to the compute nodes is only available via a *batch job*. 
 This is typically a sequence of commands listed in a file called a *batch script* that can be executed without the intervention of the user. 
