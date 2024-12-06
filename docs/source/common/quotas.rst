@@ -3,6 +3,11 @@
 Quotas
 =======
 
+See :ref:`vscode-access-quota` if you are having issues logging in with VS Code.
+
+Quota Command
+---------------
+
 Execute the ``quota`` command to check the usage, soft quotas, and hard limits of your home directory and the shared directories you have access to.
 
 Block Used vs File Used
