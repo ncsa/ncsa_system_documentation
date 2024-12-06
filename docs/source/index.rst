@@ -113,6 +113,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
    training
    getting-started/campuscluster
+   getting-started/delta
    help
 
 .. toctree::
