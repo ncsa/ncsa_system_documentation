@@ -17,7 +17,7 @@ System-Specific Information
 
 - `Delta VS Code <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/prog_env.html#visual-studio-code>`_
 - `DeltaAI VS Code <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/prog-env.html#visual-studio-code>`_
-- `HAL VS Code <https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/user-guide/prog-env.html#visual-studio-code>`_
+- `HAL VS Code <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/ondemand/vscode.html>`_
 
 .. _vscode-trouble:
 
