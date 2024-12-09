@@ -33,12 +33,11 @@ For details about the base level of services and resources available, refer to t
     - `Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>`_
     - `Granite <https://docs.ncsa.illinois.edu/systems/granite/>`_
     - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
+    - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
 
   - Data
 
     - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
-    - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
-
 
 `ACCESS <https://access-ci.org/>`_
 ---------------------------------------------------------------------------------------------------------------
