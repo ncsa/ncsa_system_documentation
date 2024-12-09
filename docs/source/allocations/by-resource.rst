@@ -35,7 +35,7 @@ DeltaAI
 
 There are four ways to request an allocation on DeltaAI, they are listed below in order of prevalence. For additional information on DeltaAI allocations, please review the `DeltaAI: Allocations <https://delta.ncsa.illinois.edu/deltaai-allocations/>`_ page.
 
-- **ACCESS** - Most of DeltaAI is allocated through the Advanced Cyberinfrastructure Coordination Ecosystem: Support & Services (ACCESS) program. To submit an ACCESS DeltaAI allocation request, go to the `get your first ACCESS project <https://allocations.access-ci.org/get-your-first-project>`_ page.
+- **ACCESS** - Most of DeltaAI is allocated through the ACCESS program. To submit an ACCESS DeltaAI allocation request, go to the `get your first ACCESS project <https://allocations.access-ci.org/get-your-first-project>`_ page.
 
 \
 
