@@ -41,7 +41,11 @@ There are four ways to request an allocation on DeltaAI, they are listed below i
 
 - **Discretionary** - A portion of the DeltaAI system is discretionarily available to Illinois researchers, primarily to fill needs not met by the ACCESS program. Submit a discretionary DeltaAI request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_ with on of these two options:
 
+  \
+
   - To submit an `Illinois Computes <https://computes.illinois.edu>`_ DeltaAI request, choose **Start a New Illinois Computes Program Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+
+  \
 
   - To submit a discretionary DeltaAI request, choose **Start a New Delta - Discretionary Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
 
