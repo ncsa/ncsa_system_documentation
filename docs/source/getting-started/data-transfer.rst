@@ -3,13 +3,15 @@
 Data Transfer
 ---------------
 
+At some point, you will need to transfer data/files to or from the cluster. There are several ways to transfer data to or from the cluster, two tools (sftp and Globus) will be outlined here. For more information and options for transferring data, see `Transferring Files <https://docs.ncsa.illinois.edu/en/latest/common/transfer.html>`_.
+
 Secure File Transfer Protocol (sftp)
----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can transfer data using ``sftp`` via the command line or one of many common transfer utilities. Two transfer utility options, `WinSCP <https://winscp.net/eng/download.php>`_ and `Cyberduck <https://cyberduck.io/download/>`_, are described below; both are free to download and install.
 
 WinSCP
-~~~~~~~~
+$$$$$$$$
 
 #. Download and install `WinSCP <https://winscp.net/eng/download.php>`_.
 #. Open WinSCP and log in to the associated NCSA system node. 
@@ -36,7 +38,7 @@ WinSCP
 #. Once you're logged in, WinSCP works like a drag and drop interface for moving files between your local machine and remote machine connection.
 
 Cyberduck
-~~~~~~~~~~
+$$$$$$$$$$$
 
 #. Download and install `Cyberduck <https://cyberduck.io/download/>`_.
 #. Open Cyberduck and click **Open Connection** in the upper left corner.
@@ -70,7 +72,7 @@ Cyberduck
 .. _globus-jump:
 
 Globus
------------  
+~~~~~~~~
 
 `Globus <https://www.globus.org>`_ is a web-based file transfer system that works in the background to move files between computer systems with Globus `endpoints <https://docs.globus.org/faq/globus-connect-endpoints/#what_is_an_endpoint>`_. Globus is a good tool to use to transfer many files or large files between directories (within the same system or between a systems).
 
@@ -90,12 +92,12 @@ If you have issues using Globus, review the resources on the `Globus Contact Us 
 .. _globus_connect_personal:
 
 Globus Connect Personal
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$$$$$$$$$$$$$$$$$$$$$$
 
 Install `Globus Connect Personal <https://www.globus.org/globus-connect-personal>`_ to transfer files between a Globus endpoint and a system that does not have an existing Globus endpoint (a personal laptop, for example). On Nightingale, the `protected data <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/protected_data.html>`_ requirements still apply. 
 
 Tips for Using Globus with NCSA Compute Resources
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 - When you select a Globus endpoint for the first time, you *may* see an Authentication/Consent Required prompt (Nightingale example shown below). 
 
