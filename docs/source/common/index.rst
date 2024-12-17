@@ -13,4 +13,5 @@ Documentation on topics that are applicable across multiple NCSA computing resou
    quotas
    transfer
    relocate-conda-directory
+   vscode
    
