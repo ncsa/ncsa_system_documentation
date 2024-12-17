@@ -123,4 +123,3 @@ Tips for Using Globus with NCSA Compute Resources
      :alt: Globus file manager showing the results of "NCSA Delta" collection and "/" path.
      :width: 700
 
-|
