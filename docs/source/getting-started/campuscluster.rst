@@ -62,8 +62,11 @@ Once you are connected, a terminal window will be displayed and you will be prom
 
 .. include:: building-applications.rst
 
+Data Transfer
+--------------------
+
 .. include:: ../common/transfer.rst
-   :start-after: Secure File Transfer Protocol (sftp)
+   :start-after: rsync <options> <username>@<hostname>:<source_file_path> <destination_path>
 
 .. include:: windows-compatibility.rst
 
