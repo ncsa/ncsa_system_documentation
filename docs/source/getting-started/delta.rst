@@ -63,6 +63,8 @@ If your login is successful, you will be connected to one of the Delta login nod
 
 .. include:: building-applications.rst
 
+.. include:: data-transfer.rst
+
 .. include:: windows-compatibility.rst
 
 |
