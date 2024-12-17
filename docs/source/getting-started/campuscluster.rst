@@ -62,11 +62,7 @@ Once you are connected, a terminal window will be displayed and you will be prom
 
 .. include:: building-applications.rst
 
-Data Transfer
---------------------
-
-.. include:: ../common/transfer.rst
-   :start-after: rsync <options> <username>@<hostname>:<source_file_path> <destination_path>
+.. include:: data-transfer.rst
 
 .. include:: windows-compatibility.rst
 
