@@ -3,7 +3,7 @@
 Data Transfer
 ---------------
 
-At some point, you will need to transfer data/files to or from the cluster. There are several ways to transfer data to or from the cluster, two tools (sftp and Globus) will be outlined here. For more information and options for transferring data, see `Transferring Files <https://docs.ncsa.illinois.edu/en/latest/common/transfer.html>`_.
+At some point, you will need to transfer data/files to/from the cluster. There are several ways to transfer data, but two tools (sftp and Globus) will be outlined here. For more information about transferring data, including additional transfer methods, see `Transferring Files <https://docs.ncsa.illinois.edu/en/latest/common/transfer.html>`_.
 
 Secure File Transfer Protocol (sftp)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
