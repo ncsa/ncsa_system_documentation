@@ -62,6 +62,9 @@ Once you are connected, a terminal window will be displayed and you will be prom
 
 .. include:: building-applications.rst
 
+.. include:: ../common/transfer.rst
+   :start-after: Secure File Transfer Protocol (sftp)
+
 .. include:: windows-compatibility.rst
 
 |
