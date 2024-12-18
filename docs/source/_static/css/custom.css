@@ -30,3 +30,12 @@ body > div > section > div > div > div:nth-child(1) > ul > li.wy-breadcrumbs-asi
 body > div > section > div > div > div:nth-child(1) > ul > li.wy-breadcrumbs-aside{
     text-align: right;
 }
+
+/* making nav bar at top of page sticky so that docs hub link is visible when scrolling */
+[aria-label="Page navigation"]{
+    position: sticky;
+    top: -1px;
+    padding-top: 0.6em;
+    background: #FCFCFC;
+    z-index: 1;
+}
