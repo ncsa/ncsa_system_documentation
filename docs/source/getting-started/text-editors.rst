@@ -52,9 +52,9 @@ This example creates a "hello world" C program in nano.
    
       }
 
-#. After entering the C program, exit the nano text editing session by holding down control (**Ctrl**) and **X**, which is indicated by a "**^X**" in the bottom left corner of the nano session. 
+#. After entering the C program, exit the nano text editing session by pressing **Control+X**, which is indicated by a "**^X**" in the bottom left corner of the nano session. 
 
-   Exiting a nano session after editing a text file will prompt to save the changes made to the text file. To save changes *without* exiting the nano session, hold down control (**Ctrl**) and **O**.
+   Exiting a nano session after editing a text file will prompt to save the changes made to the text file. To save changes *without* exiting the nano session, press **Control+O**.
 
 .. raw:: html
 
