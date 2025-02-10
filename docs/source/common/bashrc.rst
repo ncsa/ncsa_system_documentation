@@ -17,8 +17,8 @@ The module suite has a way to configure your
 
 NOT initiating python or conda envronments
 
-alaises 
------------
+command alaises 
+------------------
 It's common for unix users to add often-used aliases to their shell setup scripts.  Common shell aliases include: 
 
 rm="rm -i"
@@ -34,3 +34,11 @@ alias rm="rm -i"
 alias cp="cp -i"
 
 alias mv="mv -i"
+
+job aliases
+-------------
+Normally your prompt in an interactive job shell looks just like your prompt anywhere else.  It's very easy to start an interactive job and forget you're in an interactive job, spending your allocation for nodes that you've forgotten about.  Putting this clause in your .bashrc is a smart idea on any system that runs slurm:
+.. code_block:: bash
+  if [ $SLURM_NNODES ]; then
+    export PS1="${PS1}\e[1;31m[${SLURM_NNODES}]\e[0m "
+  fi
