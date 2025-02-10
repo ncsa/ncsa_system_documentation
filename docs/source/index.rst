@@ -107,6 +107,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
 - :ref:`transfer`
 - :ref:`quotas`
 - :ref:`conda`
+- :ref:`vscode-trouble`
 
 
 .. toctree::
@@ -133,6 +134,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    common/transfer
    common/quotas
    common/relocate-conda-directory
+   common/vscode
 
 .. toctree:: 
    :caption: Software Documentation
