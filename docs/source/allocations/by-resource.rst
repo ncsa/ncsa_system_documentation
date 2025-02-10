@@ -22,7 +22,7 @@ There are four ways to request an allocation on Delta, they are listed below in 
 
 \
 
-- **NSF NAIRR** - Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is *not* open continuously.
+- **NSF NAIRR** - A portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is *not* open continuously.
 
 \
 
@@ -31,9 +31,31 @@ There are four ways to request an allocation on Delta, they are listed below in 
 .. _allocate-deltaai:
 
 DeltaAI
----------------
+----------
 
-Coming soon! DeltaAI is currently in pre-production. 
+There are four ways to request an allocation on DeltaAI, they are listed below in order of prevalence. For additional information on DeltaAI allocations, please review the `DeltaAI: Allocations <https://delta.ncsa.illinois.edu/deltaai-allocations/>`_ page.
+
+- **ACCESS** - Most of DeltaAI is allocated through the ACCESS program. To submit an ACCESS DeltaAI allocation request, go to the `get your first ACCESS project <https://allocations.access-ci.org/get-your-first-project>`_ page.
+
+\
+
+- **Discretionary / Illinois Computes** - A portion of the DeltaAI system is discretionarily available to Illinois researchers, primarily to fill needs not met by the ACCESS program. Submit a discretionary DeltaAI request through the `NCSA XRAS portal <https://xras-submit.ncsa.illinois.edu/>`_ with one of these options:
+
+  \
+
+  - To submit an `Illinois Computes <https://computes.illinois.edu>`_ DeltaAI request, choose **Start a New Illinois Computes Program Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+
+  \
+
+  - To submit a discretionary DeltaAI request, choose **Start a New Delta - Discretionary Submission**. (:ref:`How to submit a new XRAS portal request <xras-new>`.)
+
+\
+
+- **NSF NAIRR** - A portion of DeltaAI is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to the `NAIRR Pilot Program Allocations <https://nairrpilot.org/allocations>`_ page for more information. Note, this allocation method is *not* open continuously.
+
+\
+
+- **Other** - Allocations for Innovative/Exploratory, Diversity, Science Gateways, and Data Science areas are also available. :ref:`Submit a support request <general-support>` for more information on these other Delta allocation opportunities. 
 
 .. _allocate-granite:
 

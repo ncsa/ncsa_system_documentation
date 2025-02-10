@@ -103,9 +103,11 @@ Common System Documentation
 Addititional user documentation on topics common across two or more NCSA resources.
 
 - :ref:`slurm`
+- :ref:`install-software`
 - :ref:`transfer`
 - :ref:`quotas`
 - :ref:`conda`
+- :ref:`vscode-trouble`
 
 
 .. toctree::
@@ -129,9 +131,11 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :hidden:
 
    common/slurm/index
+   common/install-software
    common/transfer
    common/quotas
    common/relocate-conda-directory
+   common/vscode
 
 .. toctree:: 
    :caption: Software Documentation

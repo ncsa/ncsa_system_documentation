@@ -26,23 +26,23 @@ For details about the base level of services and resources available, refer to t
     - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
     - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
     - `Illinois HTC <https://docs.ncsa.illinois.edu/systems/htc>`_
+    - `DeltaAI <https://docs.ncsa.illinois.edu/systems/deltaai>`_
 
   - Storage
 
     - `Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>`_
     - `Granite <https://docs.ncsa.illinois.edu/systems/granite/>`_
     - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
+    - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
 
   - Data
 
     - `Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>`_
-    - `Radiant <https://docs.ncsa.illinois.edu/systems/radiant>`_
-
 
 `ACCESS <https://access-ci.org/>`_
 ---------------------------------------------------------------------------------------------------------------
 
-A majority of `Delta <https://delta.ncsa.illinois.edu>`_ is allocated through Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS). To submit an ACCESS Delta allocation request, go to the `get your first ACCESS project <https://allocations.access-ci.org/get-your-first-project>`_ page.
+A majority of `Delta and DeltaAI <https://delta.ncsa.illinois.edu>`_ are allocated through Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS). To submit an ACCESS Delta or DeltaAI allocation request, go to the `get your first ACCESS project <https://allocations.access-ci.org/get-your-first-project>`_ page.
 
 
 Direct Investment/Request
@@ -56,6 +56,7 @@ Direct investment in the following resources is available through the `NCSA XRAS
 - `Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>`_
 - `Granite <https://docs.ncsa.illinois.edu/systems/granite/>`_
 - `Delta <https://delta.ncsa.illinois.edu>`_
+- `DeltaAI <https://delta.ncsa.illinois.edu>`_
 
 Direct investment in the Illinois Campus Cluster is available through:
 
@@ -84,6 +85,6 @@ If you are part of an allocated NFI project and would like access to the Hydro c
 `NSF NAIRR Pilot Program <https://nairrpilot.org/>`_
 -------------------------------------------------------------------------------------
 
-Starting in January 2024, a portion of Delta is available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to `NAIRR Pilot Resource Requests <https://nairrpilot.org/opportunities/allocations>`_ for more information.
+A portion of Delta and DeltaAI are available for allocation from the National Science Foundation (NSF) National Artificial Intelligence Research Resource (NAIRR) Pilot program for AI research. Refer to `NAIRR Pilot Resource Requests <https://nairrpilot.org/opportunities/allocations>`_ for more information.
 
 |
