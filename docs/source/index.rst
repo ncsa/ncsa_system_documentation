@@ -130,11 +130,11 @@ Addititional user documentation on topics common across two or more NCSA resourc
    :caption: Common Documentation
    :hidden:
 
-   common/install-software
-   common/transfer
+   common/login_options/index
    common/quotas
    common/slurm/index
-   common/manage_login/index
+   common/install-software
+   common/transfer
    common/licensed_software/index
 
 .. toctree:: 
