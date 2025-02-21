@@ -133,8 +133,9 @@ Addititional user documentation on topics common across two or more NCSA resourc
    common/install-software
    common/transfer
    common/quotas
-   common/relocate-conda-directory
-   common/vscode
+   common/slurm
+   common/manage_login
+   common/licensed_software
 
 .. toctree:: 
    :caption: Software Documentation
