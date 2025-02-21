@@ -1,6 +1,6 @@
-.. manage_login:
+.. _login_options:
 
-Managing Your Logins
+Login Session Options
 =================================
 
 Documentation on recommended login methods for NCSA systems and ways to customize your login sessions.  
