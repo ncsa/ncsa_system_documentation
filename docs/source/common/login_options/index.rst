@@ -1,4 +1,4 @@
-.. _login_options:
+.. _login-options:
 
 Login Session Options
 =================================
