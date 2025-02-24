@@ -1,4 +1,4 @@
-.. _licensed:
+.. _third_party_software:
 
 Third-Party Software
 =======================
