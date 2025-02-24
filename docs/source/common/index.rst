@@ -15,4 +15,4 @@ Documentation on topics that are applicable across multiple NCSA computing resou
    .. relocate-conda-directory
    .. vscode
    manage_login/index
-   licensed_software/index
+   software/index
