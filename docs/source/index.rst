@@ -135,7 +135,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    common/slurm/index
    common/install-software
    common/transfer
-   common/licensed_software/index
+   common/software/index
 
 .. toctree:: 
    :caption: Software Documentation
