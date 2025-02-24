@@ -102,12 +102,14 @@ Common System Documentation
 
 Addititional user documentation on topics common across two or more NCSA resources.
 
+- :ref:`login-options`
+- :ref:`quotas`
 .. - :ref:`slurm`
 - :ref:`install-software`
 - :ref:`transfer`
-- :ref:`quotas`
-- :ref:`conda`
-- :ref:`vscode-trouble`
+.. - :ref:`conda`
+.. - :ref:`vscode-trouble`
+- :ref:`third-party-software`
 
 
 .. toctree::
