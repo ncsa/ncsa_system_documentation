@@ -1,4 +1,4 @@
-.. _third_party_software:
+.. _third-party-software:
 
 Third-Party Software
 =======================
