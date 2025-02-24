@@ -3,7 +3,7 @@
 Third-Party Software
 =======================
 
-Third-party software that is supported on NCSA computing resources.
+Packaged Third-party software available on NCSA computing resources.  These packages include both software from commercial vendors as well as software provided open-source from collaborations.  
 
 .. toctree:: 
    :maxdepth: 2
