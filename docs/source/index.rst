@@ -97,21 +97,6 @@ Documentation that summarizes allocation information for NCSA resources and how 
 - :ref:`ncsa-identity`
 - :ref:`group-mgmt`
 
-Common System Documentation
-===============================
-
-Addititional user documentation on topics common across two or more NCSA resources.
-
-- :ref:`login-options`
-- :ref:`quotas`
-- :ref:`install-software`
-- :ref:`transfer`
-
-.. - :ref:`third-party-software` .. goes last in above list when instantiated
-
-.. - :ref:`slurm` .. goes in 3rd slot in above list when instantiated
-
-
 .. toctree::
    :hidden:
 
@@ -130,7 +115,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
 .. toctree::
    :caption: Common Documentation
-   :hidden:
+   :maxdepth: 2
 
    common/login_options/index
    common/quotas
@@ -138,10 +123,6 @@ Addititional user documentation on topics common across two or more NCSA resourc
    common/install-software
    common/transfer
    software/index
-
-.. toctree:: 
-   :caption: Software Documentation
-   :hidden:
 
 .. toctree::
    :caption: Computing Resources
