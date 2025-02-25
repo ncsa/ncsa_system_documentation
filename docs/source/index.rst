@@ -104,7 +104,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
 - :ref:`login-options`
 - :ref:`quotas`
-- :ref:`slurm`
+.. - :ref:`slurm`
 - :ref:`install-software`
 - :ref:`transfer`
 - :ref:`third-party-software`
