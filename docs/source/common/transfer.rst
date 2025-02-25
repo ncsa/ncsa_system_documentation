@@ -1,6 +1,6 @@
 .. _transfer:
 
-Transferring Files
+Data Transfer
 ===================
 
 - :ref:`Jump to secure copy (scp) <scp-jump>`
@@ -24,6 +24,7 @@ CLI Transfer Method - Secure Copy (scp)
 - `scp <options> <https://man.openbsd.org/scp.1>`_
 
 - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+- `HAL data node hostname <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/data-mgmt.html>`_
 - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
 - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
 - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
@@ -74,6 +75,7 @@ CLI Transfer Method - rsync
 - `rsync <options> <https://download.samba.org/pub/rsync/rsync.1#OPTION_SUMMARY>`_
 
 - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+- `HAL data node hostname <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/data-mgmt.html>`_
 - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
 - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
 - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
@@ -121,13 +123,14 @@ WinSCP
    b. **Host name**:
 
      - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+     - `HAL data node hostname <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/data-mgmt.html>`_
      - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
      - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
      - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
 
    c. **Port number**: 22
-   d. **User name**: Your username for the associated NCSA system.
-   e. **Password**: Your password for the associated NCSA system.
+   d. **User name**: The username you use to log in to the system whose hostname you entered.
+   e. **Password**: The password you use to log in to the system whose hostname you entered.
 
    ICC example:
 
@@ -153,12 +156,13 @@ Cyberduck
    b. **Server**: 
 
      - `Delta node hostnames <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/accessing.html#login-node-hostnames>`_
+     - `HAL data node hostname <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/data-mgmt.html>`_
      - `Hydro node hostname <https://docs.ncsa.illinois.edu/systems/hydro/en/latest/user-guide/accessing.html#logging-in>`_
      - `ICC DTN node hostname <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#cli-dtn-nodes>`_
      - `Nightingale node hostnames <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/accessing.html#node-hostnames>`_
    c. **Port**: 22
-   d. **Username**: Your username for the associated NCSA system.
-   e. **Password**: Your password for the associated NCSA system. 
+   d. **Username**: The username you use to log in to the system whose hostname you entered.
+   e. **Password**: The password you use to log in to the system whose hostname you entered.
 
    ICC example:
 
@@ -181,6 +185,7 @@ Globus
 The NCSA systems listed have Globus endpoints configured by the system administrators; the collection names for these endpoints are at the links below. To transfer data to/from a system that does not have a Globus endpoint, see :ref:`globus_connect_personal`.
 
 - `Delta endpoints <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/data_mgmt.html#globus>`_
+- `HAL endpoint <https://docs.ncsa.illinois.edu/systems/hal/en/latest/user-guide/data-mgmt.html>`_
 - `Hydro endpoint <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/accessing_transferring_files.html#using-globus-to-transfer-files>`_
 - `ICC endpoints <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/storage_data.html#globus-endpoints>`_ 
 - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#transferring-files-with-globus>`_ 

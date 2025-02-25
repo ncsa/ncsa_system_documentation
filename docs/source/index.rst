@@ -5,56 +5,97 @@
 NCSA System Documentation Hub
 #################################
 
-This is the centralized page for NCSA computing resource user documentation and additional non-system specific user documentation.
+The NCSA System Documentation Hub is the centralized page for NCSA user documentation.
    
-Computing Resources User Documentation
-=========================================
+Computing User Documentation
+===============================
 
-The pages linked here are the official user documentation for the computing resources.  
+.. grid:: 1 2 2 3
+   :gutter: 3
 
-- `Delta </systems/delta>`_ 
-- `Hydro </systems/hydro>`_
-- `Illinois Campus Cluster (ICC) </systems/icc/>`_
-- `Illinois Computes Research Notebooks (ICRN) </systems/icrn>`_
-- `Illinois High-Throughput Computing (HTC) </systems/iccp-htc>`_
-- `Nightingale </systems/nightingale>`_
-- `Radiant </systems/radiant>`_
+   .. grid-item-card:: Delta
+      :img-top: images/tiles/delta-border2-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/delta/
+      :link-alt: Delta documentation
 
-Storage Resources User Documentation
-=========================================
+   .. grid-item-card:: DeltaAI
+      :img-top: images/tiles/delta-ai-npcf-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/deltaai/
+      :link-alt: DeltaAI documentation
 
-The pages linked here are the official user documentation for the storage resources.
+   .. grid-item-card:: Hardware-Accelerated Learning (HAL) Cluster
+      :img-top: images/tiles/hal-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/hal/
+      :link-alt: HAL documentation
 
-- `Granite </systems/granite>`_
-- `Jade </systems/jade>`_
-- `Taiga </systems/taiga>`_
+   .. grid-item-card:: Hydro
+      :img-top: images/tiles/hydro-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/hydro/
+      :link-alt: Hydro documentation
 
-Common System Documentation
-===================
+   .. grid-item-card:: Illinois Campus Cluster (ICC)
+      :img-top: images/tiles/UI-03-160714-014-icc-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/icc/
+      :link-alt: ICC documentation
 
-Addititional user documentation on topics common across one or more NCSA computing resource.
+   .. grid-item-card:: Illinois Computes Research Notebooks (ICRN)
+      :img-top: images/tiles/UI-231201-MH-060-icrn-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/icrn/
+      :link-alt: ICRN documentation
 
-- :ref:`common`
+   .. grid-item-card:: Illinios High-Throughput Computing (HTC)
+      :img-top: images/tiles/UI-03-160714-108-htc-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/iccp-htc/
+      :link-alt: Illinois HTC documentation
 
-  .. - :ref:`slurm`
-  - :ref:`transfer`
-  - :ref:`conda`
+   .. grid-item-card:: Nightingale
+      :img-top: images/tiles/nightingale-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/nightingale/
+      :link-alt: Nightingale documentation
 
-- :ref:`licensed`
-..
-   Additional non-system specific user documentation on topics related to NCSA's computing resources.
+   .. grid-item-card:: Radiant
+      :img-top: images/tiles/radiant-clouds-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/radiant/
+      :link-alt: Radiant documentation
 
-   - :ref:`general`
-  
-     Documentation on topics that are applicable across multiple NCSA computing resources, including :ref:`logging_in` and :ref:`transfer`.
+Storage User Documentation
+==============================
 
-   - :ref:`licensed`
+.. grid:: 1 2 2 3
+   :gutter: 3
 
-     Documentation on licensed software that is supported on NCSA computing resources. To use/invoke this software on the resource, you must own a separate software license.
+   .. grid-item-card:: Granite
+      :img-top: images/tiles/granite-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/granite/
+      :link-alt: Granite documentation
 
-   - :ref:`legacy`
+   .. grid-item-card:: Harbor
+      :img-top: images/tiles/harbor-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/harbor/
+      :link-alt: Harbor documentation
 
-     Documentation from retired NCSA resources and applications. **These documents are no longer maintained.** Use this section for historical reference but consult the other documentation for current information related to using NCSA computing resources.
+   .. grid-item-card:: Jade
+      :img-top: images/tiles/jade-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/jade/
+      :link-alt: Jade documentation
+
+   .. grid-item-card:: Taiga
+      :img-top: images/tiles/taiga-border-16-9-1.jpg
+      :link: https://docs.ncsa.illinois.edu/systems/taiga/
+      :link-alt: Taiga documentation
+
+NCSA Allocations and Identity Management
+==========================================
+
+Documentation that summarizes allocation information for NCSA resources and how to manage your NCSA identity and groups.
+
+- :ref:`Resources Summary <allocations>`
+- :ref:`by-resource`
+- :ref:`by-method`
+- :ref:`xras-new`
+- :ref:`xras-renew`
+- :ref:`ncsa-identity`
+- :ref:`group-mgmt`
 
 .. toctree::
    :hidden:
@@ -63,10 +104,33 @@ Addititional user documentation on topics common across one or more NCSA computi
    help
 
 .. toctree::
+   :hidden:
+   :caption: Allocations
+
+   Resources Summary <allocations/index>
+   XRAS - Request a New Allocation <allocations/xras-new>
+   XRAS - Request an Extension or Supplement <allocations/xras-renew>
+   NCSA Identity Managament <account-mgmt/identity-mgmt>
+   Project/Group Management <account-mgmt/group-mgmt>
+
+.. toctree::
+   :caption: Common Documentation
+   :maxdepth: 2
+
+   common/login_options/index
+   common/quotas
+   common/slurm/index
+   common/install-software
+   common/transfer
+   software/index
+
+.. toctree::
    :caption: Computing Resources
    :hidden:
 
    Delta <https://docs.ncsa.illinois.edu/systems/delta>
+   DeltaAI <https://docs.ncsa.illinois.edu/systems/deltaai>
+   HAL <https://docs.ncsa.illinois.edu/systems/hal>
    Hydro <https://docs.ncsa.illinois.edu/systems/hydro>
    ICC <https://docs.ncsa.illinois.edu/systems/icc>
    ICRN <https://docs.ncsa.illinois.edu/systems/icrn>
@@ -79,12 +143,7 @@ Addititional user documentation on topics common across one or more NCSA computi
    :hidden:
 
    Granite <https://docs.ncsa.illinois.edu/systems/granite/>
+   Harbor <https://docs.ncsa.illinois.edu/systems/harbor/>
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
-.. toctree::
-   :caption: Common System Documentation
-   :hidden:
-
-   common/index
-   software/index

@@ -8,6 +8,11 @@ Documentation on topics that are applicable across multiple NCSA computing resou
 .. toctree::
    :maxdepth: 2
 
-   .. slurm/index
+   slurm/index
+   install-software
+   quotas
    transfer
-   relocate-conda-directory
+   .. relocate-conda-directory
+   .. vscode
+   manage_login/index
+   software/index
