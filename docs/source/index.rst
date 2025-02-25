@@ -106,7 +106,8 @@ Addititional user documentation on topics common across two or more NCSA resourc
 - :ref:`quotas`
 - :ref:`install-software`
 - :ref:`transfer`
-- :ref:`third-party-software`
+
+.. - :ref:`third-party-software` .. goes last in above list when instantiated
 
 .. - :ref:`slurm` .. goes in 3rd slot in above list when instantiated
 
