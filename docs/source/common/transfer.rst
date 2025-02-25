@@ -1,6 +1,6 @@
 .. _transfer:
 
-Transferring Files
+Data Transfer
 ===================
 
 - :ref:`Jump to secure copy (scp) <scp-jump>`

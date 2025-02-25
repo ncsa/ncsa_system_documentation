@@ -1,6 +1,6 @@
 .. _vscode-on-ncsa:
 
-VS Code on NCSA Resources
+VS Code
 ===========================
 
 Use Policy
