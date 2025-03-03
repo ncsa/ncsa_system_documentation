@@ -58,6 +58,11 @@ Computing User Documentation
       :link: https://docs.ncsa.illinois.edu/systems/radiant/
       :link-alt: Radiant documentation
 
+   .. grid-item-card:: Taylor Geospatial Institute Regional AI Learning System (TGI RAILS)
+      :img-top: images/tiles/tgi-tile.png
+      :link: https://docs.ncsa.illinois.edu/systems/tgirails
+      :link-alt: TGI RAILS documentation
+
 Storage User Documentation
 ==============================
 
