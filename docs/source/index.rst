@@ -142,6 +142,7 @@ Documentation that summarizes allocation information for NCSA resources and how 
    Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
+   TGI RAILS <https://docs.ncsa.illinois.edu/systems/tgirails>
 
 .. toctree::
    :caption: Storage Resources
