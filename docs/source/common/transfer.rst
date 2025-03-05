@@ -42,7 +42,7 @@ Transferring from Local Machine to Remote Machine
    ## testuser1 transfers a file ("local_file") from their
    ## local machine to the their home directory on the Campus Cluster
    
-   [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
+   [testuser1_machine] ~ % scp local_file testuser1@cli-dtn.researchdata.illinois.edu:~/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,7 +57,7 @@ Transferring from Remote Machine to Local Machine
    ## testuser1 transfers a file ("remote_file") from their 
    ## home directory on the Campus Cluster to their local machine
 
-   [testuser1_machine] ~ % scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
+   [testuser1_machine] ~ % scp testuser1@cli-dtn.researchdata.illinois.edu:~/remote_file ./
 
 .. _rsync-jump:
 
@@ -96,7 +96,7 @@ Transferring from Local Machine to Remote Machine
    [testuser1_machine] ~ % ls
    images
 
-   [testuser1_machine] ~ % rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   [testuser1_machine] ~ % rsync -avP images testuser1@cli-dtn.researchdata.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -58,6 +58,11 @@ Computing User Documentation
       :link: https://docs.ncsa.illinois.edu/systems/radiant/
       :link-alt: Radiant documentation
 
+   .. grid-item-card:: Taylor Geospatial Institute Regional AI Learning System (TGI RAILS)
+      :img-top: images/tiles/tgi-tile.png
+      :link: https://docs.ncsa.illinois.edu/systems/tgirails
+      :link-alt: TGI RAILS documentation
+
 Storage User Documentation
 ==============================
 
@@ -137,6 +142,7 @@ Documentation that summarizes allocation information for NCSA resources and how 
    Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
+   TGI RAILS <https://docs.ncsa.illinois.edu/systems/tgirails>
 
 .. toctree::
    :caption: Storage Resources
