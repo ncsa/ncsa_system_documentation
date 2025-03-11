@@ -19,7 +19,7 @@ Computing User Documentation
       :link-alt: Delta documentation
 
    .. grid-item-card:: DeltaAI
-      :img-top: images/tiles/delta-ai-npcf-16-9-1.jpg
+      :img-top: images/tiles/deltaai-tile.jpg
       :link: https://docs.ncsa.illinois.edu/systems/deltaai/
       :link-alt: DeltaAI documentation
 
