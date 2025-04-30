@@ -13,4 +13,5 @@ $$$$$$$$$$$$$$$
 Various versions of the conda software are notorious for filling up user's home directories, especially when the user installs many versions of packages.  You can reduce the likelihood of filling up your home directory by frequenty running this command: 
 
 .. code-block:: 
+
    conda clean -a
