@@ -10,7 +10,7 @@ We are aware that users are hitting this problem frequently, unfortunately, ther
 Conda
 $$$$$$$$$$$$$$$
 
-Various versions of the conda software are notorious for filling up user's home directories, especially when the user installs many versions of packages.  You can reduce the likelihood of filling up your home directory by frequenty running this command: 
+Various versions of the conda software can easily fill up user's home quota, especially when the user installs many versions of packages.  If you use conda, you can reduce the likelihood of filling up your home directory by frequenty running this command (especially after installing packages): 
 
 .. code-block:: 
 
