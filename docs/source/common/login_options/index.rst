@@ -9,7 +9,7 @@ Documentation on recommended login methods for NCSA systems and ways to customiz
    :maxdepth: 2
 
    ../relocate-conda-directory
-   customize_bashrc
+   ../customize_bashrc
    tmux
    mobaxterm
    ../vscode
