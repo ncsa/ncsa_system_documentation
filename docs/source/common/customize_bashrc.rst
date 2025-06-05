@@ -14,6 +14,9 @@ Loading modules
 --------------------
 The module suite has a way to configure the software and compilers you have available in your shell environment.  Your .bashrc is a good place to load modules that you use ALL THE TIME, but only the ones you always want.  
 
+Loading python (DON'T)
+----------------------------
+
 You should NOT load a python environment or conda environment in your .bashrc.  This can take minutes for a complex environment, and does a lot of loading from the parallel file system.  
 
 command alaises 
