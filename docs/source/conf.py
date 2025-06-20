@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'NCSA Documentation Hub'
-copyright = '2023, University of Illinois'
+copyright = '2022-2025, University of Illinois'
 author = 'University of Illinois'
 
 # RTD recommended config file additions
