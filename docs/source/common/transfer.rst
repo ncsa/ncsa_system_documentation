@@ -244,38 +244,38 @@ To set up a shared endpoint:
 
 #. Click the “Share” button to the right of the directory.
 
-   .. figure:: images/storage_data/globus-il-research-storage-share.png
+   .. figure:: images/transfer/globus-il-research-storage-share.png
       :alt: Globus Illinois research storage manager window with the share button highlighted.
       :width: 700
 
 #. Click the “Add Guest Collection” button.
 
-   .. figure:: images/storage_data/globus-add-guest-collection.png
+   .. figure:: images/transfer/globus-add-guest-collection.png
       :alt: Globus add guest collection button.
       :width: 700
 
 #. Fill in all the information about the share and click the "Create Collection" button. The more information you fill in the better, and the easier for others to find.
 
-   .. figure:: images/storage_data/globus-create-new-guest-collection.png
+   .. figure:: images/transfer/globus-create-new-guest-collection.png
       :alt: Globus create new guest collection window.
       :width: 600
 
 #. After creating the collection, you will get dropped into the permissions tab for that shared endpoint. 
    Click the "Add Permissions - Share With" button to add people you want to share the data with. 
 
-   .. figure:: images/storage_data/globus-permissions-add-permissions-share-with.png
+   .. figure:: images/transfer/globus-permissions-add-permissions-share-with.png
       :alt: Globus add permissions - share with button.
       :width: 700
 
 #. Fill in the share information and click the "Add Permission " button. You can grant access to a smaller subset of your dataset (using the "Path" field) and choose read or read/write access.
 
-   .. figure:: images/storage_data/globus-add-permissions-share-with.png
+   .. figure:: images/transfer/globus-add-permissions-share-with.png
       :alt: Globus add permissions - share with window.
       :width: 600
 
 #. Once added, you should see the person in the "Shared With" section.
 
-   .. figure:: images/storage_data/globus-permission-shared-with.png
+   .. figure:: images/transfer/globus-permission-shared-with.png
       :alt: Globus permissions shared with window.
       :width: 700
 
