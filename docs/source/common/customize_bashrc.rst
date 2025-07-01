@@ -12,7 +12,7 @@ You can add commands to that file that will be run every time you start up a new
 
 Loading modules 
 --------------------
-The module suite has a way to configure the software and compilers you have available in your shell environment.  Your .bashrc is a good place to load modules that you use ALL THE TIME, but only the ones you always want.  
+The module suite has a way to configure the software and compilers you have available in your shell environment.  Your .bashrc is a good place to load modules that you use **all the time**, but only the ones you *always* want.  If you just want a module sometimes, it's better to leave it out of your .bashrc and load it on the fly when you need it.  
 
 Loading python (DON'T)
 ----------------------------
@@ -37,10 +37,15 @@ alias cp="cp -i"
 
 alias mv="mv -i"
 
-job aliases
--------------
+Informational propmpts: job aliases
+------------------------------------------
+The text you see to the left of where you need to type your command in a bash shell is called your "prompt".  It has a basic default value, but you can customize it to contain useful information as well.  This is useful especially if you're doing a lot of interactive jobs on the system, to remind you that you're **in a job** and you're **charging your allocation**.  
+
 Normally your prompt in an interactive job shell looks just like your prompt anywhere else.  It's very easy to start an interactive job and forget you're in an interactive job, spending your allocation for nodes that you've forgotten about.  Putting this clause in your .bashrc is a smart idea on any system that runs slurm:
 .. code_block:: bash
   if [ $SLURM_NNODES ]; then
     export PS1="${PS1}\e[1;31m[${SLURM_NNODES}]\e[0m "
   fi
+
+"PS1" here is a magic environment variable that tells bash what to put in your prompt.  If you put this clause in your .bashrc, then if you have a shell start up that's running as an interactive job, it will sense that from the "SLURM_NNODES" environment variable that slurm sets in your environment.  This will put a **red** number in brackets in your prompt to remind you that you're spending from your allocation to have this interactive job running, with the indicate number of nodes. 
+
