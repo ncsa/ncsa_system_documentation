@@ -29,7 +29,7 @@ mv="mv -i"
 
 So it's smart to put the following in your .bashrc any time you set up your account on a new Linux system: 
 
-.. code_block:: bash
+.. code-block:: bash
 
   alias rm="rm -i"
   alias cp="cp -i"
@@ -41,7 +41,7 @@ The text you see to the left of where you need to type your command in a bash sh
 
 Normally your prompt in an interactive job shell looks just like your prompt anywhere else.  It's very easy to start an interactive job and forget you're in an interactive job, spending your allocation for nodes that you've forgotten about.  Putting this clause in your .bashrc is a smart idea on any system that runs slurm:
 
-.. code_block:: bash
+.. code-block:: bash
 
   if [ $SLURM_NNODES ]; then
     export PS1="${PS1}\e[1;31m[${SLURM_NNODES}]\e[0m "
