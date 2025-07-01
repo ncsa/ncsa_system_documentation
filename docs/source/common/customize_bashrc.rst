@@ -24,25 +24,25 @@ command alaises
 It's common for unix users to add often-used aliases to their shell setup scripts.  Common shell aliases include: 
 
 rm="rm -i"
-
 cp="cp -i"
-
 mv="mv -i"
 
 So it's smart to put the following in your .bashrc any time you set up your account on a new Linux system: 
 
-alias rm="rm -i"
+.. code_block:: bash
 
-alias cp="cp -i"
-
-alias mv="mv -i"
+  alias rm="rm -i"
+  alias cp="cp -i"
+  alias mv="mv -i"
 
 Informational propmpts: job aliases
 ------------------------------------------
 The text you see to the left of where you need to type your command in a bash shell is called your "prompt".  It has a basic default value, but you can customize it to contain useful information as well.  This is useful especially if you're doing a lot of interactive jobs on the system, to remind you that you're **in a job** and you're **charging your allocation**.  
 
 Normally your prompt in an interactive job shell looks just like your prompt anywhere else.  It's very easy to start an interactive job and forget you're in an interactive job, spending your allocation for nodes that you've forgotten about.  Putting this clause in your .bashrc is a smart idea on any system that runs slurm:
+
 .. code_block:: bash
+
   if [ $SLURM_NNODES ]; then
     export PS1="${PS1}\e[1;31m[${SLURM_NNODES}]\e[0m "
   fi
