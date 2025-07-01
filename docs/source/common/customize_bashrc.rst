@@ -10,6 +10,18 @@ When you log in, you can run commands to configure bash the way you want it.  If
 
 You can add commands to that file that will be run every time you start up a new bash shell, like when you log in via ssh.  This page lists several commands and settings that are useful to put in your .bashrc file.  Lightweight commands and settings are fine to put in that file, but BE AWARE...that file is run as a script EVERY TIME you invoke a new shell.  That means every time you run a shell script, any shell script, which sometimes includes system commands.  So in particular, **DO NOT load any python or conda environment in your .bashrc**, because that takes time and takes up a lot of resources.  
 
+Modifying your path
+----------------------
+Shells have an internal variable called PATH that's a colon-separated list of directories where it will look for commands if you type the name of something that isn't a built-in shell command.  In other words, the PATH variable lists directories whose contents are available as commands to run at all times.  If you have a directory with scripts of your own, for instance, it's handy to add that directory to your path.  This is also true if you install software in your own space on a system; you'll usually want to add the path of the /bin directory of that software to your path.  
+
+You can easily do it with a statement like this in your .bashrc file: 
+
+.. code-block:: bash
+
+  PATH=/sw/admin/scripts:$PATH  
+
+This sets the new PATH equals to the existing path ($PATH) but with one new directory at the beginning of the list.  Keep in mind, if you type a command, bash will search the directories in the path **in order** until it finds a match, so be careful putting a directory at the beginning of your path.  If it's software that you've written, it's probably best to put it at the **end** of your path, not the beginning.  
+
 Loading modules 
 --------------------
 The module suite has a way to configure the software and compilers you have available in your shell environment.  Your .bashrc is a good place to load modules that you use **all the time**, but only the ones you *always* want.  If you just want a module sometimes, it's better to leave it out of your .bashrc and load it on the fly when you need it.  
