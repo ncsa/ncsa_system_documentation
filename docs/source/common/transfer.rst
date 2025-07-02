@@ -232,3 +232,53 @@ Tips for Using Globus with NCSA Compute Resources
      :width: 700
 
 |
+
+How to Create a Shared Globus Endpoint
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Globus Shared Endpoint functionality is a great way to share data with people that are not affiliated with the University of Illinois system. 
+To grant a person at an external organization access to data you manage, all the other person needs is a free Globus account and an endpoint on their side to transfer the data to. 
+
+To set up a shared endpoint:
+
+#. Log into `Globus <https://globus.org>`_ and connect to the "Illinois Research Storage" collection. 
+
+#. Navigate to, and select, the directory you want to share with external users; currently only data in ``/projects`` is allowed to be shared externally.
+
+#. Click the “Share” button to the right of the directory.
+
+   .. figure:: images/transfer/globus-il-research-storage-share.png
+      :alt: Globus Illinois research storage manager window with the share button highlighted.
+      :width: 700
+
+#. Click the “Add Guest Collection” button.
+
+   .. figure:: images/transfer/globus-add-guest-collection.png
+      :alt: Globus add guest collection button.
+      :width: 700
+
+#. Fill in all the information about the share and click the "Create Collection" button. The more information you fill in the better, and the easier for others to find.
+
+   .. figure:: images/transfer/globus-create-new-guest-collection.png
+      :alt: Globus create new guest collection window.
+      :width: 600
+
+#. After creating the collection, you will get dropped into the permissions tab for that shared endpoint. 
+   Click the "Add Permissions - Share With" button to add people you want to share the data with. 
+
+   .. figure:: images/transfer/globus-permissions-add-permissions-share-with.png
+      :alt: Globus add permissions - share with button.
+      :width: 700
+
+#. Fill in the share information and click the "Add Permission " button. You can grant access to a smaller subset of your dataset (using the "Path" field) and choose read or read/write access.
+
+   .. figure:: images/transfer/globus-add-permissions-share-with.png
+      :alt: Globus add permissions - share with window.
+      :width: 600
+
+#. Once added, you should see the person in the "Shared With" section.
+
+   .. figure:: images/transfer/globus-permission-shared-with.png
+      :alt: Globus permissions shared with window.
+      :width: 700
+
