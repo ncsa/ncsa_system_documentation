@@ -193,7 +193,7 @@ The NCSA systems listed have Globus endpoints configured by the system administr
 If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
 
 .. note::
-   If you are a member of the University of Illinois, and you are using Globus with an NCSA system, and you have both an NCSA kerberos credentials and a UIUC netID, *but they are different*, then you should look at `this piece of Globus identity documentation <https://docs.globus.org/globus-connect-server/v5/identity-mapping-guide/#identity_mapping_policies>_.  You may need to register two email addresses with globus: ncsakerberoseusername@ncsa.illinois.edu and UIUCnetid@illinois.edu to make this all work correctly.  
+   If you are a member of the University of Illinois, and you are using Globus with an NCSA system, and you have both an NCSA kerberos credentials and a UIUC netID, *but they are different*, then you should look at `this piece of Globus identity documentation <https://docs.globus.org/globus-connect-server/v5/identity-mapping-guide/#identity_mapping_policies>`_.  You may need to register two email addresses with globus: ncsakerberoseusername@ncsa.illinois.edu and UIUCnetid@illinois.edu for Globus to pick up your identity properly.  
 
 .. _globus_connect_personal:
 
