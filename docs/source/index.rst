@@ -156,4 +156,3 @@ Documentation that summarizes allocation information for NCSA resources and how 
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
-|
