@@ -42,7 +42,7 @@ Transferring from Local Machine to Remote Machine
    ## testuser1 transfers a file ("local_file") from their
    ## local machine to the their home directory on the Campus Cluster
    
-   [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
+   [testuser1_machine] ~ % scp local_file testuser1@cli-dtn.researchdata.illinois.edu:~/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,7 +57,7 @@ Transferring from Remote Machine to Local Machine
    ## testuser1 transfers a file ("remote_file") from their 
    ## home directory on the Campus Cluster to their local machine
 
-   [testuser1_machine] ~ % scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
+   [testuser1_machine] ~ % scp testuser1@cli-dtn.researchdata.illinois.edu:~/remote_file ./
 
 .. _rsync-jump:
 
@@ -96,7 +96,7 @@ Transferring from Local Machine to Remote Machine
    [testuser1_machine] ~ % ls
    images
 
-   [testuser1_machine] ~ % rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   [testuser1_machine] ~ % rsync -avP images testuser1@cli-dtn.researchdata.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -191,6 +191,9 @@ The NCSA systems listed have Globus endpoints configured by the system administr
 - `Nightingale endpoint <https://docs.ncsa.illinois.edu/systems/nightingale/en/latest/user_guide/file_mgmt.html#transferring-files-with-globus>`_ 
 
 If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
+
+.. note::
+   If you are a member of the University of Illinois, and you are using Globus with an NCSA system, and you have both an NCSA kerberos credentials and a UIUC netID, *but they are different*, then you should look at `this piece of Globus identity documentation <https://docs.globus.org/globus-connect-server/v5/identity-mapping-guide/#identity_mapping_policies>`_.  You may need to register two email addresses with globus: ncsakerberoseusername@ncsa.illinois.edu and UIUCnetid@illinois.edu for Globus to pick up your identity properly.  
 
 .. _globus_connect_personal:
 
