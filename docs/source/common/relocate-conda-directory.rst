@@ -20,6 +20,8 @@ Various versions of the conda software can easily fill up user's home quota, esp
 
    conda clean -a
 
+*Please understand*, running "conda clean" will remove index cache, lock files, unused cache packages, tarballs, and logfiles. See the `conda clean documentation page <https://docs.conda.io/projects/conda/en/stable/commands/clean.html>`_ for more information.  
+
 How to Relocate Your .conda Directory to Project Space
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
