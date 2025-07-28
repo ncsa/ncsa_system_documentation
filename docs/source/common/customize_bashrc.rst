@@ -41,7 +41,7 @@ cp="cp -i"
 
 mv="mv -i"
 
-These aliases call rm (remove), cp (copy), and mv (move) with the command-line option "-i", which asks you before it does anything.  This is very handy so that you can review by eye the file that youre removing or copying or moving.  This can keep out out of a lot of trouble as a command-line user.  (If youre managing a whole bunch of files, then it's worth running the command this way, making sure that the first several files seem to be what you want, but then cancel out of the command then re-run it with the additional option "-f" which countermands the "-i" option.)
+These aliases call rm (remove), cp (copy), and mv (move) with the command-line option "-i", which asks you before it does anything.  This is very handy so that you can review by eye the file that youre removing or copying or moving.  This can keep you out of a lot of trouble as a command-line user.  (If youre managing a whole bunch of files, then it's worth running the command this way, making sure that the first several files seem to be what you want, but then cancel out of the command then re-run it with the additional option "-f" which countermands the "-i" option.)
 
 So it's smart to put the following in your .bashrc any time you set up your account on a new Linux system: 
 
