@@ -12,4 +12,5 @@ Documentation on recommended login methods for NCSA systems and ways to customiz
    ../customize_bashrc
    tmux
    mobaxterm
+   ssh
    ../vscode
