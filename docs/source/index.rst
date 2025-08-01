@@ -123,6 +123,7 @@ Documentation that summarizes allocation information for NCSA resources and how 
    common/install-software
    common/transfer
    software/index
+   duo
 
 .. toctree::
    :caption: Computing Resources
