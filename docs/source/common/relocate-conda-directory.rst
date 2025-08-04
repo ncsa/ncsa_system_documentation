@@ -3,18 +3,18 @@
 Home Directories Full
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On NCSA systems, users have space in their "home" file system (where their personal configuration files live) and other file systems specific to their work.  Quotas on the other file systems are usually much larger.  Unfortunately, some software stacks (python and conda in particular) store their libraries and configuration files in a hidden directory in a user's home area.  Because home quotas are generally fairly small, it's easy for the software to overrun a user's quota, and then they hit file system quota, which sometimes means they can't even log in.  
+On NCSA systems, you have space in their "home" file system (where their personal configuration files live) and other file systems specific to their work.  Quotas on the other file systems are usually much larger.  Unfortunately, some software stacks (python and conda in particular) store their libraries and configuration files in a hidden directory in a user's home area.  Because home quotas are generally fairly small, it's easy for the software to overrun your quota, and then they hit file system quota, which sometimes prevents you from logging in.  
 
-Users need to not store computational data in their home directories.  Do that in /projects or in /work.  
+Do not store computational data in your home directory. Instead use the /projects or the /work directories.
 
-We are aware that users are running out of space in their home directories frequently; unfortunately, there's no universal solution.  Users need to find where software is storing their libraries and install files and wherever possible, install the software in locations other than their home directory, and configure the software to use storage in directories other than their home directory.  How to do this is dependent on what the software is.  
+We are aware that users are running out of space in their home directories frequently; unfortunately, there's no universal solution.  You will need to find where software is storing their libraries and install files.  Whenever possible, install software in locations other than under your home directory.  Configure the software to use storage in directories other than your home directory.  How you do this is dependent on what the software is.  
 
 
 
 Conda
 $$$$$$$$$$$$$$$
 
-Various versions of the conda software can easily fill up user's home quota, especially when the user installs many versions of packages.  If you use conda, you can reduce the likelihood of filling up your home directory by frequenty running this command (especially after installing packages): 
+Various versions of the conda software can easily fill up your home quota, especially when you install many versions of packages.  If you use conda, you can reduce the likelihood of filling up your home directory by frequenty running this command (especially after installing packages): 
 
 .. code-block:: 
 
