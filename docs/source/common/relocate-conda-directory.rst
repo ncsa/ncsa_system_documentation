@@ -3,7 +3,7 @@
 Home Directories Full
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On NCSA systems, you have space in their "home" file system (where their personal configuration files live) and other file systems specific to their work.  Quotas on the other file systems are usually much larger.  Unfortunately, some software stacks (python and conda in particular) store their libraries and configuration files in a hidden directory in a user's home area.  Because home quotas are generally fairly small, it's easy for the software to overrun your quota, and then they hit file system quota, which sometimes prevents you from logging in.  
+On NCSA systems, you have space in your "home" file system (where your personal configuration files live) and other file systems specific to your work.  Quotas on the other file systems are usually much larger.  Unfortunately, some software stacks (python and conda in particular) store their libraries and configuration files in a hidden directory in your home area.  Because home quotas are generally fairly small, it's easy for the software to overrun your quota, and then they hit file system quota, which sometimes prevents you from logging in.  
 
 Do not store computational data in your home directory. Instead use the /projects or the /work directories.
 
