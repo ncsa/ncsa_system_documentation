@@ -127,10 +127,10 @@ Documentation that summarizes allocation information for NCSA resources and how 
 
    common/login_options/index
    common/quotas
-   common/slurm/index
-   common/install-software
    common/transfer
    software/index
+   common/install-software
+   common/slurm/index
 
 .. toctree::
    :caption: Computing Resources
