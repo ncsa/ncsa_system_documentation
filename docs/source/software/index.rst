@@ -1,9 +1,12 @@
-.. _licensed:
+.. _third-party-software:
 
 Third-Party Software
 =======================
 
-Third-party software that is supported on NCSA computing resources.
+Packaged Third-party software available on NCSA computing resources.  These packages include both software from commercial vendors as well as software provided open-source from collaborations.  
+
+Licensed Software
+-------------------
 
 .. toctree:: 
    :maxdepth: 2
@@ -13,3 +16,11 @@ Third-party software that is supported on NCSA computing resources.
    fluent
    gurobi
    matlab
+
+Community Codes
+------------------
+   
+.. toctree:: 
+   :maxdepth: 2
+
+   alphafold

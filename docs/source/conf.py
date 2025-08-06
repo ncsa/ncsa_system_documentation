@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'NCSA Documentation Hub'
-copyright = '2023, University of Illinois'
+copyright = '2022-2025, University of Illinois'
 author = 'University of Illinois'
 
 # RTD recommended config file additions
@@ -40,6 +40,7 @@ extensions = [
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
     'sphinx_design',
+    'sphinxcontrib.googleanalytics',
 ]
 
 intersphinx_mapping = {
@@ -79,3 +80,7 @@ html_theme_options = {
 
 # -- Change page title
 html_title = 'UIUC NCSA User Documentation'
+
+
+# -- Google Analytics ID
+googleanalytics_id = 'G-JG0GFE04G8'

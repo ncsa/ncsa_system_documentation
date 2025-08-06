@@ -1,6 +1,6 @@
 .. _transfer:
 
-Transferring Files
+Data Transfer
 ===================
 
 .. _scp-jump:
@@ -37,7 +37,7 @@ Transferring from Local Machine to Remote Machine
    ## testuser1 transfers a file ("local_file") from their
    ## local machine to the their home directory on the Campus Cluster
    
-   [testuser1_machine] ~ % scp local_file testuser1@cc-xfer.campuscluster.illinois.edu:~/
+   [testuser1_machine] ~ % scp local_file testuser1@cli-dtn.researchdata.illinois.edu:~/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +52,7 @@ Transferring from Remote Machine to Local Machine
    ## testuser1 transfers a file ("remote_file") from their 
    ## home directory on the Campus Cluster to their local machine
 
-   [testuser1_machine] ~ % scp testuser1@cc-xfer.campuscluster.illinois.edu:~/remote_file ./
+   [testuser1_machine] ~ % scp testuser1@cli-dtn.researchdata.illinois.edu:~/remote_file ./
 
 .. _rsync-jump:
 
@@ -91,7 +91,7 @@ Transferring from Local Machine to Remote Machine
    [testuser1_machine] ~ % ls
    images
 
-   [testuser1_machine] ~ % rsync -avP images testuser1@cc-xfer.campuscluster.illinois.edu:/projects/$teams_directory/
+   [testuser1_machine] ~ % rsync -avP images testuser1@cli-dtn.researchdata.illinois.edu:/projects/$teams_directory/
 
 Transferring from Remote Machine to Local Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -187,6 +187,9 @@ The NCSA systems listed have Globus endpoints configured by the system administr
 
 If you have issues using Globus, review the resources on the `Globus Contact Us <https://www.globus.org/contact-us>`_ page.
 
+.. note::
+   If you are a member of the University of Illinois, and you are using Globus with an NCSA system, and you have both an NCSA kerberos credentials and a UIUC netID, *but they are different*, then you should look at `this piece of Globus identity documentation <https://docs.globus.org/globus-connect-server/v5/identity-mapping-guide/#identity_mapping_policies>`_.  You may need to register two email addresses with globus: ncsakerberoseusername@ncsa.illinois.edu and UIUCnetid@illinois.edu for Globus to pick up your identity properly.  
+
 .. _globus_connect_personal:
 
 Globus Connect Personal
@@ -224,3 +227,53 @@ Tips for Using Globus with NCSA Compute Resources
      :width: 700
 
 |
+
+How to Create a Shared Globus Endpoint
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Globus Shared Endpoint functionality is a great way to share data with people that are not affiliated with the University of Illinois system. 
+To grant a person at an external organization access to data you manage, all the other person needs is a free Globus account and an endpoint on their side to transfer the data to. 
+
+To set up a shared endpoint:
+
+#. Log into `Globus <https://globus.org>`_ and connect to the "Illinois Research Storage" collection. 
+
+#. Navigate to, and select, the directory you want to share with external users; currently only data in ``/projects`` is allowed to be shared externally.
+
+#. Click the “Share” button to the right of the directory.
+
+   .. figure:: images/transfer/globus-il-research-storage-share.png
+      :alt: Globus Illinois research storage manager window with the share button highlighted.
+      :width: 700
+
+#. Click the “Add Guest Collection” button.
+
+   .. figure:: images/transfer/globus-add-guest-collection.png
+      :alt: Globus add guest collection button.
+      :width: 700
+
+#. Fill in all the information about the share and click the "Create Collection" button. The more information you fill in the better, and the easier for others to find.
+
+   .. figure:: images/transfer/globus-create-new-guest-collection.png
+      :alt: Globus create new guest collection window.
+      :width: 600
+
+#. After creating the collection, you will get dropped into the permissions tab for that shared endpoint. 
+   Click the "Add Permissions - Share With" button to add people you want to share the data with. 
+
+   .. figure:: images/transfer/globus-permissions-add-permissions-share-with.png
+      :alt: Globus add permissions - share with button.
+      :width: 700
+
+#. Fill in the share information and click the "Add Permission " button. You can grant access to a smaller subset of your dataset (using the "Path" field) and choose read or read/write access.
+
+   .. figure:: images/transfer/globus-add-permissions-share-with.png
+      :alt: Globus add permissions - share with window.
+      :width: 600
+
+#. Once added, you should see the person in the "Shared With" section.
+
+   .. figure:: images/transfer/globus-permission-shared-with.png
+      :alt: Globus permissions shared with window.
+      :width: 700
+

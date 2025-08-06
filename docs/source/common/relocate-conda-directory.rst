@@ -1,49 +1,54 @@
-.. _conda:
+.. _dir_full:
 
-Relocating Your .conda Directory to Project Space
+Home Directories Full
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Large conda installations may exceed your home directory size. This can be avoided by relocating your ``.conda`` directory to your project space, which has a larger quota than your home directory.
+On NCSA systems, you have space in your "home" file system (where your personal configuration files live) and other file systems specific to your work.  Quotas on the other file systems are usually much larger.  Unfortunately, some software stacks (python and conda in particular) store their libraries and configuration files in a hidden directory in your home area.  Because home quotas are generally fairly small, it's easy for the software to overrun your quota, and then they hit file system quota, which sometimes prevents you from logging in.  
 
-Relocate your ``.conda`` directory to your project space using the following steps:
+Do not store computational data in your home directory. Instead use the /projects or the /work directories.
+
+We are aware that users are running out of space in their home directories frequently; unfortunately, there's no universal solution.  You will need to find where software is storing their libraries and install files.  Whenever possible, install software in locations other than under your home directory.  Configure the software to use storage in directories other than your home directory.  How you do this is dependent on what the software is.  
+
+
+
+Conda
+$$$$$$$$$$$$$$$
+
+Various versions of the conda software can easily fill up your home quota, especially when you install many versions of packages.  If you use conda, you can reduce the likelihood of filling up your home directory by frequenty running this command (especially after installing packages): 
+
+.. code-block:: 
+
+   conda clean -a
+
+*Please understand*, running "conda clean" will remove index cache, lock files, unused cache packages, tarballs, and logfiles. See the `conda clean documentation page <https://docs.conda.io/projects/conda/en/stable/commands/clean.html>`_ for more information.  
+
+How to Relocate Your .conda Directory to Project Space
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+If even with keeping up with "conda clean" as above, your .conda directory is filling up your home directory, you may need to rebuilt your .conda installation.  If you need to move it without rebuilding it, feel free to try this procedure as a last resort, which relocates your ``.conda`` directory to your project space, which has a larger quota than your home directory.
+
+Relocate your .conda directory to your project space using the following steps:
 
 #. Make a ``.conda`` directory in your project space.
 
-   .. code-block:: 
+   .. code-block:: terminal
 
-      [testuser1@golubh1 ~]$ mkdir -p /projects/<your proj. dir>/<your username>/.conda
+      [testuser1@cc-login1 ~]$ mkdir -p /projects/illinois/$college/$department/$pi_netid/<your_username>/.conda
 
-#. Copy over your existing ``.conda`` data.  (This may take several minutes if your ``.conda`` directory is large.)
+#. Copy over existing ``.conda`` data.
 
-   .. code-block::
+   .. code-block:: terminal
 
-      [testuser1@golubh1 ~]$ rsync -aAvP ~/.conda/* /projects/<your proj. dir>/<your username>/.conda/
+      [testuser1@cc-login1 ~]$ rsync -aAvP ~/.conda/* /projects/illinois/$college/$department/$pi_netid/<your_username>/.conda/
 
-#. Remove your current ``.conda`` directory.
+#. Remove your ``.conda`` directory from home.
 
-   .. code-block::
+   .. code-block:: terminal
 
-      [testuser1@golubh1 ~]$ rm -rf ~/.conda
+      [testuser1@cc-login1 ~]$ rm -rf ~/.conda
 
 #. Create a link to your new ``.conda`` directory.
 
-   .. code-block::
+   .. code-block:: terminal
 
-      [testuser1@golubh1 ~]$ ln -s /projects/<your proj. dir>/<your username>/.conda ~/.conda
-
-|
-
-..
-  .. code-block::
-  
-     ## Make a .conda dir for yourself in your project space
-     [testuser1@golubh1 ~]$ mkdir -p /projects/<your proj. dir>/<your username>/.conda
-  
-     ## Copy over existing .conda data
-     [testuser1@golubh1 ~]$ rsync -aAvP ~/.conda/* /projects/<your proj. dir>/<your username>/.conda/
-  
-     ## Remove your current .conda dir
-     [testuser1@golubh1 ~]$ rm -rf ~/.conda
-  
-     ## Create link to your new .conda dir
-     [testuser1@golubh1 ~]$ ln -s /projects/<your proj. dir>/<your username>/.conda ~/.conda
+      [testuser1@cc-login1 ~]$ ln -s /projects/illinois/$college/$department/$pi_netid/<your_username>/.conda ~/.conda

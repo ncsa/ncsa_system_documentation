@@ -1,6 +1,9 @@
 .. meta::
    :google-site-verification: P_CFYrO6F4LBjxJpEKldY5r4V12XX9XXz1-a_MVjNmk
 
+.. meta::
+   :google-site-verification: GyhtTaVXUSH9DoHQLqAD5cMHyrvkF1n8WD4MWuQo5BM
+
 #################################
 NCSA System Documentation Hub
 #################################
@@ -19,7 +22,7 @@ Computing User Documentation
       :link-alt: Delta documentation
 
    .. grid-item-card:: DeltaAI
-      :img-top: images/tiles/delta-ai-npcf-16-9-1.jpg
+      :img-top: images/tiles/deltaai-tile.jpg
       :link: https://docs.ncsa.illinois.edu/systems/deltaai/
       :link-alt: DeltaAI documentation
 
@@ -57,6 +60,11 @@ Computing User Documentation
       :img-top: images/tiles/radiant-clouds-16-9-1.jpg
       :link: https://docs.ncsa.illinois.edu/systems/radiant/
       :link-alt: Radiant documentation
+
+   .. grid-item-card:: Taylor Geospatial Institute Regional AI Learning System (TGI RAILS)
+      :img-top: images/tiles/tgi-tile.png
+      :link: https://docs.ncsa.illinois.edu/systems/tgirails
+      :link-alt: TGI RAILS documentation
 
 Storage User Documentation
 ==============================
@@ -97,17 +105,6 @@ Documentation that summarizes allocation information for NCSA resources and how 
 - :ref:`ncsa-identity`
 - :ref:`group-mgmt`
 
-Common System Documentation
-===============================
-
-Addititional user documentation on topics common across two or more NCSA resources.
-
-.. - :ref:`slurm`
-- :ref:`transfer`
-- :ref:`quotas`
-- :ref:`conda`
-
-
 .. toctree::
    :hidden:
 
@@ -128,15 +125,14 @@ Addititional user documentation on topics common across two or more NCSA resourc
 
 .. toctree::
    :caption: Common Documentation
-   :hidden:
+   :maxdepth: 2
 
-   common/transfer
+   common/login_options/index
    common/quotas
-   common/relocate-conda-directory
-
-.. toctree:: 
-   :caption: Software Documentation
-   :hidden:
+   common/transfer
+   software/index
+   common/install-software
+   common/slurm/index
 
 .. toctree::
    :caption: Computing Resources
@@ -151,6 +147,7 @@ Addititional user documentation on topics common across two or more NCSA resourc
    Illinois HTC <https://docs.ncsa.illinois.edu/systems/iccp-htc>
    Nightingale <https://docs.ncsa.illinois.edu/systems/nightingale>
    Radiant <https://docs.ncsa.illinois.edu/systems/radiant>
+   TGI RAILS <https://docs.ncsa.illinois.edu/systems/tgirails>
 
 .. toctree::
    :caption: Storage Resources
@@ -161,4 +158,3 @@ Addititional user documentation on topics common across two or more NCSA resourc
    Jade <https://docs.ncsa.illinois.edu/systems/jade/>
    Taiga <https://docs.ncsa.illinois.edu/systems/taiga/>
 
-|
