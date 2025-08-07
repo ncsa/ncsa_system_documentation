@@ -10,6 +10,9 @@ When you log in, you can run commands to configure bash the way you want it.  If
 
 You can add commands to .bashrc that will be run every time you start up a new bash shell, like when you log in via ssh.  This page lists several commands and settings that are useful to put there.  Lightweight commands and settings are fine to put in that file, but BE AWARE...that file is run EVERY TIME you invoke a new shell.  In particular, **DO NOT load any python or conda environment in your .bashrc**, because that takes time and takes up a lot of resources.  
 
+.. warning:: 
+   Be very careful sourcing other files inside your .bashrc (and indeed in your .profile or other initalization files.  The shell itself generally calls these files in a reasonable order; there's no need to have them call each other.  If you call one from the another and then mistakenly do the reverse, your new shell will end up in an infinite recursive loop which won't allow you to log in.  
+
 Modifying your path
 ----------------------
 Shells have an internal variable called PATH that's a list of directories where bash will look for commands to run.  PATH a colon-separated list.  When the shell starts up it has a sensible default list in PATH  If you have a directory with scripts of your own, it's handy to add that directory to your path.  This is also true if you install software in your own space on a system; you'll usually want to add the path of the /bin directory of that software to your path.  
