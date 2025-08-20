@@ -6,16 +6,16 @@ The default login shell for all NCSA systems is bash.  A full bash tutorial is b
 
 The login shell, bash (the "sh" in bash stands for "shell") is a piece of software that accepts your written commands and does things on your behalf.  It's the remote half of your text command-line login (the other half is ssh).  When you're logged in, your bash "session" has settings and configurations that, for example, give you access to commands and software to run, like compilers or other user software.  
 
-When you log in, you can run commands to configure bash the way you want it.  If there are configuration changes that you always make, you can put those changes in one of the configuration files that bash loads when you log in.  Probably the easiest to use is the file ".bashrc" in your home directory.  Note the period, ".", or "dot" at the beginning of the file name.  Command-line tools like "ls" ignore files whose name begins with "." unless you tell them otherwise.  They're hidden except when you're explicitly looking for them.  There will be a stock .bashrc file in your home directory that contains standard settings.  
+When you log in, you can run commands to configure bash the way you want it.  If there are configuration changes that you always make, you can put those changes in one of the configuration files that bash loads when you log in.  Probably the easiest to use is the file ".bashrc" in your home directory.  Note the period, ".", or "dot" at the beginning of the file name.  Command-line tools like ``ls`` ignore files whose name begins with "." unless you tell them otherwise.  They're hidden except when you're explicitly looking for them.  There will be a stock ``.bashrc`` file in your home directory that contains standard settings.  
 
-You can add commands to .bashrc that will be run every time you start up a new bash shell, like when you log in via ssh.  This page lists several commands and settings that are useful to put there.  Lightweight commands and settings are fine to put in that file, but BE AWARE...that file is run EVERY TIME you invoke a new shell.  In particular, **DO NOT load any python or conda environment in your .bashrc**, because that takes time and takes up a lot of resources.  
+You can add commands to .bashrc that will be run every time you start up a new bash shell, like when you log in via ssh.  This page lists several commands and settings that are useful to put there.  Lightweight commands and settings are fine to put in that file, but BE AWARE...that file is run EVERY TIME you invoke a new shell.  In particular, **DO NOT load any Python or Conda environment in your .bashrc**, because that takes time and takes up a lot of resources.  
 
 .. warning:: 
    Be very careful sourcing other files inside your .bashrc (and indeed in your .profile or other initalization files.  The shell itself generally calls these files in a reasonable order; there's no need to have them call each other.  If you call one from the another and then mistakenly do the reverse, your new shell will end up in an infinite recursive loop which won't allow you to log in.  
 
 Modifying your path
 ----------------------
-Shells have an internal variable called PATH that's a list of directories where bash will look for commands to run.  PATH a colon-separated list.  When the shell starts up it has a sensible default list in PATH  If you have a directory with scripts of your own, it's handy to add that directory to your path.  This is also true if you install software in your own space on a system; you'll usually want to add the path of the /bin directory of that software to your path.  
+Shells have an internal variable called PATH that's a list of directories where bash will look for commands to run.  PATH is a colon-separated list all in a string; each item is a directory to search.  When the shell starts up it has a sensible default list in PATH  If you have a directory with scripts of your own, it's handy to add that directory to your path.  This is also true if you install software in your own space on a system; you'll usually want to add the path of the /bin directory of that software to your path.  
 
 You can easily do it with a statement like this in your .bashrc file: 
 
@@ -29,10 +29,10 @@ Loading modules
 --------------------
 The module suite is a system to configure the software and compilers when you're logged into the system in your shell environment.  Your .bashrc is a good place to load modules that you use **all the time**, but only the ones you *always* want.  If you just want a module sometimes, it's better to leave it out of your .bashrc and load it on the fly when you need it.  
 
-Loading python (DON'T)
+Loading Python (DON'T)
 ----------------------------
 
-You should NOT load a python environment or conda environment in your .bashrc.  This can take minutes for a complex environment, and does a lot of loading from the parallel file system.  You should also not run any "conda install" commands; these do the same thing.  
+You should NOT load a Python environment or Conda environment in your .bashrc.  This can take minutes for a complex environment, and does a lot of loading from the parallel file system.  You should also not run any "conda install" commands; these do the same thing.  
 
 command alaises 
 ------------------
