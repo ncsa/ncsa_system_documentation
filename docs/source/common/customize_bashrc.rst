@@ -8,14 +8,14 @@ The login shell, bash (the "sh" in bash stands for "shell") is a piece of softwa
 
 When you log in, you can run commands to configure bash the way you want it.  If there are configuration changes that you always make, you can put those changes in one of the configuration files that bash loads when you log in.  Probably the easiest to use is the file ``.bashrc`` in your home directory.  Note the period, ".", or "dot" at the beginning of the file name.  Command-line tools like ``ls`` ignore files whose name begins with "." unless you tell them otherwise.  They're hidden except when you're explicitly looking for them.  There will be a stock ``.bashrc`` file in your home directory that contains standard settings.  
 
-You can add commands to .bashrc that will be run every time you start up a new bash shell, like when you log in via ssh.  This page lists several commands and settings that are useful to put there.  Lightweight commands and settings are fine to put in that file, but BE AWARE...that file is run EVERY TIME you invoke a new shell.  In particular, **DO NOT load any Python or Conda environment in your .bashrc**, because that takes time and takes up a lot of resources.  
+You can add commands to .bashrc that will be run every time you start up a new bash shell, like when you log in via ssh.  This page lists several commands and settings that are useful to put there.  Lightweight commands and settings are fine to put in that file, but BE AWARE...that file is run EVERY TIME you invoke a new shell.  In particular, **DO NOT load any Python or Conda environments in your .bashrc**, because that takes time and takes up a lot of resources.  
 
 .. warning:: 
-   Be very careful sourcing other files inside your ``.bashrc`` (and indeed in your ``.profile`` or other initalization files.  The shell itself generally calls these files in a reasonable order; there's no need to have them call each other.  If you call one from the another and then mistakenly do the reverse, your new shell will end up in an infinite recursive loop which won't allow you to log in.  
+   Be very careful sourcing other files inside your ``.bashrc`` (and indeed in your ``.profile`` or other initialization files).  The shell itself generally calls these files in a reasonable order; there's no need to have them call each other.  If you call one from the another and then mistakenly do the reverse, your new shell will end up in an infinite recursive loop which won't allow you to log in.  
 
 Modifying your path
 ----------------------
-Shells have an internal variable called ``PATH`` that's a list of directories where bash will look for commands to run.  PATH is a colon-separated list all in a string; each item is a directory to search.  When the shell starts up it has a sensible default list in PATH  If you have a directory with scripts of your own, it's handy to add that directory to your path.  This is also true if you install software in your own space on a system; you'll usually want to add the path of the ``/bin`` directory of that software to your path.  
+Shells have an internal variable called ``PATH`` that's a list of directories where bash will look for commands to run.  PATH is a colon-separated list all in a string; each item is a directory to search.  When the shell starts up it has a sensible default list in PATH.  If you have a directory with scripts of your own, it's handy to add that directory to your path.  This is also true if you install software in your own space on a system; you'll usually want to add the path of the ``/bin`` directory of that software to your path.  
 
 You can easily do it with a statement like this in your ``.bashrc`` file: 
 
@@ -23,7 +23,7 @@ You can easily do it with a statement like this in your ``.bashrc`` file:
 
   PATH=$PATH:/sw/admin/scripts
 
-This sets the new PATH equals to the existing path ($PATH) but with one new directory at the end of the list.  When you type a command, bash will search the directories in the path **in order** until it finds a match, so be careful putting a directory at the beginning of your path.  If it's software that you've written, it's probably best to put it at the **end** of your path.  
+This sets the new PATH equal to the existing path ($PATH) but with one new directory at the end of the list.  When you type a command, bash will search the directories in the path **in order** until it finds a match, so be careful putting a directory at the beginning of your path.  If it's software that you've written, it's probably best to put it at the **end** of your path.  
 
 Loading modules 
 --------------------
@@ -44,7 +44,7 @@ cp="cp -i"
 
 mv="mv -i"
 
-These aliases call ``rm`` (remove), ``cp`` (copy), and ``mv`` (move) with the command-line option ``-i``, which asks you before it does anything.  This is very handy so that you can review by eye the file that youre removing or copying or moving.  This can keep you out of a lot of trouble as a command-line user.  (If youre managing a whole bunch of files, then it's worth running the command this way, making sure that the first several files seem to be what you want, then cancel out of the command then re-run it with the additional option ``-f`` which countermands the ``-i`` option.)
+These aliases call ``rm`` (remove), ``cp`` (copy), and ``mv`` (move) with the command-line option ``-i``, which asks you before it does anything.  This is very handy so that you can review by eye the file that youre removing or copying or moving.  This can keep you out of a lot of trouble as a command-line user.  (If you're managing a whole bunch of files, then it's worth running the command this way, making sure that the first several files seem to be what you want, then cancel out of the command then re-run it with the additional option ``-f`` which countermands the ``-i`` option.)
 
 So it's smart to put the following in your ``.bashrc`` any time you set up your account on a new Linux system: 
 
@@ -66,5 +66,5 @@ Normally your prompt in an interactive job shell looks just like your prompt any
     export PS1="${PS1}\e[1;31m[${SLURM_NNODES}]\e[0m "
   fi
 
-``PS1`` here is a magic shell environment variable that tells bash what to put in your prompt.  If you put this clause in your ``.bashrc``, then if you start an interactive job, she new shell running the job will sense that and display the number of nodes you're being charged for in **red**.  This should be a reminder that when you're done with the nodes, to exit out of the shell which will stop the job.  
+``PS1`` here is a magic shell environment variable that tells bash what to put in your prompt.  If you put this clause in your ``.bashrc``, then if you start an interactive job, the new shell running the job will sense that and display the number of nodes you're being charged for in **red**.  This should be a reminder that when you're done with the nodes, to exit out of the shell which will stop the job.  
 
