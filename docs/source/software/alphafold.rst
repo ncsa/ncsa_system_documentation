@@ -196,7 +196,11 @@ On Delta, replace ``<account_name>`` with ``XXXX-delta-gpu`` where
 ``XXXX`` is your project allocation code, and ``<partition_name>`` with
 a GPU partition name, such as ``gpuA100x4``. On ICC, replace
 ``<account_name>`` with an account available to you, and
-``<partition_name>`` with a GPU partition available to you.
+``<partition_name>`` with a GPU partition available to you. On ICC, also
+replace ``gpus-per-task=1`` with ``--gres=gpu:<gpu_type>`` where ``<gpu_type>``
+is a type of GPU available to you, such as ``A100``. For more information on
+specifying GPU nodes on ICC, see `Specifying nodes with
+GPUs <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/running_jobs.html#specifying-nodes-with-gpus>`__.
 
 Notice that in this case we are using the output of the data pipeline
 stage as the input (``--json_path``). On job completion, you will have
@@ -262,9 +266,13 @@ On Delta, replace ``<account_name>`` with ``XXXX-delta-gpu`` where
 ``XXXX`` is your project allocation code, and ``<partition_name>`` with
 a GPU partition name, such as ``gpuA100x4``. On ICC, replace
 ``<account_name>`` with an account available to you, and
-``<partition_name>`` with a GPU partition available to you. On job
-completion, you will have the following output (arranged
-anti-chronologically):
+``<partition_name>`` with a GPU partition available to you. On ICC, also
+replace ``gpus-per-task=1`` with ``--gres=gpu:<gpu_type>`` where ``<gpu_type>``
+is a type of GPU available to you, such as ``A100``. For more information on
+specifying GPU nodes on ICC, see `Specifying nodes with
+GPUs <https://docs.ncsa.illinois.edu/systems/icc/en/latest/user_guide/running_jobs.html#specifying-nodes-with-gpus>`__.
+
+On job completion, you will have the following output (arranged anti-chronologically):
 
 ::
 
