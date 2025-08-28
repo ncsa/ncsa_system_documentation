@@ -61,3 +61,11 @@ There are three limits in place:
 - Maximum of 16 GPUs running jobs. 
 
 This job will run as soon as some of your running jobs finish and free up the resources.
+
+Fair Share
+--------------
+NCSA schedulers are generally configured with "Fair-Share" enabled.  This is a scheduling factor that lowers the priority of allocations who are running *lots* of jobs in favor allocstions who aren't.  This is the make sure that lower-use allocations still get reasonable response from the system.  However, fair-share only effects jobs that haven't started running; it won't remove jobs that have started (unless they're pre-emptible).  
+
+So if you submit jobs in a long-run queue and it takes a few hours or even a day or two to start, that doesn't necessarily mean that fair-share isn't working.  It just means that other people were in line before you.  The way to get jobs to run sooner is always to submit them as soon as you have them ready, configure them to use as few resources as is reasonable, and wait.  Don't remove them and re-submit them.  
+
+If you genuinely think your jobs aren't being run properly, you're always welcome to submit a service ticket, but our first action will always be to look at the queue and see how many jobs you have in the queue and how long they've been waiting.  If the machine is busy, our answer may well be to just wait until they get scheduled.  
