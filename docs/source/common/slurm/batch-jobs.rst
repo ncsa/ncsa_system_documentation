@@ -5,6 +5,8 @@ Batch Jobs
 
 .. _sbatch:
 
+A "batch job" is a collection of computational work that a user wants to be done on a computational cluster.  The steps to be done is defined in a "batch script".  When a cluster system provisions and then reserves resources for a batch job, the batch system runs the batch script on the user's behalf, which then directs (and potentially montiors) the computational work, and exits when the work is done.  
+
 Use batch scripts for jobs that are debugged, ready to run, and don't require interaction.
 For mixed resource heterogeneous jobs, see the `Slurm heterogeneous jobs documentation <https://slurm.schedmd.com/heterogeneous_jobs.html#submitting>`_. 
 
