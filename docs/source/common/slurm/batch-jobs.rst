@@ -57,7 +57,7 @@ The syntax for submitting a batch job with ``sbatch`` is:
      --nodes=2 
      --ntasks-per-node=16
 
-See the sbatch `man page <https://en.wikipedia.org/wiki/Man_page>`_ for additional information.
+See the `sbatch page at SchedMD <https://slurm.schedmd.com/sbatch.html>`_ for additional information.
 
 Useful Batch Job Environment Variables
 -----------------------------------------
