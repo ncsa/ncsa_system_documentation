@@ -1,0 +1,40 @@
+.. _priority-reserve:
+
+Prioritization, Reservations, and Node Sharing
+================================================
+
+Job Prioritization
+-------------------
+
+Slurm prioritizes jobs in the queue based on more than just when the job was submitted. A combination of factors are considered to fairly distribute the compute resources to cluster users. These factors include (but aren't limited to):
+
+- Resources requested for the job: If a smaller job(s) can backfill between larger jobs without delaying higher priority jobs, the smaller job(s) may run before other jobs that were submitted earlier.
+- Age of the job in the queue: Higher priority is given to jobs that have been in the queue longer. However, since this is not the only factor considered, newer jobs may run before older jobs.
+- Recent account cluster usage: Higher priority is given to jobs on accounts that have *not* had recent cluster usage. Note, this is based on account usage, not just your user usage.
+- Portion of total account allocation used: Higher priority is given to jobs on accounts that have used a smaller portion of their total allocation.
+- Preemption: Lower priority is given to jobs that are submitted to preempt queues (where available).
+
+If you have concerns about the prioritization of your jobs in the queue, :ref:`submit a support request <help>`.
+
+System Reservations
+-----------------------
+
+Slurm will block your job from starting if there's a reservation scheduled to start before your job would finish. You may be able to shorten the runtime of your job to fit in before the reservation starts.
+
+- If a system maintenance reservation is blocking your job from starting, ``squeue`` will return a message like ``ReqNodeNotAvail, Reserved for maintenance`` in the ``NODELIST(REASON)`` column for your job.
+
+- To see a list of reservations on a system, use ``scontrol show reservations``.
+
+.. _node-share:
+
+Node Sharing
+-------------
+
+Node sharing is the default for jobs. 
+Node exclusive mode can be obtained by specifying all the consumable resources for that node type or adding the following Slurm options:
+
+.. code-block:: terminal
+
+   --exclusive --mem=0
+
+|

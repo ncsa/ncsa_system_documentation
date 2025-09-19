@@ -1,7 +1,7 @@
 .. _slurm-access:
 
-How to Access the Compute Nodes
-=================================
+Access the Compute Nodes
+==============================
 
 .. _partitions:
 
@@ -14,12 +14,16 @@ Consult the resource-specific documentation for more information on a system's q
 - `Delta Queues <https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html#partitions-queues>`_
 - `Hydro Queues <https://ncsa-hydro-documentation.readthedocs-hosted.com/en/latest/partitions_and_job_policies.html#partitions-queues>`_
 - `ICC Queues <https://docs.ncsa.illinois.edu/systems/icc/en/proposed_changes/user_guide/running_jobs.html#queues>`_
+
+
+.. 
+
 - `Nightingale Queues <https://ncsa-nightingale.readthedocs-hosted.com/en/latest/user_guide/running_jobs.html#nightingale-queues>`_
 
 .. _access_nodes:
 
-Accessing the Compute Nodes
--------------------------------
+Access a Compute Node in a Running Job
+----------------------------------------
 
 Direct SSH access to a compute node in a running job from a login node is enabled once the job has started:
 
